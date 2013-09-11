@@ -1,0 +1,260 @@
+@prop_src = [
+	I f i j
+	l	m r t
+	uni2070 onesuperior twosuperior threesuperior uni2074
+	uni2075 uni2076 uni2077 uni2078 uni2079
+	uni2080 uni2081 uni2082 uni2083 uni2084
+	uni2085 uni2086 uni2087 uni2088 uni2089
+];
+
+@prop_tgt = [
+	I.prop f.prop i.ss01 j.ss01
+	l.ss01 m.ss01 r.ss01 t.ss01
+	uni2070.ss01 onesuperior.ss01 twosuperior.ss01 threesuperior.ss01 uni2074.ss01
+	uni2075.ss01 uni2076.ss01 uni2077.ss01 uni2078.ss01 uni2079.ss01
+	uni2080.ss01 uni2081.ss01 uni2082.ss01 uni2083.ss01 uni2084.ss01
+	uni2085.ss01 uni2086.ss01 uni2087.ss01 uni2088.ss01 uni2089.ss01
+];
+
+@fractionSlashes = [
+slash fraction ];
+
+@dnom_source = [
+# 10 glyph(s)
+zero one two three four five six seven eight nine
+];
+
+@dnom_target = [
+# 10 glyph(s)
+zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom
+];
+
+@numr_source = [
+# 10 glyph(s)
+zero one two three four five six seven eight nine
+];
+
+@numr_target = [
+# 10 glyph(s)
+zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
+];
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+#languagesystem latn AZE;
+#languagesystem latn CRT;
+#languagesystem latn DEU;
+#languagesystem latn ENG;
+#languagesystem latn MOL;
+#languagesystem latn ROM;
+#languagesystem latn TRK;
+
+
+
+
+
+
+
+
+
+
+feature aalt {
+  sub ampersand from [ ampersand.alt001 ampersand.alt002 ampersand.alt003] ;
+} aalt;
+feature subs {
+# Subscript
+
+  sub zero by uni2080; 
+  sub one by uni2081; 
+  sub two by uni2082; 
+  sub three by uni2083; 
+  sub four by uni2084; 
+  sub five by uni2085; 
+  sub six by uni2086; 
+  sub seven by uni2087; 
+  sub eight by uni2088; 
+  sub nine by uni2089; 
+
+
+} subs;
+feature sinf {
+# Scientific Inferiors
+
+  sub zero by uni2080; 
+  sub one by uni2081; 
+  sub two by uni2082; 
+  sub three by uni2083; 
+  sub four by uni2084; 
+  sub five by uni2085; 
+  sub six by uni2086; 
+  sub seven by uni2087; 
+  sub eight by uni2088; 
+  sub nine by uni2089; 
+
+
+} sinf;
+feature sups {
+# Superscript
+
+  sub zero by uni2070; 
+  sub one by onesuperior; 
+  sub two by twosuperior; 
+  sub three by threesuperior; 
+  sub four by uni2074; 
+  sub five by uni2075; 
+  sub six by uni2076; 
+  sub seven by uni2077; 
+  sub eight by uni2078; 
+  sub nine by uni2079; 
+  sub n by nsuperior;
+} sups;
+feature numr {
+# Numerators
+
+  sub @numr_source by @numr_target; 
+
+
+} numr;
+feature dnom {
+# Denominators
+
+  sub @dnom_source by @dnom_target; 
+
+
+} dnom;
+feature frac {
+    ignore sub slash' @numr_source @numr_source slash;
+    ignore sub slash @numr_source @numr_source slash';
+    ignore sub slash' @numr_source slash;
+    ignore sub slash @numr_source slash';
+
+    sub @numr_source @fractionSlashes' @numr_source by fraction;
+
+    lookup numr1 {
+        sub @numr_source' fraction
+        by @numr_target;
+    } numr1;
+
+    lookup numr2 {
+        sub @numr_source' @numr_target fraction
+        by @numr_target;
+    } numr2;
+
+    lookup numr3 {
+        sub @numr_source' @numr_target @numr_target fraction
+        by @numr_target;
+    } numr3;
+
+    lookup numr4 {
+        sub @numr_source' @numr_target @numr_target @numr_target fraction
+        by @numr_target;
+    } numr4;
+
+    lookup numr5 {
+        sub @numr_source' @numr_target @numr_target @numr_target @numr_target
+            fraction
+        by @numr_target;
+    } numr5;
+
+    lookup numr6 {
+        sub @numr_source' @numr_target @numr_target @numr_target @numr_target
+            @numr_target fraction
+        by @numr_target;
+    } numr6;
+
+    lookup numr7 {
+        sub @numr_source' @numr_target @numr_target @numr_target @numr_target
+            @numr_target @numr_target fraction
+        by @numr_target;
+    } numr7;
+
+    lookup numr8 {
+        sub @numr_source' @numr_target @numr_target @numr_target @numr_target
+            @numr_target @numr_target @numr_target fraction
+        by @numr_target;
+    } numr8;
+
+    lookup numr9 {
+        sub @numr_source' @numr_target @numr_target @numr_target @numr_target
+            @numr_target @numr_target @numr_target @numr_target fraction
+        by @numr_target;
+    } numr9;
+
+    lookup numr10 {
+        sub @numr_source' @numr_target @numr_target @numr_target @numr_target
+            @numr_target @numr_target @numr_target @numr_target @numr_target
+            fraction
+        by @numr_target;
+    } numr10;
+
+    lookup Denominator {
+        sub [fraction @dnom_target] @dnom_source'
+        by @dnom_target;
+    } Denominator;
+
+    sub @numr_source space' @numr_target by space.frac;
+} frac;
+feature zero {
+  sub zero by zero.zero;
+} zero;
+feature ss01 {
+	# proportional letters
+  sub @prop_src by @prop_tgt;
+} ss01;
+feature ss02 {
+	# alternate g
+  sub g by g.ss02 ;
+} ss02;
+feature ss03 {
+	# alternate a
+  sub a by a.ss03;
+  sub adieresis by adieresis.ss03;
+} ss03;
+feature ss04 {
+	# sans-serif for proportional variants
+  sub I.prop by I.prop.ss04;
+  sub i.prop by i.prop.ss04;
+  sub l.prop by l.prop.ss04;
+} ss04;
+feature ornm {
+  sub bullet from [orn001 orn002];
+} ornm;
+feature calt {
+  sub arrowleft hyphen' by emdash;
+  sub emdash hyphen' by emdash;
+  sub hyphen' hyphen by emdash;
+} calt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
