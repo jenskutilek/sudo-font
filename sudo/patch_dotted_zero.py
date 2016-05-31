@@ -8,7 +8,7 @@ Python FontTools from <https://github.com/behdad/fonttools/> to run this.
 """
 
 try:
-    from sfontTools.ttLib import TTFont
+    from fontTools.ttLib import TTFont
     have_fonttools = True
 except:
     have_fonttools = False
