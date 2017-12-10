@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
-This patch activates the slashed zero (or more precisely for this design,
-the dotted zero) as the default zero glyph. You will need Python and the
-Python FontTools from <https://github.com/behdad/fonttools/> to run this.
+This patch replaces the dotted zero with a regular zero without dot.
+You will need Python and the Python FontTools
+from <https://github.com/fonttools/fonttools/> to run this.
 """
 
 try:
@@ -56,4 +56,4 @@ if have_fonttools:
     print "\nThe web fonts were not patched. For the web fonts, please activate the OpenType 'zero' feature in your CSS:"
     print '    font-feature-settings: "zero";'
 else:
-    print "Please install the Python FontTools from <https://github.com/behdad/fonttools/> first."
+    print "Please install the Python FontTools from <https://github.com/fonttools/fonttools/> first."
