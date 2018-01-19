@@ -7,8 +7,7 @@ t,
 "/boxLightVertical",
 a,
 $,
-"/s.ss20",
-"/Delta"
+e
 );
 classes = (
 {
@@ -532,13 +531,11 @@ hints = (
 horizontal = 1;
 origin = "{0, 15}";
 type = Anchor;
-stem = 6;
 },
 {
 horizontal = 1;
 origin = "{0, 12}";
 type = Anchor;
-stem = 0;
 },
 {
 horizontal = 1;
@@ -4741,34 +4738,28 @@ nodes = (
 hints = (
 {
 horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 8}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+type = Anchor;
+},
+{
+horizontal = 1;
 origin = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 3}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 6}";
-type = Anchor;
+target = "{0, 3}";
+type = Align;
+options = 4;
 },
 {
 horizontal = 1;
 origin = "{0, 9}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 8}";
-type = TTStem;
+target = "{0, 6}";
+type = Align;
 options = 4;
 }
 );
@@ -15850,53 +15841,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-origin = "{0, 7}";
-target = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 4}";
-target = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 4}";
-target = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 13}";
-target = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 9}";
-target = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 9}";
-target = "{0, 2}";
-type = TTStem;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{0, 9}";
-target = "{0, 2}";
-other1 = "{-1, 0}";
-type = Interpolate;
-options = 4;
-}
-);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
