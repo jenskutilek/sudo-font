@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.21">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.22">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -1081,12 +1081,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.034"/>
-    <checkSumAdjustment value="0x2203042"/>
+    <checkSumAdjustment value="0x8810495e"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Tue Apr  4 18:34:34 2017"/>
-    <modified value="Mon Jan 29 10:09:10 2018"/>
+    <modified value="Wed Mar 28 13:59:56 2018"/>
     <xMin value="-401"/>
     <yMin value="-209"/>
     <xMax value="698"/>
@@ -1129,7 +1129,7 @@
     <maxZones value="2"/>
     <maxTwilightPoints value="2"/>
     <maxStorage value="30"/>
-    <maxFunctionDefs value="5"/>
+    <maxFunctionDefs value="6"/>
     <maxInstructionDefs value="0"/>
     <maxStackElements value="100"/>
     <maxSizeOfInstructions value="109"/>
@@ -2843,7 +2843,7 @@
       <map code="0x2077" name="uni2077"/><!-- SUPERSCRIPT SEVEN -->
       <map code="0x2078" name="uni2078"/><!-- SUPERSCRIPT EIGHT -->
       <map code="0x2079" name="uni2079"/><!-- SUPERSCRIPT NINE -->
-      <map code="0x207f" name="nine"/><!-- SUPERSCRIPT LATIN SMALL LETTER N -->
+      <map code="0x207f" name="uni207F"/><!-- SUPERSCRIPT LATIN SMALL LETTER N -->
       <map code="0x2080" name="uni2080"/><!-- SUBSCRIPT ZERO -->
       <map code="0x2081" name="uni2081"/><!-- SUBSCRIPT ONE -->
       <map code="0x2082" name="uni2082"/><!-- SUBSCRIPT TWO -->
@@ -3815,7 +3815,7 @@
       <map code="0x2077" name="uni2077"/><!-- SUPERSCRIPT SEVEN -->
       <map code="0x2078" name="uni2078"/><!-- SUPERSCRIPT EIGHT -->
       <map code="0x2079" name="uni2079"/><!-- SUPERSCRIPT NINE -->
-      <map code="0x207f" name="nine"/><!-- SUPERSCRIPT LATIN SMALL LETTER N -->
+      <map code="0x207f" name="uni207F"/><!-- SUPERSCRIPT LATIN SMALL LETTER N -->
       <map code="0x2080" name="uni2080"/><!-- SUBSCRIPT ZERO -->
       <map code="0x2081" name="uni2081"/><!-- SUBSCRIPT ONE -->
       <map code="0x2082" name="uni2082"/><!-- SUBSCRIPT TWO -->
@@ -6452,27 +6452,27 @@
       PUSHB[ ]	/* 1 value pushed */
       1
       FDEF[ ]	/* FunctionDefinition */
-        PUSHB[ ]	/* 8 values pushed */
-        1 1 0 0 0 0 0 0
+        PUSHB[ ]	/* 7 values pushed */
+        3 0 4 1 0 0 2
         RS[ ]	/* ReadStore */
         WCVTF[ ]	/* WriteCVTInFUnits */
         RCVT[ ]	/* ReadCVT */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        RCVT[ ]	/* ReadCVT */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
         PUSHB[ ]	/* 1 value pushed */
         0
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        RS[ ]	/* ReadStore */
+        ADD[ ]	/* Add */
+        PUSHB[ ]	/* 1 value pushed */
+        1
         SZP2[ ]	/* SetZonePointer2 */
         SCFS[ ]	/* SetCoordFromStackFP */
-        SZP0[ ]	/* SetZonePointer0 */
-        MDAP[1]	/* MoveDirectAbsPt */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        1
-        SZP2[ ]	/* SetZonePointer2 */
-        SHP[1]	/* ShiftPointByLastPoint */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        1
-        SZP0[ ]	/* SetZonePointer0 */
-        MDAP[1]	/* MoveDirectAbsPt */
       ENDF[ ]	/* EndFunctionDefinition */
       PUSHB[ ]	/* 1 value pushed */
       2
@@ -6635,6 +6635,90 @@
         RS[ ]	/* ReadStore */
         MDAP[0]	/* MoveDirectAbsPt */
       ENDF[ ]	/* EndFunctionDefinition */
+      PUSHB[ ]	/* 1 value pushed */
+      5
+      FDEF[ ]	/* FunctionDefinition */
+        NPUSHB[ ]	/* 14 values pushed */
+        27 3 6 1 1 7 7 5 3 0 0 4 4 2
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SZP2[ ]	/* SetZonePointer2 */
+        GC[0]	/* GetCoordOnPVector */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        ROUND[01]	/* Round */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        RS[ ]	/* ReadStore */
+        SUB[ ]	/* Subtract */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        GC[0]	/* GetCoordOnPVector */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        ROUND[01]	/* Round */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        7
+        RS[ ]	/* ReadStore */
+        SUB[ ]	/* Subtract */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        ABS[ ]	/* Absolute */
+        PUSHB[ ]	/* 1 value pushed */
+        6
+        RS[ ]	/* ReadStore */
+        ABS[ ]	/* Absolute */
+        LT[ ]	/* LessThan */
+        JROF[ ]	/* JumpRelativeOnFalse */
+        PUSHB[ ]	/* 3 values pushed */
+        25 5 2
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SZP2[ ]	/* SetZonePointer2 */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 3 values pushed */
+        1 1 2
+        RS[ ]	/* ReadStore */
+        SRP0[ ]	/* SetRefPoint0 */
+        SZP1[ ]	/* SetZonePointer1 */
+        SZP0[ ]	/* SetZonePointer0 */
+        MIRP[00001]	/* MoveIndirectRelPt */
+        JMPR[ ]	/* Jump */
+        PUSHB[ ]	/* 2 values pushed */
+        2 5
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SZP2[ ]	/* SetZonePointer2 */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 3 values pushed */
+        1 1 5
+        RS[ ]	/* ReadStore */
+        SRP0[ ]	/* SetRefPoint0 */
+        SZP1[ ]	/* SetZonePointer1 */
+        SZP0[ ]	/* SetZonePointer0 */
+        MIRP[00001]	/* MoveIndirectRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
     </assembly>
   </fpgm>
 
@@ -6783,9 +6867,9 @@
       WS[ ]	/* WriteStore */
       JMPR[ ]	/* Jump */
       PUSHB[ ]	/* 3 values pushed */
-      4 10 4
+      4 6 4
       RS[ ]	/* ReadStore */
-      ADD[ ]	/* Add */
+      SUB[ ]	/* Subtract */
       ROUND[01]	/* Round */
       WS[ ]	/* WriteStore */
       PUSHW[ ]	/* 1 value pushed */
@@ -6811,8 +6895,8 @@
       PUSHB[ ]	/* 2 values pushed */
       36 0
       RS[ ]	/* ReadStore */
-      PUSHW[ ]	/* 1 value pushed */
-      -1
+      PUSHB[ ]	/* 1 value pushed */
+      18
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHW[ ]	/* 1 value pushed */
@@ -6842,8 +6926,8 @@
       ADD[ ]	/* Add */
       WS[ ]	/* WriteStore */
       JMPR[ ]	/* Jump */
-      PUSHW[ ]	/* 1 value pushed */
-      3200
+      PUSHB[ ]	/* 1 value pushed */
+      97
       SCVTCI[ ]	/* SetCVTCutIn */
     </assembly>
   </prep>
@@ -7036,17 +7120,20 @@
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
-          PUSHB[ ]	/* 5 values pushed */
-          1 1 2 16 0
-          PUSHW[ ]	/* 1 value pushed */
-          -12
+          PUSHB[ ]	/* 4 values pushed */
+          1 4 8 2
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          18
           PUSHB[ ]	/* 2 values pushed */
-          1 7
+          3 7
           WS[ ]	/* WriteStore */
           WS[ ]	/* WriteStore */
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
-          SZP2[ ]	/* SetZonePointer2 */
+          PUSHB[ ]	/* 1 value pushed */
+          7
+          MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
           20 15 10 2
@@ -24462,9 +24549,9 @@
           29 15
           MIRP[00001]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
-          PUSHB[ ]	/* 1 value pushed */
-          16
-          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          16 6
+          MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 1 value pushed */
           11
