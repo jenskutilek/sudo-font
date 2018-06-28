@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.25">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.28">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -1082,12 +1082,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.03499"/>
-    <checkSumAdjustment value="0xf06ae1f3"/>
+    <checkSumAdjustment value="0xdbf0f3ba"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Wed Apr 11 16:14:37 2018"/>
-    <modified value="Fri Apr 13 00:00:54 2018"/>
+    <modified value="Thu Jun 28 14:24:29 2018"/>
     <xMin value="-458"/>
     <yMin value="-209"/>
     <xMax value="640"/>
@@ -1133,7 +1133,7 @@
     <maxFunctionDefs value="6"/>
     <maxInstructionDefs value="0"/>
     <maxStackElements value="100"/>
-    <maxSizeOfInstructions value="106"/>
+    <maxSizeOfInstructions value="108"/>
     <maxComponentElements value="4"/>
     <maxComponentDepth value="3"/>
   </maxp>
@@ -6777,7 +6777,7 @@
       WS[ ]	/* WriteStore */
       CALL[ ]	/* CallFunction */
       PUSHB[ ]	/* 6 values pushed */
-      70 2 2 1 1 64
+      70 7 7 1 6 64
       WS[ ]	/* WriteStore */
       GETINFO[ ]	/* GetInfo */
       WS[ ]	/* WriteStore */
@@ -6786,7 +6786,7 @@
       35
       GTEQ[ ]	/* GreaterThanOrEqual */
       PUSHB[ ]	/* 1 value pushed */
-      2
+      7
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
       64
@@ -6798,14 +6798,14 @@
       PUSHW[ ]	/* 1 value pushed */
       4096
       PUSHB[ ]	/* 3 values pushed */
-      3 3 32
+      8 8 32
       GETINFO[ ]	/* GetInfo */
       WS[ ]	/* WriteStore */
       RS[ ]	/* ReadStore */
       EQ[ ]	/* Equal */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 2 values pushed */
-      48 1
+      48 6
       PUSHW[ ]	/* 1 value pushed */
       256
       WS[ ]	/* WriteStore */
@@ -6815,19 +6815,19 @@
       PUSHW[ ]	/* 2 values pushed */
       1056 16384
       PUSHB[ ]	/* 1 value pushed */
-      3
+      8
       PUSHW[ ]	/* 1 value pushed */
       6240
       GETINFO[ ]	/* GetInfo */
       WS[ ]	/* WriteStore */
       MUL[ ]	/* Multiply */
       PUSHB[ ]	/* 1 value pushed */
-      3
+      8
       RS[ ]	/* ReadStore */
       EQ[ ]	/* Equal */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 2 values pushed */
-      20 1
+      20 6
       PUSHW[ ]	/* 1 value pushed */
       320
       WS[ ]	/* WriteStore */
@@ -6838,17 +6838,17 @@
       3104 16384
       MUL[ ]	/* Multiply */
       PUSHB[ ]	/* 1 value pushed */
-      3
+      8
       RS[ ]	/* ReadStore */
       EQ[ ]	/* Equal */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 1 value pushed */
-      1
+      6
       PUSHW[ ]	/* 1 value pushed */
       256
       WS[ ]	/* WriteStore */
       PUSHB[ ]	/* 7 values pushed */
-      53 64 1 0 15 1 1
+      54 64 6 5 15 1 6
       RS[ ]	/* ReadStore */
       WCVTP[ ]	/* WriteCVTInPixels */
       WS[ ]	/* WriteStore */
@@ -6856,14 +6856,14 @@
       EQ[ ]	/* Equal */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 2 values pushed */
-      45 0
+      46 5
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
       18
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 4 values pushed */
-      7 4 4 0
+      7 9 9 5
       RS[ ]	/* ReadStore */
       RCVT[ ]	/* ReadCVT */
       WS[ ]	/* WriteStore */
@@ -6873,22 +6873,24 @@
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 3 values pushed */
-      9 4 64
+      10 9 64
       WS[ ]	/* WriteStore */
       JMPR[ ]	/* Jump */
-      PUSHB[ ]	/* 3 values pushed */
-      4 6 4
+      PUSHB[ ]	/* 2 values pushed */
+      9 9
       RS[ ]	/* ReadStore */
+      PUSHB[ ]	/* 1 value pushed */
+      6
       SUB[ ]	/* Subtract */
       ROUND[01]	/* Round */
       WS[ ]	/* WriteStore */
       PUSHW[ ]	/* 1 value pushed */
-      -51
+      -52
       PUSHB[ ]	/* 4 values pushed */
-      0 1 0 0
+      5 1 5 5
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      4
+      9
       RS[ ]	/* ReadStore */
       WCVTP[ ]	/* WriteCVTInPixels */
       RS[ ]	/* ReadStore */
@@ -6896,14 +6898,14 @@
       WS[ ]	/* WriteStore */
       JMPR[ ]	/* Jump */
       PUSHB[ ]	/* 2 values pushed */
-      44 1
+      44 6
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
       64
       GT[ ]	/* GreaterThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 2 values pushed */
-      36 0
+      36 5
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
       18
@@ -6912,24 +6914,24 @@
       PUSHW[ ]	/* 1 value pushed */
       -42
       PUSHB[ ]	/* 8 values pushed */
-      0 1 0 0 5 5 5 0
+      5 1 5 5 10 10 10 5
       RS[ ]	/* ReadStore */
       RCVT[ ]	/* ReadCVT */
       WS[ ]	/* WriteStore */
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      1
+      6
       RS[ ]	/* ReadStore */
       MUL[ ]	/* Multiply */
       ROUND[01]	/* Round */
       PUSHB[ ]	/* 1 value pushed */
-      1
+      6
       RS[ ]	/* ReadStore */
       DIV[ ]	/* Divide */
       WS[ ]	/* WriteStore */
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      5
+      10
       RS[ ]	/* ReadStore */
       WCVTP[ ]	/* WriteCVTInPixels */
       RS[ ]	/* ReadStore */
@@ -13149,26 +13151,6 @@
           5 15 40 8
           MIAP[0]	/* MoveIndirectAbsPt */
           MIRP[00001]	/* MoveIndirectRelPt */
-          PUSHB[ ]	/* 3 values pushed */
-          18 40 26
-          SRP1[ ]	/* SetRefPoint1 */
-          SRP2[ ]	/* SetRefPoint2 */
-          IP[ ]	/* InterpolatePts */
-          PUSHB[ ]	/* 3 values pushed */
-          34 5 20
-          SRP1[ ]	/* SetRefPoint1 */
-          SRP2[ ]	/* SetRefPoint2 */
-          IP[ ]	/* InterpolatePts */
-          PUSHB[ ]	/* 3 values pushed */
-          33 33 12
-          MIAP[0]	/* MoveIndirectAbsPt */
-          MDRP[00001]	/* MoveDirectRelPt */
-          PUSHB[ ]	/* 4 values pushed */
-          12 4 7 12
-          WS[ ]	/* WriteStore */
-          CALL[ ]	/* CallFunction */
-          ROFF[ ]	/* RoundOff */
-          MDRP[00001]	/* MoveDirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
           5 5
           SRP0[ ]	/* SetRefPoint0 */
@@ -13181,8 +13163,26 @@
           20 20
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          33 5 20
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 2 values pushed */
+          33 33
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
           26 26
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          12 40 26
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 2 values pushed */
+          12 12
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
@@ -13447,12 +13447,12 @@
       <component glyphName="uni0304" x="448" y="0" flags="0x0"/>
     </TTGlyph>
 
-    <TTGlyph name="emdash" xMin="-10" yMin="192" xMax="458" yMax="256">
+    <TTGlyph name="emdash" xMin="-10" yMin="256" xMax="458" yMax="320">
       <contour>
-        <pt x="-10" y="192" on="1"/>
         <pt x="-10" y="256" on="1"/>
+        <pt x="-10" y="320" on="1"/>
+        <pt x="458" y="320" on="1"/>
         <pt x="458" y="256" on="1"/>
-        <pt x="458" y="192" on="1"/>
       </contour>
       <instructions>
         <assembly>
@@ -13469,7 +13469,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="endash" xMin="84" yMin="192" xMax="364" yMax="256">
+    <TTGlyph name="endash" xMin="84" yMin="256" xMax="364" yMax="320">
       <component glyphName="hyphen" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -14737,14 +14737,6 @@
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 1 value pushed */
-          18
-          MDAP[1]	/* MoveDirectAbsPt */
-          ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 2 values pushed */
-          42 16
-          MIRP[00001]	/* MoveIndirectRelPt */
-          RTG[ ]	/* RoundToGrid */
-          PUSHB[ ]	/* 1 value pushed */
           46
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
@@ -14757,8 +14749,17 @@
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           MDRP[00001]	/* MoveDirectRelPt */
+          RTG[ ]	/* RoundToGrid */
+          PUSHB[ ]	/* 1 value pushed */
+          18
+          MDAP[1]	/* MoveDirectAbsPt */
+          ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          60 16
+          42 16
+          MIRP[00001]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          60 16 8
+          SRP0[ ]	/* SetRefPoint0 */
           MIRP[00001]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 1 value pushed */
@@ -15375,12 +15376,12 @@
       <component glyphName="uni030B" x="448" y="0" flags="0x0"/>
     </TTGlyph>
 
-    <TTGlyph name="hyphen" xMin="84" yMin="192" xMax="364" yMax="256">
+    <TTGlyph name="hyphen" xMin="84" yMin="256" xMax="364" yMax="320">
       <contour>
-        <pt x="84" y="192" on="1"/>
         <pt x="84" y="256" on="1"/>
+        <pt x="84" y="320" on="1"/>
+        <pt x="364" y="320" on="1"/>
         <pt x="364" y="256" on="1"/>
-        <pt x="364" y="192" on="1"/>
       </contour>
       <instructions>
         <assembly>
@@ -16655,17 +16656,17 @@
           24 6
           MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 4 values pushed */
-          17 15 29 6
+          PUSHB[ ]	/* 3 values pushed */
+          29 34 6
           MIAP[0]	/* MoveIndirectAbsPt */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          17 15 29
+          SRP0[ ]	/* SetRefPoint0 */
           MIRP[00001]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
           8 17
           SRP0[ ]	/* SetRefPoint0 */
-          MDRP[00001]	/* MoveDirectRelPt */
-          PUSHB[ ]	/* 3 values pushed */
-          29 34 6
-          MIAP[0]	/* MoveIndirectAbsPt */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
@@ -18574,12 +18575,6 @@
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
-          ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 3 values pushed */
-          9 6 12
-          MIAP[0]	/* MoveIndirectAbsPt */
-          MDRP[00001]	/* MoveDirectRelPt */
-          RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 1 value pushed */
           3
           MDAP[1]	/* MoveDirectAbsPt */
@@ -18587,8 +18582,13 @@
           PUSHB[ ]	/* 2 values pushed */
           6 15
           MIRP[00001]	/* MoveIndirectRelPt */
-          PUSHB[ ]	/* 1 value pushed */
-          0
+          PUSHB[ ]	/* 2 values pushed */
+          9 6
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          0 3
+          SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 1 value pushed */
@@ -22595,7 +22595,7 @@
 
     <TTGlyph name="uni00A0"/><!-- contains no outline data -->
 
-    <TTGlyph name="uni00AD" xMin="84" yMin="192" xMax="364" yMax="256">
+    <TTGlyph name="uni00AD" xMin="84" yMin="256" xMax="364" yMax="320">
       <component glyphName="hyphen" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -26365,7 +26365,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="uni2015" xMin="-10" yMin="192" xMax="458" yMax="256">
+    <TTGlyph name="uni2015" xMin="-10" yMin="256" xMax="458" yMax="320">
       <component glyphName="emdash" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -32056,12 +32056,6 @@
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 5 values pushed */
-          23 15 4 7 7
-          WS[ ]	/* WriteStore */
-          CALL[ ]	/* CallFunction */
-          ROFF[ ]	/* RoundOff */
-          MIRP[00001]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
           31 15 15 4
           MIAP[0]	/* MoveIndirectAbsPt */
@@ -32070,6 +32064,10 @@
           PUSHB[ ]	/* 1 value pushed */
           7
           MDAP[1]	/* MoveDirectAbsPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 2 values pushed */
+          23 15
+          MIRP[00001]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
           2 15 7
           SRP1[ ]	/* SetRefPoint1 */
@@ -33217,14 +33215,6 @@
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 1 value pushed */
-          16
-          MDAP[1]	/* MoveDirectAbsPt */
-          ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 2 values pushed */
-          15 16
-          MIRP[00001]	/* MoveIndirectRelPt */
-          RTG[ ]	/* RoundToGrid */
-          PUSHB[ ]	/* 1 value pushed */
           23
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
@@ -33237,6 +33227,14 @@
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           MDRP[00001]	/* MoveDirectRelPt */
+          RTG[ ]	/* RoundToGrid */
+          PUSHB[ ]	/* 1 value pushed */
+          16
+          MDAP[1]	/* MoveDirectAbsPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 2 values pushed */
+          15 16
+          MIRP[00001]	/* MoveIndirectRelPt */
           IUP[1]	/* InterpolateUntPts */
         </assembly>
       </instructions>
@@ -34820,12 +34818,12 @@
         <Item index="0" value="[10, -6]"/>
         <Item index="1" value="[20, -12]"/>
         <Item index="2" value="[28, -12]"/>
-        <Item index="3" value="[3, -1]"/>
-        <Item index="4" value="[6, -11]"/>
-        <Item index="5" value="[0, 10]"/>
-        <Item index="6" value="[26, -16]"/>
-        <Item index="7" value="[6, -4]"/>
-        <Item index="8" value="[16, -10]"/>
+        <Item index="3" value="[6, -11]"/>
+        <Item index="4" value="[0, 10]"/>
+        <Item index="5" value="[26, -16]"/>
+        <Item index="6" value="[6, -4]"/>
+        <Item index="7" value="[16, -10]"/>
+        <Item index="8" value="[3, -1]"/>
       </VarData>
     </VarStore>
   </GDEF>
@@ -35375,9 +35373,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -35393,9 +35396,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -35411,9 +35419,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -35429,9 +35442,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -35663,9 +35681,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -35681,9 +35704,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -35735,9 +35763,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -35753,9 +35786,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -35771,9 +35809,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -35789,9 +35832,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -35933,17 +35981,27 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="3" Format="1">
+              <BaseAnchor index="3" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="32">
@@ -35951,17 +36009,27 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="3" Format="1">
+              <BaseAnchor index="3" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="33">
@@ -35977,9 +36045,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="3" Format="1">
+              <BaseAnchor index="3" Format="3">
                 <XCoordinate value="220"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="7"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
           </BaseArray>
@@ -36153,9 +36226,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36167,9 +36245,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -36195,9 +36278,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36256,9 +36344,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36270,9 +36363,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -36284,9 +36382,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36312,9 +36415,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36754,9 +36862,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36776,9 +36889,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36798,9 +36916,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36820,9 +36943,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36842,9 +36970,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36864,9 +36997,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36886,9 +37024,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36908,9 +37051,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36930,9 +37078,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -36952,9 +37105,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="413"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37221,9 +37379,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37243,9 +37406,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37265,9 +37433,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37287,9 +37460,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37309,9 +37487,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37331,9 +37514,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37353,9 +37541,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37375,9 +37568,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37397,9 +37595,14 @@
                 <XCoordinate value="224"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="1"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="220"/>
@@ -37556,9 +37759,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37578,9 +37786,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37600,9 +37813,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37622,9 +37840,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37644,9 +37867,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37666,9 +37894,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37688,9 +37921,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37710,9 +37948,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -37732,9 +37975,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="376"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="2"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -38507,7 +38755,7 @@
                 <YCoordinate value="0"/>
                 <XDeviceTable>
                   <StartSize value="0"/>
-                  <EndSize value="3"/>
+                  <EndSize value="8"/>
                   <DeltaFormat value="32768"/>
                 </XDeviceTable>
               </BaseAnchor>
@@ -38529,9 +38777,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38551,9 +38804,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38573,9 +38831,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38595,9 +38858,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38617,9 +38885,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38639,9 +38912,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38661,9 +38939,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38683,9 +38966,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38705,9 +38993,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38727,9 +39020,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="283"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="8"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38754,7 +39052,7 @@
                 <YCoordinate value="0"/>
                 <XDeviceTable>
                   <StartSize value="0"/>
-                  <EndSize value="4"/>
+                  <EndSize value="3"/>
                   <DeltaFormat value="32768"/>
                 </XDeviceTable>
               </BaseAnchor>
@@ -38776,9 +39074,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38798,9 +39101,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38820,9 +39128,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38842,9 +39155,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38864,9 +39182,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38886,9 +39209,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38908,9 +39236,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38930,9 +39263,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38952,9 +39290,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -38974,9 +39317,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="384"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="3"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39133,7 +39481,7 @@
                 <YCoordinate value="0"/>
                 <XDeviceTable>
                   <StartSize value="0"/>
-                  <EndSize value="5"/>
+                  <EndSize value="4"/>
                   <DeltaFormat value="32768"/>
                 </XDeviceTable>
               </BaseAnchor>
@@ -39155,9 +39503,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39177,9 +39530,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39199,9 +39557,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39221,9 +39584,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39243,9 +39611,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39265,9 +39638,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39287,9 +39665,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39309,9 +39692,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39331,9 +39719,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="331"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="4"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39353,34 +39746,12 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="270"/>
-                <YCoordinate value="0"/>
-              </BaseAnchor>
-              <BaseAnchor index="2" Format="1">
-                <XCoordinate value="0"/>
-                <YCoordinate value="0"/>
-              </BaseAnchor>
-              <BaseAnchor index="3" Format="1">
-                <XCoordinate value="0"/>
-                <YCoordinate value="0"/>
-              </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
-                <XCoordinate value="230"/>
-                <YCoordinate value="448"/>
-              </BaseAnchor>
-            </BaseRecord>
-            <BaseRecord index="119">
-              <BaseAnchor index="0" Format="1">
-                <XCoordinate value="0"/>
-                <YCoordinate value="0"/>
-              </BaseAnchor>
               <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
                 <XDeviceTable>
                   <StartSize value="0"/>
-                  <EndSize value="6"/>
+                  <EndSize value="5"/>
                   <DeltaFormat value="32768"/>
                 </XDeviceTable>
               </BaseAnchor>
@@ -39397,7 +39768,39 @@
                 <YCoordinate value="448"/>
                 <XDeviceTable>
                   <StartSize value="0"/>
-                  <EndSize value="7"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="119">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="0"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
+              <BaseAnchor index="1" Format="3">
+                <XCoordinate value="270"/>
+                <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
+              </BaseAnchor>
+              <BaseAnchor index="2" Format="1">
+                <XCoordinate value="0"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
+              <BaseAnchor index="3" Format="1">
+                <XCoordinate value="0"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
+              <BaseAnchor index="4" Format="3">
+                <XCoordinate value="230"/>
+                <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
                   <DeltaFormat value="32768"/>
                 </XDeviceTable>
               </BaseAnchor>
@@ -39407,9 +39810,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39419,9 +39827,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="121">
@@ -39429,9 +39842,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39441,9 +39859,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="122">
@@ -39451,9 +39874,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39463,9 +39891,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="123">
@@ -39473,9 +39906,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39485,9 +39923,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="124">
@@ -39495,9 +39938,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39507,9 +39955,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="125">
@@ -39517,9 +39970,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39529,9 +39987,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="126">
@@ -39539,9 +40002,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39551,9 +40019,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="127">
@@ -39561,9 +40034,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="270"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="5"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39573,9 +40051,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="230"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="6"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="128">
@@ -39595,9 +40078,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="220"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="7"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="129">
@@ -39622,7 +40110,7 @@
                 <YCoordinate value="448"/>
                 <XDeviceTable>
                   <StartSize value="0"/>
-                  <EndSize value="8"/>
+                  <EndSize value="7"/>
                   <DeltaFormat value="32768"/>
                 </XDeviceTable>
               </BaseAnchor>
@@ -39644,9 +40132,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="4" Format="1">
+              <BaseAnchor index="4" Format="3">
                 <XCoordinate value="220"/>
                 <YCoordinate value="448"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="7"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="131">
@@ -39703,9 +40196,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39725,9 +40223,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39747,9 +40250,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39769,9 +40277,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39791,9 +40304,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39813,9 +40331,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39835,9 +40358,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39857,9 +40385,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39879,9 +40412,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -39901,9 +40439,14 @@
                 <XCoordinate value="0"/>
                 <YCoordinate value="0"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
+              <BaseAnchor index="1" Format="3">
                 <XCoordinate value="390"/>
                 <YCoordinate value="0"/>
+                <XDeviceTable>
+                  <StartSize value="0"/>
+                  <EndSize value="0"/>
+                  <DeltaFormat value="32768"/>
+                </XDeviceTable>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="0"/>
@@ -41470,35 +42013,45 @@
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="257"/>  <!-- Thin -->
-        <Value value="48.0"/>
+        <Value value="200.0"/>
       </AxisValue>
       <AxisValue index="1" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="258"/>  <!-- Light -->
-        <Value value="62.0"/>
+        <Value value="300.0"/>
       </AxisValue>
       <AxisValue index="2" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="259"/>  <!-- Regular -->
-        <Value value="72.0"/>
+        <Value value="400.0"/>
       </AxisValue>
       <AxisValue index="3" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="260"/>  <!-- Medium -->
-        <Value value="92.0"/>
+        <Value value="600.0"/>
       </AxisValue>
       <AxisValue index="4" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="261"/>  <!-- Bold -->
-        <Value value="112.0"/>
+        <Value value="700.0"/>
       </AxisValue>
     </AxisValueArray>
     <ElidedFallbackNameID value="259"/>  <!-- Regular -->
   </STAT>
+
+  <avar>
+    <segment axis="wght">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="-0.5" to="-0.4167"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="0.6667" to="0.5"/>
+      <mapping from="1.0" to="1.0"/>
+    </segment>
+  </avar>
 
   <cvar>
     <version major="1" minor="0"/>
@@ -41567,17 +42120,17 @@
 
     <!-- Light -->
     <NamedInstance flags="0x0" subfamilyNameID="258">
-      <coord axis="wght" value="309.375"/>
+      <coord axis="wght" value="300.0"/>
     </NamedInstance>
 
     <!-- Regular -->
     <NamedInstance flags="0x0" subfamilyNameID="259">
-      <coord axis="wght" value="400"/>
+      <coord axis="wght" value="400.0"/>
     </NamedInstance>
 
     <!-- Medium -->
     <NamedInstance flags="0x0" subfamilyNameID="260">
-      <coord axis="wght" value="543.75"/>
+      <coord axis="wght" value="600.0"/>
     </NamedInstance>
 
     <!-- Bold -->
