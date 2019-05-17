@@ -1145,18 +1145,21 @@
     <GlyphID id="1139" name="uniEC30"/>
     <GlyphID id="1140" name="orn001"/>
     <GlyphID id="1141" name="orn002"/>
+    <GlyphID id="1142" name="shadelight.layer0"/>
+    <GlyphID id="1143" name="shademedium.layer0"/>
+    <GlyphID id="1144" name="shadedark.layer0"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.03899"/>
-    <checkSumAdjustment value="0x94fb13ce"/>
+    <checkSumAdjustment value="0x2d90643c"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Fri May 17 12:54:09 2019"/>
-    <modified value="Fri May 17 12:54:40 2019"/>
+    <modified value="Fri May 17 16:09:41 2019"/>
     <xMin value="-400"/>
     <yMin value="-209"/>
     <xMax value="640"/>
@@ -1191,7 +1194,7 @@
   <maxp>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="0x10000"/>
-    <numGlyphs value="1142"/>
+    <numGlyphs value="1145"/>
     <maxPoints value="106"/>
     <maxContours value="24"/>
     <maxCompositePoints value="163"/>
@@ -1739,6 +1742,9 @@
     <mtx name="seven.numr" width="448" lsb="95"/>
     <mtx name="seveneighths" width="448" lsb="39"/>
     <mtx name="shade" width="448" lsb="70"/>
+    <mtx name="shadedark.layer0" width="448" lsb="-83"/>
+    <mtx name="shadelight.layer0" width="448" lsb="-83"/>
+    <mtx name="shademedium.layer0" width="448" lsb="-83"/>
     <mtx name="sigma" width="448" lsb="36"/>
     <mtx name="six" width="448" lsb="40"/>
     <mtx name="six.dnom" width="448" lsb="211"/>
@@ -22359,6 +22365,36 @@
       <instructions/>
     </TTGlyph>
 
+    <TTGlyph name="shadedark.layer0" xMin="-83" yMin="-192" xMax="570" yMax="832">
+      <contour>
+        <pt x="365" y="-192" on="1"/>
+        <pt x="-83" y="-192" on="1"/>
+        <pt x="122" y="832" on="1"/>
+        <pt x="570" y="832" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="shadelight.layer0" xMin="-83" yMin="-192" xMax="570" yMax="832">
+      <contour>
+        <pt x="365" y="-192" on="1"/>
+        <pt x="-83" y="-192" on="1"/>
+        <pt x="122" y="832" on="1"/>
+        <pt x="570" y="832" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="shademedium.layer0" xMin="-83" yMin="-192" xMax="570" yMax="832">
+      <contour>
+        <pt x="365" y="-192" on="1"/>
+        <pt x="-83" y="-192" on="1"/>
+        <pt x="122" y="832" on="1"/>
+        <pt x="570" y="832" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
     <TTGlyph name="sigma" xMin="36" yMin="-13" xMax="498" yMax="448">
       <contour>
         <pt x="484" y="376" on="1"/>
@@ -26464,19 +26500,21 @@
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
-          PUSHB[ ]	/* 3 values pushed */
-          15 7 3
-          MIAP[1]	/* MoveIndirectAbsPt */
-          MDRP[01101]	/* MoveDirectRelPt */
           PUSHB[ ]	/* 1 value pushed */
           15
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 1 value pushed */
-          15
+          31
           MDRP[00001]	/* MoveDirectRelPt */
+          RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 2 values pushed */
-          7 7
+          23 31
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 2 values pushed */
+          7 23
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
@@ -38865,6 +38903,9 @@
       <psName name="uniEC30"/>
       <psName name="orn001"/>
       <psName name="orn002"/>
+      <psName name="shadelight.layer0"/>
+      <psName name="shademedium.layer0"/>
+      <psName name="shadedark.layer0"/>
     </extraNames>
   </post>
 
@@ -38874,6 +38915,29 @@
     <gaspRange rangeMaxPPEM="96" rangeGaspBehavior="11"/>
     <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="10"/>
   </gasp>
+
+  <COLR>
+    <version value="0"/>
+    <ColorGlyph name="ltshade">
+      <layer colorID="0" name="shadelight.layer0"/>
+    </ColorGlyph>
+    <ColorGlyph name="shade">
+      <layer colorID="1" name="shademedium.layer0"/>
+    </ColorGlyph>
+    <ColorGlyph name="dkshade">
+      <layer colorID="2" name="shadedark.layer0"/>
+    </ColorGlyph>
+  </COLR>
+
+  <CPAL>
+    <version value="0"/>
+    <numPaletteEntries value="3"/>
+    <palette index="0">
+      <color index="0" value="#E5E5E5FF"/>
+      <color index="1" value="#B3B3B3FF"/>
+      <color index="2" value="#6B6B6BFF"/>
+    </palette>
+  </CPAL>
 
   <GDEF>
     <Version value="0x00010000"/>
