@@ -1,8 +1,5 @@
 WEBFONTDIR=Webfonts
 
-STYLE_NAMES = Thin ThinItalic Light LightItalic Regular Italic Medium MediumItalic Bold BoldItalic
-STYLES = $(patsubst %,$(WEBFONTDIR)/Sudo-%.ttf,$(STYLE_NAMES))
-
 
 all: $(WEBFONTDIR)
 

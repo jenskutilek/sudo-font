@@ -1,6 +1,7 @@
 ARCHIVE = sudo.zip
 DISTDIR = dist
 FONTDIR = sudo
+WEBDIR = ~/Sites/kuti/download/
 
 
 all: $(FONTDIR) $(DISTDIR)/$(ARCHIVE)
@@ -12,9 +13,11 @@ $(FONTDIR):
 
 $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
 	rm -f $(DISTDIR)/$(ARCHIVE)
-	zip -r $(DISTDIR)/$(ARCHIVE) $(FONTDIR)/ --exclude \*.DS_Store Makefile
-	mv ~/Sites/kuti/download/sudo.zip ~/Sites/kuti/download/sudo_old.zip
-	cp $(DISTDIR)/$(ARCHIVE) ~/Sites/kuti/download/sudo.zip
+	zip -r $(DISTDIR)/$(ARCHIVE) $(FONTDIR)/ --exclude "*.DS_Store" "*Makefile"
+	if test -e $(WEBDIR)/$(ARCHIVE); then \
+		mv $(WEBDIR)/$(ARCHIVE) $(WEBDIR)/sudo_old.zip; \
+		cp $(DISTDIR)/$(ARCHIVE) $(WEBDIR)/$(ARCHIVE); \
+	fi
 
 
 clean:
