@@ -14,8 +14,7 @@ $(FONTDIR):
 $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
 	rm -f $(DISTDIR)/$(ARCHIVE)
 	zip -r $(DISTDIR)/$(ARCHIVE) $(FONTDIR)/ --exclude "*.DS_Store" "*Makefile"
-	if test -e $(WEBDIR)/$(ARCHIVE); then \
-		mv $(WEBDIR)/$(ARCHIVE) $(WEBDIR)/sudo_old.zip; \
+	if test -e $(WEBDIR); then \
 		cp $(DISTDIR)/$(ARCHIVE) $(WEBDIR)/$(ARCHIVE); \
 	fi
 
