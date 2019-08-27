@@ -1,5 +1,4 @@
-sudo-font
-=========
+# sudo-font
 
 Sudo is a monospaced font designed for terminal and programming. Use at 16 pixels size for optimal results.
 
@@ -12,3 +11,13 @@ Sudo Regular and Bold in TextMate
 <img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo-light-powerline.png">
 
 Sudo Light in vim on macOS with [Powerline](https://github.com/powerline/powerline)
+
+## Installation
+
+### macOS
+
+Font is available as a Homebrew package.
+
+```
+brew tap homebrew/cask-fonts && brew cask install font-sudo
+```
