@@ -16,8 +16,9 @@ Sudo Light in vim on macOS with [Powerline](https://github.com/powerline/powerli
 
 ### macOS
 
-Font is available as a Homebrew package.
+Sudo is available as a [Homebrew](https://brew.sh/) package.
 
-```
-brew tap homebrew/cask-fonts && brew cask install font-sudo
+```sh
+brew tap homebrew/cask-fonts
+brew cask install font-sudo
 ```
