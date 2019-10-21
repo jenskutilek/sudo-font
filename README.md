@@ -22,3 +22,7 @@ Sudo is available as a [Homebrew](https://brew.sh/) package.
 brew tap homebrew/cask-fonts
 brew cask install font-sudo
 ```
+
+### AUR
+
+Sudo is available as an [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) package under the name 'sudo-font-git'.
