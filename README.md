@@ -14,6 +14,14 @@ Sudo Light in vim on macOS with [Powerline](https://github.com/powerline/powerli
 
 ## Installation
 
+### FreeBSD
+
+Sudo is available in the FreeBSD Ports Collection.
+
+```sh
+pkg install sudo-font
+```
+
 ### macOS
 
 Sudo is available as a [Homebrew](https://brew.sh/) package.
