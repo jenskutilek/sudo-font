@@ -1,5 +1,17 @@
 Sudo is Copyright (c) 2009-2019, Jens Kutilek (http://www.kutilek.de/).
 
+Version 0.041
+- Breaking change! Adjust vertical metrics to allow for unclipped top accents. This will change the default line spacing of existing documents.
+- Add quick and dirty hungarumlautcomb to stay within the vertical metrics
+- Move underscoredbl up so it doesn't exceed the descender metric in Bold and Bold Italic
+- Bugfix in overlinecomb, overline
+- Adjust accent position in Lcommaaccent
+- Remove mark feature, it was not fully functional anyway
+- Remove kern and mark features in variable fonts, as was already done in static fonts
+- Remove color glyphs, they were causing problems with syntax highlighting in Atom
+- Fix axis mapping in variable fonts again
+- Export fonts with Glyphs build 1284
+
 Version 0.040
 - Update variable font from design source
 - Rename variable font family name to "Sudo Variable", to avoid confusion with the static fonts
