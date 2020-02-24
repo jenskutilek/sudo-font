@@ -31,6 +31,6 @@ brew tap homebrew/cask-fonts
 brew cask install font-sudo
 ```
 
-### AUR
+### Arch Linux
 
-Sudo is available as an [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) package under the name 'sudo-font-git'.
+Sudo is available in the [Arch User Repository](https://wiki.archlinux.org/index.php/Arch_User_Repository) as [ttf-sudo](https://aur.archlinux.org/packages/ttf-sudo).
