@@ -24,7 +24,9 @@ pkg install sudo-font
 
 ### macOS
 
-Sudo is available as a [Homebrew](https://brew.sh/) package.
+Download the [latest release](https://www.kutilek.de/download/sudo.zip) and copy the fonts into `/Library/Fonts` or `~/Library/Fonts`.
+
+Sudo is also available as a [Homebrew](https://brew.sh/) package.
 
 ```sh
 brew tap homebrew/cask-fonts
