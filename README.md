@@ -4,6 +4,8 @@ Sudo is a monospaced font designed for terminal and programming. Use at 16 pixel
 
 Download the fonts at https://www.kutilek.de/sudo-font/.
 
+<img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo.png">
+
 <img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo-textmate-py.png">
 
 Sudo Regular and Bold in TextMate
