@@ -2,9 +2,10 @@ ARCHIVE = sudo.zip
 DISTDIR = dist
 FONTDIR = sudo
 WEBDIR = ~/Sites/kuti/download/
+WEBPAGE = ~/Sites/kuti/sudo-font/index.html
 
 
-all: $(FONTDIR) $(DISTDIR)/$(ARCHIVE)
+all: $(FONTDIR) $(DISTDIR)/$(ARCHIVE) update_version
 
 
 $(FONTDIR):
@@ -23,4 +24,11 @@ clean:
 	$(MAKE) -C $(FONTDIR) clean
 
 
-.PHONY: all clean $(FONTDIR)
+.PHONY: all clean $(FONTDIR) update_version
+
+update_version: zip_size := $(shell du -h $(DISTDIR)/$(ARCHIVE) | awk '{ sub(",", "."); print $$1"B"; }')
+update_version: sudo_version := $(shell git describe --tags)
+update_version:
+	sed -E "s/(Download Sudo )v[0-9\.]+( for free.<\/a> \()[0-9]+[0-9\.]+ ?[A-Za-z]+( zip file)/\1$(sudo_version)\2$(zip_size)\3/" $(WEBPAGE) \
+	> $(WEBPAGE).tmp \
+	&& mv $(WEBPAGE).tmp $(WEBPAGE)
