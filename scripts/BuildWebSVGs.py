@@ -197,16 +197,16 @@ def github():
     text_path("monospaced", (text_x, 0), "../sudo/Sudo-Bold.ttf")
 
 monospaced()
-saveImage("~/Sites/kuti/sudo-font/sudo-monospaced.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-monospaced.svg")
 
 legible()
-saveImage("~/Sites/kuti/sudo-font/sudo-legible.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-legible.svg")
 
 efficient()
-saveImage("~/Sites/kuti/sudo-font/sudo-space-saving.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-space-saving.svg")
 
 unique()
-saveImage("~/Sites/kuti/sudo-font/sudo-quotes.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-quotes.svg")
 
 github()
 saveImage("../images/sudo.png")
