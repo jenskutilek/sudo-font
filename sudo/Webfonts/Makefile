@@ -1,4 +1,4 @@
-WOFF_CMD=sfnt2woff-zopfli
+WOFF_CMD=sfnt2woff
 WOF2_CMD=woff2_compress
 
 STYLE_NAMES = Thin ThinItalic Light LightItalic Regular Italic Medium MediumItalic Bold BoldItalic

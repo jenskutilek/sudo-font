@@ -1,8 +1,8 @@
 ARCHIVE = sudo.zip
 DISTDIR = dist
 FONTDIR = sudo
-WEBDIR = ~/Sites/kuti/download/
-WEBPAGE = ~/Sites/kuti/sudo-font/index.html
+WEBDIR = ~/Sites/kuti/_site/download/
+WEBPAGE = ~/Sites/kuti/src/sudo-font/index.html
 
 
 all: $(FONTDIR) $(DISTDIR)/$(ARCHIVE) update_version
