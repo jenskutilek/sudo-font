@@ -32,7 +32,7 @@ Sudo is also available as a [Homebrew](https://brew.sh/) package.
 
 ```sh
 brew tap homebrew/cask-fonts
-brew cask install font-sudo
+brew install --cask font-sudo
 ```
 
 ### Arch Linux
