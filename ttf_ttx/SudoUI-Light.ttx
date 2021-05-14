@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.21">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.22">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -1336,12 +1336,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.053"/>
-    <checkSumAdjustment value="0x77b039e3"/>
+    <checkSumAdjustment value="0x797bf6a7"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Sep 28 18:41:54 2020"/>
-    <modified value="Tue May  4 09:33:17 2021"/>
+    <modified value="Fri May 14 16:12:15 2021"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="652"/>
@@ -1493,7 +1493,7 @@
     <mtx name="Epsilon" width="448" lsb="64"/>
     <mtx name="Epsilontonos" width="448" lsb="-60"/>
     <mtx name="Eta" width="480" lsb="64"/>
-    <mtx name="Etatonos" width="480" lsb="-60"/>
+    <mtx name="Etatonos" width="448" lsb="-60"/>
     <mtx name="Eth" width="448" lsb="9"/>
     <mtx name="Euro" width="448" lsb="64"/>
     <mtx name="F" width="384" lsb="64"/>
@@ -1524,7 +1524,7 @@
     <mtx name="Iogonek" width="320" lsb="58"/>
     <mtx name="Iota" width="320" lsb="58"/>
     <mtx name="Iotadieresis" width="320" lsb="19"/>
-    <mtx name="Iotatonos" width="320" lsb="-60"/>
+    <mtx name="Iotatonos" width="448" lsb="-60"/>
     <mtx name="Itilde" width="320" lsb="10"/>
     <mtx name="J" width="448" lsb="66"/>
     <mtx name="J.sups" width="448" lsb="128"/>
@@ -1560,7 +1560,7 @@
     <mtx name="Omacron" width="480" lsb="41"/>
     <mtx name="Omegatonos" width="448" lsb="-60"/>
     <mtx name="Omicron" width="480" lsb="41"/>
-    <mtx name="Omicrontonos" width="480" lsb="-60"/>
+    <mtx name="Omicrontonos" width="448" lsb="-60"/>
     <mtx name="Oslash" width="448" lsb="40"/>
     <mtx name="Oslashacute" width="448" lsb="40"/>
     <mtx name="Otilde" width="480" lsb="41"/>
@@ -3952,8 +3952,9 @@
       <map code="0xec2c" name="uniEC2C"/><!-- ???? -->
       <map code="0xec2e" name="uniEC2E"/><!-- ???? -->
       <map code="0xec2f" name="uniEC2F"/><!-- ???? -->
+      <map code="0xec30" name="uni2BE8"/><!-- ???? -->
     </cmap_format_4>
-    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="10048" language="0" nGroups="836">
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="10060" language="0" nGroups="837">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -5128,6 +5129,7 @@
       <map code="0xec2c" name="uniEC2C"/><!-- ???? -->
       <map code="0xec2e" name="uniEC2E"/><!-- ???? -->
       <map code="0xec2f" name="uniEC2F"/><!-- ???? -->
+      <map code="0xec30" name="uni2BE8"/><!-- ???? -->
       <map code="0x1f30e" name="u1F30E"/><!-- EARTH GLOBE AMERICAS -->
       <map code="0x1f319" name="u1F319"/><!-- CRESCENT MOON -->
       <map code="0x1f327" name="u1F327"/><!-- CLOUD WITH RAIN -->
@@ -6340,8 +6342,9 @@
       <map code="0xec2c" name="uniEC2C"/><!-- ???? -->
       <map code="0xec2e" name="uniEC2E"/><!-- ???? -->
       <map code="0xec2f" name="uniEC2F"/><!-- ???? -->
+      <map code="0xec30" name="uni2BE8"/><!-- ???? -->
     </cmap_format_4>
-    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="10048" language="0" nGroups="836">
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="10060" language="0" nGroups="837">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -7516,6 +7519,7 @@
       <map code="0xec2c" name="uniEC2C"/><!-- ???? -->
       <map code="0xec2e" name="uniEC2E"/><!-- ???? -->
       <map code="0xec2f" name="uniEC2F"/><!-- ???? -->
+      <map code="0xec30" name="uni2BE8"/><!-- ???? -->
       <map code="0x1f30e" name="u1F30E"/><!-- EARTH GLOBE AMERICAS -->
       <map code="0x1f319" name="u1F319"/><!-- CRESCENT MOON -->
       <map code="0x1f327" name="u1F327"/><!-- CLOUD WITH RAIN -->
@@ -40769,7 +40773,7 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      0.053;JENS;Sudo UI Light
+      0.053;JENS;SudoUI-Light
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo UI Light
@@ -43004,37 +43008,11 @@
         <PairPos index="0" Format="2">
           <Coverage>
             <Glyph value="A"/>
-            <Glyph value="Aacute"/>
-            <Glyph value="Abreve"/>
-            <Glyph value="Acircumflex"/>
-            <Glyph value="Adieresis"/>
-            <Glyph value="Agrave"/>
-            <Glyph value="Amacron"/>
-            <Glyph value="Aogonek"/>
-            <Glyph value="Aring"/>
-            <Glyph value="Aringacute"/>
-            <Glyph value="Atilde"/>
             <Glyph value="F"/>
+            <Glyph value="J"/>
             <Glyph value="L"/>
-            <Glyph value="Lacute"/>
-            <Glyph value="uni013B"/>
-            <Glyph value="Lslash"/>
             <Glyph value="T"/>
-            <Glyph value="Tbar"/>
-            <Glyph value="Tcaron"/>
-            <Glyph value="uni0162"/>
-            <Glyph value="uni021A"/>
             <Glyph value="U"/>
-            <Glyph value="Uacute"/>
-            <Glyph value="Ubreve"/>
-            <Glyph value="Ucircumflex"/>
-            <Glyph value="Udieresis"/>
-            <Glyph value="Ugrave"/>
-            <Glyph value="Uhungarumlaut"/>
-            <Glyph value="Umacron"/>
-            <Glyph value="Uogonek"/>
-            <Glyph value="Uring"/>
-            <Glyph value="Utilde"/>
             <Glyph value="V"/>
             <Glyph value="r"/>
             <Glyph value="uni0413"/>
@@ -43052,23 +43030,10 @@
           <ValueFormat2 value="0"/>
           <ClassDef1>
             <ClassDef glyph="F" class="1"/>
+            <ClassDef glyph="J" class="4"/>
             <ClassDef glyph="L" class="2"/>
-            <ClassDef glyph="Lacute" class="2"/>
-            <ClassDef glyph="Lslash" class="2"/>
             <ClassDef glyph="T" class="3"/>
-            <ClassDef glyph="Tbar" class="3"/>
-            <ClassDef glyph="Tcaron" class="3"/>
             <ClassDef glyph="U" class="4"/>
-            <ClassDef glyph="Uacute" class="4"/>
-            <ClassDef glyph="Ubreve" class="4"/>
-            <ClassDef glyph="Ucircumflex" class="4"/>
-            <ClassDef glyph="Udieresis" class="4"/>
-            <ClassDef glyph="Ugrave" class="4"/>
-            <ClassDef glyph="Uhungarumlaut" class="4"/>
-            <ClassDef glyph="Umacron" class="4"/>
-            <ClassDef glyph="Uogonek" class="4"/>
-            <ClassDef glyph="Uring" class="4"/>
-            <ClassDef glyph="Utilde" class="4"/>
             <ClassDef glyph="V" class="5"/>
             <ClassDef glyph="comma" class="8"/>
             <ClassDef glyph="guillemotleft" class="7"/>
@@ -43080,76 +43045,36 @@
             <ClassDef glyph="quotedblbase" class="8"/>
             <ClassDef glyph="quotesinglbase" class="8"/>
             <ClassDef glyph="r" class="6"/>
-            <ClassDef glyph="uni013B" class="2"/>
-            <ClassDef glyph="uni0162" class="3"/>
-            <ClassDef glyph="uni021A" class="3"/>
             <ClassDef glyph="uni0413" class="1"/>
           </ClassDef1>
           <ClassDef2>
             <ClassDef glyph="A" class="3"/>
-            <ClassDef glyph="AE" class="3"/>
-            <ClassDef glyph="AEacute" class="3"/>
-            <ClassDef glyph="Aacute" class="3"/>
-            <ClassDef glyph="Abreve" class="3"/>
-            <ClassDef glyph="Acircumflex" class="3"/>
-            <ClassDef glyph="Adieresis" class="3"/>
-            <ClassDef glyph="Agrave" class="3"/>
-            <ClassDef glyph="Amacron" class="3"/>
-            <ClassDef glyph="Aogonek" class="3"/>
-            <ClassDef glyph="Aring" class="3"/>
-            <ClassDef glyph="Aringacute" class="3"/>
-            <ClassDef glyph="Atilde" class="3"/>
             <ClassDef glyph="T" class="1"/>
-            <ClassDef glyph="Tbar" class="1"/>
-            <ClassDef glyph="Tcaron" class="1"/>
-            <ClassDef glyph="U" class="19"/>
-            <ClassDef glyph="Uacute" class="19"/>
-            <ClassDef glyph="Ubreve" class="19"/>
-            <ClassDef glyph="Ucircumflex" class="19"/>
-            <ClassDef glyph="Udieresis" class="19"/>
-            <ClassDef glyph="Ugrave" class="19"/>
-            <ClassDef glyph="Uhungarumlaut" class="19"/>
-            <ClassDef glyph="Umacron" class="19"/>
-            <ClassDef glyph="Uogonek" class="19"/>
-            <ClassDef glyph="Uring" class="19"/>
-            <ClassDef glyph="Utilde" class="19"/>
+            <ClassDef glyph="U" class="16"/>
             <ClassDef glyph="V" class="2"/>
             <ClassDef glyph="a" class="4"/>
             <ClassDef glyph="c" class="9"/>
-            <ClassDef glyph="comma" class="18"/>
-            <ClassDef glyph="d" class="9"/>
-            <ClassDef glyph="e" class="9"/>
+            <ClassDef glyph="comma" class="15"/>
             <ClassDef glyph="f" class="5"/>
-            <ClassDef glyph="g" class="9"/>
-            <ClassDef glyph="guillemotleft" class="17"/>
-            <ClassDef glyph="guillemotright" class="17"/>
-            <ClassDef glyph="guilsinglleft" class="17"/>
-            <ClassDef glyph="guilsinglright" class="17"/>
-            <ClassDef glyph="hyphen" class="17"/>
+            <ClassDef glyph="guillemotleft" class="14"/>
+            <ClassDef glyph="guillemotright" class="14"/>
+            <ClassDef glyph="guilsinglleft" class="14"/>
+            <ClassDef glyph="guilsinglright" class="14"/>
+            <ClassDef glyph="hyphen" class="14"/>
             <ClassDef glyph="i" class="6"/>
             <ClassDef glyph="j" class="7"/>
             <ClassDef glyph="m" class="8"/>
-            <ClassDef glyph="n" class="8"/>
-            <ClassDef glyph="o" class="9"/>
-            <ClassDef glyph="p" class="8"/>
-            <ClassDef glyph="period" class="18"/>
-            <ClassDef glyph="q" class="9"/>
-            <ClassDef glyph="quotedblbase" class="18"/>
-            <ClassDef glyph="quotesinglbase" class="18"/>
+            <ClassDef glyph="period" class="15"/>
+            <ClassDef glyph="quotedblbase" class="15"/>
+            <ClassDef glyph="quotesinglbase" class="15"/>
             <ClassDef glyph="r" class="8"/>
             <ClassDef glyph="s" class="10"/>
             <ClassDef glyph="t" class="11"/>
-            <ClassDef glyph="u" class="8"/>
-            <ClassDef glyph="uni0162" class="1"/>
-            <ClassDef glyph="uni021A" class="1"/>
-            <ClassDef glyph="v" class="12"/>
-            <ClassDef glyph="w" class="13"/>
-            <ClassDef glyph="x" class="14"/>
-            <ClassDef glyph="y" class="15"/>
-            <ClassDef glyph="z" class="16"/>
+            <ClassDef glyph="w" class="12"/>
+            <ClassDef glyph="z" class="13"/>
           </ClassDef2>
           <!-- Class1Count=9 -->
-          <!-- Class2Count=20 -->
+          <!-- Class2Count=17 -->
           <Class1Record index="0">
             <Class2Record index="0">
               <Value1 XAdvance="0"/>
@@ -43202,15 +43127,6 @@
             <Class2Record index="16">
               <Value1 XAdvance="0"/>
             </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="19">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
           </Class1Record>
           <Class1Record index="1">
             <Class2Record index="0">
@@ -43256,21 +43172,12 @@
               <Value1 XAdvance="-32"/>
             </Class2Record>
             <Class2Record index="14">
-              <Value1 XAdvance="-32"/>
+              <Value1 XAdvance="0"/>
             </Class2Record>
             <Class2Record index="15">
-              <Value1 XAdvance="-32"/>
+              <Value1 XAdvance="0"/>
             </Class2Record>
             <Class2Record index="16">
-              <Value1 XAdvance="-32"/>
-            </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="19">
               <Value1 XAdvance="0"/>
             </Class2Record>
           </Class1Record>
@@ -43326,15 +43233,6 @@
             <Class2Record index="16">
               <Value1 XAdvance="0"/>
             </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="19">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
           </Class1Record>
           <Class1Record index="3">
             <Class2Record index="0">
@@ -43380,21 +43278,12 @@
               <Value1 XAdvance="-80"/>
             </Class2Record>
             <Class2Record index="14">
-              <Value1 XAdvance="-80"/>
+              <Value1 XAdvance="-96"/>
             </Class2Record>
             <Class2Record index="15">
               <Value1 XAdvance="-80"/>
             </Class2Record>
             <Class2Record index="16">
-              <Value1 XAdvance="-80"/>
-            </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="-96"/>
-            </Class2Record>
-            <Class2Record index="18">
-              <Value1 XAdvance="-80"/>
-            </Class2Record>
-            <Class2Record index="19">
               <Value1 XAdvance="0"/>
             </Class2Record>
           </Class1Record>
@@ -43445,18 +43334,9 @@
               <Value1 XAdvance="0"/>
             </Class2Record>
             <Class2Record index="15">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="16">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
               <Value1 XAdvance="-16"/>
             </Class2Record>
-            <Class2Record index="19">
+            <Class2Record index="16">
               <Value1 XAdvance="0"/>
             </Class2Record>
           </Class1Record>
@@ -43512,15 +43392,6 @@
             <Class2Record index="16">
               <Value1 XAdvance="0"/>
             </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="19">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
           </Class1Record>
           <Class1Record index="6">
             <Class2Record index="0">
@@ -43569,18 +43440,9 @@
               <Value1 XAdvance="0"/>
             </Class2Record>
             <Class2Record index="15">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="16">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
               <Value1 XAdvance="-80"/>
             </Class2Record>
-            <Class2Record index="19">
+            <Class2Record index="16">
               <Value1 XAdvance="0"/>
             </Class2Record>
           </Class1Record>
@@ -43636,15 +43498,6 @@
             <Class2Record index="16">
               <Value1 XAdvance="0"/>
             </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="19">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
           </Class1Record>
           <Class1Record index="8">
             <Class2Record index="0">
@@ -43696,15 +43549,6 @@
               <Value1 XAdvance="0"/>
             </Class2Record>
             <Class2Record index="16">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="17">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="18">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="19">
               <Value1 XAdvance="-16"/>
             </Class2Record>
           </Class1Record>
