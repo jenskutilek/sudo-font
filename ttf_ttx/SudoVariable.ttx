@@ -1335,12 +1335,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.053"/>
-    <checkSumAdjustment value="0xd903ccd7"/>
+    <checkSumAdjustment value="0x3d58e8a7"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Sep 28 18:41:54 2020"/>
-    <modified value="Mon May 17 08:02:38 2021"/>
+    <modified value="Mon May 17 08:12:16 2021"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -19020,9 +19020,9 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
-          PUSHB[ ]	/* 2 values pushed */
-          12 8
-          MIAP[1]	/* MoveIndirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          12
+          MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
           41 15
@@ -72085,6 +72085,15 @@
         <coord axis="wght" value="-1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="-10" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="28" y="0"/>
         <delta pt="2" x="0" y="0"/>
         <delta pt="3" x="0" y="0"/>
         <delta pt="4" x="0" y="0"/>
