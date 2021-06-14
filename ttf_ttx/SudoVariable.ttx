@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.22">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.24">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -1334,13 +1334,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="0.053"/>
-    <checkSumAdjustment value="0x3d58e8a7"/>
+    <fontRevision value="0.05399"/>
+    <checkSumAdjustment value="0x50418968"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
-    <created value="Mon Sep 28 18:41:54 2020"/>
-    <modified value="Mon May 17 08:12:16 2021"/>
+    <created value="Thu Jun  3 13:08:27 2021"/>
+    <modified value="Mon Jun 14 15:10:13 2021"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -1369,7 +1369,7 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="1"/>
+    <numberOfHMetrics value="2"/>
   </hhea>
 
   <maxp>
@@ -1388,7 +1388,7 @@
     <maxStackElements value="100"/>
     <maxSizeOfInstructions value="116"/>
     <maxComponentElements value="6"/>
-    <maxComponentDepth value="2"/>
+    <maxComponentDepth value="3"/>
   </maxp>
 
   <OS_2>
@@ -19020,9 +19020,9 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
-          PUSHB[ ]	/* 1 value pushed */
-          12
-          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          12 8
+          MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
           41 15
@@ -47989,7 +47989,7 @@
       Sudo Var Regular
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 0.053;FEAKit 1.0
+      Version 0.054;FEAKit 1.0
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SudoVar-Regular
@@ -48004,13 +48004,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      0.053;JENS;SudoVar-Regular
+      0.054;JENS;SudoVar-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo Var Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 0.053;FEAKit 1.0
+      Version 0.054;FEAKit 1.0
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       SudoVar-Regular
@@ -49199,6 +49199,705 @@
     <gaspRange rangeMaxPPEM="7" rangeGaspBehavior="10"/>
     <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="15"/>
   </gasp>
+
+  <GDEF>
+    <Version value="0x00010003"/>
+    <GlyphClassDef>
+      <ClassDef glyph="A" class="1"/>
+      <ClassDef glyph="AE" class="1"/>
+      <ClassDef glyph="AEacute" class="1"/>
+      <ClassDef glyph="Aacute" class="1"/>
+      <ClassDef glyph="Abreve" class="1"/>
+      <ClassDef glyph="Acircumflex" class="1"/>
+      <ClassDef glyph="Adieresis" class="1"/>
+      <ClassDef glyph="Agrave" class="1"/>
+      <ClassDef glyph="Alpha" class="1"/>
+      <ClassDef glyph="Alphatonos" class="1"/>
+      <ClassDef glyph="Amacron" class="1"/>
+      <ClassDef glyph="Aogonek" class="1"/>
+      <ClassDef glyph="Aring" class="1"/>
+      <ClassDef glyph="Aringacute" class="1"/>
+      <ClassDef glyph="Atilde" class="1"/>
+      <ClassDef glyph="C" class="1"/>
+      <ClassDef glyph="Cacute" class="1"/>
+      <ClassDef glyph="Ccaron" class="1"/>
+      <ClassDef glyph="Ccedilla" class="1"/>
+      <ClassDef glyph="Ccircumflex" class="1"/>
+      <ClassDef glyph="Cdotaccent" class="1"/>
+      <ClassDef glyph="Chi" class="1"/>
+      <ClassDef glyph="D" class="1"/>
+      <ClassDef glyph="Dcaron" class="1"/>
+      <ClassDef glyph="Dcroat" class="1"/>
+      <ClassDef glyph="E" class="1"/>
+      <ClassDef glyph="Eacute" class="1"/>
+      <ClassDef glyph="Ebreve" class="1"/>
+      <ClassDef glyph="Ecaron" class="1"/>
+      <ClassDef glyph="Ecircumflex" class="1"/>
+      <ClassDef glyph="Edieresis" class="1"/>
+      <ClassDef glyph="Edotaccent" class="1"/>
+      <ClassDef glyph="Egrave" class="1"/>
+      <ClassDef glyph="Emacron" class="1"/>
+      <ClassDef glyph="Eogonek" class="1"/>
+      <ClassDef glyph="Epsilon" class="1"/>
+      <ClassDef glyph="Epsilontonos" class="1"/>
+      <ClassDef glyph="Eta" class="1"/>
+      <ClassDef glyph="Etatonos" class="1"/>
+      <ClassDef glyph="Eth" class="1"/>
+      <ClassDef glyph="F" class="1"/>
+      <ClassDef glyph="G" class="1"/>
+      <ClassDef glyph="Gbreve" class="1"/>
+      <ClassDef glyph="Gcaron" class="1"/>
+      <ClassDef glyph="Gcircumflex" class="1"/>
+      <ClassDef glyph="Gdotaccent" class="1"/>
+      <ClassDef glyph="H" class="1"/>
+      <ClassDef glyph="Hbar" class="1"/>
+      <ClassDef glyph="Hcircumflex" class="1"/>
+      <ClassDef glyph="I" class="1"/>
+      <ClassDef glyph="IJ" class="1"/>
+      <ClassDef glyph="Iacute" class="1"/>
+      <ClassDef glyph="Iacute_J.loclNLD" class="1"/>
+      <ClassDef glyph="Ibreve" class="1"/>
+      <ClassDef glyph="Icircumflex" class="1"/>
+      <ClassDef glyph="Idieresis" class="1"/>
+      <ClassDef glyph="Idotaccent" class="1"/>
+      <ClassDef glyph="Igrave" class="1"/>
+      <ClassDef glyph="Imacron" class="1"/>
+      <ClassDef glyph="Iogonek" class="1"/>
+      <ClassDef glyph="Iota" class="1"/>
+      <ClassDef glyph="Iotadieresis" class="1"/>
+      <ClassDef glyph="Iotatonos" class="1"/>
+      <ClassDef glyph="Itilde" class="1"/>
+      <ClassDef glyph="J" class="1"/>
+      <ClassDef glyph="Jcircumflex" class="1"/>
+      <ClassDef glyph="K" class="1"/>
+      <ClassDef glyph="Kappa" class="1"/>
+      <ClassDef glyph="L" class="1"/>
+      <ClassDef glyph="Lacute" class="1"/>
+      <ClassDef glyph="Lambda" class="1"/>
+      <ClassDef glyph="Lcaron" class="1"/>
+      <ClassDef glyph="Ldot" class="1"/>
+      <ClassDef glyph="Lslash" class="1"/>
+      <ClassDef glyph="M" class="1"/>
+      <ClassDef glyph="Mu" class="1"/>
+      <ClassDef glyph="N" class="1"/>
+      <ClassDef glyph="Nacute" class="1"/>
+      <ClassDef glyph="Ncaron" class="1"/>
+      <ClassDef glyph="Ntilde" class="1"/>
+      <ClassDef glyph="Nu" class="1"/>
+      <ClassDef glyph="O" class="1"/>
+      <ClassDef glyph="OE" class="1"/>
+      <ClassDef glyph="Oacute" class="1"/>
+      <ClassDef glyph="Obreve" class="1"/>
+      <ClassDef glyph="Ocircumflex" class="1"/>
+      <ClassDef glyph="Odieresis" class="1"/>
+      <ClassDef glyph="Ograve" class="1"/>
+      <ClassDef glyph="Ohungarumlaut" class="1"/>
+      <ClassDef glyph="Omacron" class="1"/>
+      <ClassDef glyph="Omicron" class="1"/>
+      <ClassDef glyph="Omicrontonos" class="1"/>
+      <ClassDef glyph="Oslash" class="1"/>
+      <ClassDef glyph="Oslashacute" class="1"/>
+      <ClassDef glyph="Otilde" class="1"/>
+      <ClassDef glyph="P" class="1"/>
+      <ClassDef glyph="Q" class="1"/>
+      <ClassDef glyph="R" class="1"/>
+      <ClassDef glyph="Racute" class="1"/>
+      <ClassDef glyph="Rcaron" class="1"/>
+      <ClassDef glyph="Rho" class="1"/>
+      <ClassDef glyph="S" class="1"/>
+      <ClassDef glyph="Sacute" class="1"/>
+      <ClassDef glyph="Scaron" class="1"/>
+      <ClassDef glyph="Scedilla" class="1"/>
+      <ClassDef glyph="Scircumflex" class="1"/>
+      <ClassDef glyph="T" class="1"/>
+      <ClassDef glyph="Tau" class="1"/>
+      <ClassDef glyph="Tbar" class="1"/>
+      <ClassDef glyph="Tcaron" class="1"/>
+      <ClassDef glyph="Theta" class="1"/>
+      <ClassDef glyph="U" class="1"/>
+      <ClassDef glyph="Uacute" class="1"/>
+      <ClassDef glyph="Ubreve" class="1"/>
+      <ClassDef glyph="Ucircumflex" class="1"/>
+      <ClassDef glyph="Udieresis" class="1"/>
+      <ClassDef glyph="Ugrave" class="1"/>
+      <ClassDef glyph="Uhungarumlaut" class="1"/>
+      <ClassDef glyph="Umacron" class="1"/>
+      <ClassDef glyph="Uogonek" class="1"/>
+      <ClassDef glyph="Upsilon" class="1"/>
+      <ClassDef glyph="Upsilondieresis" class="1"/>
+      <ClassDef glyph="Upsilontonos" class="1"/>
+      <ClassDef glyph="Uring" class="1"/>
+      <ClassDef glyph="Utilde" class="1"/>
+      <ClassDef glyph="W" class="1"/>
+      <ClassDef glyph="Wacute" class="1"/>
+      <ClassDef glyph="Wcircumflex" class="1"/>
+      <ClassDef glyph="Wdieresis" class="1"/>
+      <ClassDef glyph="Wgrave" class="1"/>
+      <ClassDef glyph="X" class="1"/>
+      <ClassDef glyph="Y" class="1"/>
+      <ClassDef glyph="Yacute" class="1"/>
+      <ClassDef glyph="Ycircumflex" class="1"/>
+      <ClassDef glyph="Ydieresis" class="1"/>
+      <ClassDef glyph="Ygrave" class="1"/>
+      <ClassDef glyph="Z" class="1"/>
+      <ClassDef glyph="Zacute" class="1"/>
+      <ClassDef glyph="Zcaron" class="1"/>
+      <ClassDef glyph="Zdotaccent" class="1"/>
+      <ClassDef glyph="Zeta" class="1"/>
+      <ClassDef glyph="a" class="1"/>
+      <ClassDef glyph="aacute" class="1"/>
+      <ClassDef glyph="abreve" class="1"/>
+      <ClassDef glyph="acircumflex" class="1"/>
+      <ClassDef glyph="acutecomb" class="3"/>
+      <ClassDef glyph="acutecomb.case" class="3"/>
+      <ClassDef glyph="adieresis" class="1"/>
+      <ClassDef glyph="aeacute" class="1"/>
+      <ClassDef glyph="agrave" class="1"/>
+      <ClassDef glyph="amacron" class="1"/>
+      <ClassDef glyph="aogonek" class="1"/>
+      <ClassDef glyph="aring" class="1"/>
+      <ClassDef glyph="aringacute" class="1"/>
+      <ClassDef glyph="atilde" class="1"/>
+      <ClassDef glyph="b" class="1"/>
+      <ClassDef glyph="c" class="1"/>
+      <ClassDef glyph="cacute" class="1"/>
+      <ClassDef glyph="ccaron" class="1"/>
+      <ClassDef glyph="ccedilla" class="1"/>
+      <ClassDef glyph="ccircumflex" class="1"/>
+      <ClassDef glyph="cdotaccent" class="1"/>
+      <ClassDef glyph="cent" class="1"/>
+      <ClassDef glyph="d" class="1"/>
+      <ClassDef glyph="dcaron" class="1"/>
+      <ClassDef glyph="dcroat" class="1"/>
+      <ClassDef glyph="dotbelowcomb" class="3"/>
+      <ClassDef glyph="dotlessi" class="1"/>
+      <ClassDef glyph="e" class="1"/>
+      <ClassDef glyph="eacute" class="1"/>
+      <ClassDef glyph="ebreve" class="1"/>
+      <ClassDef glyph="ecaron" class="1"/>
+      <ClassDef glyph="ecircumflex" class="1"/>
+      <ClassDef glyph="edieresis" class="1"/>
+      <ClassDef glyph="edotaccent" class="1"/>
+      <ClassDef glyph="egrave" class="1"/>
+      <ClassDef glyph="emacron" class="1"/>
+      <ClassDef glyph="eogonek" class="1"/>
+      <ClassDef glyph="f" class="1"/>
+      <ClassDef glyph="f.italic" class="1"/>
+      <ClassDef glyph="g" class="1"/>
+      <ClassDef glyph="g.ss01" class="1"/>
+      <ClassDef glyph="gbreve" class="1"/>
+      <ClassDef glyph="gbreve.ss01" class="1"/>
+      <ClassDef glyph="gcaron" class="1"/>
+      <ClassDef glyph="gcaron.ss01" class="1"/>
+      <ClassDef glyph="gcircumflex" class="1"/>
+      <ClassDef glyph="gcircumflex.ss01" class="1"/>
+      <ClassDef glyph="gdotaccent" class="1"/>
+      <ClassDef glyph="gdotaccent.ss01" class="1"/>
+      <ClassDef glyph="gravecomb" class="3"/>
+      <ClassDef glyph="gravecomb.case" class="3"/>
+      <ClassDef glyph="h" class="1"/>
+      <ClassDef glyph="hbar" class="1"/>
+      <ClassDef glyph="hcircumflex" class="1"/>
+      <ClassDef glyph="hookabovecomb" class="3"/>
+      <ClassDef glyph="hookabovecomb.case" class="3"/>
+      <ClassDef glyph="i" class="1"/>
+      <ClassDef glyph="i.loclTRK" class="1"/>
+      <ClassDef glyph="iacute" class="1"/>
+      <ClassDef glyph="iacute_j.loclNLD" class="1"/>
+      <ClassDef glyph="ibreve" class="1"/>
+      <ClassDef glyph="icircumflex" class="1"/>
+      <ClassDef glyph="idieresis" class="1"/>
+      <ClassDef glyph="igrave" class="1"/>
+      <ClassDef glyph="ij" class="1"/>
+      <ClassDef glyph="imacron" class="1"/>
+      <ClassDef glyph="iogonek" class="1"/>
+      <ClassDef glyph="iota" class="1"/>
+      <ClassDef glyph="iotadieresis" class="1"/>
+      <ClassDef glyph="iotadieresistonos" class="1"/>
+      <ClassDef glyph="iotatonos" class="1"/>
+      <ClassDef glyph="itilde" class="1"/>
+      <ClassDef glyph="j" class="1"/>
+      <ClassDef glyph="jcircumflex" class="1"/>
+      <ClassDef glyph="k" class="1"/>
+      <ClassDef glyph="l" class="1"/>
+      <ClassDef glyph="lacute" class="1"/>
+      <ClassDef glyph="lcaron" class="1"/>
+      <ClassDef glyph="ldot" class="1"/>
+      <ClassDef glyph="longs" class="1"/>
+      <ClassDef glyph="longs.italic" class="1"/>
+      <ClassDef glyph="lslash" class="1"/>
+      <ClassDef glyph="m" class="1"/>
+      <ClassDef glyph="n" class="1"/>
+      <ClassDef glyph="nacute" class="1"/>
+      <ClassDef glyph="napostrophe" class="1"/>
+      <ClassDef glyph="ncaron" class="1"/>
+      <ClassDef glyph="ntilde" class="1"/>
+      <ClassDef glyph="nu" class="1"/>
+      <ClassDef glyph="o" class="1"/>
+      <ClassDef glyph="oacute" class="1"/>
+      <ClassDef glyph="obreve" class="1"/>
+      <ClassDef glyph="ocircumflex" class="1"/>
+      <ClassDef glyph="odieresis" class="1"/>
+      <ClassDef glyph="oe" class="1"/>
+      <ClassDef glyph="ograve" class="1"/>
+      <ClassDef glyph="ohungarumlaut" class="1"/>
+      <ClassDef glyph="omacron" class="1"/>
+      <ClassDef glyph="omicron" class="1"/>
+      <ClassDef glyph="omicrontonos" class="1"/>
+      <ClassDef glyph="oslash" class="1"/>
+      <ClassDef glyph="oslashacute" class="1"/>
+      <ClassDef glyph="otilde" class="1"/>
+      <ClassDef glyph="p" class="1"/>
+      <ClassDef glyph="r" class="1"/>
+      <ClassDef glyph="racute" class="1"/>
+      <ClassDef glyph="rcaron" class="1"/>
+      <ClassDef glyph="s" class="1"/>
+      <ClassDef glyph="sacute" class="1"/>
+      <ClassDef glyph="scaron" class="1"/>
+      <ClassDef glyph="scedilla" class="1"/>
+      <ClassDef glyph="scircumflex" class="1"/>
+      <ClassDef glyph="t" class="1"/>
+      <ClassDef glyph="tbar" class="1"/>
+      <ClassDef glyph="tildecomb" class="3"/>
+      <ClassDef glyph="tildecomb.case" class="3"/>
+      <ClassDef glyph="u" class="1"/>
+      <ClassDef glyph="uacute" class="1"/>
+      <ClassDef glyph="ubreve" class="1"/>
+      <ClassDef glyph="ucircumflex" class="1"/>
+      <ClassDef glyph="udieresis" class="1"/>
+      <ClassDef glyph="ugrave" class="1"/>
+      <ClassDef glyph="uhungarumlaut" class="1"/>
+      <ClassDef glyph="umacron" class="1"/>
+      <ClassDef glyph="uni004A0301" class="1"/>
+      <ClassDef glyph="uni006A0301" class="1"/>
+      <ClassDef glyph="uni0122" class="1"/>
+      <ClassDef glyph="uni0123" class="1"/>
+      <ClassDef glyph="uni0123.ss01" class="1"/>
+      <ClassDef glyph="uni0136" class="1"/>
+      <ClassDef glyph="uni0137" class="1"/>
+      <ClassDef glyph="uni013B" class="1"/>
+      <ClassDef glyph="uni013C" class="1"/>
+      <ClassDef glyph="uni0145" class="1"/>
+      <ClassDef glyph="uni0146" class="1"/>
+      <ClassDef glyph="uni0156" class="1"/>
+      <ClassDef glyph="uni0157" class="1"/>
+      <ClassDef glyph="uni0162" class="1"/>
+      <ClassDef glyph="uni0163" class="1"/>
+      <ClassDef glyph="uni0180" class="1"/>
+      <ClassDef glyph="uni018F" class="1"/>
+      <ClassDef glyph="uni019A" class="1"/>
+      <ClassDef glyph="uni01B5" class="1"/>
+      <ClassDef glyph="uni01B6" class="1"/>
+      <ClassDef glyph="uni01CD" class="1"/>
+      <ClassDef glyph="uni01CE" class="1"/>
+      <ClassDef glyph="uni01CF" class="1"/>
+      <ClassDef glyph="uni01D0" class="1"/>
+      <ClassDef glyph="uni01D1" class="1"/>
+      <ClassDef glyph="uni01D2" class="1"/>
+      <ClassDef glyph="uni01D3" class="1"/>
+      <ClassDef glyph="uni01D4" class="1"/>
+      <ClassDef glyph="uni01E2" class="1"/>
+      <ClassDef glyph="uni01E3" class="1"/>
+      <ClassDef glyph="uni01E8" class="1"/>
+      <ClassDef glyph="uni01E9" class="1"/>
+      <ClassDef glyph="uni01EA" class="1"/>
+      <ClassDef glyph="uni01EB" class="1"/>
+      <ClassDef glyph="uni01EC" class="1"/>
+      <ClassDef glyph="uni01ED" class="1"/>
+      <ClassDef glyph="uni01F0" class="1"/>
+      <ClassDef glyph="uni01F4" class="1"/>
+      <ClassDef glyph="uni01F5" class="1"/>
+      <ClassDef glyph="uni01F5.ss01" class="1"/>
+      <ClassDef glyph="uni01F8" class="1"/>
+      <ClassDef glyph="uni01F9" class="1"/>
+      <ClassDef glyph="uni0218" class="1"/>
+      <ClassDef glyph="uni0219" class="1"/>
+      <ClassDef glyph="uni021A" class="1"/>
+      <ClassDef glyph="uni021B" class="1"/>
+      <ClassDef glyph="uni021E" class="1"/>
+      <ClassDef glyph="uni021F" class="1"/>
+      <ClassDef glyph="uni0226" class="1"/>
+      <ClassDef glyph="uni0227" class="1"/>
+      <ClassDef glyph="uni0228" class="1"/>
+      <ClassDef glyph="uni0229" class="1"/>
+      <ClassDef glyph="uni022E" class="1"/>
+      <ClassDef glyph="uni022F" class="1"/>
+      <ClassDef glyph="uni0232" class="1"/>
+      <ClassDef glyph="uni0233" class="1"/>
+      <ClassDef glyph="uni0237" class="1"/>
+      <ClassDef glyph="uni023D" class="1"/>
+      <ClassDef glyph="uni0259" class="1"/>
+      <ClassDef glyph="uni0265" class="1"/>
+      <ClassDef glyph="uni0268" class="1"/>
+      <ClassDef glyph="uni026A" class="1"/>
+      <ClassDef glyph="uni0302" class="3"/>
+      <ClassDef glyph="uni0302.case" class="3"/>
+      <ClassDef glyph="uni03020300" class="3"/>
+      <ClassDef glyph="uni03020300.case" class="3"/>
+      <ClassDef glyph="uni03020301" class="3"/>
+      <ClassDef glyph="uni03020301.case" class="3"/>
+      <ClassDef glyph="uni03020303" class="3"/>
+      <ClassDef glyph="uni03020303.case" class="3"/>
+      <ClassDef glyph="uni03020309" class="3"/>
+      <ClassDef glyph="uni03020309.case" class="3"/>
+      <ClassDef glyph="uni0304" class="3"/>
+      <ClassDef glyph="uni0304.case" class="3"/>
+      <ClassDef glyph="uni03040306" class="3"/>
+      <ClassDef glyph="uni03040306.case" class="3"/>
+      <ClassDef glyph="uni0305" class="3"/>
+      <ClassDef glyph="uni0305.case" class="3"/>
+      <ClassDef glyph="uni0306" class="3"/>
+      <ClassDef glyph="uni0306.case" class="3"/>
+      <ClassDef glyph="uni03060300" class="3"/>
+      <ClassDef glyph="uni03060300.case" class="3"/>
+      <ClassDef glyph="uni03060301" class="3"/>
+      <ClassDef glyph="uni03060301.case" class="3"/>
+      <ClassDef glyph="uni03060303" class="3"/>
+      <ClassDef glyph="uni03060303.case" class="3"/>
+      <ClassDef glyph="uni03060309" class="3"/>
+      <ClassDef glyph="uni03060309.case" class="3"/>
+      <ClassDef glyph="uni0307" class="3"/>
+      <ClassDef glyph="uni0307.case" class="3"/>
+      <ClassDef glyph="uni0308" class="3"/>
+      <ClassDef glyph="uni0308.case" class="3"/>
+      <ClassDef glyph="uni030A" class="3"/>
+      <ClassDef glyph="uni030A.case" class="3"/>
+      <ClassDef glyph="uni030B" class="3"/>
+      <ClassDef glyph="uni030B.case" class="3"/>
+      <ClassDef glyph="uni030C" class="3"/>
+      <ClassDef glyph="uni030C.case" class="3"/>
+      <ClassDef glyph="uni0312" class="3"/>
+      <ClassDef glyph="uni0315" class="3"/>
+      <ClassDef glyph="uni031B" class="3"/>
+      <ClassDef glyph="uni031B.case" class="3"/>
+      <ClassDef glyph="uni0326" class="3"/>
+      <ClassDef glyph="uni0327" class="3"/>
+      <ClassDef glyph="uni0328" class="3"/>
+      <ClassDef glyph="uni0335" class="3"/>
+      <ClassDef glyph="uni0344" class="3"/>
+      <ClassDef glyph="uni0400" class="1"/>
+      <ClassDef glyph="uni0401" class="1"/>
+      <ClassDef glyph="uni0403" class="1"/>
+      <ClassDef glyph="uni0404" class="1"/>
+      <ClassDef glyph="uni0405" class="1"/>
+      <ClassDef glyph="uni0406" class="1"/>
+      <ClassDef glyph="uni0407" class="1"/>
+      <ClassDef glyph="uni0408" class="1"/>
+      <ClassDef glyph="uni040C" class="1"/>
+      <ClassDef glyph="uni040D" class="1"/>
+      <ClassDef glyph="uni040E" class="1"/>
+      <ClassDef glyph="uni0410" class="1"/>
+      <ClassDef glyph="uni0415" class="1"/>
+      <ClassDef glyph="uni0418" class="1"/>
+      <ClassDef glyph="uni0419" class="1"/>
+      <ClassDef glyph="uni041A" class="1"/>
+      <ClassDef glyph="uni041C" class="1"/>
+      <ClassDef glyph="uni041D" class="1"/>
+      <ClassDef glyph="uni041E" class="1"/>
+      <ClassDef glyph="uni0420" class="1"/>
+      <ClassDef glyph="uni0421" class="1"/>
+      <ClassDef glyph="uni0422" class="1"/>
+      <ClassDef glyph="uni0423" class="1"/>
+      <ClassDef glyph="uni0425" class="1"/>
+      <ClassDef glyph="uni042D" class="1"/>
+      <ClassDef glyph="uni042F" class="1"/>
+      <ClassDef glyph="uni0430" class="1"/>
+      <ClassDef glyph="uni0435" class="1"/>
+      <ClassDef glyph="uni0438" class="1"/>
+      <ClassDef glyph="uni0439" class="1"/>
+      <ClassDef glyph="uni043E" class="1"/>
+      <ClassDef glyph="uni0440" class="1"/>
+      <ClassDef glyph="uni0441" class="1"/>
+      <ClassDef glyph="uni0443" class="1"/>
+      <ClassDef glyph="uni0445" class="1"/>
+      <ClassDef glyph="uni044D" class="1"/>
+      <ClassDef glyph="uni0450" class="1"/>
+      <ClassDef glyph="uni0451" class="1"/>
+      <ClassDef glyph="uni0452" class="1"/>
+      <ClassDef glyph="uni0453" class="1"/>
+      <ClassDef glyph="uni0454" class="1"/>
+      <ClassDef glyph="uni0455" class="1"/>
+      <ClassDef glyph="uni0456" class="1"/>
+      <ClassDef glyph="uni0457" class="1"/>
+      <ClassDef glyph="uni0458" class="1"/>
+      <ClassDef glyph="uni045B" class="1"/>
+      <ClassDef glyph="uni045C" class="1"/>
+      <ClassDef glyph="uni045D" class="1"/>
+      <ClassDef glyph="uni045E" class="1"/>
+      <ClassDef glyph="uni1D7B" class="1"/>
+      <ClassDef glyph="uni1D7C" class="1"/>
+      <ClassDef glyph="uni1E03" class="1"/>
+      <ClassDef glyph="uni1E04" class="1"/>
+      <ClassDef glyph="uni1E05" class="1"/>
+      <ClassDef glyph="uni1E08" class="1"/>
+      <ClassDef glyph="uni1E09" class="1"/>
+      <ClassDef glyph="uni1E0A" class="1"/>
+      <ClassDef glyph="uni1E0B" class="1"/>
+      <ClassDef glyph="uni1E0C" class="1"/>
+      <ClassDef glyph="uni1E0D" class="1"/>
+      <ClassDef glyph="uni1E10" class="1"/>
+      <ClassDef glyph="uni1E11" class="1"/>
+      <ClassDef glyph="uni1E1C" class="1"/>
+      <ClassDef glyph="uni1E1D" class="1"/>
+      <ClassDef glyph="uni1E1E" class="1"/>
+      <ClassDef glyph="uni1E1F" class="1"/>
+      <ClassDef glyph="uni1E20" class="1"/>
+      <ClassDef glyph="uni1E21" class="1"/>
+      <ClassDef glyph="uni1E21.ss01" class="1"/>
+      <ClassDef glyph="uni1E22" class="1"/>
+      <ClassDef glyph="uni1E23" class="1"/>
+      <ClassDef glyph="uni1E24" class="1"/>
+      <ClassDef glyph="uni1E25" class="1"/>
+      <ClassDef glyph="uni1E26" class="1"/>
+      <ClassDef glyph="uni1E27" class="1"/>
+      <ClassDef glyph="uni1E28" class="1"/>
+      <ClassDef glyph="uni1E29" class="1"/>
+      <ClassDef glyph="uni1E30" class="1"/>
+      <ClassDef glyph="uni1E31" class="1"/>
+      <ClassDef glyph="uni1E32" class="1"/>
+      <ClassDef glyph="uni1E33" class="1"/>
+      <ClassDef glyph="uni1E36" class="1"/>
+      <ClassDef glyph="uni1E37" class="1"/>
+      <ClassDef glyph="uni1E38" class="1"/>
+      <ClassDef glyph="uni1E39" class="1"/>
+      <ClassDef glyph="uni1E3E" class="1"/>
+      <ClassDef glyph="uni1E3F" class="1"/>
+      <ClassDef glyph="uni1E40" class="1"/>
+      <ClassDef glyph="uni1E41" class="1"/>
+      <ClassDef glyph="uni1E42" class="1"/>
+      <ClassDef glyph="uni1E43" class="1"/>
+      <ClassDef glyph="uni1E44" class="1"/>
+      <ClassDef glyph="uni1E45" class="1"/>
+      <ClassDef glyph="uni1E46" class="1"/>
+      <ClassDef glyph="uni1E47" class="1"/>
+      <ClassDef glyph="uni1E54" class="1"/>
+      <ClassDef glyph="uni1E55" class="1"/>
+      <ClassDef glyph="uni1E56" class="1"/>
+      <ClassDef glyph="uni1E57" class="1"/>
+      <ClassDef glyph="uni1E58" class="1"/>
+      <ClassDef glyph="uni1E59" class="1"/>
+      <ClassDef glyph="uni1E5A" class="1"/>
+      <ClassDef glyph="uni1E5B" class="1"/>
+      <ClassDef glyph="uni1E5C" class="1"/>
+      <ClassDef glyph="uni1E5D" class="1"/>
+      <ClassDef glyph="uni1E60" class="1"/>
+      <ClassDef glyph="uni1E61" class="1"/>
+      <ClassDef glyph="uni1E62" class="1"/>
+      <ClassDef glyph="uni1E63" class="1"/>
+      <ClassDef glyph="uni1E68" class="1"/>
+      <ClassDef glyph="uni1E69" class="1"/>
+      <ClassDef glyph="uni1E6A" class="1"/>
+      <ClassDef glyph="uni1E6B" class="1"/>
+      <ClassDef glyph="uni1E6C" class="1"/>
+      <ClassDef glyph="uni1E6D" class="1"/>
+      <ClassDef glyph="uni1E7C" class="1"/>
+      <ClassDef glyph="uni1E7D" class="1"/>
+      <ClassDef glyph="uni1E7E" class="1"/>
+      <ClassDef glyph="uni1E7F" class="1"/>
+      <ClassDef glyph="uni1E86" class="1"/>
+      <ClassDef glyph="uni1E87" class="1"/>
+      <ClassDef glyph="uni1E88" class="1"/>
+      <ClassDef glyph="uni1E89" class="1"/>
+      <ClassDef glyph="uni1E8A" class="1"/>
+      <ClassDef glyph="uni1E8B" class="1"/>
+      <ClassDef glyph="uni1E8C" class="1"/>
+      <ClassDef glyph="uni1E8D" class="1"/>
+      <ClassDef glyph="uni1E8E" class="1"/>
+      <ClassDef glyph="uni1E8F" class="1"/>
+      <ClassDef glyph="uni1E90" class="1"/>
+      <ClassDef glyph="uni1E91" class="1"/>
+      <ClassDef glyph="uni1E92" class="1"/>
+      <ClassDef glyph="uni1E93" class="1"/>
+      <ClassDef glyph="uni1E97" class="1"/>
+      <ClassDef glyph="uni1E98" class="1"/>
+      <ClassDef glyph="uni1E99" class="1"/>
+      <ClassDef glyph="uni1E9B" class="1"/>
+      <ClassDef glyph="uni2139" class="1"/>
+      <ClassDef glyph="uni2204" class="1"/>
+      <ClassDef glyph="uni33D1" class="1"/>
+      <ClassDef glyph="uniA78D" class="1"/>
+      <ClassDef glyph="uniA7A8" class="1"/>
+      <ClassDef glyph="uniA7A9" class="1"/>
+      <ClassDef glyph="uogonek" class="1"/>
+      <ClassDef glyph="upsilon" class="1"/>
+      <ClassDef glyph="upsilondieresis" class="1"/>
+      <ClassDef glyph="upsilondieresistonos" class="1"/>
+      <ClassDef glyph="upsilontonos" class="1"/>
+      <ClassDef glyph="uring" class="1"/>
+      <ClassDef glyph="utilde" class="1"/>
+      <ClassDef glyph="v" class="1"/>
+      <ClassDef glyph="w" class="1"/>
+      <ClassDef glyph="wacute" class="1"/>
+      <ClassDef glyph="wcircumflex" class="1"/>
+      <ClassDef glyph="wdieresis" class="1"/>
+      <ClassDef glyph="wgrave" class="1"/>
+      <ClassDef glyph="x" class="1"/>
+      <ClassDef glyph="y" class="1"/>
+      <ClassDef glyph="yacute" class="1"/>
+      <ClassDef glyph="ycircumflex" class="1"/>
+      <ClassDef glyph="ydieresis" class="1"/>
+      <ClassDef glyph="ygrave" class="1"/>
+      <ClassDef glyph="z" class="1"/>
+      <ClassDef glyph="zacute" class="1"/>
+      <ClassDef glyph="zcaron" class="1"/>
+      <ClassDef glyph="zdotaccent" class="1"/>
+    </GlyphClassDef>
+    <MarkAttachClassDef>
+      <ClassDef glyph="acutecomb" class="1"/>
+      <ClassDef glyph="acutecomb.case" class="1"/>
+      <ClassDef glyph="dotbelowcomb" class="2"/>
+      <ClassDef glyph="gravecomb" class="1"/>
+      <ClassDef glyph="gravecomb.case" class="1"/>
+      <ClassDef glyph="hookabovecomb" class="1"/>
+      <ClassDef glyph="hookabovecomb.case" class="1"/>
+      <ClassDef glyph="tildecomb" class="1"/>
+      <ClassDef glyph="tildecomb.case" class="1"/>
+      <ClassDef glyph="uni0302" class="1"/>
+      <ClassDef glyph="uni0302.case" class="1"/>
+      <ClassDef glyph="uni03020300" class="1"/>
+      <ClassDef glyph="uni03020300.case" class="1"/>
+      <ClassDef glyph="uni03020301" class="1"/>
+      <ClassDef glyph="uni03020301.case" class="1"/>
+      <ClassDef glyph="uni03020303" class="1"/>
+      <ClassDef glyph="uni03020303.case" class="1"/>
+      <ClassDef glyph="uni03020309" class="1"/>
+      <ClassDef glyph="uni03020309.case" class="1"/>
+      <ClassDef glyph="uni0304" class="1"/>
+      <ClassDef glyph="uni0304.case" class="1"/>
+      <ClassDef glyph="uni03040306" class="1"/>
+      <ClassDef glyph="uni03040306.case" class="1"/>
+      <ClassDef glyph="uni0305" class="1"/>
+      <ClassDef glyph="uni0305.case" class="1"/>
+      <ClassDef glyph="uni0306" class="1"/>
+      <ClassDef glyph="uni0306.case" class="1"/>
+      <ClassDef glyph="uni03060300" class="1"/>
+      <ClassDef glyph="uni03060300.case" class="1"/>
+      <ClassDef glyph="uni03060301" class="1"/>
+      <ClassDef glyph="uni03060301.case" class="1"/>
+      <ClassDef glyph="uni03060303" class="1"/>
+      <ClassDef glyph="uni03060303.case" class="1"/>
+      <ClassDef glyph="uni03060309" class="1"/>
+      <ClassDef glyph="uni03060309.case" class="1"/>
+      <ClassDef glyph="uni0307" class="1"/>
+      <ClassDef glyph="uni0307.case" class="5"/>
+      <ClassDef glyph="uni0308" class="1"/>
+      <ClassDef glyph="uni0308.case" class="1"/>
+      <ClassDef glyph="uni030A" class="1"/>
+      <ClassDef glyph="uni030A.case" class="1"/>
+      <ClassDef glyph="uni030B" class="1"/>
+      <ClassDef glyph="uni030B.case" class="1"/>
+      <ClassDef glyph="uni030C" class="1"/>
+      <ClassDef glyph="uni030C.case" class="1"/>
+      <ClassDef glyph="uni0326" class="2"/>
+      <ClassDef glyph="uni0327" class="2"/>
+      <ClassDef glyph="uni0328" class="3"/>
+      <ClassDef glyph="uni0335" class="4"/>
+      <ClassDef glyph="uni0344" class="1"/>
+    </MarkAttachClassDef>
+    <VarStore Format="1">
+      <Format value="1"/>
+      <VarRegionList>
+        <!-- RegionAxisCount=3 -->
+        <!-- RegionCount=5 -->
+        <Region index="0">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="2">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="1">
+          <VarRegionAxis index="0">
+            <StartCoord value="-1.0"/>
+            <PeakCoord value="-1.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="2">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="2">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="2">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="3">
+          <VarRegionAxis index="0">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="2">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+        <Region index="4">
+          <VarRegionAxis index="0">
+            <StartCoord value="-1.0"/>
+            <PeakCoord value="-1.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="1.0"/>
+            <EndCoord value="1.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="2">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+      </VarRegionList>
+      <!-- VarDataCount=1 -->
+      <VarData index="0">
+        <!-- ItemCount=0 -->
+        <NumShorts value="5"/>
+        <!-- VarRegionCount=5 -->
+        <VarRegionIndex index="0" value="0"/>
+        <VarRegionIndex index="1" value="1"/>
+        <VarRegionIndex index="2" value="2"/>
+        <VarRegionIndex index="3" value="3"/>
+        <VarRegionIndex index="4" value="4"/>
+      </VarData>
+    </VarStore>
+  </GDEF>
 
   <GSUB>
     <Version value="0x00010001"/>
@@ -52224,6 +52923,27 @@
   <cvar>
     <version major="1" minor="0"/>
     <tuple>
+      <delta cvt="0" value="0"/>
+      <delta cvt="1" value="0"/>
+      <delta cvt="2" value="640"/>
+      <delta cvt="3" value="654"/>
+      <delta cvt="4" value="576"/>
+      <delta cvt="5" value="592"/>
+      <delta cvt="6" value="448"/>
+      <delta cvt="7" value="462"/>
+      <delta cvt="8" value="0"/>
+      <delta cvt="9" value="-20"/>
+      <delta cvt="10" value="-192"/>
+      <delta cvt="11" value="-206"/>
+      <delta cvt="12" value="320"/>
+      <delta cvt="13" value="300"/>
+      <delta cvt="14" value="0"/>
+      <delta cvt="15" value="64"/>
+      <delta cvt="16" value="72"/>
+      <delta cvt="17" value="64"/>
+      <delta cvt="18" value="0"/>
+    </tuple>
+    <tuple>
       <coord axis="wght" value="1.0"/>
       <delta cvt="0" value="0"/>
       <delta cvt="1" value="0"/>
@@ -52265,28 +52985,6 @@
       <delta cvt="15" value="-20"/>
       <delta cvt="16" value="-24"/>
       <delta cvt="17" value="-20"/>
-      <delta cvt="18" value="0"/>
-    </tuple>
-    <tuple>
-      <coord axis="ytde" value="1.0"/>
-      <delta cvt="0" value="0"/>
-      <delta cvt="1" value="0"/>
-      <delta cvt="2" value="0"/>
-      <delta cvt="3" value="0"/>
-      <delta cvt="4" value="0"/>
-      <delta cvt="5" value="0"/>
-      <delta cvt="6" value="0"/>
-      <delta cvt="7" value="0"/>
-      <delta cvt="8" value="0"/>
-      <delta cvt="9" value="0"/>
-      <delta cvt="10" value="128"/>
-      <delta cvt="11" value="128"/>
-      <delta cvt="12" value="0"/>
-      <delta cvt="13" value="0"/>
-      <delta cvt="14" value="0"/>
-      <delta cvt="15" value="0"/>
-      <delta cvt="16" value="0"/>
-      <delta cvt="17" value="0"/>
       <delta cvt="18" value="0"/>
     </tuple>
   </cvar>
@@ -52334,7 +53032,7 @@
     <!-- Light -->
     <!-- PostScript: Light -->
     <NamedInstance flags="0x0" postscriptNameID="260" subfamilyNameID="260">
-      <coord axis="wght" value="316.66666"/>
+      <coord axis="wght" value="300.0"/>
       <coord axis="ital" value="0.0"/>
       <coord axis="ytde" value="-192.0"/>
     </NamedInstance>
@@ -52350,7 +53048,7 @@
     <!-- Medium -->
     <!-- PostScript: Medium -->
     <NamedInstance flags="0x0" postscriptNameID="261" subfamilyNameID="261">
-      <coord axis="wght" value="550.0"/>
+      <coord axis="wght" value="600.0"/>
       <coord axis="ital" value="0.0"/>
       <coord axis="ytde" value="-192.0"/>
     </NamedInstance>
@@ -52374,7 +53072,7 @@
     <!-- Light Italic -->
     <!-- PostScript: LightItalic -->
     <NamedInstance flags="0x0" postscriptNameID="266" subfamilyNameID="265">
-      <coord axis="wght" value="316.66666"/>
+      <coord axis="wght" value="300.0"/>
       <coord axis="ital" value="1.0"/>
       <coord axis="ytde" value="-192.0"/>
     </NamedInstance>
@@ -52390,7 +53088,7 @@
     <!-- Medium Italic -->
     <!-- PostScript: MediumItalic -->
     <NamedInstance flags="0x0" postscriptNameID="268" subfamilyNameID="267">
-      <coord axis="wght" value="550.0"/>
+      <coord axis="wght" value="600.0"/>
       <coord axis="ital" value="1.0"/>
       <coord axis="ytde" value="-192.0"/>
     </NamedInstance>
@@ -53893,19 +54591,6 @@
         <delta pt="27" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="7" x="0" y="64"/>
-        <delta pt="8" x="0" y="65"/>
-        <delta pt="10" x="0" y="0"/>
-        <delta pt="11" x="0" y="128"/>
-        <delta pt="17" x="-10" y="-7"/>
-        <delta pt="18" x="0" y="0"/>
-        <delta pt="19" x="0" y="45"/>
-        <delta pt="20" x="0" y="102"/>
-        <delta pt="22" x="0" y="80"/>
-        <delta pt="23" x="7" y="8"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-2" y="0"/>
@@ -53968,6 +54653,19 @@
         <delta pt="25" x="0" y="0"/>
         <delta pt="26" x="0" y="0"/>
         <delta pt="27" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="7" x="0" y="64"/>
+        <delta pt="8" x="0" y="65"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="128"/>
+        <delta pt="17" x="-10" y="-7"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="45"/>
+        <delta pt="20" x="0" y="102"/>
+        <delta pt="22" x="0" y="80"/>
+        <delta pt="23" x="7" y="8"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="Eogonek">
@@ -56949,49 +57647,6 @@
         <delta pt="39" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="0" y="59"/>
-        <delta pt="1" x="18" y="22"/>
-        <delta pt="2" x="8" y="-1"/>
-        <delta pt="3" x="4" y="-4"/>
-        <delta pt="4" x="0" y="-4"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="0" y="0"/>
-        <delta pt="11" x="0" y="0"/>
-        <delta pt="12" x="0" y="10"/>
-        <delta pt="13" x="9" y="14"/>
-        <delta pt="14" x="18" y="7"/>
-        <delta pt="15" x="19" y="28"/>
-        <delta pt="16" x="15" y="51"/>
-        <delta pt="17" x="13" y="61"/>
-        <delta pt="18" x="0" y="64"/>
-        <delta pt="19" x="7" y="64"/>
-        <delta pt="20" x="0" y="0"/>
-        <delta pt="21" x="0" y="0"/>
-        <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="0" y="0"/>
-        <delta pt="26" x="0" y="0"/>
-        <delta pt="27" x="0" y="0"/>
-        <delta pt="28" x="0" y="0"/>
-        <delta pt="29" x="0" y="0"/>
-        <delta pt="30" x="0" y="0"/>
-        <delta pt="31" x="0" y="0"/>
-        <delta pt="32" x="0" y="0"/>
-        <delta pt="33" x="0" y="0"/>
-        <delta pt="34" x="0" y="0"/>
-        <delta pt="35" x="0" y="0"/>
-        <delta pt="36" x="0" y="0"/>
-        <delta pt="37" x="0" y="0"/>
-        <delta pt="38" x="0" y="0"/>
-        <delta pt="39" x="0" y="0"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-1" y="0"/>
@@ -57074,6 +57729,49 @@
         <delta pt="33" x="3" y="1"/>
         <delta pt="34" x="1" y="2"/>
         <delta pt="35" x="0" y="2"/>
+        <delta pt="36" x="0" y="0"/>
+        <delta pt="37" x="0" y="0"/>
+        <delta pt="38" x="0" y="0"/>
+        <delta pt="39" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="0" y="59"/>
+        <delta pt="1" x="18" y="22"/>
+        <delta pt="2" x="8" y="-1"/>
+        <delta pt="3" x="4" y="-4"/>
+        <delta pt="4" x="0" y="-4"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="10"/>
+        <delta pt="13" x="9" y="14"/>
+        <delta pt="14" x="18" y="7"/>
+        <delta pt="15" x="19" y="28"/>
+        <delta pt="16" x="15" y="51"/>
+        <delta pt="17" x="13" y="61"/>
+        <delta pt="18" x="0" y="64"/>
+        <delta pt="19" x="7" y="64"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+        <delta pt="35" x="0" y="0"/>
         <delta pt="36" x="0" y="0"/>
         <delta pt="37" x="0" y="0"/>
         <delta pt="38" x="0" y="0"/>
@@ -66503,11 +67201,6 @@
         <delta pt="30" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="10" x="0" y="128"/>
-        <delta pt="26" x="0" y="0"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
@@ -66576,6 +67269,11 @@
         <delta pt="28" x="0" y="0"/>
         <delta pt="29" x="0" y="0"/>
         <delta pt="30" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="10" x="0" y="128"/>
+        <delta pt="26" x="0" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="eogonek">
@@ -67558,13 +68256,6 @@
         <delta pt="32" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="2" x="-3" y="128"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="-3" y="128"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="0" y="3"/>
@@ -67637,6 +68328,13 @@
         <delta pt="30" x="0" y="0"/>
         <delta pt="31" x="0" y="0"/>
         <delta pt="32" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="2" x="-3" y="128"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="-3" y="128"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
@@ -68544,30 +69242,6 @@
         <delta pt="45" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="12" x="0" y="96"/>
-        <delta pt="13" x="3" y="96"/>
-        <delta pt="14" x="0" y="73"/>
-        <delta pt="16" x="0" y="24"/>
-        <delta pt="17" x="3" y="0"/>
-        <delta pt="18" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="0" y="128"/>
-        <delta pt="29" x="-3" y="96"/>
-        <delta pt="30" x="0" y="97"/>
-        <delta pt="31" x="0" y="-1"/>
-        <delta pt="32" x="-2" y="0"/>
-        <delta pt="33" x="0" y="0"/>
-        <delta pt="34" x="3" y="0"/>
-        <delta pt="35" x="2" y="8"/>
-        <delta pt="36" x="0" y="27"/>
-        <delta pt="37" x="0" y="48"/>
-        <delta pt="38" x="0" y="70"/>
-        <delta pt="39" x="4" y="90"/>
-        <delta pt="40" x="5" y="96"/>
-        <delta pt="41" x="0" y="96"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="1" y="0"/>
@@ -68666,6 +69340,30 @@
         <delta pt="43" x="0" y="0"/>
         <delta pt="44" x="0" y="0"/>
         <delta pt="45" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="12" x="0" y="96"/>
+        <delta pt="13" x="3" y="96"/>
+        <delta pt="14" x="0" y="73"/>
+        <delta pt="16" x="0" y="24"/>
+        <delta pt="17" x="3" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="128"/>
+        <delta pt="29" x="-3" y="96"/>
+        <delta pt="30" x="0" y="97"/>
+        <delta pt="31" x="0" y="-1"/>
+        <delta pt="32" x="-2" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="3" y="0"/>
+        <delta pt="35" x="2" y="8"/>
+        <delta pt="36" x="0" y="27"/>
+        <delta pt="37" x="0" y="48"/>
+        <delta pt="38" x="0" y="70"/>
+        <delta pt="39" x="4" y="90"/>
+        <delta pt="40" x="5" y="96"/>
+        <delta pt="41" x="0" y="96"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="g.ss01">
@@ -68901,83 +69599,6 @@
         <delta pt="73" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="0" y="128"/>
-        <delta pt="1" x="0" y="112"/>
-        <delta pt="2" x="0" y="100"/>
-        <delta pt="3" x="0" y="95"/>
-        <delta pt="4" x="0" y="82"/>
-        <delta pt="5" x="0" y="77"/>
-        <delta pt="6" x="0" y="76"/>
-        <delta pt="7" x="0" y="74"/>
-        <delta pt="8" x="0" y="72"/>
-        <delta pt="9" x="0" y="68"/>
-        <delta pt="10" x="-3" y="62"/>
-        <delta pt="11" x="-6" y="61"/>
-        <delta pt="12" x="-3" y="56"/>
-        <delta pt="13" x="0" y="42"/>
-        <delta pt="14" x="0" y="32"/>
-        <delta pt="15" x="0" y="18"/>
-        <delta pt="16" x="0" y="0"/>
-        <delta pt="17" x="0" y="0"/>
-        <delta pt="18" x="2" y="0"/>
-        <delta pt="19" x="7" y="0"/>
-        <delta pt="20" x="0" y="0"/>
-        <delta pt="21" x="0" y="0"/>
-        <delta pt="22" x="9" y="0"/>
-        <delta pt="23" x="0" y="13"/>
-        <delta pt="24" x="0" y="32"/>
-        <delta pt="25" x="0" y="45"/>
-        <delta pt="26" x="0" y="64"/>
-        <delta pt="27" x="0" y="64"/>
-        <delta pt="28" x="1" y="64"/>
-        <delta pt="29" x="-4" y="62"/>
-        <delta pt="30" x="-1" y="65"/>
-        <delta pt="31" x="0" y="72"/>
-        <delta pt="32" x="0" y="76"/>
-        <delta pt="33" x="0" y="79"/>
-        <delta pt="34" x="-4" y="80"/>
-        <delta pt="35" x="-8" y="80"/>
-        <delta pt="36" x="19" y="80"/>
-        <delta pt="37" x="8" y="80"/>
-        <delta pt="38" x="0" y="92"/>
-        <delta pt="39" x="0" y="104"/>
-        <delta pt="40" x="0" y="116"/>
-        <delta pt="41" x="-2" y="128"/>
-        <delta pt="42" x="0" y="128"/>
-        <delta pt="43" x="0" y="128"/>
-        <delta pt="44" x="0" y="115"/>
-        <delta pt="45" x="0" y="104"/>
-        <delta pt="46" x="0" y="92"/>
-        <delta pt="47" x="6" y="80"/>
-        <delta pt="48" x="14" y="80"/>
-        <delta pt="49" x="-8" y="80"/>
-        <delta pt="50" x="4" y="80"/>
-        <delta pt="51" x="3" y="79"/>
-        <delta pt="52" x="2" y="84"/>
-        <delta pt="53" x="0" y="95"/>
-        <delta pt="54" x="0" y="100"/>
-        <delta pt="55" x="0" y="113"/>
-        <delta pt="56" x="0" y="128"/>
-        <delta pt="57" x="0" y="128"/>
-        <delta pt="58" x="0" y="64"/>
-        <delta pt="59" x="0" y="48"/>
-        <delta pt="60" x="0" y="32"/>
-        <delta pt="61" x="0" y="17"/>
-        <delta pt="62" x="0" y="0"/>
-        <delta pt="63" x="0" y="0"/>
-        <delta pt="64" x="0" y="0"/>
-        <delta pt="65" x="0" y="17"/>
-        <delta pt="66" x="0" y="32"/>
-        <delta pt="67" x="0" y="48"/>
-        <delta pt="68" x="0" y="64"/>
-        <delta pt="69" x="0" y="64"/>
-        <delta pt="70" x="0" y="0"/>
-        <delta pt="71" x="0" y="0"/>
-        <delta pt="72" x="0" y="0"/>
-        <delta pt="73" x="0" y="0"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="1" y="0"/>
@@ -69128,6 +69749,83 @@
         <delta pt="67" x="-1" y="1"/>
         <delta pt="68" x="-1" y="0"/>
         <delta pt="69" x="0" y="0"/>
+        <delta pt="70" x="0" y="0"/>
+        <delta pt="71" x="0" y="0"/>
+        <delta pt="72" x="0" y="0"/>
+        <delta pt="73" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="0" y="128"/>
+        <delta pt="1" x="0" y="112"/>
+        <delta pt="2" x="0" y="100"/>
+        <delta pt="3" x="0" y="95"/>
+        <delta pt="4" x="0" y="82"/>
+        <delta pt="5" x="0" y="77"/>
+        <delta pt="6" x="0" y="76"/>
+        <delta pt="7" x="0" y="74"/>
+        <delta pt="8" x="0" y="72"/>
+        <delta pt="9" x="0" y="68"/>
+        <delta pt="10" x="-3" y="62"/>
+        <delta pt="11" x="-6" y="61"/>
+        <delta pt="12" x="-3" y="56"/>
+        <delta pt="13" x="0" y="42"/>
+        <delta pt="14" x="0" y="32"/>
+        <delta pt="15" x="0" y="18"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="2" y="0"/>
+        <delta pt="19" x="7" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="9" y="0"/>
+        <delta pt="23" x="0" y="13"/>
+        <delta pt="24" x="0" y="32"/>
+        <delta pt="25" x="0" y="45"/>
+        <delta pt="26" x="0" y="64"/>
+        <delta pt="27" x="0" y="64"/>
+        <delta pt="28" x="1" y="64"/>
+        <delta pt="29" x="-4" y="62"/>
+        <delta pt="30" x="-1" y="65"/>
+        <delta pt="31" x="0" y="72"/>
+        <delta pt="32" x="0" y="76"/>
+        <delta pt="33" x="0" y="79"/>
+        <delta pt="34" x="-4" y="80"/>
+        <delta pt="35" x="-8" y="80"/>
+        <delta pt="36" x="19" y="80"/>
+        <delta pt="37" x="8" y="80"/>
+        <delta pt="38" x="0" y="92"/>
+        <delta pt="39" x="0" y="104"/>
+        <delta pt="40" x="0" y="116"/>
+        <delta pt="41" x="-2" y="128"/>
+        <delta pt="42" x="0" y="128"/>
+        <delta pt="43" x="0" y="128"/>
+        <delta pt="44" x="0" y="115"/>
+        <delta pt="45" x="0" y="104"/>
+        <delta pt="46" x="0" y="92"/>
+        <delta pt="47" x="6" y="80"/>
+        <delta pt="48" x="14" y="80"/>
+        <delta pt="49" x="-8" y="80"/>
+        <delta pt="50" x="4" y="80"/>
+        <delta pt="51" x="3" y="79"/>
+        <delta pt="52" x="2" y="84"/>
+        <delta pt="53" x="0" y="95"/>
+        <delta pt="54" x="0" y="100"/>
+        <delta pt="55" x="0" y="113"/>
+        <delta pt="56" x="0" y="128"/>
+        <delta pt="57" x="0" y="128"/>
+        <delta pt="58" x="0" y="64"/>
+        <delta pt="59" x="0" y="48"/>
+        <delta pt="60" x="0" y="32"/>
+        <delta pt="61" x="0" y="17"/>
+        <delta pt="62" x="0" y="0"/>
+        <delta pt="63" x="0" y="0"/>
+        <delta pt="64" x="0" y="0"/>
+        <delta pt="65" x="0" y="17"/>
+        <delta pt="66" x="0" y="32"/>
+        <delta pt="67" x="0" y="48"/>
+        <delta pt="68" x="0" y="64"/>
+        <delta pt="69" x="0" y="64"/>
         <delta pt="70" x="0" y="0"/>
         <delta pt="71" x="0" y="0"/>
         <delta pt="72" x="0" y="0"/>
@@ -71019,13 +71717,6 @@
         <delta pt="49" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="12" x="0" y="128"/>
-        <delta pt="16" x="0" y="0"/>
-        <delta pt="21" x="0" y="64"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="8" y="0"/>
@@ -71132,6 +71823,13 @@
         <delta pt="47" x="0" y="0"/>
         <delta pt="48" x="0" y="0"/>
         <delta pt="49" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="12" x="0" y="128"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="21" x="0" y="64"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="imacron">
@@ -76109,44 +76807,6 @@
         <delta pt="34" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="0" y="0"/>
-        <delta pt="11" x="0" y="0"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="128"/>
-        <delta pt="17" x="0" y="128"/>
-        <delta pt="18" x="0" y="0"/>
-        <delta pt="19" x="0" y="0"/>
-        <delta pt="20" x="0" y="0"/>
-        <delta pt="21" x="0" y="0"/>
-        <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="0" y="0"/>
-        <delta pt="26" x="0" y="0"/>
-        <delta pt="27" x="0" y="0"/>
-        <delta pt="28" x="0" y="0"/>
-        <delta pt="29" x="0" y="0"/>
-        <delta pt="30" x="0" y="0"/>
-        <delta pt="31" x="0" y="0"/>
-        <delta pt="32" x="0" y="0"/>
-        <delta pt="33" x="0" y="0"/>
-        <delta pt="34" x="0" y="0"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
@@ -76219,6 +76879,44 @@
         <delta pt="28" x="-4" y="1"/>
         <delta pt="29" x="-2" y="0"/>
         <delta pt="30" x="-2" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="0" y="128"/>
+        <delta pt="17" x="0" y="128"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
         <delta pt="31" x="0" y="0"/>
         <delta pt="32" x="0" y="0"/>
         <delta pt="33" x="0" y="0"/>
@@ -77690,44 +78388,6 @@
         <delta pt="34" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="0" y="0"/>
-        <delta pt="11" x="0" y="0"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="128"/>
-        <delta pt="16" x="0" y="128"/>
-        <delta pt="17" x="0" y="0"/>
-        <delta pt="18" x="0" y="0"/>
-        <delta pt="19" x="0" y="0"/>
-        <delta pt="20" x="0" y="0"/>
-        <delta pt="21" x="0" y="0"/>
-        <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="0" y="0"/>
-        <delta pt="26" x="0" y="0"/>
-        <delta pt="27" x="0" y="0"/>
-        <delta pt="28" x="0" y="0"/>
-        <delta pt="29" x="0" y="0"/>
-        <delta pt="30" x="0" y="0"/>
-        <delta pt="31" x="0" y="0"/>
-        <delta pt="32" x="0" y="0"/>
-        <delta pt="33" x="0" y="0"/>
-        <delta pt="34" x="0" y="0"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="1" y="0"/>
@@ -77800,6 +78460,44 @@
         <delta pt="28" x="-2" y="0"/>
         <delta pt="29" x="-2" y="0"/>
         <delta pt="30" x="-2" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="128"/>
+        <delta pt="16" x="0" y="128"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
         <delta pt="31" x="0" y="0"/>
         <delta pt="32" x="0" y="0"/>
         <delta pt="33" x="0" y="0"/>
@@ -80902,43 +81600,6 @@
         <delta pt="33" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="0" y="0"/>
-        <delta pt="11" x="0" y="0"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="128"/>
-        <delta pt="16" x="0" y="128"/>
-        <delta pt="17" x="0" y="0"/>
-        <delta pt="18" x="0" y="0"/>
-        <delta pt="19" x="0" y="0"/>
-        <delta pt="20" x="0" y="0"/>
-        <delta pt="21" x="0" y="0"/>
-        <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="0" y="0"/>
-        <delta pt="26" x="0" y="0"/>
-        <delta pt="27" x="0" y="0"/>
-        <delta pt="28" x="0" y="0"/>
-        <delta pt="29" x="0" y="0"/>
-        <delta pt="30" x="0" y="0"/>
-        <delta pt="31" x="0" y="0"/>
-        <delta pt="32" x="0" y="0"/>
-        <delta pt="33" x="0" y="0"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
@@ -81009,6 +81670,43 @@
         <delta pt="27" x="-4" y="1"/>
         <delta pt="28" x="-4" y="0"/>
         <delta pt="29" x="-2" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="128"/>
+        <delta pt="16" x="0" y="128"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
         <delta pt="30" x="0" y="0"/>
         <delta pt="31" x="0" y="0"/>
         <delta pt="32" x="0" y="0"/>
@@ -85135,11 +85833,6 @@
         <delta pt="11" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="0" y="128"/>
-        <delta pt="4" x="0" y="128"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
@@ -85170,6 +85863,11 @@
         <delta pt="9" x="0" y="0"/>
         <delta pt="10" x="0" y="0"/>
         <delta pt="11" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="0" y="128"/>
+        <delta pt="4" x="0" y="128"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni006A0301">
@@ -86134,11 +86832,6 @@
         <delta pt="19" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="11" x="28" y="0"/>
-        <delta pt="15" x="28" y="128"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="0" y="-1"/>
@@ -86185,6 +86878,11 @@
         <delta pt="17" x="0" y="0"/>
         <delta pt="18" x="0" y="0"/>
         <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="11" x="28" y="0"/>
+        <delta pt="15" x="28" y="128"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni023D">
@@ -103880,37 +104578,6 @@
         <delta pt="27" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="-4" y="124"/>
-        <delta pt="1" x="-7" y="116"/>
-        <delta pt="2" x="-7" y="104"/>
-        <delta pt="3" x="-5" y="96"/>
-        <delta pt="4" x="-5" y="93"/>
-        <delta pt="5" x="-8" y="74"/>
-        <delta pt="6" x="-9" y="44"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="-7" y="44"/>
-        <delta pt="10" x="-7" y="78"/>
-        <delta pt="11" x="-2" y="93"/>
-        <delta pt="12" x="-2" y="95"/>
-        <delta pt="13" x="-1" y="81"/>
-        <delta pt="14" x="0" y="40"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="0"/>
-        <delta pt="17" x="0" y="48"/>
-        <delta pt="18" x="0" y="94"/>
-        <delta pt="19" x="0" y="108"/>
-        <delta pt="20" x="-3" y="115"/>
-        <delta pt="21" x="-1" y="123"/>
-        <delta pt="22" x="0" y="128"/>
-        <delta pt="23" x="0" y="128"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="0" y="0"/>
-        <delta pt="26" x="0" y="0"/>
-        <delta pt="27" x="0" y="0"/>
-      </tuple>
-      <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="3" y="-1"/>
@@ -103969,6 +104636,37 @@
         <delta pt="21" x="0" y="0"/>
         <delta pt="22" x="0" y="0"/>
         <delta pt="23" x="-3" y="-1"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="ytde" value="1.0"/>
+        <delta pt="0" x="-4" y="124"/>
+        <delta pt="1" x="-7" y="116"/>
+        <delta pt="2" x="-7" y="104"/>
+        <delta pt="3" x="-5" y="96"/>
+        <delta pt="4" x="-5" y="93"/>
+        <delta pt="5" x="-8" y="74"/>
+        <delta pt="6" x="-9" y="44"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="-7" y="44"/>
+        <delta pt="10" x="-7" y="78"/>
+        <delta pt="11" x="-2" y="93"/>
+        <delta pt="12" x="-2" y="95"/>
+        <delta pt="13" x="-1" y="81"/>
+        <delta pt="14" x="0" y="40"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="48"/>
+        <delta pt="18" x="0" y="94"/>
+        <delta pt="19" x="0" y="108"/>
+        <delta pt="20" x="-3" y="115"/>
+        <delta pt="21" x="-1" y="123"/>
+        <delta pt="22" x="0" y="128"/>
+        <delta pt="23" x="0" y="128"/>
         <delta pt="24" x="0" y="0"/>
         <delta pt="25" x="0" y="0"/>
         <delta pt="26" x="0" y="0"/>
