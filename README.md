@@ -2,7 +2,7 @@
 
 Sudo is a monospaced font designed for terminal and programming. Use at 16 pixels size for optimal results.
 
-Sudo proudly has no ligatures, but supports all common Powerline glyphs.
+Sudo proudly has no ligatures, but supports all common [Powerline](https://github.com/powerline/powerline) glyphs.
 
 Download the fonts at https://www.kutilek.de/sudo-font/.
 
