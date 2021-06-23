@@ -7,10 +7,13 @@ STYLES = $(patsubst %,Sudo-%.ttf,$(STYLE_NAMES))
 WOFF = $(STYLES:%.ttf=%.woff)
 WOF2 = $(STYLES:%.ttf=%.woff2)
 
-webfonts: woff2 woff
+.PHONY: webfonts
+webfonts: woff2 woff SudoVariable.woff2
 
+.PHONY: woff
 woff: $(WOFF)
 
+.PHONY: woff2
 woff2: $(WOF2)
 
 %.woff: ../%.ttf
@@ -21,8 +24,11 @@ woff2: $(WOF2)
 	$(WOF2_CMD) $<
 	mv $(basename $<).woff2 $@
 
+SudoVariable.woff2: ../SudoVariable.ttf
+	$(WOF2_CMD) ../SudoVariable.ttf
+	mv ../SudoVariable.woff2 .
+
+.PHONY: clean
 clean:
 	rm -f *.woff
 	rm -f *.woff2
-
-.PHONY: clean webfonts woff woff2
