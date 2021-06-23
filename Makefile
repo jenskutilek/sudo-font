@@ -5,9 +5,11 @@ WEBDIR = ~/Sites/kuti/_site/download/
 WEBPAGE = ~/Sites/kuti/src/sudo-font/index.html
 
 
+.PHONY: all
 all: $(FONTDIR) $(DISTDIR)/$(ARCHIVE) update_version
 
 
+.PHONY: $(FONTDIR)
 $(FONTDIR):
 	$(MAKE) -C $@
 
@@ -20,12 +22,12 @@ $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
 	fi
 
 
+.PHONY: clean
 clean:
 	$(MAKE) -C $(FONTDIR) clean
 
 
-.PHONY: all clean $(FONTDIR) update_version
-
+.PHONY: update_version
 update_version: zip_size := $(shell du -h $(DISTDIR)/$(ARCHIVE) | awk '{ sub(",", "."); print $$1"B"; }')
 update_version: sudo_version := $(shell git describe --tags)
 update_version:
