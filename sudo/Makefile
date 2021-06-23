@@ -2,7 +2,7 @@ WEBFONTDIR=Webfonts
 
 
 .PHONY: all
-all: $(WEBFONTDIR) SudoVariable.ttf
+all: SudoVariable.ttf $(WEBFONTDIR)
 
 
 .PHONY: $(WEBFONTDIR)
