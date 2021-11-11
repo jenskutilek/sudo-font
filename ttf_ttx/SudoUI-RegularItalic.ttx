@@ -1468,12 +1468,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.06099"/>
-    <checkSumAdjustment value="0x9359cb73"/>
+    <checkSumAdjustment value="0xb38dac33"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
     <created value="Thu Oct 28 10:37:42 2021"/>
-    <modified value="Thu Oct 28 15:25:42 2021"/>
+    <modified value="Thu Nov 11 11:04:31 2021"/>
     <xMin value="-159"/>
     <yMin value="-203"/>
     <xMax value="903"/>
@@ -28048,49 +28048,52 @@
       <component glyphName="uni00B2" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="two.osf" xMin="13" yMin="0" xMax="436" yMax="576">
+    <TTGlyph name="two.osf" xMin="13" yMin="0" xMax="417" yMax="456">
       <contour>
-        <pt x="194" y="576" on="0" overlap="1"/>
-        <pt x="271" y="576" on="1"/>
-        <pt x="347" y="576" on="0"/>
-        <pt x="436" y="515" on="0"/>
-        <pt x="436" y="449" on="1"/>
-        <pt x="436" y="431" on="0"/>
-        <pt x="431" y="403" on="1"/>
-        <pt x="420" y="349" on="0"/>
-        <pt x="371" y="278" on="0"/>
-        <pt x="302" y="233" on="0"/>
-        <pt x="250" y="213" on="1"/>
-        <pt x="178" y="187" on="0"/>
-        <pt x="116" y="129" on="0"/>
-        <pt x="104" y="81" on="1"/>
-        <pt x="98" y="61" on="1"/>
+        <pt x="173" y="456" on="0" overlap="1"/>
+        <pt x="246" y="456" on="1"/>
+        <pt x="325" y="456" on="0"/>
+        <pt x="417" y="406" on="0"/>
+        <pt x="417" y="352" on="1"/>
+        <pt x="417" y="338" on="0"/>
+        <pt x="414" y="323" on="1"/>
+        <pt x="406" y="281" on="0"/>
+        <pt x="360" y="228" on="0"/>
+        <pt x="300" y="197" on="0"/>
+        <pt x="242" y="174" on="1"/>
+        <pt x="167" y="147" on="0"/>
+        <pt x="109" y="108" on="0"/>
+        <pt x="102" y="78" on="1"/>
+        <pt x="97" y="61" on="1"/>
         <pt x="354" y="61" on="1"/>
         <pt x="342" y="0" on="1"/>
         <pt x="13" y="0" on="1"/>
-        <pt x="34" y="85" on="1"/>
-        <pt x="48" y="143" on="0"/>
-        <pt x="106" y="216" on="0"/>
-        <pt x="174" y="254" on="0"/>
-        <pt x="221" y="272" on="1"/>
-        <pt x="288" y="295" on="0"/>
-        <pt x="349" y="353" on="0"/>
-        <pt x="360" y="409" on="1"/>
-        <pt x="364" y="429" on="0"/>
-        <pt x="364" y="448" on="1"/>
-        <pt x="364" y="485" on="0"/>
-        <pt x="319" y="515" on="0"/>
-        <pt x="265" y="515" on="1"/>
-        <pt x="207" y="515" on="0"/>
-        <pt x="142" y="501" on="1"/>
-        <pt x="135" y="561" on="1"/>
+        <pt x="31" y="81" on="1"/>
+        <pt x="41" y="123" on="0"/>
+        <pt x="88" y="177" on="0"/>
+        <pt x="144" y="206" on="0"/>
+        <pt x="191" y="225" on="1"/>
+        <pt x="199" y="227" on="0"/>
+        <pt x="213" y="233" on="1"/>
+        <pt x="262" y="251" on="0"/>
+        <pt x="309" y="272" on="0"/>
+        <pt x="339" y="303" on="0"/>
+        <pt x="344" y="329" on="1"/>
+        <pt x="346" y="341" on="0"/>
+        <pt x="346" y="346" on="1"/>
+        <pt x="346" y="373" on="0"/>
+        <pt x="298" y="395" on="0"/>
+        <pt x="240" y="395" on="1"/>
+        <pt x="189" y="395" on="0"/>
+        <pt x="117" y="380" on="1"/>
+        <pt x="111" y="440" on="1"/>
       </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          30 15 1 4
+          33 15 1 6
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
@@ -28098,12 +28101,12 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          10 17 30
+          10 17 33
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
           PUSHB[ ]	/* 3 values pushed */
-          22 14 1
+          24 14 1
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
@@ -28119,7 +28122,7 @@
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 1 value pushed */
-          33
+          36
           MDRP[00001]	/* MoveDirectRelPt */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 3 values pushed */
@@ -28132,7 +28135,7 @@
           MDRP[00101]	/* MoveDirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          25 16 6
+          28 16 6
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[1]	/* InterpolateUntPts */
