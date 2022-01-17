@@ -1,5 +1,5 @@
 {
-.appVersion = "3100";
+.appVersion = "3110";
 .formatVersion = 3;
 axes = (
 {
@@ -162,7 +162,7 @@ name = de.kutilek.corretto.ttx;
 value = "../ttf_ttx";
 }
 );
-date = "2021-10-28 10:37:42 +0000";
+date = "2022-01-17 09:09:08 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -859,6 +859,9 @@ sub guilsinglleft by guilsinglleft.ss20;
 sub guilsinglright by guilsinglright.ss20;
 sub quotedbl by quotedbl.ss20;
 sub quotesingle by quotesingle.ss20;
+sub ratio by ratio.ss20;
+sub apostrophemod by apostrophemod.ss20;
+sub commaturnedmod by commaturnedmod.ss20;
 ";
 labels = (
 {
@@ -1458,7 +1461,7 @@ pos = (224,906);
 },
 {
 angle = 78.69;
-pos = (213,171);
+pos = (174,481);
 }
 );
 id = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -2412,7 +2415,10 @@ quotedbl.ss20,
 quotesingle.ss20,
 f.ss20.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -2782,7 +2788,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -3149,7 +3158,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -3517,7 +3529,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -3886,7 +3901,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -4254,7 +4272,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -4630,7 +4651,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -5011,7 +5035,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -5408,7 +5435,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -5784,7 +5814,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -6166,7 +6199,10 @@ f.ss20.italic,
 germandbls.italic,
 longs.italic,
 longs.ss20.italic,
-longsdotaccent.ss20.italic
+longsdotaccent.ss20.italic,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -6498,7 +6534,10 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20"
+"quotesingle=quotesingle.ss20",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -6842,7 +6881,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -7220,7 +7262,10 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20"
+"quotesingle=quotesingle.ss20",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -7526,7 +7571,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -7905,7 +7953,10 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20"
+"quotesingle=quotesingle.ss20",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -8211,7 +8262,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -8589,7 +8643,10 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20"
+"quotesingle=quotesingle.ss20",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -8895,7 +8952,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -9275,7 +9335,10 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20"
+"quotesingle=quotesingle.ss20",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -9581,7 +9644,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -9958,7 +10024,10 @@ value = (
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
 "quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic"
+"germandbls=germandbls.italic",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -10264,7 +10333,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -10641,7 +10713,10 @@ value = (
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
 "quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic"
+"germandbls=germandbls.italic",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -10947,7 +11022,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -11325,7 +11403,10 @@ value = (
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
 "quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic"
+"germandbls=germandbls.italic",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -11631,7 +11712,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -12008,7 +12092,10 @@ value = (
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
 "quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic"
+"germandbls=germandbls.italic",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -12314,7 +12401,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -12692,7 +12782,10 @@ value = (
 "guilsinglright=guilsinglright.ss20",
 "quotedbl=quotedbl.ss20",
 "quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic"
+"germandbls=germandbls.italic",
+"ratio=ratio.ss20",
+"apostrophemod=apostrophemod.ss20",
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
@@ -12998,7 +13091,10 @@ O.short,
 Ohorn.short,
 U.short,
 Uhorn.short,
-Y.short
+Y.short,
+ratio.ss20,
+apostrophemod.ss20,
+commaturnedmod.ss20
 );
 },
 {
@@ -13153,7 +13249,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "2009-2021 by Jens Kutilek";
+value = "2009-2022 by Jens Kutilek";
 }
 );
 },
@@ -13224,5 +13320,5 @@ name = vStem1;
 );
 unitsPerEm = 1024;
 versionMajor = 0;
-versionMinor = 61;
+versionMinor = 62;
 }
