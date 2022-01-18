@@ -1,28 +1,28 @@
 Sudo is Copyright (c) 2009-2021, Jens Kutilek (http://www.kutilek.de/).
 
-Version 0.62, 2022-01-17
+v0.62, 2022-01-17
 - Tweak old-style 2
 - Improve hinting for old-style figures
 - Tweak some accents
 - Add ratio, modifier letter apostrophe, modifier letter turned comma characters
 
-Version 0.61, 2021-11-11
+v0.61, 2021-11-11
 - Add old-style figures
 - Make /ballotBox/ballotBoxWithCheck/ballotBoxWithX/heavyGreekCross
   /heavyCheckMark/multiplicationX/heavyMultiplicationX/ballotX/heavyBallotX
 more consistent
 
-Version 0.60, 2021-09-23
+v0.60, 2021-09-23
 - Breaking change: Make default line height one "pixel" shorter (#23)
 - Add more missing glyphs
 
-Version 0.55.2, 2021-06-24
+v0.55.2, 2021-06-24
 - Fix variable font again
 
-Version 0.55.1, 2021-06-23
+v0.55.1, 2021-06-23
 - Re-add missing variable font
 
-Version 0.55, 2021-06-23
+v0.55, 2021-06-23
 - Add shorter variants of ABCDEF for use in hexadecimal numbers
 - Fix interpolation error in combining caron
 - Remove proportional and italic alternate glyphs from monospaced family
@@ -30,30 +30,30 @@ Version 0.55, 2021-06-23
 - Improve gasp table
 - Remove ccmp feature from monospaced fonts
 
-Version 0.54, 2021-06-17
+v0.54, 2021-06-17
 - Add support for Vietnamese
 - Add more missing glyphs
 
-Version 0.53.1, 2021-05-17
+v0.53.1, 2021-05-17
 - Bugfix for variable font: Remove rvrn feature, fix substitution condition range for italic forms (thanks Erwin Denissen)
 - Hinting fix for variable font
 
-Version 0.053, 2021-05-14
+v0.53.0, 2021-05-14
 - Include proportional "Sudo UI" family (former working title was  "Sudo Text")
 - Update sources to Glyphs 3 format
 - Rebuild variable font source from master source
 - Hinting fixes
 - Add more missing glyphs
 
-Version 0.052 (Fix for variable font only)
+v0.52 (Fix for variable font only)
 - Fix interpolation of ringcomb and acutecomb
 
-Version 0.051
+v0.51
 - Bugfix uni1D7B (#18)
 - Add uni026A
 - Fix position of strokeshortcomb in /dcroat/hbar/tbar/dje-cy
 
-Version 0.050
+v0.50
 - Add more missing Bold and Thin glyphs (/AE/I/IJ/OE/Germandbls/Schwa/I.ss02.ss20/eth/ij/eng/longs/r.ss20/s.ss20/braceleft/braceright/florin/asciicircum/partialdiff/ampersand/tildecomb)
 - Begin redesigning accents
 - Begin adding accents for Vietnamese
@@ -61,13 +61,13 @@ Version 0.050
 - Some italic corrections
 - Improve s
 
-Version 0.042
+v0.42
 - Add more powerline stuff
 - Update vendor ID
 - Update hinting
 - Minor changes
 
-Version 0.041
+v0.41
 - Breaking change! Adjust vertical metrics to allow for unclipped top accents. This will change the default line spacing of existing documents.
 - Add quick and dirty hungarumlautcomb to stay within the vertical metrics
 - Move underscoredbl up so it doesn't exceed the descender metric in Bold and Bold Italic
@@ -79,48 +79,48 @@ Version 0.041
 - Fix axis mapping in variable fonts again
 - Export fonts with Glyphs build 1284
 
-Version 0.040
+v0.40
 - Update variable font from design source
 - Rename variable font family name to "Sudo Variable", to avoid confusion with the static fonts
 - Add variable web font in WOFF2 format
 - Export fonts with Glyphs build 1264
 
-Version 0.039
+v0.39
 - Add Braille 6 dot glyphs
 - Add color versions for light, medium and dark shade characters
 
-Version 0.038
+v0.38
 - Bugfix for font names in Italic and Bold
 
-Version 0.037
+v0.37
 - Finish numbers in Thin masters
 - Redesign acute and grave accents, dieresis, macron
 - Improvements in Thin masters
 - Bugfixes and other improvements
 
-Version 0.036
+v0.36
 - Update variable font and webfonts
 
-Version 0.035
+v0.35
 - Add some old-school pixel smilies
 - Fixes
 
-Version 0.033-dev5
+v0.33-dev5
 - Add Italic data in Glyphs file
 - Improve display of Italic on macOS
 
-Version 0.033-dev4
+v0.33-dev4
 - Raise hyphen and endash, emdash, horizontalbar to better align with mathematical symbols
 
-Version 0.033-dev3
+v0.33-dev3
 - Export with Glyphs build 1128, should fix most of the hinting problems
 - Include Variable Font for upright styles
 
-Version 0.033-dev2
+v0.33-dev2
 - Resolve some hinting problems
 - Make all glyphs actually monospaced
 
-Version 0.033-dev
+v0.33-dev
 
 - Support Powerline
 - Redesign some glyphs
@@ -129,7 +129,7 @@ Version 0.033-dev
 - Add proportionally spaced Sudo Text family (in progress)
 - Move sources to GlyphsApp
 
-2016-05-29, Version 0.033
+v0.33, 2016-05-29
 
 - Mark fonts as monospaced (was there a reason why I didn’t before?)
 - Update glyph set in Regular and Regular Italic with icon set
@@ -137,6 +137,6 @@ Version 0.033-dev
 - Copy hinting from Bold to Bold Italic
 - Include web fonts (WOFF)
 
-2013-11-13, Version 0.032
+v0.32, 2013-11-13
 
 - Initial public release
