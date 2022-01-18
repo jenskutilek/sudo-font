@@ -15,11 +15,9 @@ jobs:
     - name: Build
       run: make sudo dist/sudo.zip
     - name: Generate Changelog
-      run: sed -n '/${{github.ref_name}}/,/^$/p' sudo/FONTLOG.txt | sed '1d; $d' > Release
-    - name: Test
-      run: cat sudo/FONTLOG.txt
+      run: sed -n '/${{github.ref_name}}/,/^$/p' sudo/FONTLOG.txt | sed '1d; $d' > Release_Notes.txt
     - name: Release
       uses: softprops/action-gh-release@v0.1.14
       with:
-        body_path: Release
+        body_path: Release_Notes.txt
         files: dist/sudo.zip
