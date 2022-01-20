@@ -36,13 +36,14 @@ def metrics_color():
 def highlight_color():
     fill(253/255, 95/255, 0, 0.3)
 
-def mono_metrics():
+def mono_metrics(text_x, s):
     save()
     metrics_color()
     y = 0
-    line((0, y), (width() / s, y))
+    xmax = width() / s
+    line((0, y), (xmax, y))
     y = 448
-    line((0, y), (width() / s, y))
+    line((0, y), (xmax, y))
     y = 640
     line((text_x + 9 * 448, y), (text_x + 10 * 448, y))
     y = -192
@@ -78,17 +79,17 @@ def monospaced():
     
     # The text lines
     translate(0, -line_height * 0.85)
-    mono_metrics()
+    mono_metrics(text_x, s)
     font("Sudo Thin")
     text_path("monospaced", (text_x, 0), "../sudo/Sudo-Thin.ttf")
     
     translate(0, -line_height)
-    mono_metrics()
+    mono_metrics(text_x, s)
     font("Sudo Regular")
     text_path("monospaced", (text_x, 0), "../sudo/Sudo-Regular.ttf")
     
     translate(0, -line_height)
-    mono_metrics()
+    mono_metrics(text_x, s)
     font("Sudo Bold")
     text_path("monospaced", (text_x, 0), "../sudo/Sudo-Bold.ttf")
 
@@ -182,17 +183,18 @@ def github():
     
     # The text lines
     translate(0, -line_height * 0.85)
-    mono_metrics()
+    mono_metrics(text_x, s)
     font("Sudo Thin")
+    # translate(-448, 0)
     text_path("monospaced", (text_x, 0), "../sudo/Sudo-Thin.ttf")
     
     translate(0, -line_height)
-    mono_metrics()
+    mono_metrics(text_x, s)
     font("Sudo Regular")
     text_path("monospaced", (text_x, 0), "../sudo/Sudo-Regular.ttf")
     
     translate(0, -line_height)
-    mono_metrics()
+    mono_metrics(text_x, s)
     font("Sudo Bold")
     text_path("monospaced", (text_x, 0), "../sudo/Sudo-Bold.ttf")
 
