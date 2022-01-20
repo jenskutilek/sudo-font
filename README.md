@@ -4,7 +4,7 @@ Sudo is a monospaced font designed for terminal and programming. Use at 16 pixel
 
 Sudo proudly has no ligatures, but supports all common [Powerline](https://github.com/powerline/powerline) glyphs out of the box.
 
-Download the fonts at https://www.kutilek.de/sudo-font/.
+Find out more about the fonts at https://www.kutilek.de/sudo-font/ or download the [latest release](https://github.com/jenskutilek/sudo-font/releases/latest/download/sudo.zip).
 
 <img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo.png">
 
@@ -28,7 +28,7 @@ pkg install sudo-font
 
 ### macOS
 
-Download the [latest release](https://www.kutilek.de/download/sudo.zip) and copy the fonts into `/Library/Fonts` or `~/Library/Fonts`.
+Download the [latest release](https://github.com/jenskutilek/sudo-font/releases/latest/download/sudo.zip) and copy the TTF files into `/Library/Fonts` or `~/Library/Fonts`.
 
 Sudo is also available as a [Homebrew](https://brew.sh/) package.
 
