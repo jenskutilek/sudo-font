@@ -15,7 +15,11 @@ $(FONTDIR):
 
 
 $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
-	rm -f $(DISTDIR)/$(ARCHIVE)
+	if test -e $(DISTDIR); then \
+		rm -f $(DISTDIR)/$(ARCHIVE); \
+	else \
+		mkdir $(DISTDIR); \
+	fi
 	zip -r $(DISTDIR)/$(ARCHIVE) $(FONTDIR)/ --exclude "*.DS_Store" "*Makefile"
 	if test -e $(WEBDIR); then \
 		cp $(DISTDIR)/$(ARCHIVE) $(WEBDIR)/$(ARCHIVE); \
