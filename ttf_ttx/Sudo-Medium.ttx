@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.29">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.31">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -1485,13 +1485,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="0.06299"/>
-    <checkSumAdjustment value="0xac70c2ba"/>
+    <fontRevision value="0.064"/>
+    <checkSumAdjustment value="0xab38c084"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sat Mar  5 12:45:34 2022"/>
-    <modified value="Sat Mar  5 12:56:02 2022"/>
+    <created value="Tue Apr  5 09:16:27 2022"/>
+    <modified value="Tue Apr  5 16:37:04 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -13925,7 +13925,7 @@
 
     <TTGlyph name="Uogonek" xMin="55" yMin="-197" xMax="393" yMax="640">
       <component glyphName="U" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0328" x="-104" y="0" flags="0x400"/>
+      <component glyphName="uni0328" x="-105" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="Upsilon" xMin="31" yMin="0" xMax="417" yMax="640">
@@ -19849,6 +19849,7 @@
         <pt x="304" y="-9" on="0"/>
         <pt x="265" y="-9" on="1"/>
         <pt x="168" y="-9" on="1"/>
+        <pt x="154" y="-9" on="0"/>
         <pt x="148" y="-8" on="1"/>
         <pt x="137" y="-20" on="0"/>
         <pt x="125" y="-49" on="0"/>
@@ -19872,7 +19873,7 @@
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          61 15 39 6
+          62 15 39 6
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
@@ -19898,7 +19899,7 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          56 15 9
+          57 15 9
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
@@ -19918,11 +19919,11 @@
           MDRP[00101]	/* MoveDirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          53 16 26
+          54 16 26
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          64 16 36
+          65 16 36
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
@@ -19932,7 +19933,7 @@
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          58 16 6
+          59 16 6
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
@@ -20700,7 +20701,7 @@
         <pt x="195" y="-200" on="0" overlap="1"/>
         <pt x="153" y="-193" on="1"/>
         <pt x="159" y="-128" on="1"/>
-        <pt x="199" y="-132" on="0"/>
+        <pt x="197" y="-132" on="0"/>
         <pt x="224" y="-132" on="1"/>
         <pt x="267" y="-132" on="0"/>
         <pt x="301" y="-91" on="0"/>
@@ -31718,7 +31719,7 @@
 
     <TTGlyph name="uni01EA" xMin="32" yMin="-197" xMax="416" yMax="650">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0328" x="-103" y="0" flags="0x400"/>
+      <component glyphName="uni0328" x="-104" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni01EB" xMin="40" yMin="-197" xMax="408" yMax="461">
@@ -31844,7 +31845,7 @@
         <pt x="77" y="-200" on="0"/>
         <pt x="35" y="-193" on="1"/>
         <pt x="41" y="-128" on="1"/>
-        <pt x="81" y="-132" on="0"/>
+        <pt x="79" y="-132" on="0"/>
         <pt x="106" y="-132" on="1"/>
         <pt x="149" y="-132" on="0"/>
         <pt x="183" y="-91" on="0"/>
@@ -36497,6 +36498,7 @@
         <pt x="260" y="255" on="0"/>
         <pt x="191" y="280" on="1"/>
         <pt x="211" y="340" on="1"/>
+        <pt x="218" y="339" on="0"/>
         <pt x="240" y="332" on="1"/>
         <pt x="301" y="417" on="0"/>
         <pt x="301" y="519" on="1"/>
@@ -36510,11 +36512,11 @@
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 2 values pushed */
-          29 8
+          30 8
           MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          28 15 0 2
+          29 15 0 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
@@ -36522,7 +36524,7 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          21 11 28
+          21 11 29
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
@@ -36542,12 +36544,12 @@
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 3 values pushed */
-          4 7 30
+          4 7 31
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          29 16 30
+          30 16 31
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
@@ -36566,7 +36568,7 @@
           MDRP[00101]	/* MoveDirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          25 16 3
+          26 16 3
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[1]	/* InterpolateUntPts */
@@ -37663,8 +37665,8 @@
       <component glyphName="uni00B9" x="0" y="-448" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni2082" xMin="52" yMin="-128" xMax="264" yMax="192">
-      <component glyphName="uni00B2" x="0" y="-448" flags="0x404"/>
+    <TTGlyph name="uni2082" xMin="52" yMin="-129" xMax="264" yMax="191">
+      <component glyphName="uni00B2" x="0" y="-449" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2083" xMin="58" yMin="-134" xMax="270" yMax="200">
@@ -46260,7 +46262,7 @@
       Sudo Medium
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 0.063
+      Version 0.064
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Sudo-Medium
@@ -46275,13 +46277,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      0.063;JENS;Sudo-Medium
+      0.064;JENS;Sudo-Medium
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo Medium
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 0.063
+      Version 0.064
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Sudo-Medium
@@ -48245,15 +48247,15 @@
             <FeatureIndex index="2" value="12"/>
             <FeatureIndex index="3" value="18"/>
             <FeatureIndex index="4" value="24"/>
-            <FeatureIndex index="5" value="33"/>
-            <FeatureIndex index="6" value="39"/>
-            <FeatureIndex index="7" value="45"/>
-            <FeatureIndex index="8" value="51"/>
-            <FeatureIndex index="9" value="57"/>
-            <FeatureIndex index="10" value="63"/>
-            <FeatureIndex index="11" value="69"/>
-            <FeatureIndex index="12" value="75"/>
-            <FeatureIndex index="13" value="81"/>
+            <FeatureIndex index="5" value="34"/>
+            <FeatureIndex index="6" value="40"/>
+            <FeatureIndex index="7" value="46"/>
+            <FeatureIndex index="8" value="52"/>
+            <FeatureIndex index="9" value="58"/>
+            <FeatureIndex index="10" value="64"/>
+            <FeatureIndex index="11" value="70"/>
+            <FeatureIndex index="12" value="76"/>
+            <FeatureIndex index="13" value="82"/>
           </DefaultLangSys>
           <!-- LangSysCount=0 -->
         </Script>
@@ -48269,15 +48271,15 @@
             <FeatureIndex index="2" value="13"/>
             <FeatureIndex index="3" value="19"/>
             <FeatureIndex index="4" value="25"/>
-            <FeatureIndex index="5" value="34"/>
-            <FeatureIndex index="6" value="40"/>
-            <FeatureIndex index="7" value="46"/>
-            <FeatureIndex index="8" value="52"/>
-            <FeatureIndex index="9" value="58"/>
-            <FeatureIndex index="10" value="64"/>
-            <FeatureIndex index="11" value="70"/>
-            <FeatureIndex index="12" value="76"/>
-            <FeatureIndex index="13" value="82"/>
+            <FeatureIndex index="5" value="35"/>
+            <FeatureIndex index="6" value="41"/>
+            <FeatureIndex index="7" value="47"/>
+            <FeatureIndex index="8" value="53"/>
+            <FeatureIndex index="9" value="59"/>
+            <FeatureIndex index="10" value="65"/>
+            <FeatureIndex index="11" value="71"/>
+            <FeatureIndex index="12" value="77"/>
+            <FeatureIndex index="13" value="83"/>
           </DefaultLangSys>
           <!-- LangSysCount=4 -->
           <LangSysRecord index="0">
@@ -48291,48 +48293,27 @@
               <FeatureIndex index="3" value="20"/>
               <FeatureIndex index="4" value="26"/>
               <FeatureIndex index="5" value="30"/>
-              <FeatureIndex index="6" value="35"/>
-              <FeatureIndex index="7" value="41"/>
-              <FeatureIndex index="8" value="47"/>
-              <FeatureIndex index="9" value="53"/>
-              <FeatureIndex index="10" value="59"/>
-              <FeatureIndex index="11" value="65"/>
-              <FeatureIndex index="12" value="71"/>
-              <FeatureIndex index="13" value="77"/>
-              <FeatureIndex index="14" value="83"/>
+              <FeatureIndex index="6" value="36"/>
+              <FeatureIndex index="7" value="42"/>
+              <FeatureIndex index="8" value="48"/>
+              <FeatureIndex index="9" value="54"/>
+              <FeatureIndex index="10" value="60"/>
+              <FeatureIndex index="11" value="66"/>
+              <FeatureIndex index="12" value="72"/>
+              <FeatureIndex index="13" value="78"/>
+              <FeatureIndex index="14" value="84"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="1">
             <LangSysTag value="MOL "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
-              <!-- FeatureCount=14 -->
+              <!-- FeatureCount=15 -->
               <FeatureIndex index="0" value="3"/>
               <FeatureIndex index="1" value="9"/>
               <FeatureIndex index="2" value="15"/>
               <FeatureIndex index="3" value="21"/>
               <FeatureIndex index="4" value="27"/>
-              <FeatureIndex index="5" value="36"/>
-              <FeatureIndex index="6" value="42"/>
-              <FeatureIndex index="7" value="48"/>
-              <FeatureIndex index="8" value="54"/>
-              <FeatureIndex index="9" value="60"/>
-              <FeatureIndex index="10" value="66"/>
-              <FeatureIndex index="11" value="72"/>
-              <FeatureIndex index="12" value="78"/>
-              <FeatureIndex index="13" value="84"/>
-            </LangSys>
-          </LangSysRecord>
-          <LangSysRecord index="2">
-            <LangSysTag value="NLD "/>
-            <LangSys>
-              <ReqFeatureIndex value="65535"/>
-              <!-- FeatureCount=15 -->
-              <FeatureIndex index="0" value="4"/>
-              <FeatureIndex index="1" value="10"/>
-              <FeatureIndex index="2" value="16"/>
-              <FeatureIndex index="3" value="22"/>
-              <FeatureIndex index="4" value="28"/>
               <FeatureIndex index="5" value="31"/>
               <FeatureIndex index="6" value="37"/>
               <FeatureIndex index="7" value="43"/>
@@ -48345,16 +48326,16 @@
               <FeatureIndex index="14" value="85"/>
             </LangSys>
           </LangSysRecord>
-          <LangSysRecord index="3">
-            <LangSysTag value="ROM "/>
+          <LangSysRecord index="2">
+            <LangSysTag value="NLD "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=15 -->
-              <FeatureIndex index="0" value="5"/>
-              <FeatureIndex index="1" value="11"/>
-              <FeatureIndex index="2" value="17"/>
-              <FeatureIndex index="3" value="23"/>
-              <FeatureIndex index="4" value="29"/>
+              <FeatureIndex index="0" value="4"/>
+              <FeatureIndex index="1" value="10"/>
+              <FeatureIndex index="2" value="16"/>
+              <FeatureIndex index="3" value="22"/>
+              <FeatureIndex index="4" value="28"/>
               <FeatureIndex index="5" value="32"/>
               <FeatureIndex index="6" value="38"/>
               <FeatureIndex index="7" value="44"/>
@@ -48367,11 +48348,33 @@
               <FeatureIndex index="14" value="86"/>
             </LangSys>
           </LangSysRecord>
+          <LangSysRecord index="3">
+            <LangSysTag value="ROM "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=15 -->
+              <FeatureIndex index="0" value="5"/>
+              <FeatureIndex index="1" value="11"/>
+              <FeatureIndex index="2" value="17"/>
+              <FeatureIndex index="3" value="23"/>
+              <FeatureIndex index="4" value="29"/>
+              <FeatureIndex index="5" value="33"/>
+              <FeatureIndex index="6" value="39"/>
+              <FeatureIndex index="7" value="45"/>
+              <FeatureIndex index="8" value="51"/>
+              <FeatureIndex index="9" value="57"/>
+              <FeatureIndex index="10" value="63"/>
+              <FeatureIndex index="11" value="69"/>
+              <FeatureIndex index="12" value="75"/>
+              <FeatureIndex index="13" value="81"/>
+              <FeatureIndex index="14" value="87"/>
+            </LangSys>
+          </LangSysRecord>
         </Script>
       </ScriptRecord>
     </ScriptList>
     <FeatureList>
-      <!-- FeatureCount=87 -->
+      <!-- FeatureCount=88 -->
       <FeatureRecord index="0">
         <FeatureTag value="aalt"/>
         <Feature>
@@ -48623,21 +48626,21 @@
         <FeatureTag value="locl"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="3"/>
+          <LookupListIndex index="0" value="2"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="32">
         <FeatureTag value="locl"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="2"/>
+          <LookupListIndex index="0" value="3"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="33">
-        <FeatureTag value="numr"/>
+        <FeatureTag value="locl"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="8"/>
+          <LookupListIndex index="0" value="2"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="34">
@@ -48676,10 +48679,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="39">
-        <FeatureTag value="onum"/>
+        <FeatureTag value="numr"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="21"/>
+          <LookupListIndex index="0" value="8"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="40">
@@ -48718,10 +48721,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="45">
-        <FeatureTag value="ornm"/>
+        <FeatureTag value="onum"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="15"/>
+          <LookupListIndex index="0" value="21"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="46">
@@ -48760,10 +48763,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="51">
-        <FeatureTag value="sinf"/>
+        <FeatureTag value="ornm"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="6"/>
+          <LookupListIndex index="0" value="15"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="52">
@@ -48802,14 +48805,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="57">
-        <FeatureTag value="ss01"/>
+        <FeatureTag value="sinf"/>
         <Feature>
-          <FeatureParamsStylisticSet>
-            <Version value="0"/>
-            <UINameID value="256"/>  <!-- Alternate g -->
-          </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="0" value="6"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="58">
@@ -48868,14 +48867,14 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="63">
-        <FeatureTag value="ss02"/>
+        <FeatureTag value="ss01"/>
         <Feature>
           <FeatureParamsStylisticSet>
             <Version value="0"/>
-            <UINameID value="257"/>  <!-- Typewriter quotes -->
+            <UINameID value="256"/>  <!-- Alternate g -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="20"/>
+          <LookupListIndex index="0" value="19"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="64">
@@ -48934,10 +48933,14 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="69">
-        <FeatureTag value="subs"/>
+        <FeatureTag value="ss02"/>
         <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="257"/>  <!-- Typewriter quotes -->
+          </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="5"/>
+          <LookupListIndex index="0" value="20"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="70">
@@ -48976,10 +48979,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="75">
-        <FeatureTag value="sups"/>
+        <FeatureTag value="subs"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="7"/>
+          <LookupListIndex index="0" value="5"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="76">
@@ -49018,10 +49021,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="81">
-        <FeatureTag value="zero"/>
+        <FeatureTag value="sups"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="0" value="7"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="82">
@@ -49053,6 +49056,13 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="86">
+        <FeatureTag value="zero"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="14"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="87">
         <FeatureTag value="zero"/>
         <Feature>
           <!-- LookupCount=1 -->
@@ -49651,7 +49661,7 @@
             <!-- ChainSubRuleCount=3 -->
             <ChainSubRule index="0">
               <!-- BacktrackGlyphCount=1 -->
-              <Backtrack index="0" value="arrowleft"/>
+              <Backtrack index="0" value="emdash"/>
               <!-- InputGlyphCount=1 -->
               <!-- LookAheadGlyphCount=0 -->
               <!-- SubstCount=1 -->
@@ -49662,7 +49672,7 @@
             </ChainSubRule>
             <ChainSubRule index="1">
               <!-- BacktrackGlyphCount=1 -->
-              <Backtrack index="0" value="emdash"/>
+              <Backtrack index="0" value="arrowleft"/>
               <!-- InputGlyphCount=1 -->
               <!-- LookAheadGlyphCount=0 -->
               <!-- SubstCount=1 -->
