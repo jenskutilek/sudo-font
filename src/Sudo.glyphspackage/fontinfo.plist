@@ -1,5 +1,5 @@
 {
-.appVersion = "3117";
+.appVersion = "3120";
 .formatVersion = 3;
 axes = (
 {
@@ -11,8 +11,8 @@ name = Italic;
 tag = ital;
 },
 {
-name = "y transparent descender";
-tag = ytde;
+name = Descender;
+tag = YTDE;
 }
 );
 classes = (
@@ -138,7 +138,7 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
+Axis = Descender;
 Location = -64;
 }
 );
@@ -1001,8 +1001,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1164,8 +1164,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1316,8 +1316,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1466,8 +1466,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1635,8 +1635,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1789,8 +1789,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -2198,9 +2198,8 @@ name = "Update Features";
 value = 1;
 },
 {
-disabled = 1;
 name = postscriptIsFixedPitch;
-value = 0;
+value = 1;
 },
 {
 name = "Decompose Glyphs";
@@ -2561,7 +2560,6 @@ name = fileName;
 value = SudoVariable;
 },
 {
-disabled = 1;
 name = de.kutilek.corretto.merge;
 value = "../patch/SudoVariable.STAT.avar.ttx";
 },
@@ -2986,8 +2984,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -3401,8 +3399,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -3821,8 +3819,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -4235,8 +4233,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -4651,8 +4649,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -5084,8 +5082,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 }
@@ -5514,8 +5512,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 }
@@ -5946,8 +5944,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -6379,8 +6377,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 }
@@ -6810,8 +6808,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 }
@@ -6829,7 +6827,7 @@ weightClass = 700;
 axesValues = (
 48,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -7614,7 +7612,7 @@ weightClass = 100;
 axesValues = (
 58,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -8399,7 +8397,7 @@ weightClass = 300;
 axesValues = (
 68,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -9183,7 +9181,7 @@ visible = 0;
 axesValues = (
 90,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -9968,7 +9966,7 @@ weightClass = 500;
 axesValues = (
 112,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -10755,7 +10753,7 @@ weightClass = 700;
 axesValues = (
 48,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -11538,7 +11536,7 @@ weightClass = 100;
 axesValues = (
 58,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -12605,7 +12603,7 @@ weightClass = 300;
 axesValues = (
 68,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -13671,7 +13669,7 @@ visible = 0;
 axesValues = (
 90,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -14738,7 +14736,7 @@ weightClass = 500;
 axesValues = (
 112,
 100,
--192
+-188
 );
 customParameters = (
 {
