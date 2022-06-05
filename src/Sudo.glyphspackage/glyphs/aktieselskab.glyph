@@ -1,27 +1,14 @@
 {
 color = 6;
-glyphname = careof;
+glyphname = aktieselskab;
 layers = (
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (-65,64);
-ref = C.sups;
-},
-{
-pos = (64,-384);
-ref = O.sups;
-}
-);
-};
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
 alignment = -1;
 pos = (-64,64);
-ref = C.sups;
+ref = A.sups;
 },
 {
 alignment = -1;
@@ -31,7 +18,7 @@ ref = fraction.alt;
 {
 alignment = -1;
 pos = (64,-448);
-ref = O.sups;
+ref = S.sups;
 }
 );
 width = 448;
@@ -42,7 +29,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-64,64);
-ref = C.sups;
+ref = A.sups;
 },
 {
 alignment = -1;
@@ -52,7 +39,7 @@ ref = fraction.alt;
 {
 alignment = -1;
 pos = (64,-448);
-ref = O.sups;
+ref = S.sups;
 }
 );
 width = 448;
@@ -63,7 +50,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-64,64);
-ref = C.sups;
+ref = A.sups;
 },
 {
 alignment = -1;
@@ -73,58 +60,18 @@ ref = fraction.alt;
 {
 alignment = -1;
 pos = (64,-448);
-ref = O.sups;
+ref = S.sups;
 }
 );
 width = 448;
 },
 {
-layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
-shapes = (
-{
-alignment = -1;
-pos = (-69,64);
-ref = C.sups;
-},
-{
-alignment = -1;
-pos = (13,64);
-ref = fraction.alt;
-},
-{
-alignment = -1;
-pos = (-26,-448);
-ref = O.sups;
-}
-);
-width = 448;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (13,64);
-ref = zero.numr;
-},
-{
-alignment = -1;
-pos = (13,64);
-ref = fraction.alt;
-},
-{
-alignment = -1;
-pos = (13,64);
-ref = three.dnom;
-}
-);
-};
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 shapes = (
 {
 alignment = -1;
 pos = (-69,64);
-ref = C.sups;
+ref = A.sups;
 },
 {
 alignment = -1;
@@ -134,7 +81,7 @@ ref = fraction.alt;
 {
 alignment = -1;
 pos = (-26,-448);
-ref = O.sups;
+ref = S.sups;
 }
 );
 width = 448;
@@ -145,7 +92,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-69,64);
-ref = C.sups;
+ref = A.sups;
 },
 {
 alignment = -1;
@@ -155,11 +102,32 @@ ref = fraction.alt;
 {
 alignment = -1;
 pos = (-26,-448);
-ref = O.sups;
+ref = S.sups;
+}
+);
+width = 448;
+},
+{
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+shapes = (
+{
+alignment = -1;
+pos = (-69,64);
+ref = A.sups;
+},
+{
+alignment = -1;
+pos = (13,64);
+ref = fraction.alt;
+},
+{
+alignment = -1;
+pos = (-26,-448);
+ref = S.sups;
 }
 );
 width = 448;
 }
 );
-unicode = 8453;
+unicode = 8525;
 }
