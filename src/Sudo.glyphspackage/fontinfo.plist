@@ -1005,7 +1005,7 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
-size = -20;
+size = -14;
 }
 );
 },
@@ -1075,13 +1075,15 @@ name = Regular;
 stemValues = (
 64,
 72,
-64
+64,
+56
 );
 userData = {
 GSOffsetHorizontal = 34;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 32;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -1164,7 +1166,7 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
-size = -20;
+size = -14;
 }
 );
 },
@@ -1232,7 +1234,8 @@ name = Bold;
 stemValues = (
 80,
 112,
-80
+80,
+70
 );
 },
 {
@@ -1379,13 +1382,13 @@ name = Thin;
 stemValues = (
 44,
 48,
-44
+44,
+38
 );
 userData = {
-GSOffsetHorizontal = 22;
-GSOffsetMakeStroke = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 10;
+GSOffsetHorizontal = -10;
+GSOffsetKeepCompatible = 1;
+GSOffsetVertical = -10;
 };
 },
 {
@@ -1545,7 +1548,8 @@ name = "Regular Italic";
 stemValues = (
 64,
 72,
-64
+64,
+56
 );
 userData = {
 GSOffsetHorizontal = 36;
@@ -1704,7 +1708,8 @@ name = "Bold Italic";
 stemValues = (
 80,
 112,
-80
+80,
+70
 );
 },
 {
@@ -1858,13 +1863,13 @@ name = "Thin Italic";
 stemValues = (
 44,
 48,
-44
+44,
+38
 );
 userData = {
-GSOffsetHorizontal = 22;
-GSOffsetMakeStroke = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 10;
+GSOffsetHorizontal = -10;
+GSOffsetKeepCompatible = 1;
+GSOffsetVertical = -10;
 };
 }
 );
@@ -15981,6 +15986,10 @@ name = vStem0;
 },
 {
 name = vStem1;
+},
+{
+horizontal = 1;
+name = sups;
 }
 );
 unitsPerEm = 1024;
