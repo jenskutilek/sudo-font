@@ -1499,12 +1499,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.06499"/>
-    <checkSumAdjustment value="0x35accda2"/>
+    <checkSumAdjustment value="0x4343ba84"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sun Jun  5 22:40:53 2022"/>
-    <modified value="Sun Jun  5 22:41:06 2022"/>
+    <created value="Sun Jun  5 22:40:52 2022"/>
+    <modified value="Fri Jun 10 13:13:42 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -1711,7 +1711,7 @@
     <mtx name="Lambda" width="448" lsb="30"/>
     <mtx name="Lcaron" width="448" lsb="55"/>
     <mtx name="Ldot" width="448" lsb="55"/>
-    <mtx name="Lslash" width="448" lsb="-39"/>
+    <mtx name="Lslash" width="448" lsb="-46"/>
     <mtx name="M" width="448" lsb="9"/>
     <mtx name="M.sups" width="448" lsb="128"/>
     <mtx name="Mu" width="448" lsb="9"/>
@@ -1808,7 +1808,7 @@
     <mtx name="Zcaron" width="448" lsb="50"/>
     <mtx name="Zdotaccent" width="448" lsb="50"/>
     <mtx name="Zeta" width="448" lsb="50"/>
-    <mtx name="_part.slash.comp" width="448" lsb="73"/>
+    <mtx name="_part.slash.comp" width="448" lsb="66"/>
     <mtx name="a" width="448" lsb="44"/>
     <mtx name="aacute" width="448" lsb="44"/>
     <mtx name="abreve" width="448" lsb="44"/>
@@ -2020,7 +2020,7 @@
     <mtx name="logicalor" width="448" lsb="43"/>
     <mtx name="longs" width="448" lsb="59"/>
     <mtx name="lozenge" width="448" lsb="54"/>
-    <mtx name="lslash" width="448" lsb="59"/>
+    <mtx name="lslash" width="448" lsb="52"/>
     <mtx name="ltshade" width="448" lsb="-5"/>
     <mtx name="m" width="448" lsb="32"/>
     <mtx name="macron" width="448" lsb="97"/>
@@ -12198,7 +12198,7 @@
       <component glyphName="period" x="128" y="256" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="Lslash" xMin="-39" yMin="0" xMax="389" yMax="640">
+    <TTGlyph name="Lslash" xMin="-46" yMin="0" xMax="389" yMax="640">
       <component glyphName="L" x="0" y="0" flags="0x400"/>
       <component glyphName="_part.slash.comp" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
@@ -14080,7 +14080,7 @@
 
     <TTGlyph name="Uogonek" xMin="55" yMin="-197" xMax="393" yMax="640">
       <component glyphName="U" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0328" x="-105" y="0" flags="0x400"/>
+      <component glyphName="uni0328" x="-104" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="Upsilon" xMin="31" yMin="0" xMax="417" yMax="640">
@@ -14821,12 +14821,12 @@
       <component glyphName="Z" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="_part.slash.comp" xMin="73" yMin="148" xMax="375" yMax="390">
+    <TTGlyph name="_part.slash.comp" xMin="66" yMin="142" xMax="384" yMax="397">
       <contour>
-        <pt x="339" y="390" on="1"/>
-        <pt x="375" y="338" on="1"/>
-        <pt x="109" y="148" on="1"/>
-        <pt x="73" y="200" on="1"/>
+        <pt x="343" y="397" on="1"/>
+        <pt x="384" y="339" on="1"/>
+        <pt x="107" y="142" on="1"/>
+        <pt x="66" y="200" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -17021,17 +17021,17 @@
         <pt x="224" y="7" on="1"/>
       </contour>
       <contour>
-        <pt x="65" y="171" on="0"/>
-        <pt x="146" y="63" on="0"/>
+        <pt x="65" y="166" on="0"/>
+        <pt x="151" y="63" on="0"/>
         <pt x="224" y="63" on="1"/>
-        <pt x="302" y="63" on="0"/>
-        <pt x="383" y="171" on="0"/>
+        <pt x="298" y="63" on="0"/>
+        <pt x="383" y="166" on="0"/>
         <pt x="383" y="256" on="1"/>
-        <pt x="383" y="341" on="0"/>
-        <pt x="302" y="449" on="0"/>
+        <pt x="383" y="346" on="0"/>
+        <pt x="298" y="449" on="0"/>
         <pt x="224" y="449" on="1"/>
-        <pt x="146" y="449" on="0"/>
-        <pt x="65" y="341" on="0"/>
+        <pt x="151" y="449" on="0"/>
+        <pt x="65" y="346" on="0"/>
         <pt x="65" y="256" on="1"/>
       </contour>
       <contour>
@@ -22117,9 +22117,9 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="lslash" xMin="59" yMin="-4" xMax="361" yMax="640">
+    <TTGlyph name="lslash" xMin="52" yMin="-4" xMax="370" yMax="640">
       <component glyphName="l" x="0" y="0" flags="0x400"/>
-      <component glyphName="_part.slash.comp" x="-14" y="124" flags="0x404"/>
+      <component glyphName="_part.slash.comp" x="-14" y="113" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="ltshade" xMin="-5" yMin="-198" xMax="389" yMax="772">
@@ -25481,17 +25481,17 @@
         <pt x="224" y="198" on="1"/>
       </contour>
       <contour>
-        <pt x="70" y="365" on="0"/>
-        <pt x="146" y="254" on="0"/>
+        <pt x="70" y="360" on="0"/>
+        <pt x="150" y="254" on="0"/>
         <pt x="224" y="254" on="1"/>
-        <pt x="303" y="254" on="0"/>
-        <pt x="378" y="365" on="0"/>
+        <pt x="298" y="254" on="0"/>
+        <pt x="378" y="360" on="0"/>
         <pt x="378" y="447" on="1"/>
-        <pt x="378" y="528" on="0"/>
-        <pt x="303" y="640" on="0"/>
+        <pt x="378" y="534" on="0"/>
+        <pt x="298" y="640" on="0"/>
         <pt x="224" y="640" on="1"/>
-        <pt x="146" y="640" on="0"/>
-        <pt x="70" y="528" on="0"/>
+        <pt x="150" y="640" on="0"/>
+        <pt x="70" y="534" on="0"/>
         <pt x="70" y="447" on="1"/>
       </contour>
       <contour>
@@ -31902,7 +31902,7 @@
 
     <TTGlyph name="uni01EA" xMin="32" yMin="-197" xMax="416" yMax="650">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0328" x="-104" y="0" flags="0x400"/>
+      <component glyphName="uni0328" x="-103" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni01EB" xMin="40" yMin="-197" xMax="408" yMax="461">
@@ -37801,59 +37801,60 @@
 
     <TTGlyph name="uni207F" xMin="60" yMin="320" xMax="320" yMax="643">
       <contour>
-        <pt x="60" y="640" on="1"/>
-        <pt x="120" y="640" on="1"/>
-        <pt x="125" y="608" on="1"/>
-        <pt x="170" y="643" on="0"/>
-        <pt x="221" y="643" on="1"/>
-        <pt x="320" y="643" on="0"/>
-        <pt x="320" y="519" on="1"/>
-        <pt x="320" y="320" on="1"/>
-        <pt x="256" y="320" on="1"/>
-        <pt x="256" y="514" on="1"/>
-        <pt x="256" y="554" on="0"/>
-        <pt x="237" y="587" on="0"/>
-        <pt x="209" y="587" on="1"/>
-        <pt x="171" y="587" on="0"/>
-        <pt x="128" y="548" on="1"/>
+        <pt x="256" y="559" on="0"/>
+        <pt x="233" y="587" on="0"/>
+        <pt x="207" y="587" on="1"/>
+        <pt x="168" y="587" on="0"/>
+        <pt x="128" y="549" on="1"/>
         <pt x="128" y="320" on="1"/>
         <pt x="64" y="320" on="1"/>
-        <pt x="64" y="589" on="1"/>
+        <pt x="64" y="576" on="1"/>
+        <pt x="64" y="615" on="0"/>
+        <pt x="60" y="640" on="1"/>
+        <pt x="120" y="640" on="1"/>
+        <pt x="124" y="621" on="0"/>
+        <pt x="125" y="604" on="1"/>
+        <pt x="173" y="643" on="0"/>
+        <pt x="221" y="643" on="1"/>
+        <pt x="267" y="643" on="0"/>
+        <pt x="320" y="584" on="0"/>
+        <pt x="320" y="527" on="1"/>
+        <pt x="320" y="320" on="1"/>
+        <pt x="256" y="320" on="1"/>
+        <pt x="256" y="527" on="1"/>
       </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 2 values pushed */
-          15 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          8 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          0 2
+          9 2
           MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          12 18 4 2
+          2 18 14 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          19 5 12
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          15 17 4 7 16
+          5 17 4 7 6
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          7 17 4 7 8
+          18 17 4 7 19
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          2 15
+          9 5
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[1]	/* InterpolateUntPts */
@@ -37869,8 +37870,8 @@
       <component glyphName="uni00B9" x="0" y="-448" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni2082" xMin="52" yMin="-129" xMax="264" yMax="191">
-      <component glyphName="uni00B2" x="0" y="-449" flags="0x404"/>
+    <TTGlyph name="uni2082" xMin="52" yMin="-128" xMax="264" yMax="192">
+      <component glyphName="uni00B2" x="0" y="-448" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2083" xMin="58" yMin="-134" xMax="270" yMax="200">
@@ -39151,8 +39152,7 @@
         <pt x="-2" y="64" on="1"/>
       </contour>
       <contour>
-        <pt x="190" y="277" on="1"/>
-        <pt x="190" y="299" on="1"/>
+        <pt x="201" y="288" on="1"/>
         <pt x="66" y="425" on="1"/>
         <pt x="66" y="151" on="1"/>
       </contour>
@@ -39191,8 +39191,7 @@
       <contour>
         <pt x="382" y="151" on="1"/>
         <pt x="382" y="425" on="1"/>
-        <pt x="258" y="299" on="1"/>
-        <pt x="258" y="277" on="1"/>
+        <pt x="247" y="288" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>

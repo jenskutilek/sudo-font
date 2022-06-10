@@ -1499,12 +1499,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.06499"/>
-    <checkSumAdjustment value="0x441db23"/>
+    <checkSumAdjustment value="0xe7fcbc03"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sun Jun  5 22:40:53 2022"/>
-    <modified value="Sun Jun  5 22:41:06 2022"/>
+    <created value="Sun Jun  5 22:40:52 2022"/>
+    <modified value="Fri Jun 10 13:13:41 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -1711,7 +1711,7 @@
     <mtx name="Lambda" width="448" lsb="25"/>
     <mtx name="Lcaron" width="448" lsb="50"/>
     <mtx name="Ldot" width="448" lsb="50"/>
-    <mtx name="Lslash" width="448" lsb="-39"/>
+    <mtx name="Lslash" width="448" lsb="-53"/>
     <mtx name="M" width="448" lsb="4"/>
     <mtx name="M.sups" width="448" lsb="128"/>
     <mtx name="Mu" width="448" lsb="4"/>
@@ -1808,7 +1808,7 @@
     <mtx name="Zcaron" width="448" lsb="45"/>
     <mtx name="Zdotaccent" width="448" lsb="45"/>
     <mtx name="Zeta" width="448" lsb="45"/>
-    <mtx name="_part.slash.comp" width="448" lsb="73"/>
+    <mtx name="_part.slash.comp" width="448" lsb="59"/>
     <mtx name="a" width="448" lsb="38"/>
     <mtx name="aacute" width="448" lsb="38"/>
     <mtx name="abreve" width="448" lsb="38"/>
@@ -2020,7 +2020,7 @@
     <mtx name="logicalor" width="448" lsb="38"/>
     <mtx name="longs" width="448" lsb="59"/>
     <mtx name="lozenge" width="448" lsb="44"/>
-    <mtx name="lslash" width="448" lsb="59"/>
+    <mtx name="lslash" width="448" lsb="45"/>
     <mtx name="ltshade" width="448" lsb="-5"/>
     <mtx name="m" width="448" lsb="26"/>
     <mtx name="macron" width="448" lsb="94"/>
@@ -12196,7 +12196,7 @@
       <component glyphName="period" x="128" y="256" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="Lslash" xMin="-39" yMin="0" xMax="394" yMax="640">
+    <TTGlyph name="Lslash" xMin="-53" yMin="0" xMax="394" yMax="640">
       <component glyphName="L" x="0" y="0" flags="0x400"/>
       <component glyphName="_part.slash.comp" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
@@ -14808,12 +14808,12 @@
       <component glyphName="Z" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="_part.slash.comp" xMin="73" yMin="148" xMax="375" yMax="390">
+    <TTGlyph name="_part.slash.comp" xMin="59" yMin="135" xMax="392" yMax="404">
       <contour>
-        <pt x="339" y="390" on="1"/>
-        <pt x="375" y="338" on="1"/>
-        <pt x="109" y="148" on="1"/>
-        <pt x="73" y="200" on="1"/>
+        <pt x="346" y="404" on="1"/>
+        <pt x="392" y="339" on="1"/>
+        <pt x="105" y="135" on="1"/>
+        <pt x="59" y="200" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -22123,9 +22123,9 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="lslash" xMin="59" yMin="-4" xMax="370" yMax="640">
+    <TTGlyph name="lslash" xMin="45" yMin="-4" xMax="378" yMax="640">
       <component glyphName="l" x="0" y="0" flags="0x400"/>
-      <component glyphName="_part.slash.comp" x="-14" y="124" flags="0x404"/>
+      <component glyphName="_part.slash.comp" x="-14" y="113" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="ltshade" xMin="-5" yMin="-198" xMax="389" yMax="772">
@@ -37801,59 +37801,60 @@
 
     <TTGlyph name="uni207F" xMin="60" yMin="320" xMax="320" yMax="643">
       <contour>
-        <pt x="60" y="640" on="1"/>
-        <pt x="120" y="640" on="1"/>
-        <pt x="125" y="608" on="1"/>
-        <pt x="170" y="643" on="0"/>
-        <pt x="221" y="643" on="1"/>
-        <pt x="320" y="643" on="0"/>
-        <pt x="320" y="519" on="1"/>
-        <pt x="320" y="320" on="1"/>
-        <pt x="256" y="320" on="1"/>
-        <pt x="256" y="514" on="1"/>
-        <pt x="256" y="554" on="0"/>
-        <pt x="237" y="587" on="0"/>
-        <pt x="209" y="587" on="1"/>
-        <pt x="171" y="587" on="0"/>
-        <pt x="128" y="548" on="1"/>
+        <pt x="256" y="559" on="0"/>
+        <pt x="233" y="587" on="0"/>
+        <pt x="207" y="587" on="1"/>
+        <pt x="168" y="587" on="0"/>
+        <pt x="128" y="549" on="1"/>
         <pt x="128" y="320" on="1"/>
         <pt x="64" y="320" on="1"/>
-        <pt x="64" y="589" on="1"/>
+        <pt x="64" y="576" on="1"/>
+        <pt x="64" y="615" on="0"/>
+        <pt x="60" y="640" on="1"/>
+        <pt x="120" y="640" on="1"/>
+        <pt x="124" y="621" on="0"/>
+        <pt x="125" y="604" on="1"/>
+        <pt x="173" y="643" on="0"/>
+        <pt x="221" y="643" on="1"/>
+        <pt x="267" y="643" on="0"/>
+        <pt x="320" y="584" on="0"/>
+        <pt x="320" y="527" on="1"/>
+        <pt x="320" y="320" on="1"/>
+        <pt x="256" y="320" on="1"/>
+        <pt x="256" y="527" on="1"/>
       </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 2 values pushed */
-          15 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          8 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          0 2
+          9 2
           MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          12 18 4 2
+          2 18 14 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          19 5 12
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          15 17 4 7 16
+          5 17 4 7 6
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          7 17 4 7 8
+          18 17 4 7 19
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          2 15
+          9 5
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[1]	/* InterpolateUntPts */
@@ -39151,8 +39152,7 @@
         <pt x="-2" y="64" on="1"/>
       </contour>
       <contour>
-        <pt x="190" y="277" on="1"/>
-        <pt x="190" y="299" on="1"/>
+        <pt x="201" y="288" on="1"/>
         <pt x="66" y="425" on="1"/>
         <pt x="66" y="151" on="1"/>
       </contour>
@@ -39191,8 +39191,7 @@
       <contour>
         <pt x="382" y="151" on="1"/>
         <pt x="382" y="425" on="1"/>
-        <pt x="258" y="299" on="1"/>
-        <pt x="258" y="277" on="1"/>
+        <pt x="247" y="288" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>

@@ -1499,12 +1499,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.06499"/>
-    <checkSumAdjustment value="0x2c504cf2"/>
+    <checkSumAdjustment value="0xf279c14a"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sun Jun  5 22:40:53 2022"/>
-    <modified value="Sun Jun  5 22:41:06 2022"/>
+    <created value="Sun Jun  5 22:40:52 2022"/>
+    <modified value="Fri Jun 10 13:13:42 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -17043,17 +17043,17 @@
         <pt x="224" y="11" on="1"/>
       </contour>
       <contour>
-        <pt x="60" y="172" on="0"/>
-        <pt x="140" y="59" on="0"/>
+        <pt x="60" y="161" on="0"/>
+        <pt x="149" y="59" on="0"/>
         <pt x="224" y="59" on="1"/>
-        <pt x="308" y="59" on="0"/>
-        <pt x="388" y="172" on="0"/>
+        <pt x="299" y="59" on="0"/>
+        <pt x="388" y="161" on="0"/>
         <pt x="388" y="256" on="1"/>
-        <pt x="388" y="339" on="0"/>
-        <pt x="308" y="453" on="0"/>
+        <pt x="388" y="351" on="0"/>
+        <pt x="299" y="453" on="0"/>
         <pt x="224" y="453" on="1"/>
-        <pt x="140" y="453" on="0"/>
-        <pt x="60" y="339" on="0"/>
+        <pt x="149" y="453" on="0"/>
+        <pt x="60" y="351" on="0"/>
         <pt x="60" y="256" on="1"/>
       </contour>
       <contour>
@@ -22160,7 +22160,7 @@
 
     <TTGlyph name="lslash" xMin="59" yMin="-4" xMax="361" yMax="640">
       <component glyphName="l" x="0" y="0" flags="0x400"/>
-      <component glyphName="_part.slash.comp" x="-14" y="124" flags="0x404"/>
+      <component glyphName="_part.slash.comp" x="-14" y="113" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="ltshade" xMin="-5" yMin="-198" xMax="389" yMax="772">
@@ -25534,17 +25534,17 @@
         <pt x="224" y="202" on="1"/>
       </contour>
       <contour>
-        <pt x="60" y="363" on="0"/>
-        <pt x="140" y="250" on="0"/>
+        <pt x="60" y="352" on="0"/>
+        <pt x="149" y="250" on="0"/>
         <pt x="224" y="250" on="1"/>
-        <pt x="308" y="250" on="0"/>
-        <pt x="388" y="363" on="0"/>
+        <pt x="299" y="250" on="0"/>
+        <pt x="388" y="352" on="0"/>
         <pt x="388" y="447" on="1"/>
-        <pt x="388" y="530" on="0"/>
-        <pt x="308" y="644" on="0"/>
+        <pt x="388" y="542" on="0"/>
+        <pt x="299" y="644" on="0"/>
         <pt x="224" y="644" on="1"/>
-        <pt x="140" y="644" on="0"/>
-        <pt x="60" y="530" on="0"/>
+        <pt x="149" y="644" on="0"/>
+        <pt x="60" y="542" on="0"/>
         <pt x="60" y="447" on="1"/>
       </contour>
       <contour>
@@ -37879,59 +37879,60 @@
 
     <TTGlyph name="uni207F" xMin="60" yMin="320" xMax="320" yMax="643">
       <contour>
-        <pt x="60" y="640" on="1"/>
-        <pt x="120" y="640" on="1"/>
-        <pt x="125" y="608" on="1"/>
-        <pt x="170" y="643" on="0"/>
-        <pt x="221" y="643" on="1"/>
-        <pt x="320" y="643" on="0"/>
-        <pt x="320" y="519" on="1"/>
-        <pt x="320" y="320" on="1"/>
-        <pt x="256" y="320" on="1"/>
-        <pt x="256" y="514" on="1"/>
-        <pt x="256" y="554" on="0"/>
-        <pt x="237" y="587" on="0"/>
-        <pt x="209" y="587" on="1"/>
-        <pt x="171" y="587" on="0"/>
-        <pt x="128" y="548" on="1"/>
+        <pt x="256" y="559" on="0"/>
+        <pt x="233" y="587" on="0"/>
+        <pt x="207" y="587" on="1"/>
+        <pt x="168" y="587" on="0"/>
+        <pt x="128" y="549" on="1"/>
         <pt x="128" y="320" on="1"/>
         <pt x="64" y="320" on="1"/>
-        <pt x="64" y="589" on="1"/>
+        <pt x="64" y="576" on="1"/>
+        <pt x="64" y="615" on="0"/>
+        <pt x="60" y="640" on="1"/>
+        <pt x="120" y="640" on="1"/>
+        <pt x="124" y="621" on="0"/>
+        <pt x="125" y="604" on="1"/>
+        <pt x="173" y="643" on="0"/>
+        <pt x="221" y="643" on="1"/>
+        <pt x="267" y="643" on="0"/>
+        <pt x="320" y="584" on="0"/>
+        <pt x="320" y="527" on="1"/>
+        <pt x="320" y="320" on="1"/>
+        <pt x="256" y="320" on="1"/>
+        <pt x="256" y="527" on="1"/>
       </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 2 values pushed */
-          15 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          8 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          0 2
+          9 2
           MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          12 18 4 2
+          2 18 14 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          19 5 12
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          15 17 4 7 16
+          5 17 4 7 6
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          7 17 4 7 8
+          18 17 4 7 19
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          2 15
+          9 5
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[1]	/* InterpolateUntPts */
@@ -39229,8 +39230,7 @@
         <pt x="-2" y="64" on="1"/>
       </contour>
       <contour>
-        <pt x="190" y="277" on="1"/>
-        <pt x="190" y="299" on="1"/>
+        <pt x="201" y="288" on="1"/>
         <pt x="66" y="425" on="1"/>
         <pt x="66" y="151" on="1"/>
       </contour>
@@ -39269,8 +39269,7 @@
       <contour>
         <pt x="382" y="151" on="1"/>
         <pt x="382" y="425" on="1"/>
-        <pt x="258" y="299" on="1"/>
-        <pt x="258" y="277" on="1"/>
+        <pt x="247" y="288" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
