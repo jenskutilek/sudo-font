@@ -1,8 +1,10 @@
-# sudo-font
+# The Sudo font family
 
-Sudo is a monospaced font designed for terminal and programming. Use at 16 pixels size for optimal results.
+<img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo-monospaced-ui-font.png">
 
-Sudo proudly has no ligatures, but supports all common [Powerline](https://github.com/powerline/powerline) glyphs out of the box.
+Sudo is a font designed for terminals, programming, and user interfaces. Use at 16 pixels size for optimal results. It has a monospaced variant, simply called _Sudo,_ and a proportional variant, called _Sudo UI._ A Variable Font version is available. It has an extra variation axis to modify the length of descenders.
+
+Sudo decidedly has no ligatures, but supports all common [Powerline](https://github.com/powerline/powerline) glyphs out of the box.
 
 Find out more about the fonts at https://www.kutilek.de/sudo-font/ or download the [latest release](https://github.com/jenskutilek/sudo-font/releases/latest/download/sudo.zip).
 
