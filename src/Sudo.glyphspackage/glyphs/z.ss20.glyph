@@ -22,45 +22,29 @@ hints = (
 {
 horizontal = 1;
 options = 4;
-place = (0, 64);
+origin = (1,1);
+target = (1,2);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-place = (448, 64);
+origin = (0,4);
+target = (0,0);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-place = (384, 8);
+origin = (0,0);
+target = (2,1);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
-place = (64, 8);
-type = TTShift;
-},
-{
-options = 4;
-place = (55, 15);
-type = TTShift;
-},
-{
-options = 8;
-place = (55, 2147483647);
-type = TTSnap;
-},
-{
-options = 8;
-place = (356, 2147483647);
-type = TTSnap;
-},
-{
-options = 4;
-place = (356, 4);
+origin = (1,2);
+target = (2,3);
 type = TTShift;
 }
 );
