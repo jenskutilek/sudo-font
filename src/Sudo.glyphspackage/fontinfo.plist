@@ -131,7 +131,7 @@ name = "Virtual Master";
 value = (
 {
 Axis = Weight;
-Location = 72;
+Location = 400;
 },
 {
 Axis = Italic;
@@ -222,7 +222,7 @@ tag = aalt;
 },
 {
 code = "#ifdef VARIABLE
-condition 50 < ital < 100;
+condition 0.5 < ital < 1.0;
 sub f by f.italic;
 sub germandbls by germandbls.italic;
 sub longs by longs.italic;
@@ -956,7 +956,7 @@ tag = ss20;
 fontMaster = (
 {
 axesValues = (
-72,
+400,
 0,
 -188
 );
@@ -1116,7 +1116,7 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
-112,
+700,
 0,
 -188
 );
@@ -1200,10 +1200,6 @@ size = -14;
 );
 },
 {
-name = "Link Metrics With First Master";
-value = 1;
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -1219,6 +1215,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -1269,7 +1269,7 @@ stemValues = (
 },
 {
 axesValues = (
-48,
+200,
 0,
 -188
 );
@@ -1353,10 +1353,6 @@ size = -14;
 );
 },
 {
-name = "Link Metrics With First Master";
-value = 1;
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -1372,6 +1368,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -1422,8 +1422,8 @@ GSOffsetVertical = -10;
 },
 {
 axesValues = (
-72,
-100,
+400,
+1,
 -188
 );
 customParameters = (
@@ -1588,8 +1588,8 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
-112,
-100,
+700,
+1,
 -188
 );
 customParameters = (
@@ -1672,10 +1672,6 @@ size = -14;
 );
 },
 {
-name = "Link Metrics With First Master";
-value = 1;
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -1691,6 +1687,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -1743,8 +1743,8 @@ stemValues = (
 },
 {
 axesValues = (
-48,
-100,
+200,
+1,
 -188
 );
 customParameters = (
@@ -1827,10 +1827,6 @@ size = -14;
 );
 },
 {
-name = "Link Metrics With First Master";
-value = 1;
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -1846,6 +1842,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -2102,7 +2102,8 @@ value = SudoUIVariable;
 );
 exports = 0;
 instanceInterpolations = {
-"95FB0C11-C828-4064-8966-34220AA4D426" = 1;
+"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1.256;
+"92967D72-867E-4A8B-929F-F44D834DD4C9" = -0.256;
 };
 name = Regular;
 properties = (
@@ -2120,7 +2121,7 @@ type = variable;
 },
 {
 axesValues = (
-72,
+400,
 0,
 -188
 );
@@ -2613,6 +2614,7 @@ name = fileName;
 value = SudoVariable;
 },
 {
+disabled = 1;
 name = de.kutilek.corretto.merge;
 value = "../patch/SudoVariable.STAT.avar.ttx";
 },
@@ -2640,7 +2642,7 @@ type = variable;
 },
 {
 axesValues = (
-48,
+200,
 0,
 -188
 );
@@ -3048,6 +3050,7 @@ name = "Keep Overlapping Components";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3077,7 +3080,7 @@ weightClass = 100;
 },
 {
 axesValues = (
-62,
+316.667,
 0,
 -188
 );
@@ -3515,7 +3518,7 @@ weightClass = 300;
 },
 {
 axesValues = (
-72,
+400,
 0,
 -188
 );
@@ -3927,6 +3930,7 @@ name = "Elidable STAT Axis Value Name";
 value = wght;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3946,6 +3950,10 @@ Location = -188;
 {
 name = "Elidable STAT Axis Value Name";
 value = ital;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = YTDE;
 }
 );
 instanceInterpolations = {
@@ -3955,7 +3963,7 @@ name = Regular;
 },
 {
 axesValues = (
-92,
+550,
 0,
 -188
 );
@@ -4393,7 +4401,7 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
+700,
 0,
 -188
 );
@@ -4801,6 +4809,7 @@ name = "Keep Overlapping Components";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4831,8 +4840,8 @@ weightClass = 700;
 },
 {
 axesValues = (
-48,
-100,
+200,
+1,
 -188
 );
 customParameters = (
@@ -5256,6 +5265,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5283,8 +5293,8 @@ weightClass = 100;
 },
 {
 axesValues = (
-62,
-100,
+316.667,
+1,
 -188
 );
 customParameters = (
@@ -5736,8 +5746,8 @@ weightClass = 300;
 },
 {
 axesValues = (
-72,
-100,
+400,
+1,
 -188
 );
 customParameters = (
@@ -6162,6 +6172,7 @@ name = "Keep Overlapping Components";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -6192,8 +6203,8 @@ name = Italic;
 },
 {
 axesValues = (
-92,
-100,
+550,
+1,
 -188
 );
 customParameters = (
@@ -6645,8 +6656,8 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
-100,
+700,
+1,
 -188
 );
 customParameters = (
@@ -7070,6 +7081,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -7098,7 +7110,7 @@ weightClass = 700;
 },
 {
 axesValues = (
-48,
+200,
 0,
 -188
 );
@@ -7905,7 +7917,7 @@ weightClass = 100;
 },
 {
 axesValues = (
-58,
+316.667,
 0,
 -188
 );
@@ -8692,8 +8704,8 @@ double_accents
 );
 exports = 0;
 instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.58333;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.41667;
+"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.41667;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 0.58333;
 };
 name = Light;
 properties = (
@@ -8712,7 +8724,7 @@ weightClass = 300;
 },
 {
 axesValues = (
-68,
+400,
 0,
 -188
 );
@@ -9499,8 +9511,7 @@ double_accents
 );
 exports = 0;
 instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.16667;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.83333;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 1;
 };
 name = Regular;
 properties = (
@@ -9518,7 +9529,7 @@ visible = 0;
 },
 {
 axesValues = (
-90,
+550,
 0,
 -188
 );
@@ -10305,8 +10316,8 @@ double_accents
 );
 exports = 0;
 instanceInterpolations = {
-"92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.45;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.55;
+"92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.5;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 0.5;
 };
 name = Medium;
 properties = (
@@ -10325,7 +10336,7 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
+700,
 0,
 -188
 );
@@ -11134,8 +11145,8 @@ weightClass = 700;
 },
 {
 axesValues = (
-48,
-100,
+200,
+1,
 -188
 );
 customParameters = (
@@ -11939,8 +11950,8 @@ weightClass = 100;
 },
 {
 axesValues = (
-58,
-100,
+316.667,
+1,
 -188
 );
 customParameters = (
@@ -12723,8 +12734,8 @@ double_accents
 );
 exports = 0;
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.41667;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.58333;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.58333;
+"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.41667;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -12745,8 +12756,8 @@ weightClass = 300;
 },
 {
 axesValues = (
-68,
-100,
+400,
+1,
 -188
 );
 customParameters = (
@@ -13529,8 +13540,7 @@ double_accents
 );
 exports = 0;
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.83333;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.16667;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 1;
 };
 isItalic = 1;
 linkStyle = Regular;
@@ -13550,8 +13560,8 @@ visible = 0;
 },
 {
 axesValues = (
-90,
-100,
+550,
+1,
 -188
 );
 customParameters = (
@@ -14334,8 +14344,8 @@ double_accents
 );
 exports = 0;
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.55;
-"EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.45;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.5;
+"EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.5;
 };
 isItalic = 1;
 linkStyle = Medium;
@@ -14356,8 +14366,8 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
-100,
+700,
+1,
 -188
 );
 customParameters = (
