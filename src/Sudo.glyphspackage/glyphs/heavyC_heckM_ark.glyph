@@ -15,14 +15,16 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-origin = (0,4);
-type = TTSnap;
-},
-{
-horizontal = 1;
 options = 4;
 origin = (0,6);
 other1 = (0,3);
+target = (0,2);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+origin = (0,6);
+other1 = (0,4);
 target = (0,2);
 type = TTInterpolate;
 }

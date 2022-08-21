@@ -61,11 +61,6 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-origin = (0,5);
-type = TTSnap;
-},
-{
-horizontal = 1;
 options = 4;
 origin = (0,5);
 target = (0,0);
@@ -82,6 +77,13 @@ options = 4;
 origin = (0,5);
 other1 = (1,3,1,5);
 target = (0,0);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+origin = (0,3);
+other1 = (0,5);
+target = (1,6);
 type = TTInterpolate;
 }
 );

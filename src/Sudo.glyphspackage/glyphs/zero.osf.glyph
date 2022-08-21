@@ -31,18 +31,9 @@ type = TTStem;
 },
 {
 horizontal = 1;
-options = 8;
 origin = (1,5);
 other1 = (2,11);
 target = (0,11);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 8;
-origin = (0,5);
-other1 = (2,5);
-target = (1,11);
 type = TTInterpolate;
 },
 {
@@ -54,6 +45,12 @@ type = TTSnap;
 options = 8;
 origin = (0,2);
 type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (2,11);
+target = (2,5);
+type = TTStem;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

@@ -29,11 +29,6 @@ type = TTShift;
 },
 {
 horizontal = 1;
-origin = (2,4);
-type = TTSnap;
-},
-{
-horizontal = 1;
 options = 4;
 origin = (0,4);
 other1 = (1,4,2,7);
@@ -117,6 +112,13 @@ options = 4;
 origin = (1,5);
 other1 = (2,7);
 target = (0,4);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+origin = (0,4);
+other1 = (2,4);
+target = (2,0);
 type = TTInterpolate;
 }
 );

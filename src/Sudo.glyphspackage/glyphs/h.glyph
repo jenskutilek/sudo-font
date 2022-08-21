@@ -22,16 +22,6 @@ ref = n;
 hints = (
 {
 horizontal = 1;
-origin = (0,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-origin = (1,15);
-type = TTSnap;
-},
-{
-horizontal = 1;
 origin = (0,1);
 type = TTSnap;
 },
@@ -69,6 +59,13 @@ type = TTSnap;
 options = 8;
 origin = (1,1);
 type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+target = (1,15);
+type = TTShift;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

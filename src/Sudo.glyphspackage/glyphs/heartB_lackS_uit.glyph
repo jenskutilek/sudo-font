@@ -5,19 +5,20 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (448, 0);
+origin = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,14);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
-place = (448, 0);
+origin = (0,14);
+target = (0,7);
 type = TTShift;
-},
-{
-horizontal = 1;
-place = (56, 0);
-type = TTSnap;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

@@ -2,6 +2,40 @@
 glyphname = anticlockwiseClosedCircleArrow;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = (0,33);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,33);
+target = (0,20);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,5);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,5);
+target = (0,14);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,33);
+other1 = (0,27);
+target = (0,5);
+type = TTInterpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {

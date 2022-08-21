@@ -11,26 +11,6 @@ pos = (224,640);
 hints = (
 {
 horizontal = 1;
-origin = (1,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-origin = (0,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-origin = (0,3);
-type = TTSnap;
-},
-{
-horizontal = 1;
-origin = (1,2);
-type = TTSnap;
-},
-{
-horizontal = 1;
 options = 4;
 origin = (1,0);
 other1 = (1,0,2,4);
@@ -44,6 +24,20 @@ origin = (0,0);
 other1 = (0,3,2,1);
 target = (0,3);
 type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,0);
+target = (0,0);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,2);
+target = (0,3);
+type = TTShift;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

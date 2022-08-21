@@ -24,14 +24,9 @@ type = TTStem;
 },
 {
 horizontal = 1;
-origin = (0,32);
-type = TTSnap;
-},
-{
-horizontal = 1;
 options = 4;
-origin = (0,32);
-target = (0,35);
+origin = (0,35);
+target = (0,32);
 type = TTStem;
 },
 {
@@ -47,6 +42,13 @@ options = 4;
 origin = (0,32);
 other1 = (0,9,0,13);
 target = (0,35);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+origin = (0,16);
+other1 = (0,35);
+target = (0,3);
 type = TTInterpolate;
 }
 );

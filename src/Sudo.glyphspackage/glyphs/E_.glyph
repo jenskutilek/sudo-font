@@ -58,11 +58,6 @@ type = TTShift;
 },
 {
 options = 8;
-origin = (0,4);
-type = TTSnap;
-},
-{
-options = 8;
 origin = (0,11);
 type = TTSnap;
 },
@@ -73,10 +68,15 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-options = 8;
 origin = (0,11);
 other1 = (0,3);
 target = (0,10);
+type = TTInterpolate;
+},
+{
+origin = (0,11);
+other1 = (0,4);
+target = (0,0);
 type = TTInterpolate;
 }
 );

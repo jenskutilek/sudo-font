@@ -56,11 +56,6 @@ pos = (288,640);
 hints = (
 {
 horizontal = 1;
-origin = (0,4);
-type = TTSnap;
-},
-{
-horizontal = 1;
 options = 4;
 origin = (0,17);
 other1 = (0,2);
@@ -128,6 +123,14 @@ options = 4;
 origin = (0,18);
 other1 = (0,12);
 target = (0,9);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 8;
+origin = (0,0);
+other1 = (0,4);
+target = (0,17);
 type = TTInterpolate;
 }
 );
