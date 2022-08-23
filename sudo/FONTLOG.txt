@@ -1,11 +1,21 @@
 Sudo is Copyright (c) 2009-2022, Jens Kutilek (http://www.kutilek.de/).
 
-v0.65-dev
+v0.67
+- Export with Glyphs build 3134
+- Detail corrections
+- Hinting fixes
+- Increase overshoot suppression to 50 ppm
+- Add proportional variants for /e and related glyphs
+- Alignment fixes
+- Interpolation fixes
+- Remove legacy IJ and ij glyphs
 - Fix some zone widths
 - Set descender axis values so that the axis doesn't need mapping
 - Update cvar table in patch file
 - Improve /Lslash/lslash
 - Finish some more Thin glyphs
+
+v0.65
 - Revert design changes in n and related glyphs
 - Fix some accent positions
 - Change internal axis locations so that no mapping is necessary for extrema
