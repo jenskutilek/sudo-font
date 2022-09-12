@@ -1590,13 +1590,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="0.068"/>
-    <checkSumAdjustment value="0xdded6dca"/>
+    <fontRevision value="0.06898"/>
+    <checkSumAdjustment value="0x4954bda6"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Sep 12 16:19:51 2022"/>
-    <modified value="Mon Sep 12 16:30:26 2022"/>
+    <modified value="Mon Sep 12 17:17:06 2022"/>
     <xMin value="-159"/>
     <yMin value="-204"/>
     <xMax value="698"/>
@@ -2151,7 +2151,7 @@
     <mtx name="lacute" width="448" lsb="129"/>
     <mtx name="lacute.cv04" width="448" lsb="143"/>
     <mtx name="lacute.ss20.cv04" width="224" lsb="31"/>
-    <mtx name="lambda" width="448" lsb="-2"/>
+    <mtx name="lambda" width="448" lsb="-3"/>
     <mtx name="lcaron" width="448" lsb="129"/>
     <mtx name="lcaron.cv04" width="448" lsb="143"/>
     <mtx name="lcaron.ss20.cv04" width="320" lsb="31"/>
@@ -22860,17 +22860,17 @@
       <component glyphName="acutecomb.case" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="lambda" xMin="-2" yMin="-3" xMax="381" yMax="644">
+    <TTGlyph name="lambda" xMin="-3" yMin="0" xMax="381" yMax="644">
       <contour>
-        <pt x="313" y="198" on="0"/>
+        <pt x="313" y="197" on="0"/>
         <pt x="311" y="330" on="1"/>
-        <pt x="247" y="319" on="0"/>
-        <pt x="166" y="260" on="0"/>
-        <pt x="101" y="124" on="0"/>
-        <pt x="68" y="-3" on="1"/>
-        <pt x="-2" y="3" on="1"/>
-        <pt x="33" y="139" on="0"/>
-        <pt x="109" y="298" on="0"/>
+        <pt x="248" y="319" on="0"/>
+        <pt x="167" y="261" on="0"/>
+        <pt x="102" y="126" on="0"/>
+        <pt x="69" y="0" on="1"/>
+        <pt x="-3" y="0" on="1"/>
+        <pt x="32" y="137" on="0"/>
+        <pt x="108" y="297" on="0"/>
         <pt x="220" y="383" on="0"/>
         <pt x="307" y="393" on="1"/>
         <pt x="307" y="398" on="1"/>
@@ -22883,10 +22883,10 @@
         <pt x="365" y="517" on="0"/>
         <pt x="375" y="402" on="1"/>
         <pt x="381" y="352" on="0"/>
-        <pt x="381" y="307" on="1"/>
-        <pt x="381" y="180" on="0"/>
-        <pt x="345" y="-3" on="1"/>
-        <pt x="274" y="3" on="1"/>
+        <pt x="381" y="306" on="1"/>
+        <pt x="381" y="182" on="0"/>
+        <pt x="346" y="0" on="1"/>
+        <pt x="274" y="0" on="1"/>
       </contour>
       <instructions>
         <assembly>
@@ -22904,10 +22904,9 @@
           PUSHB[ ]	/* 1 value pushed */
           1
           MDRP[01101]	/* MoveDirectRelPt */
-          PUSHB[ ]	/* 4 values pushed */
-          24 4 7 6
-          WS[ ]	/* WriteStore */
-          CALL[ ]	/* CallFunction */
+          PUSHB[ ]	/* 3 values pushed */
+          24 6 8
+          MIAP[1]	/* MoveIndirectAbsPt */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
@@ -22958,14 +22957,14 @@
       <component glyphName="period" x="240" y="256" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="ldot.cv04" xMin="143" yMin="0" xMax="519" yMax="640">
+    <TTGlyph name="ldot.cv04" xMin="143" yMin="0" xMax="530" yMax="640">
       <component glyphName="l.cv04" x="0" y="0" flags="0x400"/>
-      <component glyphName="periodcentered" x="264" y="0" flags="0x400"/>
+      <component glyphName="period" x="307" y="256" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="ldot.ss20.cv04" xMin="31" yMin="0" xMax="375" yMax="640">
+    <TTGlyph name="ldot.ss20.cv04" xMin="31" yMin="0" xMax="386" yMax="640">
       <component glyphName="l.ss20.cv04" x="0" y="0" flags="0x400"/>
-      <component glyphName="periodcentered" x="120" y="0" flags="0x400"/>
+      <component glyphName="period" x="163" y="256" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="less" xMin="57" yMin="51" xMax="390" yMax="525">
@@ -49808,7 +49807,7 @@
       Sudo Italic
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 0.068
+      Version 0.069
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Sudo-Italic
@@ -49823,13 +49822,13 @@
       Italic
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      0.068;JENS;Sudo-Italic
+      0.069;JENS;Sudo-Italic
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo Italic
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 0.068
+      Version 0.069
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Sudo-Italic

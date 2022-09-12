@@ -1590,13 +1590,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="0.068"/>
-    <checkSumAdjustment value="0xd9c36271"/>
+    <fontRevision value="0.06898"/>
+    <checkSumAdjustment value="0x6a8f4805"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Sep 12 16:19:51 2022"/>
-    <modified value="Mon Sep 12 16:30:25 2022"/>
+    <modified value="Mon Sep 12 17:17:05 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -2398,7 +2398,7 @@
     <mtx name="uni0137" width="448" lsb="62"/>
     <mtx name="uni013B" width="448" lsb="62"/>
     <mtx name="uni013C" width="448" lsb="81"/>
-    <mtx name="uni013C.cv04" width="448" lsb="162"/>
+    <mtx name="uni013C.cv04" width="448" lsb="156"/>
     <mtx name="uni013C.ss20.cv04" width="224" lsb="44"/>
     <mtx name="uni0145" width="448" lsb="62"/>
     <mtx name="uni0146" width="448" lsb="60"/>
@@ -2415,7 +2415,7 @@
     <mtx name="uni0197.ss20" width="320" lsb="34"/>
     <mtx name="uni0197.ss20.cv02" width="288" lsb="18"/>
     <mtx name="uni019A" width="448" lsb="67"/>
-    <mtx name="uni019A.cv04" width="448" lsb="85"/>
+    <mtx name="uni019A.cv04" width="448" lsb="98"/>
     <mtx name="uni019A.ss20.cv04" width="288" lsb="18"/>
     <mtx name="uni01B5" width="448" lsb="57"/>
     <mtx name="uni01B6" width="448" lsb="57"/>
@@ -22538,12 +22538,12 @@
 
     <TTGlyph name="ldot.cv04" xMin="193" yMin="0" xMax="507" yMax="640">
       <component glyphName="l.cv04" x="0" y="0" flags="0x400"/>
-      <component glyphName="periodcentered" x="224" y="0" flags="0x400"/>
+      <component glyphName="period" x="256" y="256" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="ldot.ss20.cv04" xMin="81" yMin="0" xMax="363" yMax="640">
       <component glyphName="l.ss20.cv04" x="0" y="0" flags="0x400"/>
-      <component glyphName="periodcentered" x="80" y="0" flags="0x400"/>
+      <component glyphName="period" x="112" y="256" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="less" xMin="49" yMin="54" xMax="333" yMax="522">
@@ -32583,9 +32583,9 @@
       <component glyphName="uni0326" x="14" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni013C.cv04" xMin="162" yMin="-191" xMax="279" yMax="640">
+    <TTGlyph name="uni013C.cv04" xMin="156" yMin="-191" xMax="273" yMax="640">
       <component glyphName="l.cv04" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0326" x="6" y="0" flags="0x400"/>
+      <component glyphName="uni0326" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni013C.ss20.cv04" xMin="44" yMin="-191" xMax="161" yMax="640">
@@ -32944,9 +32944,9 @@
       <component glyphName="uni0335" x="-31" y="127" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni019A.cv04" xMin="85" yMin="0" xMax="337" yMax="640">
+    <TTGlyph name="uni019A.cv04" xMin="98" yMin="0" xMax="350" yMax="640">
       <component glyphName="l.cv04" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0335" x="-13" y="127" flags="0x404"/>
+      <component glyphName="uni0335" x="0" y="127" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni019A.ss20.cv04" xMin="18" yMin="0" xMax="270" yMax="640">
@@ -48370,7 +48370,7 @@
       Sudo Light
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 0.068
+      Version 0.069
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Sudo-Light
@@ -48385,13 +48385,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      0.068;JENS;Sudo-Light
+      0.069;JENS;Sudo-Light
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo Light
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 0.068
+      Version 0.069
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Sudo-Light
