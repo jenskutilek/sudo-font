@@ -24,8 +24,10 @@ type = TTInterpolate;
 },
 {
 horizontal = 1;
-origin = (1,4);
-type = TTSnap;
+origin = (1,6);
+other1 = (1,4);
+target = (1,2);
+type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

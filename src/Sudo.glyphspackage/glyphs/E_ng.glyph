@@ -5,69 +5,51 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-196, 0);
-stem = 8;
+origin = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,12);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
-place = (640, 0);
-type = TTShift;
-},
-{
-place = (60, 0);
-type = TTSnap;
-},
-{
-options = 4;
-place = (60, 72);
+origin = (0,19);
+target = (0,4);
 type = TTStem;
 },
 {
-place = (388, 0);
+horizontal = 1;
+origin = (0,24);
+type = TTSnap;
+},
+{
+origin = (0,26);
 type = TTSnap;
 },
 {
 options = 4;
-place = (388, 72);
+origin = (0,26);
+target = (0,0);
+type = TTStem;
+},
+{
+origin = (0,8);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,8);
+target = (0,15);
 type = TTStem;
 },
 {
 options = 4;
-place = (316, 0);
+origin = (0,0);
+target = (0,22);
 type = TTShift;
-},
-{
-options = 4;
-place = (132, 10);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-place = (0, 3);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-place = (3, 8);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,2,2,3);
-place = (640, 150);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (1,2,2,6);
-place = (640, 150);
-type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

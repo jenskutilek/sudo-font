@@ -6,12 +6,16 @@ layers = (
 hints = (
 {
 horizontal = 1;
+origin = (1,5);
+type = TTSnap;
+},
+{
+horizontal = 1;
 origin = (1,13);
 type = TTSnap;
 },
 {
 horizontal = 1;
-options = 4;
 origin = (1,13);
 target = (1,19);
 type = TTShift;
@@ -19,29 +23,23 @@ type = TTShift;
 {
 horizontal = 1;
 origin = (1,5);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (1,5);
 target = (1,27);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (1,13);
-other1 = (1,16);
-target = (1,5);
+origin = (1,5);
+other1 = (1,2);
+target = (1,13);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (1,13);
-other1 = (1,2);
-target = (1,5);
+origin = (1,5);
+other1 = (1,16);
+target = (1,13);
 type = TTInterpolate;
 }
 );
