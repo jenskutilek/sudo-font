@@ -1,5 +1,5 @@
 {
-.appVersion = "3140";
+.appVersion = "3155";
 .formatVersion = 3;
 axes = (
 {
@@ -1161,6 +1161,27 @@ sub ldotbelowmacron from [ldotbelowmacron.cv04];
 sub lslash from [lslash.cv04];
 ";
 tag = cv04;
+},
+{
+code = "cvParameters {
+    FeatUILabelNameID {
+        name \"Vertical m\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};
+
+sub m by m.cv05;
+";
+tag = cv05;
 }
 );
 fontMaster = (
