@@ -3418,6 +3418,15 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
+);
 }
 );
 instanceInterpolations = {
@@ -3902,6 +3911,15 @@ Location = 0;
 Axis = Descender;
 Location = -188;
 }
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
 );
 }
 );
@@ -4389,6 +4407,15 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
+);
 }
 );
 instanceInterpolations = {
@@ -4872,6 +4899,15 @@ Location = 0;
 Axis = Descender;
 Location = -188;
 }
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
 );
 }
 );
@@ -5358,6 +5394,15 @@ Location = 0;
 Axis = Descender;
 Location = -188;
 }
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
 );
 }
 );
@@ -7249,6 +7294,15 @@ Axis = "Parametric Width";
 Location = 448;
 }
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
+);
 }
 );
 instanceInterpolations = {
@@ -7257,7 +7311,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Thin;
 name = "Thin Italic";
-weightClass = 100;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -7756,6 +7810,15 @@ Location = -188;
 Axis = "Parametric Width";
 Location = 448;
 }
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
 );
 }
 );
@@ -8267,6 +8330,15 @@ Axis = "Parametric Width";
 Location = 448;
 }
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
+);
 }
 );
 instanceInterpolations = {
@@ -8773,6 +8845,15 @@ Location = -188;
 Axis = "Parametric Width";
 Location = 448;
 }
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
 );
 }
 );
@@ -9284,6 +9365,15 @@ Axis = "Parametric Width";
 Location = 448;
 }
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+f.italic,
+germandbls.italic,
+longs.italic,
+longsdotaccent.italic
+);
 }
 );
 instanceInterpolations = {
@@ -9587,6 +9677,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -10146,7 +10240,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -10198,7 +10307,7 @@ value = "Sudo UI";
 }
 );
 visible = 0;
-weightClass = 100;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -10528,6 +10637,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -11049,7 +11162,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -11432,6 +11560,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -11953,7 +12085,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -12334,6 +12481,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -12855,7 +13006,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -13239,6 +13405,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -13760,7 +13930,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -14140,6 +14325,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -14662,7 +14851,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -14716,7 +14920,7 @@ value = "Sudo UI";
 }
 );
 visible = 0;
-weightClass = 100;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -15042,6 +15246,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -15564,7 +15772,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -15945,6 +16168,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -16467,7 +16694,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -16846,6 +17088,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -17368,7 +17614,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
@@ -17749,6 +18010,10 @@ value = (
 "Psi=Psi.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
+"zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon=colon.ss20",
@@ -18271,7 +18536,22 @@ Ihookabove.ss20.cv02,
 Imacron.ss20.cv02,
 Iogonek.ss20.cv02,
 Istroke.ss20.cv02,
-Itilde.ss20.cv02
+Itilde.ss20.cv02,
+zerowidthspace.ss20,
+zerowidthnonjoiner.ss20,
+zerowidthjoiner.ss20,
+zeroWidthNoBreakSpace.ss20,
+w.ss20.italic,
+wacute.ss20.italic,
+wcircumflex.ss20.italic,
+wdieresis.ss20.italic,
+wdotaccent.ss20.italic,
+wdotbelow.ss20.italic,
+wgrave.ss20.italic,
+wring.ss20.italic,
+f.italic,
+germandbls.italic,
+longs.italic
 );
 },
 {
