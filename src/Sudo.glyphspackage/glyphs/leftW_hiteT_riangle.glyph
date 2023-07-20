@@ -12,13 +12,29 @@ ref = leftBlackTriangle;
 hints = (
 {
 horizontal = 1;
-place = (128,0);
+origin = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (448,0);
+origin = (0,2);
 type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+other1 = (1,2);
+target = (0,2);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+other1 = (1,1);
+target = (0,2);
+type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
