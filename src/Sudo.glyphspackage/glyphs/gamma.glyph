@@ -5,31 +5,8 @@ layers = (
 hints = (
 {
 horizontal = 1;
-origin = (1,0);
+origin = (1,1);
 type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,3);
-other1 = (0,7,1,0);
-target = (1,0);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,3);
-other1 = (0,3,0,15);
-target = (0,7,1,0);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,7,1,0);
-target = (0,11,1,2);
-type = TTShift;
 },
 {
 horizontal = 1;
@@ -37,6 +14,22 @@ options = 4;
 origin = (0,3);
 target = (0,12);
 type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,1);
+other1 = (0,7,1,0);
+target = (0,3);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,1);
+other1 = (0,3,0,15);
+target = (0,3);
+type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -45,20 +38,20 @@ shapes = (
 closed = 1;
 nodes = (
 (237,64,l),
-(171,174,o),
-(134,262,o),
-(117,451,c),
-(42,447,l),
-(59,249,o),
+(171,173,o),
+(134,260,o),
+(117,448,c),
+(42,448,l),
+(59,250,o),
 (116,121,o),
 (199,-2,c),
 (249,-2,l),
 (332,121,o),
-(389,249,o),
-(406,447,c),
-(331,451,l),
-(314,262,o),
-(277,174,o),
+(389,250,o),
+(406,448,c),
+(331,448,l),
+(314,260,o),
+(277,173,o),
 (211,64,c)
 );
 },
