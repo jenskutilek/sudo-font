@@ -205,6 +205,55 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = (0,3);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+target = (1,25);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+target = (1,13);
+type = TTShift;
+},
+{
+horizontal = 1;
+origin = (0,3);
+other1 = (0,3,1,6);
+target = (0,0);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3,1,6);
+target = (0,5,1,9);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3,1,6);
+target = (0,1,1,22);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,1,1,22);
+target = (0,7,1,19);
+type = TTShift;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {

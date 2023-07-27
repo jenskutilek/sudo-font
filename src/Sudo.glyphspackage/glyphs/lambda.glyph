@@ -67,25 +67,6 @@ nodes = (
 };
 hints = (
 {
-horizontal = 1;
-options = 4;
-origin = (0,4);
-target = (0,6);
-type = TTStem;
-},
-{
-horizontal = 1;
-origin = (0,8);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,8);
-target = (0,12,1,2);
-type = TTStem;
-},
-{
 options = 4;
 origin = (1,6);
 target = (1,6);
@@ -93,7 +74,7 @@ type = TTStem;
 },
 {
 options = 4;
-origin = (0,12);
+origin = (0,13);
 target = (0,12);
 type = TTStem;
 },
@@ -120,14 +101,14 @@ type = TTInterpolate;
 },
 {
 options = 4;
-origin = (0,11);
+origin = (0,12);
 other1 = (0,12,1,2);
 target = (0,6);
 type = TTInterpolate;
 },
 {
 options = 4;
-origin = (0,11);
+origin = (0,12);
 other1 = (0,9);
 target = (0,6);
 type = TTInterpolate;
@@ -145,8 +126,22 @@ origin = (1,6);
 type = TTSnap;
 },
 {
+horizontal = 1;
+options = 4;
+origin = (0,5);
+target = (0,6);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,9);
+target = (0,12,1,2);
+type = TTStem;
+},
+{
 options = 8;
-origin = (0,12);
+origin = (0,13);
 type = TTSnap;
 }
 );
