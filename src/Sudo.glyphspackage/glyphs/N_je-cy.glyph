@@ -6,56 +6,51 @@ hints = (
 {
 horizontal = 1;
 options = 4;
-place = (256,64);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-place = (0,0);
+origin = (0,10);
+target = (1,0);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
-place = (640,0);
-type = TTShift;
-},
-{
-options = 4;
-place = (60,72);
+origin = (0,10);
+target = (2,8);
 type = TTStem;
-},
-{
-options = 4;
-place = (388,-36);
-type = TTStem;
-},
-{
-options = 4;
-place = (132,0);
-type = TTShift;
-},
-{
-options = 4;
-place = (132,0);
-type = TTShift;
-},
-{
-options = 8;
-place = (60,0);
-type = TTSnap;
-},
-{
-options = 8;
-place = (132,0);
-type = TTSnap;
 },
 {
 horizontal = 1;
-other1 = (1,1);
-place = (0,150);
+options = 4;
+origin = (0,9);
+target = (1,5);
+type = TTShift;
+},
+{
+horizontal = 1;
+origin = (0,10);
+other1 = (0,6);
+target = (0,9);
 type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,6);
+target = (2,1);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (2,1);
+target = (1,1);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,6);
+target = (1,4);
+type = TTShift;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
