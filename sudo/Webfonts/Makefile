@@ -8,7 +8,7 @@ WOFF = $(STYLES:%.ttf=%.woff)
 WOF2 = $(STYLES:%.ttf=%.woff2)
 
 .PHONY: webfonts
-webfonts: woff2 woff SudoVariable.woff2
+webfonts: woff2 woff SudoVariable.woff2 SudoUIVariable.woff2
 
 .PHONY: woff
 woff: $(WOFF)
@@ -27,6 +27,10 @@ woff2: $(WOF2)
 SudoVariable.woff2: ../SudoVariable.ttf
 	$(WOF2_CMD) ../SudoVariable.ttf
 	mv ../SudoVariable.woff2 .
+
+SudoUIVariable.woff2: ../SudoUIVariable.ttf
+	$(WOF2_CMD) ../SudoUIVariable.ttf
+	mv ../SudoUIVariable.woff2 .
 
 .PHONY: clean
 clean:
