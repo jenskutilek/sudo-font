@@ -57,6 +57,44 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,28);
+target = (0,21);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,43);
+target = (0,6);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,28);
+other1 = (0,12);
+target = (0,43);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,12);
+target = (0,15);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,12);
+other1 = (0,34,0,40);
+target = (0,15);
+type = TTInterpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
