@@ -20,9 +20,18 @@ type = TTStem;
 {
 horizontal = 1;
 options = 4;
-origin = (0,9);
-target = (0,28);
-type = TTStem;
+origin = (0,34);
+other1 = (0,9);
+target = (0,22);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3);
+other1 = (0,28);
+target = (0,15);
+type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
