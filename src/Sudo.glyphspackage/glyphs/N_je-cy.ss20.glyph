@@ -4,6 +4,57 @@ glyphname = "Nje-cy.ss20";
 layers = (
 {
 color = 1;
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,5);
+target = (1,2);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+target = (1,3);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,3);
+target = (2,0);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,5);
+other1 = (1,10);
+target = (1,3);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,10);
+target = (2,2);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,5);
+other1 = (0,1);
+target = (1,3);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,1);
+target = (0,4);
+type = TTStem;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {

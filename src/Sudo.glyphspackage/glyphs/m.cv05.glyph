@@ -2,6 +2,56 @@
 glyphname = m.cv05;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (1,6);
+target = (1,0);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+target = (0,15);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (1,6);
+other1 = (2,0);
+target = (0,0);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (2,0);
+target = (2,15);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (2,0);
+other1 = (0,7,2,4);
+target = (2,15);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,0);
+target = (1,3,2,7);
+type = TTShift;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
