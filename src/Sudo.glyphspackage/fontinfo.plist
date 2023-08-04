@@ -314,11 +314,10 @@ lookup ccmp_Other_3 {
 tag = ccmp;
 },
 {
-code = "# Set width of combining marks to 0. Is this needed?
+code = "# Set width of combining marks to 0. Is this needed? PowerShell fails in any case, and centers the composed glyph inside the multiple width.
 pos @Markscomb <0 0 -448 0>;
 pos @MarkscombCase <0 0 -448 0>;
 ";
-disabled = 1;
 tag = ccmp;
 },
 {
