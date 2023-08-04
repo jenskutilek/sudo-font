@@ -215,7 +215,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2023-08-04 12:03:45 +0000";
+date = "2023-08-04 13:18:37 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -296,6 +296,8 @@ lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dialytikatonoscomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
+	sub iogonek' @CombiningTopAccents by iogonek.dotless;
+	sub istroke' @CombiningTopAccents by istroke.dotless;
 	sub j' @CombiningTopAccents by jdotless;
 } ccmp_Other_1;
 
@@ -626,7 +628,9 @@ sub igrave by igrave.cv02;
 sub ihookabove by ihookabove.cv02;
 sub imacron by imacron.cv02;
 sub iogonek by iogonek.cv02;
+sub iogonek.dotless by iogonek.dotless.cv02;
 sub istroke by istroke.cv02;
+sub istroke.dotless by istroke.dotless.cv02;
 sub itilde by itilde.cv02;
 sub j by j.cv03;
 sub jdotless by jdotless.cv03;
@@ -1011,6 +1015,7 @@ sub zdotaccent by zdotaccent.ss20;
 sub zdotbelow by zdotbelow.ss20;
 sub zmacronbelow by zmacronbelow.ss20;
 sub zstroke by zstroke.ss20;
+sub istroke.dotless by istroke.dotless.ss20;
 sub Ge-cy by Ge-cy.ss20;
 sub Geupturn-cy by Geupturn-cy.ss20;
 sub Zhe-cy by Zhe-cy.ss20;
@@ -1162,7 +1167,9 @@ sub igrave from [igrave.cv02];
 sub ihookabove from [ihookabove.cv02];
 sub imacron from [imacron.cv02];
 sub iogonek from [iogonek.cv02];
+sub iogonek.dotless from [iogonek.dotless.cv02];
 sub istroke from [istroke.cv02];
+sub istroke.dotless from [istroke.dotless.cv02];
 sub itilde from [itilde.cv02];
 # sub iacute_j.loclNLD from [iacute_j.loclNLD.cv02];
 ";
@@ -2757,6 +2764,18 @@ name = "Export STAT Table";
 value = 1;
 },
 {
+name = typoAscender;
+value = 896;
+},
+{
+name = hheaAscender;
+value = 896;
+},
+{
+name = winAscent;
+value = 896;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -3141,6 +3160,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -3211,18 +3234,6 @@ value = (
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20"
 );
-},
-{
-name = typoAscender;
-value = 896;
-},
-{
-name = hheaAscender;
-value = 896;
-},
-{
-name = winAscent;
-value = 896;
 }
 );
 name = Regular;
@@ -8484,6 +8495,10 @@ Location = 448;
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -8510,10 +8525,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 instanceInterpolations = {
@@ -9080,6 +9091,10 @@ Location = 448;
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -9106,10 +9121,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 instanceInterpolations = {
@@ -9678,6 +9689,10 @@ Location = 448;
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -9704,10 +9719,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 instanceInterpolations = {
@@ -10273,6 +10284,10 @@ Location = 448;
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -10299,10 +10314,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 instanceInterpolations = {
@@ -10870,6 +10881,10 @@ Location = 448;
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -10896,10 +10911,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 instanceInterpolations = {
@@ -11477,6 +11488,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -11861,6 +11876,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -11931,10 +11950,6 @@ value = (
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -12521,6 +12536,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -12905,6 +12924,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -12975,10 +12998,6 @@ value = (
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -13566,6 +13585,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -13950,6 +13973,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -14020,10 +14047,6 @@ value = (
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -14609,6 +14632,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -14993,6 +15020,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -15063,10 +15094,6 @@ value = (
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -15655,6 +15682,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -16039,6 +16070,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -16109,10 +16144,6 @@ value = (
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -16699,6 +16730,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -17083,6 +17118,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -17181,10 +17220,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -17771,6 +17806,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -18155,6 +18194,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -18253,10 +18296,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -18844,6 +18883,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -19228,6 +19271,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -19326,10 +19373,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -19915,6 +19958,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -20299,6 +20346,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -20397,10 +20448,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -20988,6 +21035,10 @@ double_accents
 );
 },
 {
+name = "Export STAT Table";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -21372,6 +21423,10 @@ value = (
 "wdotbelow.italic=wdotbelow.ss20.italic",
 "wgrave.italic=wgrave.ss20.italic",
 "wring.italic=wring.ss20.italic",
+"iogonek.dotless=iogonek.dotless.ss20",
+"istroke.dotless=istroke.dotless.ss20",
+"iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
+"istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "Ge-cy=Ge-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
@@ -21470,10 +21525,6 @@ value = (
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
 );
-},
-{
-name = "Export STAT Table";
-value = 1;
 }
 );
 exports = 0;
@@ -21797,5 +21848,5 @@ oV = "102";
 };
 };
 versionMajor = 0;
-versionMinor = 71;
+versionMinor = 72;
 }
