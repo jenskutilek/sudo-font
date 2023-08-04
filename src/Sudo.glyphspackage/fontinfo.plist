@@ -306,6 +306,12 @@ lookup ccmp_Other_3 {
 tag = ccmp;
 },
 {
+code = "pos @Markscomb <0 0 0 0>;
+pos @MarkscombCase <0 0 0 0>;
+";
+tag = ccmp;
+},
+{
 code = "lookup locl_latn_1 {
 	script latn;
 	language ROM;
@@ -3257,10 +3263,7 @@ gearWithoutHub
 name = "Remove Features";
 value = (
 ss20,
-kern,
-mark,
-mkmk,
-ccmp
+kern
 );
 },
 {
@@ -3755,11 +3758,8 @@ customParameters = (
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -4308,11 +4308,8 @@ customParameters = (
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -4862,11 +4859,8 @@ customParameters = (
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -5414,11 +5408,8 @@ customParameters = (
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -5968,11 +5959,8 @@ customParameters = (
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -6537,11 +6525,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -6999,11 +6984,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -7461,11 +7443,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -7921,11 +7900,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -8516,11 +8492,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -9113,11 +9086,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -9707,11 +9677,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -10303,11 +10270,8 @@ value = "11.31";
 {
 name = "Remove Features";
 value = (
-kern,
-mark,
-mkmk,
 ss20,
-ccmp
+kern
 );
 },
 {
@@ -21720,5 +21684,5 @@ oV = "102";
 };
 };
 versionMajor = 0;
-versionMinor = 70;
+versionMinor = 71;
 }
