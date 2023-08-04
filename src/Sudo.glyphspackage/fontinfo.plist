@@ -314,9 +314,11 @@ lookup ccmp_Other_3 {
 tag = ccmp;
 },
 {
-code = "pos @Markscomb <0 0 0 0>;
-pos @MarkscombCase <0 0 0 0>;
+code = "# Set width of combining marks to 0. Is this needed?
+pos @Markscomb <0 0 -448 0>;
+pos @MarkscombCase <0 0 -448 0>;
 ";
+disabled = 1;
 tag = ccmp;
 },
 {
