@@ -207,7 +207,7 @@ name = "Export Mac Name Table Entries";
 value = 0;
 }
 );
-date = "2023-07-20 15:49:28 +0000";
+date = "2023-08-04 12:03:45 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -604,6 +604,7 @@ sub ibreve by ibreve.cv02;
 sub icaron by icaron.cv02;
 sub icircumflex by icircumflex.cv02;
 sub idieresis by idieresis.cv02;
+sub idieresisacute by idieresisacute.cv02;
 sub idotaccent by idotaccent.cv02;
 sub idotbelow by idotbelow.cv02;
 sub igrave by igrave.cv02;
@@ -625,6 +626,7 @@ sub lcommaaccent by lcommaaccent.cv04;
 sub ldot by ldot.cv04;
 sub ldotbelow by ldotbelow.cv04;
 sub ldotbelowmacron by ldotbelowmacron.cv04;
+sub lmacronbelow by lmacronbelow.cv04;
 sub lslash by lslash.cv04;
 
 #script latn;
@@ -1201,6 +1203,7 @@ sub lcommaaccent from [lcommaaccent.cv04];
 sub ldot from [ldot.cv04];
 sub ldotbelow from [ldotbelow.cv04];
 sub ldotbelowmacron from [ldotbelowmacron.cv04];
+sub lmacronbelow from [lmacronbelow.cv04];
 sub lslash from [lslash.cv04];
 ";
 tag = cv04;
@@ -3081,6 +3084,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -3102,6 +3106,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -11777,6 +11782,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -11798,6 +11804,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -12815,6 +12822,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -12836,6 +12844,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -13854,6 +13863,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -13875,6 +13885,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -14891,6 +14902,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -14912,6 +14924,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -15931,6 +15944,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -15952,6 +15966,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -16969,6 +16984,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -16990,6 +17006,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -18035,6 +18052,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -18056,6 +18074,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -19102,6 +19121,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -19123,6 +19143,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -20167,6 +20188,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -20188,6 +20210,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
@@ -21234,6 +21257,7 @@ value = (
 "icaron.cv02=icaron.ss20.cv02",
 "icircumflex.cv02=icircumflex.ss20.cv02",
 "idieresis.cv02=idieresis.ss20.cv02",
+"idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent.cv02=idotaccent.ss20.cv02",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave.cv02=igrave.ss20.cv02",
@@ -21255,6 +21279,7 @@ value = (
 "ldot.cv04=ldot.ss20.cv04",
 "ldotbelow.cv04=ldotbelow.ss20.cv04",
 "ldotbelowmacron.cv04=ldotbelowmacron.ss20.cv04",
+"lmacronbelow.cv04=lmacronbelow.ss20.cv04",
 "lslash.cv04=lslash.ss20.cv04",
 "f.italic=f.ss20.italic",
 "longsdotaccent.italic=longsdotaccent.ss20.italic",
