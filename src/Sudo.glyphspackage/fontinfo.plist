@@ -1273,6 +1273,13 @@ code = "cvParameters {
 sub m by m.cv05;
 ";
 tag = cv05;
+},
+{
+code = "# Stupid workaround for Affinity 1, 2 to avoid ij ligatures
+sub IJ by IJ;
+sub ij by ij;
+";
+tag = liga;
 }
 );
 fontMaster = (
@@ -1444,7 +1451,6 @@ GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 32;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1933,6 +1939,7 @@ GSOffsetHorizontal = 36;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 32;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -21930,5 +21937,5 @@ oV = "102";
 };
 };
 versionMajor = 0;
-versionMinor = 73;
+versionMinor = 74;
 }
