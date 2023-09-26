@@ -41,9 +41,7 @@ F.hex
 name = hex_tgt;
 },
 {
-code = "@hex_src
-@hex_tgt
-zero
+code = "zero
 one
 two
 three
@@ -53,6 +51,25 @@ six
 seven
 eight
 nine
+zero.zero
+zero.osf
+one.osf
+two.osf
+three.osf
+four.osf
+five.osf
+six.osf
+seven.osf
+eight.osf
+nine.osf
+zero.zero.osf
+";
+name = numbers;
+},
+{
+code = "@hex_src
+@hex_tgt
+@numbers
 ";
 name = hex_num;
 },
@@ -556,6 +573,8 @@ code = "sub leftArrow hyphen' by emdash;
 sub emdash hyphen' by emdash;
 sub hyphen' hyphen by emdash;
 sub @short_caps_src' @double_accents by @short_caps_tgt;
+
+sub hyphen' @numbers by minus;
 
 lookup EMDASH {
 	sub hyphen' emdash by emdash;
