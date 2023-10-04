@@ -1,5 +1,5 @@
 {
-.appVersion = "3219";
+.appVersion = "3221";
 .formatVersion = 3;
 axes = (
 {
@@ -590,6 +590,8 @@ lookup HEXNUM {
 	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
 	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
 } HEXNUM;
+
+sub colon' equal by colon.alt;
 ";
 tag = calt;
 },
@@ -24880,5 +24882,5 @@ oV = "102";
 };
 };
 versionMajor = 0;
-versionMinor = 76;
+versionMinor = 77;
 }
