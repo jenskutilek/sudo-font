@@ -1,6 +1,6 @@
 #!/bin/sh
 version=`git describe --tags`
-rm -r dist/deb
+rm -rf dist/deb
 mkdir -p dist/deb/sudo-font
 git archive --format=tar.gz ${version} --prefix=sudo-font-${version}/ > dist/deb/sudo-font/sudo-font-${version}.tar.gz
 cd dist/deb/sudo-font
