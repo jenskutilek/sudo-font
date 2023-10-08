@@ -38,3 +38,8 @@ update_version:
 	sed -E "s/(Download Sudo )v[0-9\.]+( for free.<\/a> \()[0-9]+[0-9\.]+ ?[A-Za-z]+( zip file)/\1$(sudo_version)\2$(zip_size)\3/" $(WEBPAGE) \
 	> $(WEBPAGE).tmp \
 	&& mv $(WEBPAGE).tmp $(WEBPAGE)
+
+
+.PHONY: install-debian
+install-debian:
+	install -m 644 -Dt $(prefix)/share/fonts/truetype/sudo
