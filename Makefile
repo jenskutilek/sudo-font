@@ -37,4 +37,4 @@ $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
 
 .PHONY: install-debian
 install-debian:
-	$(MAKE) -C $(FONTDIR)
+	$(MAKE) -C $(FONTDIR) install-debian
