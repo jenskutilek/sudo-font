@@ -1,21 +1,7 @@
 #!/usr/bin/make -f
 
-.PHONY: build
-build:
-	echo "Build not required"
-
-
-.PHONY: clean
-clean:
-
-
-#%:
-#	dh $@
-
-
-.PHONY: binary
-binary:
-	echo "Binary not required"
+%:
+	dh $@
 
 
 override_dh_auto_install:
