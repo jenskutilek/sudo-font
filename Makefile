@@ -4,7 +4,7 @@ FONTDIR = sudo
 
 
 .PHONY: all
-all: build dist # update_version
+all: build dist
 
 
 .PHONY: build
@@ -36,4 +36,4 @@ $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
 
 .PHONY: install-debian
 install-debian:
-	install -m 644 -Dt $(prefix)/share/fonts/truetype/sudo
+	install -m 644 sudo/*.ttf -Dt $(prefix)/share/fonts/truetype/sudo

@@ -1,2 +1,3 @@
 #!/bin/sh
-sudo apt install devscripts
+# Install required packages for building the Debian package
+sudo apt install devscripts zip
