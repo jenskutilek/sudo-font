@@ -3,7 +3,6 @@ DISTDIR = dist
 FONTDIR = sudo
 prefix = /usr/local
 
-
 .PHONY: all
 all: build
 
