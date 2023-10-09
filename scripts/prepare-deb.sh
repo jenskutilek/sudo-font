@@ -8,3 +8,5 @@ cd dist/deb/fonts-sudo
 mv fonts-sudo-${version}.tar.gz fonts-sudo_${version}.orig.tar.gz
 tar xzf fonts-sudo_${version}.orig.tar.gz
 cp -R ../../../packaging/debian fonts-sudo-${version}
+cd fonts-sudo-${version}
+debuild -us -uc
