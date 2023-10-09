@@ -5,6 +5,10 @@ WEBFONTDIR=Webfonts
 all: $(WEBFONTDIR) # SudoVariable.ttf
 
 
+.PHONY: build
+build: $(WEBFONTDIR)
+
+
 .PHONY: $(WEBFONTDIR)
 $(WEBFONTDIR):
 	$(MAKE) -C $@
@@ -23,3 +27,6 @@ SudoVariable.ttf: ../patch/SudoVariable.STAT.avar.ttf
 
 ../patch/SudoVariable.STAT.avar.ttf: ../ttf_ttx/SudoVariable.ttx ../patch/SudoVariable.STAT.avar.ttx
 	ttx -m SudoVariable.ttf ../patch/SudoVariable.STAT.avar.ttx
+
+.PHONY: install-debian
+install-debian:
