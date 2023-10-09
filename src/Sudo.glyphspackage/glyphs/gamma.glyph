@@ -5,30 +5,37 @@ layers = (
 hints = (
 {
 horizontal = 1;
-origin = (0,0);
+options = 4;
+origin = (0,4);
+target = (0,11);
+type = TTShift;
+},
+{
+horizontal = 1;
+origin = (1,3);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (0,11);
-target = (0,4);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,7,1,0);
-place = (-192,640);
-target = (0,11);
+origin = (0,4);
+other1 = (0,15,1,3);
+target = (1,3);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
-other1 = (0,0);
-place = (-192,640);
-target = (0,11);
+origin = (0,15,1,3);
+target = (0,3,1,1);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,15,1,3);
+other1 = (0,7,0,11);
+target = (0,4);
 type = TTInterpolate;
 }
 );
@@ -152,22 +159,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(190,-2,l),
-(298,121,o),
-(382,250,o),
-(439,448,c),
-(388,448,l),
-(331,257,o),
-(274,165,o),
-(174,42,c),
-(202,42,l),
-(150,165,o),
-(131,257,o),
-(150,448,c),
+(190,-4,l),
+(299,120,o),
+(383,249,o),
+(440,448,c),
+(387,448,l),
+(330,258,o),
+(273,166,o),
+(173,44,c),
+(200,40,l),
+(149,164,o),
+(130,256,o),
+(149,448,c),
 (99,448,l),
-(76,250,o),
-(108,121,o),
-(168,-2,c)
+(77,251,o),
+(110,122,o),
+(169,0,c)
 );
 },
 {
@@ -224,22 +231,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(224,-2,l),
-(331,121,o),
-(414,250,o),
+(225,-6,l),
+(333,118,o),
+(414,248,o),
 (471,448,c),
-(356,448,l),
-(304,260,o),
-(256,173,o),
-(180,64,c),
-(204,64,l),
-(172,173,o),
-(158,260,o),
-(182,448,c),
+(355,448,l),
+(304,262,o),
+(255,176,o),
+(179,68,c),
+(202,60,l),
+(170,170,o),
+(157,258,o),
+(181,448,c),
 (67,448,l),
-(44,250,o),
-(75,121,o),
-(134,-2,c)
+(44,252,o),
+(77,124,o),
+(136,2,c)
 );
 },
 {
@@ -263,36 +270,6 @@ coordinates = (
 -64
 );
 };
-hints = (
-{
-horizontal = 1;
-origin = (0,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,11);
-target = (0,4);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,7,1,0);
-place = (-64,512);
-target = (0,11);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,0);
-place = (-64,512);
-target = (0,11);
-type = TTInterpolate;
-}
-);
 layerId = "416B6BB2-E6D9-4CE5-BE3C-8523EC3617DC";
 name = "3. Aug 23 at 22:10";
 shapes = (
