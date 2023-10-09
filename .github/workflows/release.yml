@@ -13,7 +13,7 @@ jobs:
     - name: Install WOFF Support
       run: sudo apt install -y woff2 woff-tools
     - name: Build
-      run: make sudo dist/sudo.zip
+      run: make dist
     - name: Generate Changelog
       run: sed -n '/${{github.ref_name}}/,/^$/p' sudo/FONTLOG.txt | sed '1d; $d' > Release_Notes.txt
     - name: Release
