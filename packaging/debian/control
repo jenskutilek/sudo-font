@@ -1,12 +1,13 @@
-Source: sudo-font
+Source: fonts-sudo
 Section: fonts
 Priority: optional
 Standards-Version: 4.6.2
 Maintainer: Jens Kutilek <webmail@kutilek.de>
 Build-Depends: debhelper-compat (= 13)
 
-Package: sudo-font
+Package: fonts-sudo
 Architecture: all
+Depends: ${misc:Depends}
 Description: A font family designed for terminal, programming, and user interfaces.
  Sudo is a font family designed for terminals, programming, and user interfaces.
  It comes with a monospaced and a proportional variant.
