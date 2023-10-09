@@ -5,4 +5,4 @@
 
 
 override_dh_auto_install:
-	$(MAKE) DESTDIR=$$(pwd)/debian/fonts-sudo prefix=usr install-debian
+	$(MAKE) DESTDIR=$$(pwd)/debian/fonts-sudo prefix=/usr install-debian

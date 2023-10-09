@@ -30,3 +30,4 @@ SudoVariable.ttf: ../patch/SudoVariable.STAT.avar.ttf
 
 .PHONY: install-debian
 install-debian:
+	install -m 644 *.ttf -d $(DESTDIR)$(prefix)/share/fonts/truetype/sudo

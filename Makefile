@@ -37,4 +37,4 @@ $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
 
 .PHONY: install-debian
 install-debian:
-	install -m 644 sudo/*.ttf -d $(prefix)/share/fonts/truetype/sudo/
+	$(MAKE) -C $(FONTDIR)
