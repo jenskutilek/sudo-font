@@ -9,15 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Install WOFF Support
       run: sudo apt install -y woff2 woff-tools
     - name: Build
-      run: make sudo dist/sudo.zip
+      run: make dist
     - name: Generate Changelog
       run: sed -n '/${{github.ref_name}}/,/^$/p' sudo/FONTLOG.txt | sed '1d; $d' > Release_Notes.txt
+    - name: Install Debian Packaging Support
+      run: sudo apt -y install devscripts
+    - name: Build Debian Package
+      run: scripts/prepare-deb.sh
     - name: Release
       uses: softprops/action-gh-release@v0.1.15
       with:
         body_path: Release_Notes.txt
-        files: dist/sudo.zip
+        files: dist/sudo.zip dist/deb/fonts-sudo/fonts-sudo_*_all.deb
