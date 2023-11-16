@@ -699,6 +699,28 @@ value = "Simple narrow letters";
 tag = ss03;
 },
 {
+code = "pos @All <16 0 32 0>;";
+labels = (
+{
+language = dflt;
+value = "Extra spacing";
+}
+);
+tag = ss04;
+},
+{
+code = "sub longs by s;
+sub longs.italic by s;
+";
+labels = (
+{
+language = dflt;
+value = "Modernize long s";
+}
+);
+tag = ss19;
+},
+{
 code = "sub f by f.italic;
 sub f.ss20 by f.ss20.italic;
 sub longsdotaccent.ss20 by longsdotaccent.ss20.italic;
