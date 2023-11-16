@@ -44,14 +44,35 @@ type = TTStem;
 },
 {
 options = 4;
-origin = (0,15);
-target = (0,2);
+origin = (0,2);
+target = (0,15);
 type = TTStem;
 },
 {
-options = 4;
 origin = (1,16);
 target = (0,8);
+type = TTShift;
+},
+{
+options = 8;
+origin = (1,16);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (0,2);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,15);
+target = (0,16,1,12);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,15);
+target = (0,17);
 type = TTShift;
 }
 );

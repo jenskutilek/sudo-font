@@ -9,6 +9,18 @@ options = 4;
 origin = (0,1);
 target = (0,2);
 type = TTStem;
+},
+{
+origin = lsb;
+other1 = (0,1);
+target = rsb;
+type = TTInterpolate;
+},
+{
+origin = lsb;
+other1 = (0,0);
+target = rsb;
+type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

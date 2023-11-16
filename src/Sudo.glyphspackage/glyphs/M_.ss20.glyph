@@ -92,6 +92,7 @@ target = (0,12);
 type = TTShift;
 },
 {
+options = 8;
 origin = (0,18);
 type = TTSnap;
 },
@@ -102,6 +103,7 @@ target = (0,0);
 type = TTStem;
 },
 {
+options = 8;
 origin = (0,10);
 type = TTSnap;
 },
@@ -131,6 +133,27 @@ options = 8;
 origin = (0,0);
 other1 = (0,4);
 target = (0,17);
+type = TTInterpolate;
+},
+{
+options = 4;
+origin = (0,18);
+other1 = (0,4);
+target = (0,9);
+type = TTInterpolate;
+},
+{
+options = 4;
+origin = (0,0);
+other1 = (0,5);
+target = (0,10);
+type = TTInterpolate;
+},
+{
+options = 4;
+origin = (0,4);
+other1 = (0,14);
+target = (0,5);
 type = TTInterpolate;
 }
 );

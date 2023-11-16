@@ -30,6 +30,38 @@ options = 4;
 origin = (1,1);
 target = (0,2);
 type = TTShift;
+},
+{
+options = 8;
+origin = (1,4);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (2,2);
+type = TTSnap;
+},
+{
+origin = (2,2);
+target = (1,0);
+type = TTShift;
+},
+{
+origin = (1,4);
+target = (2,3);
+type = TTShift;
+},
+{
+options = 4;
+origin = (1,4);
+target = (0,0,1,2);
+type = TTStem;
+},
+{
+options = 4;
+origin = (2,2);
+target = (0,2,2,0);
+type = TTStem;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

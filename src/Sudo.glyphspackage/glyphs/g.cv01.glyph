@@ -106,6 +106,50 @@ type = TTSnap;
 origin = (0,8);
 target = (3,29);
 type = TTShift;
+},
+{
+options = 4;
+origin = (0,2);
+other1 = (0,11,2,1);
+target = (0,8);
+type = TTInterpolate;
+},
+{
+options = 4;
+origin = (0,2);
+other1 = (0,11,2,3);
+target = (0,8);
+type = TTInterpolate;
+},
+{
+origin = (0,8);
+target = (2,2);
+type = TTShift;
+},
+{
+origin = (0,2);
+target = (3,3);
+type = TTShift;
+},
+{
+options = 4;
+origin = (3,3);
+target = (3,36);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,2);
+other1 = (0,5,3,3);
+target = (0,8);
+type = TTInterpolate;
+},
+{
+options = 4;
+origin = (0,2);
+other1 = (0,5,3,39);
+target = (0,8);
+type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
