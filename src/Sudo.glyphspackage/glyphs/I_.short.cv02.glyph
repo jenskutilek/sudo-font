@@ -20,40 +20,23 @@ pos = (224,576);
 hints = (
 {
 horizontal = 1;
-options = 4;
-place = (0,0);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,3);
-target = (0,0);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-place = (576,0);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,2);
-target = (0,1);
-type = TTShift;
-},
-{
-options = 4;
-origin = (0,3);
-target = (0,0);
-type = TTStem;
-},
-{
-options = 8;
 origin = (0,3);
 type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,2);
+type = TTSnap;
+},
+{
+origin = (0,3);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,3);
+target = (0,0);
+type = TTStem;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

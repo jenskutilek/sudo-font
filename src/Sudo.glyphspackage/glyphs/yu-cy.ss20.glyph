@@ -23,29 +23,16 @@ type = TTSnap;
 {
 horizontal = 1;
 options = 4;
-place = (461,64);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-place = (-13,13);
-target = (0,0);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 8;
-origin = (0,0);
-other1 = (0,1,1,0);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 4;
 origin = (0,1,1,0);
 target = (0,1,1,2);
 type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,0);
+other1 = (0,1,1,0);
+target = (0,2);
+type = TTInterpolate;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -130,13 +117,13 @@ type = TTSnap;
 {
 horizontal = 1;
 options = 4;
-place = (768.333,106.667);
+place = (768.333, 106.667);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-place = (-21.667,22);
+place = (-21.667, 22);
 target = (0,0);
 type = TTStem;
 },
