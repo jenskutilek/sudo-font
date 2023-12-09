@@ -1,12 +1,9 @@
-fonts-sudo (0.78-1) UNRELEASED; urgency=medium
+fonts-sudo (0.79-1) UNRELEASED; urgency=medium
 
+  * Stylistic Set 4 (Extra Spacing) only applies to UI family
+  * Wider space glyph in UI family
   * Finish more Greek glyphs
-  * Hinting improvements and fixes
-  * Add a Stylistic Set 4 with extra spacing
-  * Add a Stylistic Set 19 which turns ſ into s
-  * Add character variants for m (cv05)
-  * Try disabling PANOSE values
-  * Fix post.isFixedWidth values in UI family
-  * Export with tried and true Glyphs build 3151
+  * Add PETSCII block graphics in PUA for compatibility with https://github.com/jenskutilek/homecomputer-fonts
+  * Re-enable PANOSE values
 
- -- Jens Kutilek <debian@kutilek.de>  Thu, 16 Nov 2023 22:27:37 +0100
+ -- Jens Kutilek <debian@kutilek.de>  Sat, 09 Dec 2023 15:19:00 +0100
