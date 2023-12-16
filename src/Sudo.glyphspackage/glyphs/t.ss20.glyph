@@ -88,11 +88,6 @@ target = (0,19);
 type = TTShift;
 },
 {
-horizontal = 1;
-origin = (0,14);
-type = TTSnap;
-},
-{
 options = 8;
 origin = (0,20);
 type = TTSnap;
@@ -130,6 +125,13 @@ type = TTShift;
 origin = (0,16);
 stem = -1;
 target = (0,17);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,13);
+stem = -1;
+target = (0,14);
 type = TTStem;
 }
 );
