@@ -54,7 +54,22 @@ nodes = (
 },
 {
 alignment = -1;
+pos = (128,256);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (192,192);
+ref = pixel.round;
+},
+{
+alignment = -1;
 pos = (128,384);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (192,320);
 ref = pixel.round;
 },
 {
@@ -65,21 +80,6 @@ ref = pixel.round;
 {
 alignment = -1;
 pos = (192,448);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (192,320);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (128,256);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (192,192);
 ref = pixel.round;
 }
 );
@@ -123,7 +123,22 @@ nodes = (
 },
 {
 alignment = -1;
+pos = (128,256);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (192,192);
+ref = pixel.round;
+},
+{
+alignment = -1;
 pos = (128,384);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (192,320);
 ref = pixel.round;
 },
 {
@@ -135,64 +150,63 @@ ref = pixel.round;
 alignment = -1;
 pos = (192,448);
 ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (192,320);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (128,256);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (192,192);
-ref = pixel.round;
 }
 );
 width = 448;
 },
 {
-color = 1;
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 shapes = (
 {
 closed = 1;
 nodes = (
-(47,0,l),
-(160,113,l),
-(273,0,l),
-(303,0,l),
-(450,147,l),
-(450,640,l),
-(401,640,l),
-(288,527,l),
-(175,640,l),
-(145,640,l),
-(-2,493,l),
-(-2,0,l)
+(43,0,l),
+(160,117,l),
+(277,0,l),
+(299,0,l),
+(440,141,l),
+(440,640,l),
+(405,640,l),
+(288,523,l),
+(171,640,l),
+(149,640,l),
+(8,499,l),
+(8,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(175,192,l),
-(149,192,l),
-(66,109,l),
-(66,467,l),
-(160,561,l),
-(273,448,l),
-(303,448,l),
-(382,527,l),
-(382,169,l),
-(290,77,l)
+(171,172,l),
+(153,172,l),
+(56,75,l),
+(56,481,l),
+(160,585,l),
+(277,468,l),
+(299,468,l),
+(392,561,l),
+(392,155,l),
+(290,53,l)
 );
 },
 {
 alignment = -1;
+pos = (128,256);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (192,192);
+ref = pixel.round;
+},
+{
+alignment = -1;
 pos = (128,384);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (192,320);
 ref = pixel.round;
 },
 {
@@ -204,34 +218,86 @@ ref = pixel.round;
 alignment = -1;
 pos = (192,448);
 ref = pixel.round;
+}
+);
+width = 448;
+},
+{
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1,0,l),
+(140,117,l),
+(233,0,l),
+(255,0,l),
+(424,141,l),
+(523,640,l),
+(488,640,l),
+(347,523,l),
+(254,640,l),
+(232,640,l),
+(62,499,l),
+(-37,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,172,l),
+(142,172,l),
+(26,75,l),
+(108,481,l),
+(233,585,l),
+(326,468,l),
+(348,468,l),
+(460,561,l),
+(378,155,l),
+(255,53,l)
+);
 },
 {
 alignment = -1;
-pos = (192,320);
+pos = (178,256);
 ref = pixel.round;
 },
 {
 alignment = -1;
-pos = (128,256);
+pos = (231,192);
 ref = pixel.round;
 },
 {
 alignment = -1;
-pos = (192,192);
+pos = (204,384);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (256,320);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (231,512);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (280,448);
 ref = pixel.round;
 }
 );
 width = 448;
 },
 {
-color = 1;
-layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+background = {
 shapes = (
 {
 closed = 1;
 nodes = (
 (3,0,l),
-(139,113,l),
+(140,113,l),
 (229,0,l),
 (259,0,l),
 (435,147,l),
@@ -247,52 +313,122 @@ nodes = (
 {
 closed = 1;
 nodes = (
+(189,250,o),
+(205,263,o),
+(208,281,cs),
+(213,305,o),
+(198,324,o),
+(175,324,cs),
+(156,324,o),
+(140,311,o),
+(137,293,cs),
+(132,269,o),
+(147,250,o),
+(170,250,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(240,186,o),
+(256,199,o),
+(260,217,cs),
+(264,241,o),
+(250,260,o),
+(226,260,cs),
+(208,260,o),
+(192,247,o),
+(188,229,cs),
+(183,205,o),
+(198,186,o),
+(221,186,cs)
+);
+},
+{
+closed = 1;
+nodes = (
 (168,192,l),
 (142,192,l),
 (42,109,l),
 (115,467,l),
 (229,561,l),
 (319,448,l),
-(348,448,l),
+(349,448,l),
 (443,527,l),
 (370,169,l),
 (259,77,l)
 );
 },
 {
-alignment = -1;
-pos = (204,384);
-ref = pixel.round;
+closed = 1;
+nodes = (
+(214,378,o),
+(230,391,o),
+(234,409,cs),
+(239,433,o),
+(224,452,o),
+(201,452,cs),
+(182,452,o),
+(166,439,o),
+(162,421,cs),
+(158,397,o),
+(172,378,o),
+(196,378,cs)
+);
 },
 {
-alignment = -1;
-pos = (229,512);
-ref = pixel.round;
+closed = 1;
+nodes = (
+(266,314,o),
+(282,327,o),
+(285,345,cs),
+(290,369,o),
+(275,388,o),
+(252,388,cs),
+(233,388,o),
+(217,375,o),
+(214,357,cs),
+(209,333,o),
+(224,314,o),
+(247,314,cs)
+);
 },
 {
-alignment = -1;
-pos = (281,448);
-ref = pixel.round;
+closed = 1;
+nodes = (
+(240,506,o),
+(256,519,o),
+(260,537,cs),
+(264,561,o),
+(250,580,o),
+(226,580,cs),
+(208,580,o),
+(192,567,o),
+(188,549,cs),
+(183,525,o),
+(198,506,o),
+(221,506,cs)
+);
 },
 {
-alignment = -1;
-pos = (255,320);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (178,256);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (230,192);
-ref = pixel.round;
+closed = 1;
+nodes = (
+(291,442,o),
+(307,455,o),
+(311,473,cs),
+(316,497,o),
+(301,516,o),
+(277,516,cs),
+(259,516,o),
+(243,503,o),
+(239,485,cs),
+(234,461,o),
+(249,442,o),
+(273,442,cs)
+);
 }
 );
-width = 448;
-},
-{
+};
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 shapes = (
 {
@@ -329,32 +465,32 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (204,384);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (229,512);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (281,448);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (255,320);
-ref = pixel.round;
-},
-{
-alignment = -1;
 pos = (178,256);
 ref = pixel.round;
 },
 {
 alignment = -1;
-pos = (230,192);
+pos = (231,192);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (204,384);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (256,320);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (231,512);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (280,448);
 ref = pixel.round;
 }
 );
@@ -398,32 +534,32 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (204,384);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (229,512);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (281,448);
-ref = pixel.round;
-},
-{
-alignment = -1;
-pos = (255,320);
-ref = pixel.round;
-},
-{
-alignment = -1;
 pos = (178,256);
 ref = pixel.round;
 },
 {
 alignment = -1;
-pos = (230,192);
+pos = (231,192);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (204,384);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (256,320);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (231,512);
+ref = pixel.round;
+},
+{
+alignment = -1;
+pos = (280,448);
 ref = pixel.round;
 }
 );
