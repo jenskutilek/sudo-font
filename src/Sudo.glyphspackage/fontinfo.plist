@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3231";
 .formatVersion = 3;
 axes = (
 {
@@ -1228,7 +1228,21 @@ sub gdotaccent by gdotaccent.cv01;
 sub gmacron by gmacron.cv01;
 sub gstroke by gstroke.cv01;
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Alternate g\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Alternate g\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv01;
 },
 {
@@ -1312,7 +1326,21 @@ sub Iota.ss20 by Iota.ss20.cv02;
 sub Iotatonos.ss20 by Iotatonos.ss20.cv02;
 sub Iotadieresis.ss20 by Iotadieresis.ss20.cv02;
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Serifless i\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Serifless i\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv02;
 },
 {
@@ -1335,7 +1363,21 @@ sub Je-cy by Je-cy.cv03;
 sub je-cy by je-cy.cv03;
 sub je-cy.ss20 by je-cy.ss20.cv03;
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Serifless j\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Serifless j\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv03;
 },
 {
@@ -1361,12 +1403,40 @@ sub ldotbelowmacron.ss20 by ldotbelowmacron.ss20.cv04;
 sub lmacronbelow.ss20 by lmacronbelow.ss20.cv04;
 sub lslash.ss20 by lslash.ss20.cv04;
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Footless l\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Footless l\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv04;
 },
 {
 code = "sub m from [m.cv05.1 m.cv05.2];";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Vertical m\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Vertical m\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv05;
 },
 {
@@ -2371,11 +2441,6 @@ GSOffsetVertical = -10;
 );
 instances = (
 {
-axesValues = (
-0,
-0,
-0
-);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3517,10 +3582,6 @@ value = (
 );
 }
 );
-instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1.4;
-"92967D72-867E-4A8B-929F-F44D834DD4C9" = -0.4;
-};
 name = Regular;
 properties = (
 {
@@ -3536,11 +3597,6 @@ value = "Sudo UI Var";
 type = variable;
 },
 {
-axesValues = (
-0,
-0,
-0
-);
 customParameters = (
 {
 name = "Instance Preview";
@@ -4133,10 +4189,6 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1.4;
-"92967D72-867E-4A8B-929F-F44D834DD4C9" = -0.4;
-};
 name = Regular;
 properties = (
 {
@@ -4802,6 +4854,105 @@ value = 1;
 {
 name = "Save as TrueType";
 value = 1;
+},
+{
+name = "Decompose Glyphs";
+value = (
+uniE014,
+uniE015,
+uniE016,
+uniE017,
+uniE018,
+uniE019,
+uniE01A,
+uniE01B,
+uniE01C,
+uniE01D,
+uniE01E,
+uniE01F,
+uniE020,
+uniE021,
+uniE022,
+uniE023,
+uniE024,
+uniE025,
+uniE026,
+uniE027,
+uniE028,
+uniE029,
+uniE02A,
+uniE02B,
+uniE02C,
+uniE02D,
+uniE02E,
+uniE02F,
+uniE030,
+uniE031,
+uniE032,
+uniE033,
+uniE034,
+uniE035,
+uniE036,
+uniE037,
+uniE038,
+uniE039,
+uniE03A,
+uniE03B,
+uniE03C,
+uniE03D,
+uniE03E,
+uniE03F,
+uniE040,
+uniE041,
+uniE042,
+uniE043,
+uniE044,
+uniE045,
+uniE046,
+uniE047,
+uniE048,
+uniE049,
+uniE04A,
+uniE04B,
+uniE04C,
+uniE04D,
+uniE04E,
+uniE04F,
+uniE050,
+uniE051,
+uniE052,
+uniE05B,
+uniE05C,
+uniE05D,
+uniE065,
+uniE07F,
+uniE080,
+uniE081,
+uniE082,
+uniE083,
+uniE084,
+uniE085,
+uniE086,
+uniE087,
+uniE088,
+uniE089,
+uniE08A,
+uniE08B,
+uniE08C,
+uniE08D,
+uniE08E,
+uniE08F,
+uniE090,
+uniE091,
+uniE092,
+uniE093,
+uniE094,
+uniE095,
+uniE096,
+uniE097,
+uniE098,
+uniE09B
+);
 }
 );
 instanceInterpolations = {
