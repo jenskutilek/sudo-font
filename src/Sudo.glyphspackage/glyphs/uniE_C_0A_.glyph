@@ -5,35 +5,49 @@ layers = (
 hints = (
 {
 horizontal = 1;
-options = 4;
-origin = (3,3);
-target = (2,11);
-type = TTStem;
+origin = (0,11);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (1,3);
+type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (3,1);
+origin = (0,5);
 target = (2,5);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (3,3);
-other1 = (0,3,3,3);
+origin = (0,11);
+target = (2,11);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,11);
+other1 = (0,2,1,1);
 target = (0,5);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
-origin = (3,3);
-type = TTSnap;
+origin = (0,11);
+other1 = (3,3);
+target = (0,5);
+type = TTInterpolate;
 },
 {
 horizontal = 1;
-origin = (0,3);
-type = TTSnap;
+options = 4;
+origin = (3,3);
+target = (3,2);
+type = TTStem;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
