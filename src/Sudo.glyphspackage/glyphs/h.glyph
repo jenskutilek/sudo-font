@@ -8,6 +8,10 @@ name = bottom;
 pos = (224,0);
 },
 {
+name = origin.hook;
+pos = (316,0);
+},
+{
 name = top;
 pos = (224,640);
 }
@@ -110,6 +114,10 @@ name = bottom;
 pos = (224,0);
 },
 {
+name = origin.hook;
+pos = (286,0);
+},
+{
 name = top;
 pos = (224,640);
 }
@@ -161,6 +169,10 @@ anchors = (
 {
 name = bottom;
 pos = (224,0);
+},
+{
+name = origin.hook;
+pos = (334,0);
 },
 {
 name = top;
@@ -216,6 +228,10 @@ name = bottom;
 pos = (179,0);
 },
 {
+name = origin.hook;
+pos = (289,0);
+},
+{
 name = top;
 pos = (307,640);
 }
@@ -266,7 +282,11 @@ width = 448;
 anchors = (
 {
 name = bottom;
-pos = (307,0);
+pos = (179,0);
+},
+{
+name = origin.hook;
+pos = (271,0);
 },
 {
 name = top;
@@ -322,6 +342,10 @@ name = bottom;
 pos = (179,0);
 },
 {
+name = origin.hook;
+pos = (241,0);
+},
+{
 name = top;
 pos = (307,640);
 }
@@ -363,113 +387,6 @@ nodes = (
 (311,351,o),
 (303,310,cs),
 (241,0,l)
-);
-}
-);
-width = 448;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (224,0);
-},
-{
-name = top;
-pos = (224,640);
-}
-);
-associatedMasterId = "95FB0C11-C828-4064-8966-34220AA4D426";
-background = {
-shapes = (
-{
-ref = n;
-}
-);
-};
-hints = (
-{
-horizontal = 1;
-origin = (0,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-origin = (1,15);
-type = TTSnap;
-},
-{
-horizontal = 1;
-origin = (0,1);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (1,4);
-target = (1,11);
-type = TTStem;
-},
-{
-options = 4;
-origin = (1,1);
-target = (1,14);
-type = TTStem;
-},
-{
-options = 4;
-origin = (0,3);
-target = (0,0);
-type = TTStem;
-},
-{
-options = 4;
-origin = (0,0);
-target = (0,1,1,7);
-type = TTShift;
-},
-{
-options = 8;
-origin = (0,3);
-type = TTSnap;
-},
-{
-options = 8;
-origin = (1,1);
-type = TTSnap;
-}
-);
-layerId = "36CF106C-4085-4BB1-B62D-E56EE387FE7B";
-name = "6. Jun 22, 00:20";
-shapes = (
-{
-closed = 1;
-nodes = (
-(132,0,l),
-(132,640,l),
-(60,640,l),
-(60,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(388,0,l),
-(388,297,ls),
-(388,419,o),
-(327,452,o),
-(261,452,cs),
-(186,452,o),
-(115,399,o),
-(81,345,c),
-(117,314,l),
-(152,354,o),
-(199,388,o),
-(247,388,cs),
-(300,388,o),
-(316,358,o),
-(316,289,cs),
-(316,0,l)
 );
 }
 );
