@@ -17,6 +17,38 @@ name = top;
 pos = (224,576);
 }
 );
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,4);
+target = (1,4);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,1);
+target = (1,2);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,4);
+other1 = (1,0,2,2);
+target = (0,1);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,4);
+other1 = (0,2,2,5);
+target = (0,1);
+type = TTInterpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {

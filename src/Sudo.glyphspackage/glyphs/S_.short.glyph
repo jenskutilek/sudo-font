@@ -21,6 +21,38 @@ name = topright;
 pos = (320,576);
 }
 );
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,31);
+target = (0,24);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,15);
+target = (0,8);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,31);
+other1 = (0,21,0);
+target = (0,8);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,24);
+other1 = (0,5,0);
+target = (0,15);
+type = TTInterpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
