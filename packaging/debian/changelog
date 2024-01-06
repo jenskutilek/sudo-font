@@ -1,9 +1,11 @@
-fonts-sudo (0.80-1) UNRELEASED; urgency=medium
+fonts-sudo (0.81-1) UNRELEASED; urgency=medium
 
-  * Remove Opentype feature icons, they were incomplete anyway
-  * Shift tilde over horned base characters
-  * Tweak proportional glyphs
-  * Finish superscript uppercase letters
-  * Add control symbols
+- Remove more glyphs that are not really needed
+- Add proportional fractions and superscript/subscript figures to UI family
+- Add /heavyleftpointinganglequotationmarkornament/heavyrightpointinganglequotationmarkornament
+- Tweak glyph order
+- Add more currency symbols
+- Fix vertical metrics in VF fonts (Glyphs bug)
+- Hinting fixes
 
- -- Jens Kutilek <debian@kutilek.de>  Sat, 16 Dec 2023 17:17:00 +0100
+ -- Jens Kutilek <debian@kutilek.de>  Sat, 6 Jan 2024 20:27:00 +0100
