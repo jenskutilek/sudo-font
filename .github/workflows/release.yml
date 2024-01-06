@@ -13,7 +13,7 @@ jobs:
     - name: Generate Changelog
       run: sed -n '/${{github.ref_name}}/,/^$/p' sudo/FONTLOG.txt | sed '1d; $d' > Release_Notes.txt
     - name: Install Debian Packaging Support
-      run: sudo apt -y install devscripts debhelper-compat
+      run: sudo apt update && sudo apt -y install devscripts debhelper-compat
     - name: Build Debian Package
       run: scripts/prepare-deb.sh
     - name: Install WOFF Support
