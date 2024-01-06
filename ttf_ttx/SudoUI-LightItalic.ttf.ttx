@@ -1654,12 +1654,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.07999"/>
-    <checkSumAdjustment value="0x7508d32c"/>
+    <checkSumAdjustment value="0xb0949224"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
     <created value="Sat Dec 16 15:26:27 2023"/>
-    <modified value="Sat Jan  6 14:50:53 2024"/>
+    <modified value="Sat Jan  6 18:05:43 2024"/>
     <xMin value="-168"/>
     <yMin value="-202"/>
     <xMax value="789"/>
@@ -1676,7 +1676,7 @@
     <ascent value="896"/>
     <descent value="-192"/>
     <lineGap value="0"/>
-    <advanceWidthMax value="928"/>
+    <advanceWidthMax value="768"/>
     <minLeftSideBearing value="-168"/>
     <minRightSideBearing value="-286"/>
     <xMaxExtent value="789"/>
@@ -2127,7 +2127,7 @@
     <mtx name="four.osf" width="448" lsb="-1"/>
     <mtx name="four_fraction_nine" width="448" lsb="41"/>
     <mtx name="four_fraction_seven" width="448" lsb="41"/>
-    <mtx name="fraction" width="320" lsb="3"/>
+    <mtx name="fraction" width="448" lsb="3"/>
     <mtx name="fraction.alt" width="448" lsb="41"/>
     <mtx name="fraction.percent" width="448" lsb="27"/>
     <mtx name="franc" width="448" lsb="-9"/>
@@ -2463,7 +2463,7 @@
     <mtx name="uni0186" width="384" lsb="-3"/>
     <mtx name="uni0187" width="448" lsb="62"/>
     <mtx name="uni0188" width="384" lsb="44"/>
-    <mtx name="uni018A" width="928" lsb="17"/>
+    <mtx name="uni018A" width="448" lsb="-20"/>
     <mtx name="uni018E" width="416" lsb="-2"/>
     <mtx name="uni018F" width="448" lsb="42"/>
     <mtx name="uni0190" width="448" lsb="38"/>
@@ -2744,9 +2744,9 @@
     <mtx name="uni0490" width="384" lsb="17"/>
     <mtx name="uni0491" width="448" lsb="17"/>
     <mtx name="uni0E3F" width="448" lsb="17"/>
-    <mtx name="uni1D43" width="368" lsb="83"/>
+    <mtx name="uni1D43" width="448" lsb="83"/>
     <mtx name="uni1D48" width="384" lsb="104"/>
-    <mtx name="uni1D52" width="384" lsb="101"/>
+    <mtx name="uni1D52" width="448" lsb="101"/>
     <mtx name="uni1D57" width="320" lsb="102"/>
     <mtx name="uni1D7B" width="448" lsb="48"/>
     <mtx name="uni1D7C" width="448" lsb="92"/>
@@ -2770,7 +2770,7 @@
     <mtx name="uni1E1C" width="416" lsb="17"/>
     <mtx name="uni1E1D" width="432" lsb="36"/>
     <mtx name="uni1E1E" width="384" lsb="17"/>
-    <mtx name="uni1E1F" width="352" lsb="-5"/>
+    <mtx name="uni1E1F" width="448" lsb="-5"/>
     <mtx name="uni1E20" width="448" lsb="57"/>
     <mtx name="uni1E21" width="448" lsb="28"/>
     <mtx name="uni1E21.cv01" width="448" lsb="-22"/>
@@ -2784,7 +2784,7 @@
     <mtx name="uni1E29" width="448" lsb="16"/>
     <mtx name="uni1E2A" width="480" lsb="17"/>
     <mtx name="uni1E2B" width="448" lsb="17"/>
-    <mtx name="uni1E2F" width="288" lsb="65"/>
+    <mtx name="uni1E2F" width="448" lsb="65"/>
     <mtx name="uni1E2F.cv02" width="224" lsb="36"/>
     <mtx name="uni1E30" width="448" lsb="17"/>
     <mtx name="uni1E31" width="448" lsb="17"/>
@@ -2838,7 +2838,7 @@
     <mtx name="uni1E6C" width="448" lsb="98"/>
     <mtx name="uni1E6D" width="352" lsb="46"/>
     <mtx name="uni1E6E" width="448" lsb="38"/>
-    <mtx name="uni1E6F" width="352" lsb="-14"/>
+    <mtx name="uni1E6F" width="448" lsb="42"/>
     <mtx name="uni1E7C" width="448" lsb="105"/>
     <mtx name="uni1E7D" width="448" lsb="86"/>
     <mtx name="uni1E7E" width="448" lsb="98"/>
@@ -37220,7 +37220,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="uni018A" xMin="17" yMin="0" xMax="637" yMax="640">
+    <TTGlyph name="uni018A" xMin="-20" yMin="0" xMax="459" yMax="640">
       <contour>
         <pt x="378" y="640" on="0"/>
         <pt x="459" y="554" on="0"/>
@@ -37232,7 +37232,19 @@
         <pt x="247" y="0" on="0"/>
         <pt x="170" y="0" on="1"/>
         <pt x="17" y="0" on="1"/>
-        <pt x="145" y="640" on="1"/>
+        <pt x="134" y="584" on="1"/>
+        <pt x="117" y="584" on="1"/>
+        <pt x="88" y="584" on="0"/>
+        <pt x="49" y="548" on="0"/>
+        <pt x="42" y="515" on="1"/>
+        <pt x="38" y="491" on="0"/>
+        <pt x="38" y="476" on="1"/>
+        <pt x="-20" y="476" on="1"/>
+        <pt x="-20" y="508" on="0"/>
+        <pt x="-16" y="527" on="1"/>
+        <pt x="-5" y="580" on="0"/>
+        <pt x="66" y="640" on="0"/>
+        <pt x="126" y="640" on="1"/>
         <pt x="293" y="640" on="1"/>
       </contour>
       <contour>
@@ -37249,36 +37261,20 @@
         <pt x="196" y="584" on="1"/>
         <pt x="91" y="56" on="1"/>
       </contour>
-      <contour>
-        <pt x="464" y="508" on="0"/>
-        <pt x="468" y="527" on="1"/>
-        <pt x="479" y="580" on="0"/>
-        <pt x="550" y="640" on="0"/>
-        <pt x="610" y="640" on="1"/>
-        <pt x="637" y="640" on="1"/>
-        <pt x="626" y="584" on="1"/>
-        <pt x="601" y="584" on="1"/>
-        <pt x="572" y="584" on="0"/>
-        <pt x="533" y="548" on="0"/>
-        <pt x="526" y="515" on="1"/>
-        <pt x="522" y="491" on="0"/>
-        <pt x="522" y="476" on="1"/>
-        <pt x="464" y="476" on="1"/>
-      </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          31 15 28 2
+          11 15 22 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
-          21 15 11 2
+          33 15 23 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
-          12 15 8 8
+          24 15 8 8
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[0]	/* InterpolateUntPts */
@@ -37288,7 +37284,7 @@
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          23 16
+          35 16
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 1 value pushed */
@@ -37296,7 +37292,7 @@
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          16 16
+          28 16
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[1]	/* InterpolateUntPts */
         </assembly>
@@ -46083,9 +46079,9 @@
       <component glyphName="uni0307.case" x="-15" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E1F" xMin="-5" yMin="-200" xMax="429" yMax="840">
+    <TTGlyph name="uni1E1F" xMin="-5" yMin="-200" xMax="432" yMax="840">
       <component glyphName="f" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0307" x="56" y="192" flags="0x404"/>
+      <component glyphName="uni0307" x="77" y="192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni1E20" xMin="57" yMin="-9" xMax="469" yMax="765">
@@ -46153,10 +46149,10 @@
       <component glyphName="uni032E" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E2F" xMin="65" yMin="0" xMax="371" yMax="834">
+    <TTGlyph name="uni1E2F" xMin="65" yMin="0" xMax="457" yMax="834">
       <component glyphName="dotlessi" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0308" x="-82" y="0" flags="0x400"/>
-      <component glyphName="acutecomb.case" x="-84" y="-7" flags="0x404"/>
+      <component glyphName="uni0308" x="4" y="0" flags="0x400"/>
+      <component glyphName="acutecomb.case" x="2" y="-7" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni1E2F.cv02" xMin="36" yMin="0" xMax="341" yMax="834">
@@ -46434,9 +46430,9 @@
       <component glyphName="uni0331" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E6F" xMin="-14" yMin="-113" xMax="339" yMax="576">
+    <TTGlyph name="uni1E6F" xMin="42" yMin="-113" xMax="339" yMax="576">
       <component glyphName="t" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0331" x="-52" y="0" flags="0x400"/>
+      <component glyphName="uni0331" x="4" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni1E7C" xMin="105" yMin="-3" xMax="495" yMax="837">
@@ -79244,7 +79240,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="305"/>
+                <XCoordinate value="306"/>
                 <YCoordinate value="704"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -79289,7 +79285,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="432"/>
+                <XCoordinate value="433"/>
                 <YCoordinate value="744"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -79439,7 +79435,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="291"/>
+                <XCoordinate value="292"/>
                 <YCoordinate value="636"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -79613,7 +79609,7 @@
               </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="447"/>
+                <XCoordinate value="448"/>
                 <YCoordinate value="704"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -79715,7 +79711,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="325"/>
+                <XCoordinate value="326"/>
                 <YCoordinate value="704"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -79745,7 +79741,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="311"/>
+                <XCoordinate value="312"/>
                 <YCoordinate value="636"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -79805,7 +79801,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="325"/>
+                <XCoordinate value="326"/>
                 <YCoordinate value="704"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -79829,7 +79825,7 @@
               </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="290"/>
+                <XCoordinate value="289"/>
                 <YCoordinate value="601"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -80261,7 +80257,7 @@
               </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="361"/>
+                <XCoordinate value="382"/>
                 <YCoordinate value="828"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -80666,7 +80662,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="262"/>
+                <XCoordinate value="348"/>
                 <YCoordinate value="825"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -82395,7 +82391,7 @@
             </BaseRecord>
             <BaseRecord index="537">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="104"/>
+                <XCoordinate value="160"/>
                 <YCoordinate value="-113"/>
               </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
