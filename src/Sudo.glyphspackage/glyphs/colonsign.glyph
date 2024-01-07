@@ -5,18 +5,6 @@ layers = (
 {
 hints = (
 {
-horizontal = 1;
-options = 4;
-place = (-9, 64);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-place = (583, 64);
-type = TTStem;
-},
-{
 options = 4;
 place = (60, 86);
 target = (2,3);
@@ -37,6 +25,30 @@ type = TTShift;
 options = 8;
 origin = (2,3);
 type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,1);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,1);
+target = (1,2);
+type = TTShift;
+},
+{
+horizontal = 1;
+origin = (2,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (2,0);
+target = (3,3);
+type = TTShift;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -107,7 +119,7 @@ type = TTStem;
 },
 {
 options = 4;
-place = (40.2, 99);
+place = (40.2, 98.8);
 target = (2,3);
 type = TTStem;
 },
