@@ -1826,6 +1826,10 @@ upperRightAndLowerLeftAndLowerRightBlock,
 shadelight,
 shademedium,
 shadedark,
+blackSquare,
+whiteSquare,
+blackDiamond,
+whiteDiamond,
 blackCircle,
 whiteCircle,
 whiteBullet,
@@ -1833,8 +1837,6 @@ inverseBullet,
 inverseWhiteCircle,
 lozenge,
 filledRect,
-blackSquare,
-whiteSquare,
 upperlefttolowerrightFillSquare,
 upperrighttolowerleftFillSquare,
 blackSmallSquare,
@@ -3379,9 +3381,8 @@ stemValues = (
 56
 );
 userData = {
-GSOffsetHorizontal = 8;
+GSOffsetHorizontal = -64;
 GSOffsetKeepCompatible = 1;
-GSOffsetMakeStroke = 1;
 GSOffsetPosition = 0.8;
 GSOffsetProportional = 1;
 GSOffsetVertical = 32;
@@ -3545,7 +3546,8 @@ stemValues = (
 userData = {
 GSOffsetHorizontal = 20;
 GSOffsetKeepCompatible = 1;
-GSOffsetVertical = 7;
+GSOffsetProportional = 1;
+GSOffsetVertical = 14;
 };
 },
 {
@@ -31381,6 +31383,7 @@ hyphen.ss20 = -96;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -48;
+"@MMK_R_El-cy" = -32;
 "@MMK_R_a" = -40;
 "@MMK_R_f" = -24;
 "@MMK_R_hyphen" = -48;
@@ -31397,7 +31400,6 @@ hyphen.ss20 = -96;
 "@MMK_R_y" = -40;
 "@MMK_R_z" = -40;
 "Ef-cy.ss20" = -64;
-"@MMK_R_El-cy" = -32;
 };
 "@MMK_L_U" = {
 "@MMK_R_period" = -8;
