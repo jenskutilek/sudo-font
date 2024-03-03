@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.24">
+  <STAT>
+    <Version value="0x00010001"/>
+    <DesignAxisRecordSize value="8"/>
+    <!-- DesignAxisCount=3 -->
+    <DesignAxisRecord>
+      <Axis index="0">
+        <AxisTag value="wght"/>
+        <AxisNameID value="256"/>  <!-- Weight -->
+        <AxisOrdering value="0"/>
+      </Axis>
+      <Axis index="1">
+        <AxisTag value="ital"/>
+        <AxisNameID value="257"/>  <!-- Italic -->
+        <AxisOrdering value="1"/>
+      </Axis>
+      <Axis index="2">
+        <AxisTag value="YTDE"/>
+        <AxisNameID value="258"/>  <!-- Descender -->
+        <AxisOrdering value="2"/>
+      </Axis>
+    </DesignAxisRecord>
+    <!-- AxisValueCount=5 -->
+    <AxisValueArray>
+      <AxisValue index="0" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="259"/>  <!-- Thin -->
+        <Value value="200.0"/>
+      </AxisValue>
+      <AxisValue index="1" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="261"/>  <!-- Light -->
+        <Value value="300.0"/>
+      </AxisValue>
+      <AxisValue index="2" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="2"/>  <!-- ElidableAxisValueName -->
+        <ValueNameID value="2"/>  <!-- Regular -->
+        <Value value="400.0"/>
+      </AxisValue>
+      <AxisValue index="3" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="263"/>  <!-- Medium -->
+        <Value value="600.0"/>
+      </AxisValue>
+      <AxisValue index="4" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="265"/>  <!-- Bold -->
+        <Value value="700.0"/>
+      </AxisValue>
+      <AxisValue index="5" Format="3">
+        <AxisIndex value="1"/>
+        <Flags value="2"/>  <!-- ElidableAxisValueName -->
+        <ValueNameID value="2"/>  <!-- Regular -->
+        <Value value="0.0"/>
+        <LinkedValue value="1.0"/>
+      </AxisValue>
+      <AxisValue index="6" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="0"/>
+        <ValueNameID value="257"/>  <!-- Italic -->
+        <Value value="1.0"/>
+      </AxisValue>
+      <AxisValue index="7" Format="1">
+        <AxisIndex value="2"/>
+        <Flags value="2"/>  <!-- ElidableAxisValueName -->
+        <ValueNameID value="2"/>  <!-- Regular -->
+        <Value value="-188.0"/>
+      </AxisValue>
+    </AxisValueArray>
+    <ElidedFallbackNameID value="2"/>  <!-- Regular -->
+  </STAT>
+
   <cvar>
     <version major="1" minor="0"/>
     <tuple>
