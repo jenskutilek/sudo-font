@@ -537,55 +537,6 @@ angle = 45;
 pos = (248,436);
 }
 );
-hints = (
-{
-horizontal = 1;
-origin = (0,3);
-type = TTSnap;
-},
-{
-horizontal = 1;
-origin = (0,5);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (1,12);
-target = (1,5);
-type = TTStem;
-},
-{
-options = 4;
-origin = (0,5);
-target = (0,0);
-type = TTStem;
-},
-{
-options = 4;
-origin = (0,0);
-target = (0,1);
-type = TTShift;
-},
-{
-options = 8;
-origin = (1,9);
-type = TTSnap;
-},
-{
-options = 8;
-origin = (0,5);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,5);
-other1 = (0,1,1,2);
-target = (1,5);
-type = TTInterpolate;
-}
-);
 layerId = "17BCCA86-4BA5-436D-B9A7-025E18D8C7BE";
 name = "3. May 21, 15:04";
 shapes = (
@@ -678,51 +629,6 @@ guides = (
 {
 angle = 45;
 pos = (248,436);
-}
-);
-hints = (
-{
-horizontal = 1;
-place = (448, 0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-place = (0, 0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-place = (452, 68);
-type = TTStem;
-},
-{
-options = 4;
-place = (105, 72);
-type = TTStem;
-},
-{
-options = 4;
-place = (177, 0);
-type = TTShift;
-},
-{
-options = 8;
-place = (358, 0);
-type = TTSnap;
-},
-{
-options = 8;
-place = (105, 0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,1,1,2);
-place = (0, 150);
-type = TTInterpolate;
 }
 );
 layerId = "CED2AC22-C1A1-47A6-8D16-FDD266A40A95";
