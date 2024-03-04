@@ -5,6 +5,34 @@ kernLeft = u;
 kernRight = softsign;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,27);
+target = (0,18);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,23);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,27);
+other1 = (0,5);
+target = (0,23);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,5);
+target = (0,12);
+type = TTStem;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {

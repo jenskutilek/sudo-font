@@ -7,6 +7,7 @@ hints = (
 horizontal = 1;
 options = 4;
 origin = (0,18);
+stem = 0;
 target = (0,19);
 type = TTStem;
 },
@@ -14,6 +15,7 @@ type = TTStem;
 horizontal = 1;
 options = 4;
 origin = (0,38);
+stem = 0;
 target = (0,37);
 type = TTStem;
 },
@@ -71,6 +73,30 @@ options = 4;
 origin = (0,34);
 other1 = (0,28);
 target = (0,8);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,19);
+other1 = (0,8);
+target = (0,38);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,18);
+other1 = (0,9);
+target = (0,37);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,8);
+other1 = (0,28);
+target = (0,9);
 type = TTInterpolate;
 }
 );

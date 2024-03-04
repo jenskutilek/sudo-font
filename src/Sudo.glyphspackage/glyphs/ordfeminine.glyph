@@ -23,20 +23,6 @@ origin = (0,17);
 type = TTSnap;
 },
 {
-horizontal = 1;
-origin = (0,5);
-other1 = (0,0);
-target = (1,19);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,0);
-target = (0,16,1,12);
-type = TTStem;
-},
-{
 options = 4;
 origin = (1,16);
 target = (1,9);
@@ -74,6 +60,20 @@ options = 4;
 origin = (0,15);
 target = (0,17);
 type = TTShift;
+},
+{
+horizontal = 1;
+origin = (0,5);
+other1 = (0,16,1,16);
+target = (1,19);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,16,1,16);
+target = (0,16,1,12);
+type = TTStem;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
