@@ -4,7 +4,7 @@ from fontTools.ttLib import TTFont
 
 
 def drawGlyph(glyph):
-	pen = CocoaPen(glyph._glyphset)
+	pen = CocoaPen(glyph.glyphSet)
 	glyph.draw(pen)
 	path = pen.path
 	_drawBotDrawingTool.drawPath(path)
