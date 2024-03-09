@@ -1658,12 +1658,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.002"/>
-    <checkSumAdjustment value="0x4823e1e3"/>
+    <checkSumAdjustment value="0x96627bfb"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
     <created value="Sat Mar  9 13:54:47 2024"/>
-    <modified value="Sat Mar  9 14:55:57 2024"/>
+    <modified value="Sat Mar  9 15:52:07 2024"/>
     <xMin value="-173"/>
     <yMin value="-204"/>
     <xMax value="759"/>
@@ -53309,9 +53309,9 @@
           26
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 2 values pushed */
-          17 18
-          MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          17
+          MDRP[01101]	/* MoveDirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
           20 17
           SRP0[ ]	/* SetRefPoint0 */
@@ -66054,16 +66054,16 @@
       Italic
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.002;JENS;SudoUI-RegularItalic
+      1.002;JENS;SudoUI-Italic
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Sudo UI Regular Italic
+      Sudo UI Italic
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
       Version 1.002
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      SudoUI-RegularItalic
+      SudoUI-Italic
     </namerecord>
     <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
       Sudo is a trademark of Jens Kutilek
@@ -66090,7 +66090,7 @@
       Sudo UI
     </namerecord>
     <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
-      Regular Italic
+      Italic
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
       Alternate g
@@ -105582,13 +105582,13 @@
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="17"/>  <!-- Regular Italic -->
+        <ValueNameID value="2"/>  <!-- Italic -->
         <Value value="400.0"/>
       </AxisValue>
       <AxisValue index="1" Format="1">
         <AxisIndex value="1"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="17"/>  <!-- Regular Italic -->
+        <ValueNameID value="2"/>  <!-- Italic -->
         <Value value="1.0"/>
       </AxisValue>
     </AxisValueArray>
