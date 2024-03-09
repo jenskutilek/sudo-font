@@ -1,12 +1,13 @@
 WEBFONTDIR=Webfonts
+WEBFONTDIR2=Webfonts-Split-VF-Italic
 
 
 .PHONY: all
-all: $(WEBFONTDIR) # SudoVariable.ttf
+all: $(WEBFONTDIR) $(WEBFONTDIR2)
 
 
 .PHONY: build
-build: $(WEBFONTDIR)
+build: $(WEBFONTDIR) $(WEBFONTDIR2)
 
 
 .PHONY: $(WEBFONTDIR)
@@ -14,19 +15,16 @@ $(WEBFONTDIR):
 	$(MAKE) -C $@
 
 
+.PHONY: $(WEBFONTDIR2)
+$(WEBFONTDIR2):
+	$(MAKE) -C $@
+
+
 .PHONY: clean
 clean:
 	$(MAKE) -C $(WEBFONTDIR) clean
+	$(MAKE) -C $(WEBFONTDIR2) clean
 
-
-SudoVariable.ttf: ../patch/SudoVariable.STAT.avar.ttf
-	mv ../patch/SudoVariable.STAT.avar.ttf SudoVariable.ttf
-	rm -f SudoVariable.ttx
-	ttx SudoVariable.ttf
-	mv SudoVariable.ttx ../ttf_ttx/SudoVariable.ttx
-
-../patch/SudoVariable.STAT.avar.ttf: ../ttf_ttx/SudoVariable.ttx ../patch/SudoVariable.STAT.avar.ttx
-	ttx -m SudoVariable.ttf ../patch/SudoVariable.STAT.avar.ttx
 
 .PHONY: install-debian
 install-debian:
