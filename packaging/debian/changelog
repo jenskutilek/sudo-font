@@ -1,9 +1,13 @@
-fonts-sudo (1.1-1) UNRELEASED; urgency=medium
+fonts-sudo (1.2-1) UNRELEASED; urgency=medium
 
-  * Another round of hinting
-  * Remove some overlaps where required for hinting
-  * Spacing fixes
-  * Add variable descender to /integral/product
-  * Re-add some proportional alternates
+  * Make slashed zero default (dotted zero is in cv06 feature)
+  * Fix some overlapping contours
+  * Use alternate substitution type in cvXX features
+  * Deactivate some useless glyphs
+  * Set PANOSE values for UI family
+  * Merge meta table from patch file into variable fonts
+  * Fix webfont build
+  * Remove dotted zero patch script. Use a modern environment that supports OpenType features.
+  * Add variable webfonts with separate Roman and Italic styles because of lacking browser support
 
- -- Jens Kutilek <debian@kutilek.de>  Mon, 04 Mar 2024 23:14:00 +0100
+ -- Jens Kutilek <debian@kutilek.de>  Sat, 09 Mar 2024 18:00:00 +0100

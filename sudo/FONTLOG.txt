@@ -1,5 +1,16 @@
 Sudo is Copyright (c) 2009-2024, Jens Kutilek (http://www.kutilek.de/).
 
+v1.2
+- Make slashed zero default (dotted zero is in cv06 feature)
+- Fix some overlapping contours
+- Use alternate substitution type in cvXX features
+- Deactivate some useless glyphs
+- Set PANOSE values for UI family
+- Merge meta table from patch file
+- Fix webfont build
+- Remove dotted zero patch script. Use a modern environment that supports OpenType features.
+- Add variable webfonts with separate Roman and Italic styles because of lacking browser support
+
 v1.1
 - Another round of hinting
 - Remove some overlaps where required for hinting
