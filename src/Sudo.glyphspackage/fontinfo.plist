@@ -1994,7 +1994,16 @@ value = 0;
 },
 {
 name = "meta Table";
-value = "{\012    data = \"Latn,Cyrl,Grek\";\012    tag = dlng;\012}\012{\012    data = \"Latn,Cyrl,Grek\";\012    tag = slng;\012}";
+value = (
+{
+data = "Cyrl,Grek,Latn";
+tag = dlng;
+},
+{
+data = "Cyrl,Grek,Latn";
+tag = slng;
+}
+);
 },
 {
 name = "Feature for Feature Variations";
