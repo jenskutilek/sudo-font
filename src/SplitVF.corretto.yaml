@@ -1,0 +1,19 @@
+ranges:
+  - id: split-roman
+    axes:
+      - tag: ital
+        def: 0
+      - tag: wght
+      - tag: YTDE
+  - id: split-italic
+    axes:
+      - tag: ital
+        def: 1
+      - tag: wght
+      - tag: YTDE
+
+subsets:
+  - range: split-roman
+    out_dir: Split-VF-Italic
+  - range: split-italic
+    out_dir: Split-VF-Italic
