@@ -6,7 +6,7 @@ WOF2 = $(STYLES:%.ttf=%.woff2)
 
 
 .PHONY: all
-all: build
+all: webfonts
 
 
 .PHONY: build
