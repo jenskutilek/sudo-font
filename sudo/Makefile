@@ -7,7 +7,13 @@ all: $(WEBFONTDIR) $(WEBFONTDIR2)
 
 
 .PHONY: build
-build: $(WEBFONTDIR) $(WEBFONTDIR2)
+build:
+	@echo "Build"
+	cho
+
+
+.PHONY: webfonts
+webfonts: $(WEBFONTDIR) $(WEBFONTDIR2)
 
 
 .PHONY: $(WEBFONTDIR)

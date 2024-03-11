@@ -10,8 +10,7 @@ all: build
 
 
 .PHONY: build
-build: webfonts
-	@echo "Running WOFF2 build"
+build:
 
 
 .PHONY: clean
@@ -20,11 +19,7 @@ clean:
 
 
 .PHONY: webfonts
-webfonts: woff2
-
-
-.PHONY: woff2
-woff2: $(WOF2)
+webfonts: $(WOF2)
 
 
 %.woff2: ../Split-VF-Italic/%.ttf
