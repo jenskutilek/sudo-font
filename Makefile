@@ -17,7 +17,7 @@ clean:
 
 
 .PHONY: dist
-dist: $(DISTDIR)/$(ARCHIVE)
+dist: webfonts $(DISTDIR)/$(ARCHIVE)
 
 
 .PHONY: $(FONTDIR)
@@ -37,3 +37,8 @@ $(DISTDIR)/$(ARCHIVE): $(FONTDIR)
 .PHONY: install-debian
 install-debian:
 	$(MAKE) -C $(FONTDIR) install-debian
+
+
+.PHONY: webfonts
+webfonts:
+	$(MAKE) -C $(FONTDIR) webfonts
