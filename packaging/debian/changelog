@@ -1,13 +1,5 @@
-fonts-sudo (1.2-1) UNRELEASED; urgency=medium
+fonts-sudo (1.3-1) UNRELEASED; urgency=medium
 
-  * Make slashed zero default (dotted zero is in cv06 feature)
-  * Fix some overlapping contours
-  * Use alternate substitution type in cvXX features
-  * Deactivate some useless glyphs
-  * Set PANOSE values for UI family
-  * Merge meta table from patch file into variable fonts
-  * Fix webfont build
-  * Remove dotted zero patch script. Use a modern environment that supports OpenType features.
-  * Add variable webfonts with separate Roman and Italic styles because of lacking browser support
+  * Add U+20B9 INDIAN RUPEE for compatibility with the Koeberlin Latin S 0.9.1 character set
 
- -- Jens Kutilek <debian@kutilek.de>  Sat, 09 Mar 2024 18:00:00 +0100
+ -- Jens Kutilek <debian@kutilek.de>  Sat, 22 Jun 2024 10:22:00 +0200
