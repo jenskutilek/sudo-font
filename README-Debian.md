@@ -2,6 +2,8 @@
 
 The Sudo fonts are not part of the official Debian distribution. But you can use my private apt repository to install and update the Sudo fonts.
 
+The repo ist hosted at <https://www.kutilek.de/apt/>.
+
 Add the GPG public key of the repo to be able to check the signatures:
 
 ```sh
