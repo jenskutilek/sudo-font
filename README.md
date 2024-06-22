@@ -18,7 +18,19 @@ Sudo Regular and Bold in TextMate
 
 Sudo Light in vim on macOS with [Powerline](https://github.com/powerline/powerline)
 
+
 ## Installation
+
+
+### Arch Linux
+
+Sudo is available in the [Arch User Repository](https://wiki.archlinux.org/index.php/Arch_User_Repository) as [ttf-sudo](https://aur.archlinux.org/packages/ttf-sudo).
+
+
+### Debian
+
+You can use my private apt repository to install and update the fonts.
+See the [Debian README](README-Debian.md) for details.
 
 ### FreeBSD
 
@@ -38,7 +50,3 @@ Sudo is also available as a [Homebrew](https://brew.sh/) package.
 brew tap homebrew/cask-fonts
 brew install --cask font-sudo
 ```
-
-### Arch Linux
-
-Sudo is available in the [Arch User Repository](https://wiki.archlinux.org/index.php/Arch_User_Repository) as [ttf-sudo](https://aur.archlinux.org/packages/ttf-sudo).
