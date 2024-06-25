@@ -27,9 +27,10 @@ Sudo Light in vim on macOS with [Powerline](https://github.com/powerline/powerli
 Sudo is available in the [Arch User Repository](https://wiki.archlinux.org/index.php/Arch_User_Repository) as [ttf-sudo](https://aur.archlinux.org/packages/ttf-sudo).
 
 
-### Debian
+### Debian and Ubuntu Linux
 
 You can use my private apt repository to install and update the fonts.
+
 See the [Debian README](README-Debian.md) for details.
 
 ### FreeBSD
