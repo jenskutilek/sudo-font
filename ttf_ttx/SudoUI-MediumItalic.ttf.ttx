@@ -1658,13 +1658,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.00299"/>
-    <checkSumAdjustment value="0xce81f7bb"/>
+    <fontRevision value="1.004"/>
+    <checkSumAdjustment value="0xb3173b73"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sat Jun 22 08:15:17 2024"/>
-    <modified value="Sat Jun 22 08:16:34 2024"/>
+    <created value="Fri Aug  2 16:15:38 2024"/>
+    <modified value="Fri Aug  2 16:16:02 2024"/>
     <xMin value="-173"/>
     <yMin value="-204"/>
     <xMax value="764"/>
@@ -2479,7 +2479,7 @@
     <mtx name="uni019D" width="480" lsb="-88"/>
     <mtx name="uni01B3" width="448" lsb="109"/>
     <mtx name="uni01B4" width="448" lsb="17"/>
-    <mtx name="uni01B5" width="416" lsb="-7"/>
+    <mtx name="uni01B5" width="448" lsb="-7"/>
     <mtx name="uni01B6" width="416" lsb="6"/>
     <mtx name="uni01B7" width="448" lsb="12"/>
     <mtx name="uni01CD" width="448" lsb="-15"/>
@@ -2930,7 +2930,7 @@
     <mtx name="uni1ED7" width="448" lsb="32"/>
     <mtx name="uni1ED8" width="480" lsb="37"/>
     <mtx name="uni1ED9" width="448" lsb="32"/>
-    <mtx name="uni1EDA" width="480" lsb="37"/>
+    <mtx name="uni1EDA" width="448" lsb="37"/>
     <mtx name="uni1EDB" width="448" lsb="32"/>
     <mtx name="uni1EDC" width="480" lsb="37"/>
     <mtx name="uni1EDD" width="448" lsb="32"/>
@@ -2944,13 +2944,13 @@
     <mtx name="uni1EE5" width="448" lsb="34"/>
     <mtx name="uni1EE6" width="480" lsb="57"/>
     <mtx name="uni1EE7" width="448" lsb="34"/>
-    <mtx name="uni1EE8" width="480" lsb="57"/>
+    <mtx name="uni1EE8" width="448" lsb="57"/>
     <mtx name="uni1EE9" width="448" lsb="34"/>
     <mtx name="uni1EEA" width="480" lsb="57"/>
     <mtx name="uni1EEB" width="448" lsb="34"/>
     <mtx name="uni1EEC" width="480" lsb="57"/>
     <mtx name="uni1EED" width="448" lsb="34"/>
-    <mtx name="uni1EEE" width="480" lsb="57"/>
+    <mtx name="uni1EEE" width="448" lsb="57"/>
     <mtx name="uni1EEF" width="448" lsb="34"/>
     <mtx name="uni1EF0" width="480" lsb="57"/>
     <mtx name="uni1EF1" width="448" lsb="34"/>
@@ -47261,7 +47261,7 @@
 
     <TTGlyph name="uni1EDA" xMin="37" yMin="-10" xMax="565" yMax="844">
       <component glyphName="Ohorn" x="0" y="0" flags="0x400"/>
-      <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
+      <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni1EDB" xMin="32" yMin="-13" xMax="507" yMax="704">
@@ -47331,7 +47331,7 @@
 
     <TTGlyph name="uni1EE8" xMin="57" yMin="-8" xMax="585" yMax="844">
       <component glyphName="Uhorn" x="0" y="0" flags="0x400"/>
-      <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
+      <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni1EE9" xMin="34" yMin="-4" xMax="534" yMax="704">
@@ -66264,13 +66264,13 @@
       Italic
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.003;JENS;SudoUI-MediumItalic
+      1.004;JENS;SudoUI-MediumItalic
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo UI Medium Italic
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.003
+      Version 1.004
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       SudoUI-MediumItalic
@@ -86755,7 +86755,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="53">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="209"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="269"/>
@@ -91736,7 +91739,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="362"/>
+                <XCoordinate value="346"/>
                 <YCoordinate value="832"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -92654,7 +92657,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="362"/>
+                <XCoordinate value="346"/>
                 <YCoordinate value="832"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -96338,7 +96341,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="500">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="209"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="269"/>
@@ -96347,7 +96353,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="501">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="209"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="320"/>
@@ -96356,7 +96365,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="502">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="209"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="308"/>

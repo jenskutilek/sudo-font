@@ -1658,13 +1658,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.00299"/>
-    <checkSumAdjustment value="0x45f51daf"/>
+    <fontRevision value="1.004"/>
+    <checkSumAdjustment value="0x38e107ff"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sat Jun 22 08:15:17 2024"/>
-    <modified value="Sat Jun 22 08:16:32 2024"/>
+    <created value="Fri Aug  2 16:15:38 2024"/>
+    <modified value="Fri Aug  2 16:16:01 2024"/>
     <xMin value="-173"/>
     <yMin value="-204"/>
     <xMax value="759"/>
@@ -53571,9 +53571,9 @@
           26
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 2 values pushed */
-          17 18
-          MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          17
+          MDRP[01101]	/* MoveDirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
           20 17
           SRP0[ ]	/* SetRefPoint0 */
@@ -66318,13 +66318,13 @@
       Italic
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.003;JENS;SudoUI-Italic
+      1.004;JENS;SudoUI-Italic
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo UI Italic
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.003
+      Version 1.004
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       SudoUI-Italic
@@ -86809,7 +86809,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="53">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="269"/>
@@ -96392,7 +96395,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="500">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="269"/>
@@ -96401,7 +96407,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="501">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="319"/>
@@ -96410,7 +96419,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="502">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="307"/>

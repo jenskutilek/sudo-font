@@ -1658,13 +1658,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.00299"/>
-    <checkSumAdjustment value="0xfccdae5b"/>
+    <fontRevision value="1.004"/>
+    <checkSumAdjustment value="0x5d4f7ea5"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sat Jun 22 08:15:17 2024"/>
-    <modified value="Sat Jun 22 08:16:34 2024"/>
+    <created value="Fri Aug  2 16:15:38 2024"/>
+    <modified value="Fri Aug  2 16:16:00 2024"/>
     <xMin value="-168"/>
     <yMin value="-202"/>
     <xMax value="757"/>
@@ -2447,7 +2447,7 @@
     <mtx name="uni00B3" width="320" lsb="88"/>
     <mtx name="uni00B5" width="448" lsb="-21"/>
     <mtx name="uni00B9" width="320" lsb="70"/>
-    <mtx name="uni0122" width="456" lsb="49"/>
+    <mtx name="uni0122" width="448" lsb="49"/>
     <mtx name="uni0123" width="448" lsb="28"/>
     <mtx name="uni0123.cv01" width="448" lsb="-22"/>
     <mtx name="uni0136" width="448" lsb="17"/>
@@ -2479,7 +2479,7 @@
     <mtx name="uni019D" width="480" lsb="-93"/>
     <mtx name="uni01B3" width="448" lsb="117"/>
     <mtx name="uni01B4" width="448" lsb="25"/>
-    <mtx name="uni01B5" width="416" lsb="0"/>
+    <mtx name="uni01B5" width="448" lsb="0"/>
     <mtx name="uni01B6" width="416" lsb="13"/>
     <mtx name="uni01B7" width="448" lsb="19"/>
     <mtx name="uni01CD" width="448" lsb="-8"/>
@@ -2930,7 +2930,7 @@
     <mtx name="uni1ED7" width="448" lsb="40"/>
     <mtx name="uni1ED8" width="480" lsb="44"/>
     <mtx name="uni1ED9" width="448" lsb="40"/>
-    <mtx name="uni1EDA" width="480" lsb="44"/>
+    <mtx name="uni1EDA" width="448" lsb="44"/>
     <mtx name="uni1EDB" width="448" lsb="40"/>
     <mtx name="uni1EDC" width="480" lsb="44"/>
     <mtx name="uni1EDD" width="448" lsb="40"/>
@@ -2944,13 +2944,13 @@
     <mtx name="uni1EE5" width="448" lsb="42"/>
     <mtx name="uni1EE6" width="480" lsb="62"/>
     <mtx name="uni1EE7" width="448" lsb="42"/>
-    <mtx name="uni1EE8" width="480" lsb="62"/>
+    <mtx name="uni1EE8" width="448" lsb="62"/>
     <mtx name="uni1EE9" width="448" lsb="42"/>
     <mtx name="uni1EEA" width="480" lsb="62"/>
     <mtx name="uni1EEB" width="448" lsb="42"/>
     <mtx name="uni1EEC" width="480" lsb="62"/>
     <mtx name="uni1EED" width="448" lsb="42"/>
-    <mtx name="uni1EEE" width="480" lsb="62"/>
+    <mtx name="uni1EEE" width="448" lsb="62"/>
     <mtx name="uni1EEF" width="448" lsb="42"/>
     <mtx name="uni1EF0" width="480" lsb="62"/>
     <mtx name="uni1EF1" width="448" lsb="42"/>
@@ -37211,7 +37211,7 @@
 
     <TTGlyph name="uni0122" xMin="49" yMin="-191" xMax="468" yMax="647">
       <component glyphName="G" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0326" x="4" y="0" flags="0x400"/>
+      <component glyphName="uni0326" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni0123" xMin="28" yMin="-196" xMax="432" yMax="639">
@@ -47288,7 +47288,7 @@
 
     <TTGlyph name="uni1EDA" xMin="44" yMin="-10" xMax="544" yMax="841">
       <component glyphName="Ohorn" x="0" y="0" flags="0x400"/>
-      <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
+      <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni1EDB" xMin="40" yMin="-13" xMax="483" yMax="704">
@@ -47358,7 +47358,7 @@
 
     <TTGlyph name="uni1EE8" xMin="62" yMin="-8" xMax="564" yMax="841">
       <component glyphName="Uhorn" x="0" y="0" flags="0x400"/>
-      <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
+      <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni1EE9" xMin="42" yMin="-4" xMax="516" yMax="704">
@@ -66339,13 +66339,13 @@
       Italic
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.003;JENS;SudoUI-LightItalic
+      1.004;JENS;SudoUI-LightItalic
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo UI Light Italic
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.003
+      Version 1.004
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       SudoUI-LightItalic
@@ -86830,7 +86830,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="53">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="269"/>
@@ -91811,7 +91814,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="362"/>
+                <XCoordinate value="346"/>
                 <YCoordinate value="832"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -92729,7 +92732,7 @@
                 <YCoordinate value="0"/>
               </BaseAnchor>
               <BaseAnchor index="2" Format="1">
-                <XCoordinate value="362"/>
+                <XCoordinate value="346"/>
                 <YCoordinate value="832"/>
               </BaseAnchor>
               <BaseAnchor index="3" empty="1"/>
@@ -96413,7 +96416,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="500">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="269"/>
@@ -96422,7 +96428,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="501">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="319"/>
@@ -96431,7 +96440,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="502">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="199"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="305"/>

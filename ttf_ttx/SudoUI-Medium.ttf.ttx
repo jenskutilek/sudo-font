@@ -1658,13 +1658,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.00299"/>
-    <checkSumAdjustment value="0x40081129"/>
+    <fontRevision value="1.004"/>
+    <checkSumAdjustment value="0x66b9eef1"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sat Jun 22 08:15:17 2024"/>
-    <modified value="Sat Jun 22 08:16:30 2024"/>
+    <created value="Fri Aug  2 16:15:38 2024"/>
+    <modified value="Fri Aug  2 16:15:55 2024"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="799"/>
@@ -2479,7 +2479,7 @@
     <mtx name="uni019D" width="480" lsb="-15"/>
     <mtx name="uni01B3" width="448" lsb="31"/>
     <mtx name="uni01B4" width="448" lsb="27"/>
-    <mtx name="uni01B5" width="416" lsb="38"/>
+    <mtx name="uni01B5" width="448" lsb="38"/>
     <mtx name="uni01B6" width="416" lsb="50"/>
     <mtx name="uni01B7" width="448" lsb="51"/>
     <mtx name="uni01CD" width="448" lsb="30"/>
@@ -2930,7 +2930,7 @@
     <mtx name="uni1ED7" width="448" lsb="40"/>
     <mtx name="uni1ED8" width="480" lsb="33"/>
     <mtx name="uni1ED9" width="448" lsb="40"/>
-    <mtx name="uni1EDA" width="480" lsb="33"/>
+    <mtx name="uni1EDA" width="448" lsb="33"/>
     <mtx name="uni1EDB" width="448" lsb="40"/>
     <mtx name="uni1EDC" width="480" lsb="33"/>
     <mtx name="uni1EDD" width="448" lsb="40"/>
@@ -2944,13 +2944,13 @@
     <mtx name="uni1EE5" width="448" lsb="55"/>
     <mtx name="uni1EE6" width="480" lsb="55"/>
     <mtx name="uni1EE7" width="448" lsb="55"/>
-    <mtx name="uni1EE8" width="480" lsb="55"/>
+    <mtx name="uni1EE8" width="448" lsb="55"/>
     <mtx name="uni1EE9" width="448" lsb="55"/>
     <mtx name="uni1EEA" width="480" lsb="55"/>
     <mtx name="uni1EEB" width="448" lsb="55"/>
     <mtx name="uni1EEC" width="480" lsb="55"/>
     <mtx name="uni1EED" width="448" lsb="55"/>
-    <mtx name="uni1EEE" width="480" lsb="34"/>
+    <mtx name="uni1EEE" width="448" lsb="34"/>
     <mtx name="uni1EEF" width="448" lsb="26"/>
     <mtx name="uni1EF0" width="480" lsb="55"/>
     <mtx name="uni1EF1" width="448" lsb="55"/>
@@ -64627,13 +64627,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.003;JENS;SudoUI-Medium
+      1.004;JENS;SudoUI-Medium
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo UI Medium
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.003
+      Version 1.004
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       SudoUI-Medium
@@ -85720,7 +85720,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="53">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="254"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -95303,7 +95306,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="500">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="254"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -95312,7 +95318,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="501">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="254"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
@@ -95321,7 +95330,10 @@
               <BaseAnchor index="3" empty="1"/>
             </BaseRecord>
             <BaseRecord index="502">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="254"/>
+                <YCoordinate value="0"/>
+              </BaseAnchor>
               <BaseAnchor index="1" empty="1"/>
               <BaseAnchor index="2" Format="1">
                 <XCoordinate value="224"/>
