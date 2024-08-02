@@ -1,5 +1,4 @@
 charsets:
-
   - id: win-1252
     unicodes:
       - "000D"
@@ -223,23 +222,17 @@ charsets:
       - "2122"
 
 ranges:
-
   - id: split-roman
     axes:
       - tag: ital
         def: 0
-      - tag: wght
-      - tag: YTDE
 
   - id: split-italic
     axes:
       - tag: ital
         def: 1
-      - tag: wght
-      - tag: YTDE
 
 subsets:
-
   - range: split-roman
     out_dir: Split-VF-Italic
 
