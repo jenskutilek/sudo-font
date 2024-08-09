@@ -2125,8 +2125,8 @@ tag = ccmp;
 },
 {
 code = "# Set width of combining marks to 0. Is this needed? PowerShell fails in any case, and centers the composed glyph inside the multiple width.
-pos @Markscomb <0 0 -448 0>;
-pos @MarkscombCase <0 0 -448 0>;
+#pos @Markscomb <0 0 -448 0>;
+#pos @MarkscombCase <0 0 -448 0>;
 
 sub IJ by I J;
 sub ij by i j;
