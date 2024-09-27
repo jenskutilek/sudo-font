@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3322";
 .formatVersion = 3;
 axes = (
 {
@@ -2968,7 +2968,21 @@ sub gcaron from [gcaron.cv01];
 sub gcommaaccent from [gcommaaccent.cv01];
 sub gstroke from [gstroke.cv01];
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Alternate g\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Alternate g\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv01;
 },
 {
@@ -3040,7 +3054,21 @@ sub Iotatonos from [Iotatonos.cv02];
 #sub Iotatonos.ss20 from [Iotatonos.ss20.cv02];
 #sub Iotadieresis.ss20 from [Iotadieresis.ss20.cv02];
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Serifless i\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Serifless i\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv02;
 },
 {
@@ -3063,7 +3091,21 @@ sub je-cy from [je-cy.cv03];
 #sub jcircumflex.ss20 from [jcircumflex.ss20.cv03];
 #sub je-cy.ss20 from [je-cy.ss20.cv03];
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Serifless j\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Serifless j\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv03;
 },
 {
@@ -3083,12 +3125,40 @@ sub lbar from [lbar.cv04];
 #sub ldot.ss20 from [ldot.ss20.cv04];
 #sub lslash.ss20 from [lslash.ss20.cv04];
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Footless l\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Footless l\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv04;
 },
 {
 code = "sub m from [m.cv05.1 m.cv05.2];";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Vertical m\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Vertical m\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv05;
 },
 {
@@ -3097,7 +3167,21 @@ sub zero.zero from [zero.cv06];
 sub zero.osf from [zero.osf.cv06];
 sub zero.zero.osf from [zero.osf.cv06];
 ";
-notes = "cvParameters {\012    FeatUILabelNameID {\012        name \"Dotted 0\";\012    };\012    #FeatUITooltipTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #SampleTextNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #ParamUILabelNameID {\012    #    name <platform ID> <script ID> <language ID> <text string>;\012    #};\012    #Character <Unicode value string>;\012};";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Dotted 0\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
 tag = cv06;
 },
 {
@@ -4090,11 +4174,6 @@ GSOffsetVertical = -10;
 );
 instances = (
 {
-axesValues = (
-400,
-0,
--188
-);
 customParameters = (
 {
 name = "Instance Preview";
@@ -5136,9 +5215,6 @@ value = (
 );
 }
 );
-instanceInterpolations = {
-"95FB0C11-C828-4064-8966-34220AA4D426" = 1;
-};
 name = Regular;
 properties = (
 {
@@ -5154,11 +5230,6 @@ value = "Sudo UI Var";
 type = variable;
 },
 {
-axesValues = (
-400,
-0,
--188
-);
 customParameters = (
 {
 name = "Instance Preview";
@@ -5705,9 +5776,6 @@ name = winAscent;
 value = 832;
 }
 );
-instanceInterpolations = {
-"95FB0C11-C828-4064-8966-34220AA4D426" = 1;
-};
 name = Regular;
 properties = (
 {
