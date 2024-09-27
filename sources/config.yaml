@@ -7,11 +7,10 @@
 # sources/ directory, so all paths should be relative to that
 # directory.
 sources:
-  - RadioCanadaDisplay.glyphs
-  - RadioCanadaDisplay-Italic.glyphs
+  - Sudo.glyphspackage
 # You don't have to supply the family name, but builds are slightly
 # faster if you do.
-familyName: "Radio Canada Display"
+familyName: "Sudo"
 
 # Next you can supply alternative paths for where you want the
 # binaries to live. But we'd recommend you stick to the defaults
@@ -63,43 +62,51 @@ buildOTF: false
 # if you specify a dictionary which does not contain an entry
 # for each VF file built.
 stat:
-  RadioCanadaDisplay[wght].ttf:
-  - name: Weight
-    tag: wght
-    values:
-    - name: Regular
-      value: 400
-      linkedValue: 700
-      flags: 2
-    - name: Medium
-      value: 500
-    - name: SemiBold
-      value: 600
-    - name: Bold
-      value: 700
-  - name: Italic
-    tag: ital
-    values:
-    - name: Roman
-      value: 0
-      linkedValue: 1
-      flags: 2
-  RadioCanadaDisplay-Italic[wght].ttf:
-  - name: Weight
-    tag: wght
-    values:
-    - name: Regular
-      value: 400
-      linkedValue: 700
-      flags: 2
-    - name: Medium
-      value: 500
-    - name: SemiBold
-      value: 600
-    - name: Bold
-      value: 700
-  - name: Italic
-    tag: ital
-    values:
+  Sudo[wght,YTDE].ttf:
+    - name: Weight
+      tag: wght
+      values:
+        - name: Thin
+          value: 200
+        - name: Light
+          value: 300
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 2
+        - name: Medium
+          value: 600
+        - name: Bold
+          value: 700
     - name: Italic
-      value: 1
+      tag: ital
+      values:
+        - name: Roman
+          value: 0
+          linkedValue: 1
+          flags: 2
+    - name: Descender
+      tag: YTDE
+  Sudo-Italic[wght,YTDE].ttf:
+    - name: Weight
+      tag: wght
+      values:
+        - name: Thin
+          value: 200
+        - name: Light
+          value: 300
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 2
+        - name: Medium
+          value: 600
+        - name: Bold
+          value: 700
+    - name: Italic
+      tag: ital
+      values:
+        - name: Italic
+          value: 1
+    - name: Descender
+      tag: YTDE
