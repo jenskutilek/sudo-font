@@ -2492,10 +2492,12 @@ value = "Simple narrow letters";
 tag = ss03;
 },
 {
-code = "enum pos @All <16 0 32 0>;
+code = "# enum pos @All <16 0 32 0>;
+pos @All <16 0 32 0>;
 lookup SPACE {
 	pos [space nbspace] <0 0 160 0>;
-} SPACE;";
+} SPACE;
+";
 labels = (
 {
 language = dflt;
