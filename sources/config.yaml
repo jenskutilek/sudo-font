@@ -62,7 +62,7 @@ buildOTF: false
 # if you specify a dictionary which does not contain an entry
 # for each VF file built.
 stat:
-  Sudo[wght,YTDE].ttf:
+  Sudo[YTDE,wght].ttf:
     - name: Weight
       tag: wght
       values:
@@ -87,7 +87,7 @@ stat:
           flags: 2
     - name: Descender
       tag: YTDE
-  Sudo-Italic[wght,YTDE].ttf:
+  Sudo-Italic[YTDE,wght].ttf:
     - name: Weight
       tag: wght
       values:
