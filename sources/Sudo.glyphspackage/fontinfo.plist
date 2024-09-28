@@ -2146,7 +2146,18 @@ lookup ccmp_latn_1;
 tag = ccmp;
 },
 {
-code = "# Set width of combining marks to 0. Is this needed? PowerShell fails in any case, and centers the composed glyph inside the multiple width.
+code = "lookup ccmp_DFLT_softdot_2 {
+	@CombiningTopAccents2 = [overlinecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents2;
+	sub i' @CombiningTopAccents2 by idotless;
+	sub iogonek' @CombiningTopAccents2 by iogonek.dotless;
+	sub idotbelow' @CombiningTopAccents2 by idotbelow.dotless;
+	sub istroke' @CombiningTopAccents2 by istroke.dotless;
+	sub j' @CombiningTopAccents2 by jdotless;
+	sub i-cy' @CombiningTopAccents2 by i-cy.dotless;
+} ccmp_DFLT_softdot_2;
+
+# Set width of combining marks to 0. Is this needed? PowerShell fails in any case, and centers the composed glyph inside the multiple width.
 #pos @Markscomb <0 0 -448 0>;
 #pos @MarkscombCase <0 0 -448 0>;
 
