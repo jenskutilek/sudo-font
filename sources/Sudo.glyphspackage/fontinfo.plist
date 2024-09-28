@@ -2146,7 +2146,11 @@ lookup ccmp_latn_1;
 tag = ccmp;
 },
 {
-code = "lookup ccmp_DFLT_softdot_2 {
+code = "lookup ccmp_istroke {
+	sub i strokeshortcomb by istroke;
+} ccmp_istroke;
+
+lookup ccmp_DFLT_softdot_2 {
 	@CombiningTopAccents2 = [overlinecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents2;
 	sub i' @CombiningTopAccents2 by idotless;
