@@ -1,6 +1,6 @@
 ARCHIVE = sudo.zip
-DISTDIR = ../dist
-FONTDIR = ../sudo
+DISTDIR = dist
+FONTDIR = sudo
 prefix = /usr/local
 
 .PHONY: all
