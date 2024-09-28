@@ -66,7 +66,7 @@ stat:
     - name: Weight
       tag: wght
       values:
-        - name: Thin
+        - name: ExtraLight
           value: 200
         - name: Light
           value: 300
@@ -74,10 +74,16 @@ stat:
           value: 400
           linkedValue: 700
           flags: 2
-        - name: Medium
+        - name: SemiBold
           value: 600
         - name: Bold
           value: 700
+    - name: Descender
+      tag: YTDE
+      values:
+        - name: Normal
+          value: -188
+          flags: 2
     - name: Italic
       tag: ital
       values:
@@ -85,13 +91,11 @@ stat:
           value: 0
           linkedValue: 1
           flags: 2
-    - name: Descender
-      tag: YTDE
   Sudo-Italic[YTDE,wght].ttf:
     - name: Weight
       tag: wght
       values:
-        - name: Thin
+        - name: ExtraLight
           value: 200
         - name: Light
           value: 300
@@ -99,14 +103,18 @@ stat:
           value: 400
           linkedValue: 700
           flags: 2
-        - name: Medium
+        - name: SemiBold
           value: 600
         - name: Bold
           value: 700
+    - name: Descender
+      tag: YTDE
+      values:
+        - name: Normal
+          value: -188
+          flags: 2
     - name: Italic
       tag: ital
       values:
         - name: Italic
           value: 1
-    - name: Descender
-      tag: YTDE
