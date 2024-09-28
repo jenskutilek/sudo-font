@@ -1,6 +1,6 @@
 WOF2_CMD=woff2_compress
 
-STYLE_NAMES = Thin ThinItalic Light LightItalic Regular Italic Medium MediumItalic Bold BoldItalic
+STYLE_NAMES = ExtraLight ExtraLightItalic Light LightItalic Regular Italic SemiBold SemiBoldItalic Bold BoldItalic
 STYLES = $(patsubst %,Sudo-%.ttf,$(STYLE_NAMES)) $(patsubst %,SudoUI-%.ttf,$(STYLE_NAMES)) SudoVariable.ttf SudoUIVariable.ttf
 
 WOF2 = $(STYLES:%.ttf=%.woff2)
