@@ -12,12 +12,12 @@
       </Axis>
       <Axis index="1">
         <AxisTag value="ital"/>
-        <AxisNameID value="257"/>  <!-- Italic -->
+        <AxisNameID value="257"/>  <!-- Descender -->
         <AxisOrdering value="1"/>
       </Axis>
       <Axis index="2">
         <AxisTag value="YTDE"/>
-        <AxisNameID value="258"/>  <!-- Descender -->
+        <AxisNameID value="258"/>  <!-- Italic -->
         <AxisOrdering value="2"/>
       </Axis>
     </DesignAxisRecord>
@@ -26,7 +26,7 @@
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="259"/>  <!-- Thin -->
+        <ValueNameID value="259"/>  <!-- ExtraLight -->
         <Value value="200.0"/>
       </AxisValue>
       <AxisValue index="1" Format="1">
@@ -44,7 +44,7 @@
       <AxisValue index="3" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="263"/>  <!-- Medium -->
+        <ValueNameID value="263"/>  <!-- SemiBold -->
         <Value value="600.0"/>
       </AxisValue>
       <AxisValue index="4" Format="1">
@@ -53,24 +53,24 @@
         <ValueNameID value="265"/>  <!-- Bold -->
         <Value value="700.0"/>
       </AxisValue>
-      <AxisValue index="5" Format="3">
+      <AxisValue index="5" Format="1">
+        <AxisIndex value="2"/>
+        <Flags value="2"/>  <!-- ElidableAxisValueName -->
+        <ValueNameID value="2"/>  <!-- Regular -->
+        <Value value="-188.0"/>
+      </AxisValue>
+      <AxisValue index="6" Format="3">
         <AxisIndex value="1"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
         <ValueNameID value="2"/>  <!-- Regular -->
         <Value value="0.0"/>
         <LinkedValue value="1.0"/>
       </AxisValue>
-      <AxisValue index="6" Format="1">
+      <AxisValue index="7" Format="1">
         <AxisIndex value="1"/>
         <Flags value="0"/>
-        <ValueNameID value="257"/>  <!-- Italic -->
+        <ValueNameID value="258"/>  <!-- Italic -->
         <Value value="1.0"/>
-      </AxisValue>
-      <AxisValue index="7" Format="1">
-        <AxisIndex value="2"/>
-        <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="2"/>  <!-- Regular -->
-        <Value value="-188.0"/>
       </AxisValue>
     </AxisValueArray>
     <ElidedFallbackNameID value="2"/>  <!-- Regular -->
