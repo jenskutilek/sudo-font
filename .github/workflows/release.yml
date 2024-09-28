@@ -19,7 +19,7 @@ jobs:
     - name: Build Debian Package
       run: scripts/prepare-deb.sh
     - name: Build
-      run: make dist
+      run: cd private-build && make dist
     - name: Release
       uses: softprops/action-gh-release@v0.1.15
       with:
