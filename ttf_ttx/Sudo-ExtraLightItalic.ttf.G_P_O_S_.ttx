@@ -12,7 +12,7 @@
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=2 -->
             <FeatureIndex index="0" value="0"/>
-            <FeatureIndex index="1" value="6"/>
+            <FeatureIndex index="1" value="7"/>
           </DefaultLangSys>
           <!-- LangSysCount=0 -->
         </Script>
@@ -24,16 +24,16 @@
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=2 -->
             <FeatureIndex index="0" value="1"/>
-            <FeatureIndex index="1" value="7"/>
+            <FeatureIndex index="1" value="8"/>
           </DefaultLangSys>
-          <!-- LangSysCount=4 -->
+          <!-- LangSysCount=5 -->
           <LangSysRecord index="0">
             <LangSysTag value="CAT "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=2 -->
               <FeatureIndex index="0" value="2"/>
-              <FeatureIndex index="1" value="8"/>
+              <FeatureIndex index="1" value="9"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="1">
@@ -42,32 +42,41 @@
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=2 -->
               <FeatureIndex index="0" value="3"/>
-              <FeatureIndex index="1" value="9"/>
+              <FeatureIndex index="1" value="10"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="2">
-            <LangSysTag value="NSM "/>
+            <LangSysTag value="NLD "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=2 -->
               <FeatureIndex index="0" value="4"/>
-              <FeatureIndex index="1" value="10"/>
+              <FeatureIndex index="1" value="11"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="3">
-            <LangSysTag value="ROM "/>
+            <LangSysTag value="NSM "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=2 -->
               <FeatureIndex index="0" value="5"/>
-              <FeatureIndex index="1" value="11"/>
+              <FeatureIndex index="1" value="12"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="4">
+            <LangSysTag value="ROM "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=2 -->
+              <FeatureIndex index="0" value="6"/>
+              <FeatureIndex index="1" value="13"/>
             </LangSys>
           </LangSysRecord>
         </Script>
       </ScriptRecord>
     </ScriptList>
     <FeatureList>
-      <!-- FeatureCount=12 -->
+      <!-- FeatureCount=14 -->
       <FeatureRecord index="0">
         <FeatureTag value="mark"/>
         <Feature>
@@ -135,13 +144,14 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="6">
-        <FeatureTag value="mkmk"/>
+        <FeatureTag value="mark"/>
         <Feature>
-          <!-- LookupCount=4 -->
-          <LookupListIndex index="0" value="5"/>
-          <LookupListIndex index="1" value="6"/>
-          <LookupListIndex index="2" value="7"/>
-          <LookupListIndex index="3" value="8"/>
+          <!-- LookupCount=5 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+          <LookupListIndex index="2" value="2"/>
+          <LookupListIndex index="3" value="3"/>
+          <LookupListIndex index="4" value="4"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="7">
@@ -185,6 +195,26 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="11">
+        <FeatureTag value="mkmk"/>
+        <Feature>
+          <!-- LookupCount=4 -->
+          <LookupListIndex index="0" value="5"/>
+          <LookupListIndex index="1" value="6"/>
+          <LookupListIndex index="2" value="7"/>
+          <LookupListIndex index="3" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="12">
+        <FeatureTag value="mkmk"/>
+        <Feature>
+          <!-- LookupCount=4 -->
+          <LookupListIndex index="0" value="5"/>
+          <LookupListIndex index="1" value="6"/>
+          <LookupListIndex index="2" value="7"/>
+          <LookupListIndex index="3" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="13">
         <FeatureTag value="mkmk"/>
         <Feature>
           <!-- LookupCount=4 -->

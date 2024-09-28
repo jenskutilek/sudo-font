@@ -12,9 +12,9 @@
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=4 -->
             <FeatureIndex index="0" value="0"/>
-            <FeatureIndex index="1" value="6"/>
-            <FeatureIndex index="2" value="12"/>
-            <FeatureIndex index="3" value="18"/>
+            <FeatureIndex index="1" value="7"/>
+            <FeatureIndex index="2" value="14"/>
+            <FeatureIndex index="3" value="21"/>
           </DefaultLangSys>
           <!-- LangSysCount=0 -->
         </Script>
@@ -26,20 +26,20 @@
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=4 -->
             <FeatureIndex index="0" value="1"/>
-            <FeatureIndex index="1" value="7"/>
-            <FeatureIndex index="2" value="13"/>
-            <FeatureIndex index="3" value="19"/>
+            <FeatureIndex index="1" value="8"/>
+            <FeatureIndex index="2" value="15"/>
+            <FeatureIndex index="3" value="22"/>
           </DefaultLangSys>
-          <!-- LangSysCount=4 -->
+          <!-- LangSysCount=5 -->
           <LangSysRecord index="0">
             <LangSysTag value="CAT "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=4 -->
               <FeatureIndex index="0" value="2"/>
-              <FeatureIndex index="1" value="8"/>
-              <FeatureIndex index="2" value="14"/>
-              <FeatureIndex index="3" value="20"/>
+              <FeatureIndex index="1" value="9"/>
+              <FeatureIndex index="2" value="16"/>
+              <FeatureIndex index="3" value="23"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="1">
@@ -48,38 +48,49 @@
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=4 -->
               <FeatureIndex index="0" value="3"/>
-              <FeatureIndex index="1" value="9"/>
-              <FeatureIndex index="2" value="15"/>
-              <FeatureIndex index="3" value="21"/>
+              <FeatureIndex index="1" value="10"/>
+              <FeatureIndex index="2" value="17"/>
+              <FeatureIndex index="3" value="24"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="2">
-            <LangSysTag value="NSM "/>
+            <LangSysTag value="NLD "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=4 -->
               <FeatureIndex index="0" value="4"/>
-              <FeatureIndex index="1" value="10"/>
-              <FeatureIndex index="2" value="16"/>
-              <FeatureIndex index="3" value="22"/>
+              <FeatureIndex index="1" value="11"/>
+              <FeatureIndex index="2" value="18"/>
+              <FeatureIndex index="3" value="25"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="3">
-            <LangSysTag value="ROM "/>
+            <LangSysTag value="NSM "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=4 -->
               <FeatureIndex index="0" value="5"/>
-              <FeatureIndex index="1" value="11"/>
-              <FeatureIndex index="2" value="17"/>
-              <FeatureIndex index="3" value="23"/>
+              <FeatureIndex index="1" value="12"/>
+              <FeatureIndex index="2" value="19"/>
+              <FeatureIndex index="3" value="26"/>
+            </LangSys>
+          </LangSysRecord>
+          <LangSysRecord index="4">
+            <LangSysTag value="ROM "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=4 -->
+              <FeatureIndex index="0" value="6"/>
+              <FeatureIndex index="1" value="13"/>
+              <FeatureIndex index="2" value="20"/>
+              <FeatureIndex index="3" value="27"/>
             </LangSys>
           </LangSysRecord>
         </Script>
       </ScriptRecord>
     </ScriptList>
     <FeatureList>
-      <!-- FeatureCount=24 -->
+      <!-- FeatureCount=28 -->
       <FeatureRecord index="0">
         <FeatureTag value="kern"/>
         <Feature>
@@ -129,14 +140,11 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="6">
-        <FeatureTag value="mark"/>
+        <FeatureTag value="kern"/>
         <Feature>
-          <!-- LookupCount=5 -->
-          <LookupListIndex index="0" value="4"/>
-          <LookupListIndex index="1" value="5"/>
-          <LookupListIndex index="2" value="6"/>
-          <LookupListIndex index="3" value="7"/>
-          <LookupListIndex index="4" value="8"/>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="2"/>
+          <LookupListIndex index="1" value="3"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="7">
@@ -195,23 +203,25 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="12">
-        <FeatureTag value="mkmk"/>
+        <FeatureTag value="mark"/>
         <Feature>
-          <!-- LookupCount=4 -->
-          <LookupListIndex index="0" value="9"/>
-          <LookupListIndex index="1" value="10"/>
-          <LookupListIndex index="2" value="11"/>
-          <LookupListIndex index="3" value="12"/>
+          <!-- LookupCount=5 -->
+          <LookupListIndex index="0" value="4"/>
+          <LookupListIndex index="1" value="5"/>
+          <LookupListIndex index="2" value="6"/>
+          <LookupListIndex index="3" value="7"/>
+          <LookupListIndex index="4" value="8"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="13">
-        <FeatureTag value="mkmk"/>
+        <FeatureTag value="mark"/>
         <Feature>
-          <!-- LookupCount=4 -->
-          <LookupListIndex index="0" value="9"/>
-          <LookupListIndex index="1" value="10"/>
-          <LookupListIndex index="2" value="11"/>
-          <LookupListIndex index="3" value="12"/>
+          <!-- LookupCount=5 -->
+          <LookupListIndex index="0" value="4"/>
+          <LookupListIndex index="1" value="5"/>
+          <LookupListIndex index="2" value="6"/>
+          <LookupListIndex index="3" value="7"/>
+          <LookupListIndex index="4" value="8"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="14">
@@ -255,39 +265,33 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="18">
-        <FeatureTag value="ss04"/>
+        <FeatureTag value="mkmk"/>
         <Feature>
-          <FeatureParamsStylisticSet>
-            <Version value="0"/>
-            <UINameID value="259"/>  <!-- Extra spacing -->
-          </FeatureParamsStylisticSet>
-          <!-- LookupCount=2 -->
-          <LookupListIndex index="0" value="0"/>
-          <LookupListIndex index="1" value="1"/>
+          <!-- LookupCount=4 -->
+          <LookupListIndex index="0" value="9"/>
+          <LookupListIndex index="1" value="10"/>
+          <LookupListIndex index="2" value="11"/>
+          <LookupListIndex index="3" value="12"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="19">
-        <FeatureTag value="ss04"/>
+        <FeatureTag value="mkmk"/>
         <Feature>
-          <FeatureParamsStylisticSet>
-            <Version value="0"/>
-            <UINameID value="259"/>  <!-- Extra spacing -->
-          </FeatureParamsStylisticSet>
-          <!-- LookupCount=2 -->
-          <LookupListIndex index="0" value="0"/>
-          <LookupListIndex index="1" value="1"/>
+          <!-- LookupCount=4 -->
+          <LookupListIndex index="0" value="9"/>
+          <LookupListIndex index="1" value="10"/>
+          <LookupListIndex index="2" value="11"/>
+          <LookupListIndex index="3" value="12"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="20">
-        <FeatureTag value="ss04"/>
+        <FeatureTag value="mkmk"/>
         <Feature>
-          <FeatureParamsStylisticSet>
-            <Version value="0"/>
-            <UINameID value="259"/>  <!-- Extra spacing -->
-          </FeatureParamsStylisticSet>
-          <!-- LookupCount=2 -->
-          <LookupListIndex index="0" value="0"/>
-          <LookupListIndex index="1" value="1"/>
+          <!-- LookupCount=4 -->
+          <LookupListIndex index="0" value="9"/>
+          <LookupListIndex index="1" value="10"/>
+          <LookupListIndex index="2" value="11"/>
+          <LookupListIndex index="3" value="12"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="21">
@@ -315,6 +319,54 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="23">
+        <FeatureTag value="ss04"/>
+        <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="259"/>  <!-- Extra spacing -->
+          </FeatureParamsStylisticSet>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="24">
+        <FeatureTag value="ss04"/>
+        <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="259"/>  <!-- Extra spacing -->
+          </FeatureParamsStylisticSet>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="25">
+        <FeatureTag value="ss04"/>
+        <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="259"/>  <!-- Extra spacing -->
+          </FeatureParamsStylisticSet>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="26">
+        <FeatureTag value="ss04"/>
+        <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="259"/>  <!-- Extra spacing -->
+          </FeatureParamsStylisticSet>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="27">
         <FeatureTag value="ss04"/>
         <Feature>
           <FeatureParamsStylisticSet>
@@ -1488,27 +1540,16 @@
             <Glyph value="uni2159"/>
             <Glyph value="uni215A"/>
             <Glyph value="uni2150"/>
-            <Glyph value="two_fraction_seven"/>
-            <Glyph value="three_fraction_seven"/>
-            <Glyph value="four_fraction_seven"/>
-            <Glyph value="five_fraction_seven"/>
-            <Glyph value="six_fraction_seven"/>
             <Glyph value="oneeighth"/>
             <Glyph value="threeeighths"/>
             <Glyph value="fiveeighths"/>
             <Glyph value="seveneighths"/>
             <Glyph value="uni2151"/>
-            <Glyph value="two_fraction_nine"/>
-            <Glyph value="four_fraction_nine"/>
-            <Glyph value="five_fraction_nine"/>
-            <Glyph value="seven_fraction_nine"/>
-            <Glyph value="eight_fraction_nine"/>
             <Glyph value="uni00A0"/>
             <Glyph value="uni200B"/>
             <Glyph value="uni200C"/>
             <Glyph value="uni200D"/>
             <Glyph value="uniFEFF"/>
-            <Glyph value="space.frac"/>
             <Glyph value="period"/>
             <Glyph value="comma"/>
             <Glyph value="colon"/>
