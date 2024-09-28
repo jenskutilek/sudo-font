@@ -1,11 +1,30 @@
-# file manager empty files
+*~
+venv
+venv-test
+build.stamp
+proof
+fonts
+node_modules
+package-lock.json
+package.json
+master_ufo
+instance_ufos
+.ninja_log
+build.ninja
+
+# OS generated files #
+######################
 .DS_Store
-.empty
-.sparkleshare
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # font editor temporary files
 *(Autosaved).glyphs
 *.vfbak
 resources/
 UIState.plist
 dist/
-venv/
