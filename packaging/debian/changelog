@@ -1,5 +1,17 @@
-fonts-sudo (1.4-1) UNRELEASED; urgency=medium
+fonts-sudo (2.0-1) UNRELEASED; urgency=medium
 
   * Add missing bottom anchor to p (DIN 91379 support)
+  * Rename "Thin" weight to "ExtraLight" and "Medium" to "SemiBold"
+  * Add missing uppercase letters for some lowercase
+  * Add /downTipRightArrow/dottedCircle
+  * Prevent export of unreachable fraction glyphs
+  * Reorder variation axes to wght, YTDE, ital
+  * Improve mark positioning and composition for some glyphs, especially soft-dotted i
+  * Fix component transformation difference in masters
+  * Tweak /acutecomb.case/gravecomb.case
+  * Remove special layers from /baht/guarani
+  * Layout feature fixes
+  * Fix some interpolation issues
+  * Remove collapsing mark width, it doesn't seem to be needed anywhere
 
- -- Jens Kutilek <debian@kutilek.de>  Fri, 02 Aug 2024 18:22:00 +0200
+ -* Jens Kutilek <debian@kutilek.de>  Sat, 28 Sep 2024 19:14:00 +0200

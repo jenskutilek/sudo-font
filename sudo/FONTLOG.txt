@@ -1,10 +1,18 @@
 Sudo is Copyright (c) 2009-2024, Jens Kutilek (http://www.kutilek.de/).
 
-v1.5-dev
-- Add /downTipRightArrow
-- Improve bottom anchors
-- Anchors on /d
+v2.0
+- Rename "Thin" weight to "ExtraLight" and "Medium" to "SemiBold"
+- Add missing uppercase letters for some lowercase
+- Add /downTipRightArrow/dottedCircle
+- Prevent export of unreachable fraction glyphs
+- Reorder variation axes to wght, YTDE, ital
+- Improve mark positioning and composition for some glyphs, especially soft-dotted i
 - Fix component transformation difference in masters
+- Tweak /acutecomb.case/gravecomb.case
+- Remove special layers from /baht/guarani
+- Layout feature fixes
+- Fix some interpolation issues
+- Remove collapsing mark width, it doesn't seem to be needed anywhere
 
 v1.4
 - Add missing bottom anchor to p (DIN 91379 support)
