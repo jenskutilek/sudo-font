@@ -13,9 +13,9 @@
       <AxisNameID>256</AxisNameID>
     </Axis>
 
-    <!-- Italic -->
+    <!-- Descender -->
     <Axis>
-      <AxisTag>ital</AxisTag>
+      <AxisTag>YTDE</AxisTag>
       <Flags>0x0</Flags>
       <MinValue>0.0</MinValue>
       <DefaultValue>0.0</DefaultValue>
@@ -23,9 +23,9 @@
       <AxisNameID>257</AxisNameID>
     </Axis>
 
-    <!-- Descender -->
+    <!-- Italic -->
     <Axis>
-      <AxisTag>YTDE</AxisTag>
+      <AxisTag>ital</AxisTag>
       <Flags>0x0</Flags>
       <MinValue>-188.0</MinValue>
       <DefaultValue>-188.0</DefaultValue>
@@ -33,44 +33,84 @@
       <AxisNameID>258</AxisNameID>
     </Axis>
 
-    <!-- Thin -->
-    <!-- PostScript: SudoVar-Thin -->
+    <!-- ExtraLight -->
+    <!-- PostScript: SudoVar-ExtraLight -->
     <NamedInstance flags="0x0" postscriptNameID="260" subfamilyNameID="259">
       <coord axis="wght" value="200.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Light -->
     <!-- PostScript: SudoVar-Light -->
     <NamedInstance flags="0x0" postscriptNameID="262" subfamilyNameID="261">
       <coord axis="wght" value="300.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Regular -->
     <!-- PostScript: SudoVar-Regular -->
     <NamedInstance flags="0x0" postscriptNameID="6" subfamilyNameID="2">
       <coord axis="wght" value="400.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
-    <!-- Medium -->
-    <!-- PostScript: SudoVar-Medium -->
+    <!-- SemiBold -->
+    <!-- PostScript: SudoVar-SemiBold -->
     <NamedInstance flags="0x0" postscriptNameID="264" subfamilyNameID="263">
       <coord axis="wght" value="600.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Bold -->
     <!-- PostScript: SudoVar-Bold -->
     <NamedInstance flags="0x0" postscriptNameID="266" subfamilyNameID="265">
       <coord axis="wght" value="700.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="0.0"/>
+    </NamedInstance>
+
+    <!-- ExtraLight Italic -->
+    <!-- PostScript: SudoVar-ExtraLightItalic -->
+    <NamedInstance flags="0x0" postscriptNameID="268" subfamilyNameID="267">
+      <coord axis="wght" value="200.0"/>
+      <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="1.0"/>
+    </NamedInstance>
+
+    <!-- Light Italic -->
+    <!-- PostScript: SudoVar-LightItalic -->
+    <NamedInstance flags="0x0" postscriptNameID="270" subfamilyNameID="269">
+      <coord axis="wght" value="300.0"/>
+      <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="1.0"/>
+    </NamedInstance>
+
+    <!-- Italic -->
+    <!-- PostScript: SudoVar-Italic -->
+    <NamedInstance flags="0x0" postscriptNameID="271" subfamilyNameID="258">
+      <coord axis="wght" value="400.0"/>
+      <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="1.0"/>
+    </NamedInstance>
+
+    <!-- SemiBold Italic -->
+    <!-- PostScript: SudoVar-SemiBoldItalic -->
+    <NamedInstance flags="0x0" postscriptNameID="273" subfamilyNameID="272">
+      <coord axis="wght" value="600.0"/>
+      <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="1.0"/>
+    </NamedInstance>
+
+    <!-- Bold Italic -->
+    <!-- PostScript: SudoVar-BoldItalic -->
+    <NamedInstance flags="0x0" postscriptNameID="275" subfamilyNameID="274">
+      <coord axis="wght" value="700.0"/>
+      <coord axis="YTDE" value="-188.0"/>
+      <coord axis="ital" value="1.0"/>
     </NamedInstance>
   </fvar>
 

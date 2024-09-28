@@ -4,7 +4,6 @@
   <STAT>
     <Version value="0x00010001"/>
     <DesignAxisRecordSize value="8"/>
-    <!-- DesignAxisCount=3 -->
     <DesignAxisRecord>
       <Axis index="0">
         <AxisTag value="wght"/>
@@ -13,21 +12,20 @@
       </Axis>
       <Axis index="1">
         <AxisTag value="ital"/>
-        <AxisNameID value="257"/>  <!-- Italic -->
+        <AxisNameID value="257"/>  <!-- Descender -->
         <AxisOrdering value="1"/>
       </Axis>
       <Axis index="2">
         <AxisTag value="YTDE"/>
-        <AxisNameID value="258"/>  <!-- Descender -->
+        <AxisNameID value="258"/>  <!-- Italic -->
         <AxisOrdering value="2"/>
       </Axis>
     </DesignAxisRecord>
-    <!-- AxisValueCount=8 -->
     <AxisValueArray>
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="259"/>  <!-- Thin -->
+        <ValueNameID value="259"/>  <!-- ExtraLight -->
         <Value value="200.0"/>
       </AxisValue>
       <AxisValue index="1" Format="1">
@@ -45,7 +43,7 @@
       <AxisValue index="3" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="263"/>  <!-- Medium -->
+        <ValueNameID value="263"/>  <!-- SemiBold -->
         <Value value="600.0"/>
       </AxisValue>
       <AxisValue index="4" Format="1">
@@ -64,7 +62,7 @@
       <AxisValue index="6" Format="1">
         <AxisIndex value="1"/>
         <Flags value="0"/>
-        <ValueNameID value="257"/>  <!-- Italic -->
+        <ValueNameID value="257"/>  <!-- Descender -->
         <Value value="1.0"/>
       </AxisValue>
       <AxisValue index="7" Format="1">

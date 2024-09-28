@@ -388,12 +388,12 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="AEacute" xMin="37" yMin="0" xMax="613" yMax="841">
+    <TTGlyph name="AEacute" xMin="37" yMin="0" xMax="613" yMax="832">
       <component glyphName="AE" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="152" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Aacute" xMin="37" yMin="0" xMax="411" yMax="841">
+    <TTGlyph name="Aacute" xMin="37" yMin="0" xMax="411" yMax="832">
       <component glyphName="A" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -413,7 +413,7 @@
       <component glyphName="uni0308.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Agrave" xMin="37" yMin="0" xMax="411" yMax="841">
+    <TTGlyph name="Agrave" xMin="37" yMin="0" xMax="411" yMax="832">
       <component glyphName="A" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -442,7 +442,7 @@
       <component glyphName="uni030A.case" x="0" y="64" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="Aringacute" xMin="37" yMin="0" xMax="411" yMax="832">
+    <TTGlyph name="Aringacute" xMin="37" yMin="0" xMax="411" yMax="823">
       <component glyphName="A.short" x="0" y="0" flags="0x400"/>
       <component glyphName="uni030A.case" x="0" y="-94" flags="0x404"/>
       <component glyphName="acutecomb.case" x="0" y="-9" flags="0x404"/>
@@ -983,7 +983,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Cacute" xMin="48" yMin="-9" xMax="350" yMax="841">
+    <TTGlyph name="Cacute" xMin="48" yMin="-9" xMax="350" yMax="832">
       <component glyphName="C" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -1445,7 +1445,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Eacute" xMin="62" yMin="0" xMax="373" yMax="841">
+    <TTGlyph name="Eacute" xMin="62" yMin="0" xMax="373" yMax="832">
       <component glyphName="E" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -1475,7 +1475,7 @@
       <component glyphName="uni0307.case" x="-16" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Egrave" xMin="62" yMin="0" xMax="373" yMax="841">
+    <TTGlyph name="Egrave" xMin="62" yMin="0" xMax="373" yMax="832">
       <component glyphName="E" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="-16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -2820,12 +2820,12 @@
       <component glyphName="J" x="320" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Iacute" xMin="56" yMin="0" xMax="267" yMax="841">
+    <TTGlyph name="Iacute" xMin="56" yMin="0" xMax="264" yMax="832">
       <component glyphName="I" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-64" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Iacute.cv02" xMin="81" yMin="0" xMax="219" yMax="841">
+    <TTGlyph name="Iacute.cv02" xMin="81" yMin="0" xMax="215" yMax="832">
       <component glyphName="I.cv02" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
@@ -2838,6 +2838,57 @@
     <TTGlyph name="Ibreve.cv02" xMin="-15" yMin="0" xMax="239" yMax="834">
       <component glyphName="I.cv02" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0306.case" x="-112" y="0" flags="0x400"/>
+    </TTGlyph>
+
+    <TTGlyph name="Icapitalsmall.cv02" xMin="141" yMin="0" xMax="435" yMax="640">
+      <contour>
+        <pt x="141" y="47" on="1"/>
+        <pt x="257" y="55" on="1"/>
+        <pt x="257" y="585" on="1"/>
+        <pt x="145" y="593" on="1"/>
+        <pt x="145" y="640" on="1"/>
+        <pt x="431" y="640" on="1"/>
+        <pt x="431" y="593" on="1"/>
+        <pt x="319" y="585" on="1"/>
+        <pt x="319" y="55" on="1"/>
+        <pt x="435" y="47" on="1"/>
+        <pt x="435" y="0" on="1"/>
+        <pt x="141" y="0" on="1"/>
+      </contour>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 4 values pushed */
+          1 15 11 8
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          8 1
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 4 values pushed */
+          2 15 4 2
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          7 2
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+          SVTCA[1]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 3 values pushed */
+          4 7 1
+          WS[ ]	/* WriteStore */
+          CALL[ ]	/* CallFunction */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 3 values pushed */
+          8 16 1
+          SRP0[ ]	/* SetRefPoint0 */
+          MIRP[01101]	/* MoveIndirectRelPt */
+          IUP[1]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="Icircumflex" xMin="26" yMin="0" xMax="294" yMax="842">
@@ -2870,12 +2921,12 @@
       <component glyphName="uni0307.case" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Igrave" xMin="53" yMin="0" xMax="264" yMax="841">
+    <TTGlyph name="Igrave" xMin="56" yMin="0" xMax="264" yMax="832">
       <component glyphName="I" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="-64" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Igrave.cv02" xMin="5" yMin="0" xMax="143" yMax="841">
+    <TTGlyph name="Igrave.cv02" xMin="9" yMin="0" xMax="143" yMax="832">
       <component glyphName="I.cv02" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
@@ -3412,7 +3463,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Lacute" xMin="62" yMin="0" xMax="345" yMax="841">
+    <TTGlyph name="Lacute" xMin="62" yMin="0" xMax="345" yMax="832">
       <component glyphName="L" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-130" y="0" flags="0x400"/>
     </TTGlyph>
@@ -3866,7 +3917,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Nacute" xMin="62" yMin="0" xMax="418" yMax="841">
+    <TTGlyph name="Nacute" xMin="62" yMin="0" xMax="418" yMax="832">
       <component glyphName="N" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -4194,7 +4245,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Oacute" xMin="40" yMin="-10" xMax="440" yMax="841">
+    <TTGlyph name="Oacute" xMin="40" yMin="-10" xMax="440" yMax="832">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -4214,7 +4265,7 @@
       <component glyphName="uni0308.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Ograve" xMin="40" yMin="-10" xMax="440" yMax="841">
+    <TTGlyph name="Ograve" xMin="40" yMin="-10" xMax="440" yMax="832">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -4473,7 +4524,7 @@
       <component glyphName="_part.slash.O" x="16" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Oslashacute" xMin="40" yMin="-12" xMax="440" yMax="841">
+    <TTGlyph name="Oslashacute" xMin="40" yMin="-12" xMax="440" yMax="832">
       <component glyphName="Oslash" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -5220,7 +5271,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Racute" xMin="62" yMin="0" xMax="409" yMax="841">
+    <TTGlyph name="Racute" xMin="62" yMin="0" xMax="409" yMax="832">
       <component glyphName="R" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -5489,7 +5540,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Sacute" xMin="55" yMin="-8" xMax="388" yMax="841">
+    <TTGlyph name="Sacute" xMin="55" yMin="-8" xMax="388" yMax="832">
       <component glyphName="S" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -6026,7 +6077,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Uacute" xMin="62" yMin="-10" xMax="418" yMax="841">
+    <TTGlyph name="Uacute" xMin="62" yMin="-10" xMax="418" yMax="832">
       <component glyphName="U" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -6046,7 +6097,7 @@
       <component glyphName="uni0308.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Ugrave" xMin="62" yMin="-10" xMax="418" yMax="841">
+    <TTGlyph name="Ugrave" xMin="62" yMin="-10" xMax="418" yMax="832">
       <component glyphName="U" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -6441,7 +6492,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Wacute" xMin="41" yMin="0" xMax="535" yMax="841">
+    <TTGlyph name="Wacute" xMin="41" yMin="0" xMax="535" yMax="832">
       <component glyphName="W" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="64" y="0" flags="0x400"/>
     </TTGlyph>
@@ -6456,7 +6507,7 @@
       <component glyphName="uni0308.case" x="64" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Wgrave" xMin="41" yMin="0" xMax="535" yMax="841">
+    <TTGlyph name="Wgrave" xMin="41" yMin="0" xMax="535" yMax="832">
       <component glyphName="W" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="64" y="0" flags="0x400"/>
     </TTGlyph>
@@ -6873,7 +6924,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Yacute" xMin="38" yMin="0" xMax="410" yMax="841">
+    <TTGlyph name="Yacute" xMin="38" yMin="0" xMax="410" yMax="832">
       <component glyphName="Y" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -6888,7 +6939,7 @@
       <component glyphName="uni0308.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="Ygrave" xMin="38" yMin="0" xMax="410" yMax="841">
+    <TTGlyph name="Ygrave" xMin="38" yMin="0" xMax="410" yMax="832">
       <component glyphName="Y" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -7016,7 +7067,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="Zacute" xMin="45" yMin="0" xMax="366" yMax="841">
+    <TTGlyph name="Zacute" xMin="45" yMin="0" xMax="366" yMax="832">
       <component glyphName="Z" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-20" y="0" flags="0x400"/>
     </TTGlyph>
@@ -7281,8 +7332,25 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="acutecomb.case" xMin="196" yMin="705" xMax="331" yMax="841">
-      <component glyphName="acutecomb.alt" x="0" y="192" flags="0x404"/>
+    <TTGlyph name="acutecomb.case" xMin="196" yMin="705" xMax="327" yMax="832">
+      <contour>
+        <pt x="243" y="832" on="1"/>
+        <pt x="327" y="832" on="1"/>
+        <pt x="252" y="705" on="1"/>
+        <pt x="196" y="705" on="1"/>
+      </contour>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          2
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="adieresis" xMin="41" yMin="-4" xMax="358" yMax="646">
@@ -9780,9 +9848,6 @@
           PUSHB[ ]	/* 2 values pushed */
           42 18
           MIRP[01101]	/* MoveIndirectRelPt */
-          PUSHB[ ]	/* 5 values pushed */
-          80 30 96 30 2
-          DELTAP1[ ]	/* DeltaExceptionP1 */
           PUSHB[ ]	/* 3 values pushed */
           36 18 30
           SRP0[ ]	/* SetRefPoint0 */
@@ -13300,8 +13365,25 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="gravecomb.case" xMin="117" yMin="705" xMax="252" yMax="841">
-      <component glyphName="gravecomb.alt" x="0" y="192" flags="0x404"/>
+    <TTGlyph name="gravecomb.case" xMin="121" yMin="705" xMax="252" yMax="832">
+      <contour>
+        <pt x="196" y="705" on="1"/>
+        <pt x="121" y="832" on="1"/>
+        <pt x="205" y="832" on="1"/>
+        <pt x="252" y="705" on="1"/>
+      </contour>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          2
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="greater" xMin="115" yMin="54" xMax="399" yMax="522">
@@ -14856,12 +14938,12 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="lacute" xMin="78" yMin="-4" xMax="233" yMax="841">
+    <TTGlyph name="lacute" xMin="78" yMin="-4" xMax="233" yMax="832">
       <component glyphName="l" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-114" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="lacute.cv04" xMin="81" yMin="0" xMax="219" yMax="841">
+    <TTGlyph name="lacute.cv04" xMin="81" yMin="0" xMax="215" yMax="832">
       <component glyphName="l.cv04" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
@@ -25981,12 +26063,12 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="uni004A0301" xMin="32" yMin="-8" xMax="354" yMax="841">
+    <TTGlyph name="uni004A0301" xMin="32" yMin="-8" xMax="354" yMax="832">
       <component glyphName="J" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="14" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni004A0301.cv03" xMin="32" yMin="-8" xMax="429" yMax="841">
+    <TTGlyph name="uni004A0301.cv03" xMin="32" yMin="-8" xMax="425" yMax="832">
       <component glyphName="J.cv03" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="98" y="0" flags="0x400"/>
     </TTGlyph>
@@ -26530,7 +26612,7 @@
 
     <TTGlyph name="uni0122" xMin="48" yMin="-191" xMax="394" yMax="647">
       <component glyphName="G" x="0" y="0" flags="0x400"/>
-      <component glyphName="uni0326" x="0" y="0" flags="0x400"/>
+      <component glyphName="uni0326" x="4" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni0123" xMin="49" yMin="-196" xMax="388" yMax="639">
@@ -27987,13 +28069,13 @@
       <component glyphName="uni0304.case" x="0" y="-7" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni01D7" xMin="62" yMin="-10" xMax="418" yMax="1002">
+    <TTGlyph name="uni01D7" xMin="62" yMin="-10" xMax="418" yMax="993">
       <component glyphName="U" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0308.case" x="16" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="16" y="161" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni01D8" xMin="62" yMin="-4" xMax="388" yMax="834">
+    <TTGlyph name="uni01D8" xMin="62" yMin="-4" xMax="388" yMax="825">
       <component glyphName="u" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0308" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="-7" flags="0x404"/>
@@ -28011,13 +28093,13 @@
       <component glyphName="uni030C.case" x="0" y="-7" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni01DB" xMin="62" yMin="-10" xMax="418" yMax="1002">
+    <TTGlyph name="uni01DB" xMin="62" yMin="-10" xMax="418" yMax="993">
       <component glyphName="U" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0308.case" x="16" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="16" y="161" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni01DC" xMin="62" yMin="-4" xMax="388" yMax="834">
+    <TTGlyph name="uni01DC" xMin="62" yMin="-4" xMax="388" yMax="825">
       <component glyphName="u" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0308" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="0" y="-7" flags="0x404"/>
@@ -28124,7 +28206,7 @@
       <component glyphName="uni030C" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni01F4" xMin="48" yMin="-9" xMax="394" yMax="841">
+    <TTGlyph name="uni01F4" xMin="48" yMin="-9" xMax="394" yMax="832">
       <component glyphName="G" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="20" y="0" flags="0x400"/>
     </TTGlyph>
@@ -28139,7 +28221,7 @@
       <component glyphName="acutecomb" x="5" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni01F8" xMin="62" yMin="0" xMax="418" yMax="841">
+    <TTGlyph name="uni01F8" xMin="62" yMin="0" xMax="418" yMax="832">
       <component glyphName="N" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -29727,7 +29809,7 @@
       <component glyphName="gravecomb.alt" x="172" y="104" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni03020300.case" xMin="90" yMin="621" xMax="421" yMax="831">
+    <TTGlyph name="uni03020300.case" xMin="90" yMin="621" xMax="421" yMax="822">
       <component glyphName="uni0302.case" x="0" y="-83" flags="0x404"/>
       <component glyphName="gravecomb.case" x="169" y="-10" flags="0x404"/>
     </TTGlyph>
@@ -29737,7 +29819,7 @@
       <component glyphName="acutecomb.alt" x="118" y="104" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni03020301.case" xMin="90" yMin="621" xMax="449" yMax="831">
+    <TTGlyph name="uni03020301.case" xMin="90" yMin="621" xMax="445" yMax="822">
       <component glyphName="uni0302.case" x="0" y="-83" flags="0x404"/>
       <component glyphName="acutecomb.case" x="118" y="-10" flags="0x404"/>
     </TTGlyph>
@@ -29901,7 +29983,7 @@
       <component glyphName="gravecomb.alt" x="0" y="140" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni03060300.case" xMin="97" yMin="602" xMax="351" yMax="887">
+    <TTGlyph name="uni03060300.case" xMin="97" yMin="602" xMax="351" yMax="878">
       <component glyphName="uni0306.case" x="0" y="-94" flags="0x404"/>
       <component glyphName="gravecomb.case" x="10" y="46" flags="0x404"/>
     </TTGlyph>
@@ -29911,7 +29993,7 @@
       <component glyphName="acutecomb.alt" x="0" y="140" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni03060301.case" xMin="97" yMin="602" xMax="351" yMax="887">
+    <TTGlyph name="uni03060301.case" xMin="97" yMin="602" xMax="351" yMax="878">
       <component glyphName="uni0306.case" x="0" y="-94" flags="0x404"/>
       <component glyphName="acutecomb.case" x="-10" y="46" flags="0x404"/>
     </TTGlyph>
@@ -30972,7 +31054,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="uni0400" xMin="62" yMin="0" xMax="373" yMax="841">
+    <TTGlyph name="uni0400" xMin="62" yMin="0" xMax="373" yMax="832">
       <component glyphName="uni0415" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="-16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -31048,7 +31130,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="uni0403" xMin="62" yMin="0" xMax="355" yMax="841">
+    <TTGlyph name="uni0403" xMin="62" yMin="0" xMax="355" yMax="832">
       <component glyphName="uni0413" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-32" y="0" flags="0x400"/>
     </TTGlyph>
@@ -31354,12 +31436,12 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="uni040C" xMin="62" yMin="0" xMax="398" yMax="841">
+    <TTGlyph name="uni040C" xMin="62" yMin="0" xMax="398" yMax="832">
       <component glyphName="uni041A" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni040D" xMin="62" yMin="0" xMax="418" yMax="841">
+    <TTGlyph name="uni040D" xMin="62" yMin="0" xMax="418" yMax="832">
       <component glyphName="uni0418" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -34568,6 +34650,14 @@
       <component glyphName="i.cv02" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
+    <TTGlyph name="uni0456.dotless" xMin="30" yMin="0" xMax="177" yMax="448">
+      <component glyphName="dotlessi" x="0" y="0" flags="0x400"/>
+    </TTGlyph>
+
+    <TTGlyph name="uni0456.dotless.cv02" xMin="81" yMin="0" xMax="143" yMax="448">
+      <component glyphName="dotlessi.cv02" x="0" y="0" flags="0x400"/>
+    </TTGlyph>
+
     <TTGlyph name="uni0457" xMin="1" yMin="0" xMax="283" yMax="646">
       <component glyphName="dotlessi" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0308" x="-82" y="0" flags="0x400"/>
@@ -34933,34 +35023,26 @@
         <pt x="62" y="0" on="1"/>
       </contour>
       <contour>
-        <pt x="185" y="56" on="1"/>
-        <pt x="185" y="244" on="1"/>
+        <pt x="205" y="56" on="1"/>
+        <pt x="278" y="56" on="0"/>
+        <pt x="342" y="103" on="0"/>
+        <pt x="342" y="152" on="1"/>
+        <pt x="342" y="196" on="0"/>
+        <pt x="278" y="244" on="0"/>
+        <pt x="205" y="244" on="1"/>
         <pt x="125" y="244" on="1"/>
         <pt x="125" y="56" on="1"/>
-      </contour>
-      <contour>
-        <pt x="185" y="300" on="1"/>
-        <pt x="185" y="520" on="1"/>
-        <pt x="125" y="520" on="1"/>
-        <pt x="125" y="300" on="1"/>
-      </contour>
-      <contour>
-        <pt x="296" y="64" on="0"/>
-        <pt x="342" y="110" on="0"/>
-        <pt x="342" y="152" on="1"/>
-        <pt x="342" y="231" on="0"/>
-        <pt x="243" y="242" on="1"/>
-        <pt x="243" y="58" on="1"/>
       </contour>
       <contour>
         <pt x="246" y="300" on="1"/>
         <pt x="282" y="324" on="0"/>
         <pt x="319" y="394" on="0"/>
         <pt x="319" y="431" on="1"/>
-        <pt x="319" y="466" on="0"/>
-        <pt x="283" y="508" on="0"/>
-        <pt x="243" y="515" on="1"/>
-        <pt x="243" y="300" on="1"/>
+        <pt x="319" y="476" on="0"/>
+        <pt x="257" y="520" on="0"/>
+        <pt x="186" y="520" on="1"/>
+        <pt x="125" y="520" on="1"/>
+        <pt x="125" y="300" on="1"/>
       </contour>
       <instructions>
         <assembly>
@@ -34977,24 +35059,24 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
-          25 15 1 4
+          35 15 1 4
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          22 1 18
+          27 1 18
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 1 value pushed */
-          22
+          27
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          27 15
+          37 15
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          9 27 22
+          9 37 27
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
@@ -35006,11 +35088,11 @@
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          23 16 19
+          28 16 19
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
-          27 23
+          37 28
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           RTG[ ]	/* RoundToGrid */
@@ -35020,7 +35102,7 @@
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          30 16 12
+          23 16 12
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
@@ -35029,7 +35111,7 @@
           MDRP[00101]	/* MoveDirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          37 16 7
+          32 16 7
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[1]	/* InterpolateUntPts */
@@ -35254,7 +35336,7 @@
       <component glyphName="uni0331" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E08" xMin="48" yMin="-192" xMax="350" yMax="841">
+    <TTGlyph name="uni1E08" xMin="48" yMin="-192" xMax="350" yMax="832">
       <component glyphName="Ccedilla" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -35304,7 +35386,13 @@
       <component glyphName="uni0326" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E17" xMin="49" yMin="-13" xMax="376" yMax="819">
+    <TTGlyph name="uni1E16" xMin="62" yMin="0" xMax="379" yMax="888">
+      <component glyphName="E.short" x="0" y="0" flags="0x400"/>
+      <component glyphName="uni0304.case" x="-4" y="-64" flags="0x404"/>
+      <component glyphName="acutecomb.case" x="-4" y="56" flags="0x404"/>
+    </TTGlyph>
+
+    <TTGlyph name="uni1E17" xMin="49" yMin="-13" xMax="376" yMax="810">
       <component glyphName="e" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0304" x="-11" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-11" y="-22" flags="0x404"/>
@@ -35395,24 +35483,36 @@
       <component glyphName="uni032E" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E2F" xMin="1" yMin="0" xMax="283" yMax="834">
+    <TTGlyph name="uni1E2E" xMin="77" yMin="0" xMax="371" yMax="929">
+      <component glyphName="I.short" x="0" y="0" flags="0x400"/>
+      <component glyphName="uni0308.case" x="0" y="-64" flags="0x404"/>
+      <component glyphName="acutecomb.case" x="0" y="97" flags="0x404"/>
+    </TTGlyph>
+
+    <TTGlyph name="uni1E2E.cv02" xMin="83" yMin="0" xMax="365" yMax="929">
+      <component glyphName="I.short.cv02" x="0" y="0" flags="0x400"/>
+      <component glyphName="uni0308.case" x="0" y="-64" flags="0x404"/>
+      <component glyphName="acutecomb.case" x="0" y="97" flags="0x404"/>
+    </TTGlyph>
+
+    <TTGlyph name="uni1E2F" xMin="1" yMin="0" xMax="283" yMax="825">
       <component glyphName="dotlessi" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0308" x="-82" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-82" y="-7" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E2F.cv02" xMin="-29" yMin="0" xMax="253" yMax="834">
+    <TTGlyph name="uni1E2F.cv02" xMin="-29" yMin="0" xMax="253" yMax="825">
       <component glyphName="dotlessi.cv02" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0308" x="-112" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-112" y="-7" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E30" xMin="62" yMin="0" xMax="398" yMax="841">
+    <TTGlyph name="uni1E30" xMin="62" yMin="0" xMax="398" yMax="832">
       <component glyphName="K" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E31" xMin="62" yMin="0" xMax="412" yMax="841">
+    <TTGlyph name="uni1E31" xMin="62" yMin="0" xMax="412" yMax="832">
       <component glyphName="k" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="0" flags="0x400"/>
     </TTGlyph>
@@ -35485,7 +35585,7 @@
       <component glyphName="uni0331" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E3E" xMin="62" yMin="0" xMax="514" yMax="841">
+    <TTGlyph name="uni1E3E" xMin="62" yMin="0" xMax="514" yMax="832">
       <component glyphName="M" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="64" y="0" flags="0x400"/>
     </TTGlyph>
@@ -35545,19 +35645,19 @@
       <component glyphName="uni0331" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E52" xMin="40" yMin="-10" xMax="440" yMax="961">
+    <TTGlyph name="uni1E52" xMin="40" yMin="-10" xMax="440" yMax="952">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0304.case" x="16" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="16" y="120" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E53" xMin="49" yMin="-13" xMax="399" yMax="819">
+    <TTGlyph name="uni1E53" xMin="49" yMin="-13" xMax="399" yMax="810">
       <component glyphName="o" x="0" y="0" flags="0x400"/>
       <component glyphName="uni0304" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="0" y="-22" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1E54" xMin="62" yMin="0" xMax="399" yMax="841">
+    <TTGlyph name="uni1E54" xMin="62" yMin="0" xMax="399" yMax="832">
       <component glyphName="P" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-12" y="0" flags="0x400"/>
     </TTGlyph>
@@ -35941,7 +36041,7 @@
       <component glyphName="hookabovecomb" x="-14" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EA4" xMin="37" yMin="0" xMax="449" yMax="895">
+    <TTGlyph name="uni1EA4" xMin="37" yMin="0" xMax="445" yMax="886">
       <component glyphName="A" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03020301.case" x="0" y="64" flags="0x404"/>
     </TTGlyph>
@@ -35951,7 +36051,7 @@
       <component glyphName="uni03020301" x="-14" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EA6" xMin="37" yMin="0" xMax="421" yMax="895">
+    <TTGlyph name="uni1EA6" xMin="37" yMin="0" xMax="421" yMax="886">
       <component glyphName="A" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03020300.case" x="0" y="64" flags="0x404"/>
     </TTGlyph>
@@ -35993,7 +36093,7 @@
       <component glyphName="uni0302" x="-14" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EAE" xMin="37" yMin="0" xMax="411" yMax="951">
+    <TTGlyph name="uni1EAE" xMin="37" yMin="0" xMax="411" yMax="942">
       <component glyphName="A" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03060301.case" x="0" y="64" flags="0x404"/>
     </TTGlyph>
@@ -36003,7 +36103,7 @@
       <component glyphName="uni03060301" x="-14" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EB0" xMin="37" yMin="0" xMax="411" yMax="951">
+    <TTGlyph name="uni1EB0" xMin="37" yMin="0" xMax="411" yMax="942">
       <component glyphName="A" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03060300.case" x="0" y="64" flags="0x404"/>
     </TTGlyph>
@@ -36075,7 +36175,7 @@
       <component glyphName="tildecomb" x="-11" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EBE" xMin="62" yMin="0" xMax="433" yMax="895">
+    <TTGlyph name="uni1EBE" xMin="62" yMin="0" xMax="429" yMax="886">
       <component glyphName="E" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03020301.case" x="-16" y="64" flags="0x404"/>
     </TTGlyph>
@@ -36085,7 +36185,7 @@
       <component glyphName="uni03020301" x="-11" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EC0" xMin="62" yMin="0" xMax="405" yMax="895">
+    <TTGlyph name="uni1EC0" xMin="62" yMin="0" xMax="405" yMax="886">
       <component glyphName="E" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03020300.case" x="-16" y="64" flags="0x404"/>
     </TTGlyph>
@@ -36167,6 +36267,16 @@
       <component glyphName="dotbelowcomb" x="-112" y="0" flags="0x400"/>
     </TTGlyph>
 
+    <TTGlyph name="uni1ECB.dotless" xMin="30" yMin="-175" xMax="203" yMax="448">
+      <component glyphName="dotlessi" x="0" y="0" flags="0x400"/>
+      <component glyphName="dotbelowcomb" x="-78" y="0" flags="0x400"/>
+    </TTGlyph>
+
+    <TTGlyph name="uni1ECB.dotless.cv02" xMin="55" yMin="-175" xMax="169" yMax="448">
+      <component glyphName="dotlessi.cv02" x="0" y="0" flags="0x400"/>
+      <component glyphName="dotbelowcomb" x="-112" y="0" flags="0x400"/>
+    </TTGlyph>
+
     <TTGlyph name="uni1ECC" xMin="40" yMin="-175" xMax="440" yMax="650">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
       <component glyphName="dotbelowcomb" x="16" y="0" flags="0x400"/>
@@ -36187,7 +36297,7 @@
       <component glyphName="hookabovecomb" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1ED0" xMin="40" yMin="-10" xMax="465" yMax="895">
+    <TTGlyph name="uni1ED0" xMin="40" yMin="-10" xMax="461" yMax="886">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03020301.case" x="16" y="64" flags="0x404"/>
     </TTGlyph>
@@ -36197,7 +36307,7 @@
       <component glyphName="uni03020301" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1ED2" xMin="40" yMin="-10" xMax="440" yMax="895">
+    <TTGlyph name="uni1ED2" xMin="40" yMin="-10" xMax="440" yMax="886">
       <component glyphName="O" x="0" y="0" flags="0x400"/>
       <component glyphName="uni03020300.case" x="16" y="64" flags="0x404"/>
     </TTGlyph>
@@ -36239,7 +36349,7 @@
       <component glyphName="uni0302" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EDA" xMin="40" yMin="-10" xMax="448" yMax="841">
+    <TTGlyph name="uni1EDA" xMin="40" yMin="-10" xMax="448" yMax="832">
       <component glyphName="Ohorn" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-12" y="0" flags="0x400"/>
     </TTGlyph>
@@ -36249,7 +36359,7 @@
       <component glyphName="acutecomb" x="-12" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EDC" xMin="40" yMin="-10" xMax="448" yMax="841">
+    <TTGlyph name="uni1EDC" xMin="40" yMin="-10" xMax="448" yMax="832">
       <component glyphName="Ohorn" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -36309,7 +36419,7 @@
       <component glyphName="hookabovecomb" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EE8" xMin="62" yMin="-10" xMax="484" yMax="841">
+    <TTGlyph name="uni1EE8" xMin="62" yMin="-10" xMax="484" yMax="832">
       <component glyphName="Uhorn" x="0" y="0" flags="0x400"/>
       <component glyphName="acutecomb.case" x="-9" y="0" flags="0x400"/>
     </TTGlyph>
@@ -36319,7 +36429,7 @@
       <component glyphName="acutecomb" x="-9" y="0" flags="0x400"/>
     </TTGlyph>
 
-    <TTGlyph name="uni1EEA" xMin="62" yMin="-10" xMax="484" yMax="841">
+    <TTGlyph name="uni1EEA" xMin="62" yMin="-10" xMax="484" yMax="832">
       <component glyphName="Uhorn" x="0" y="0" flags="0x400"/>
       <component glyphName="gravecomb.case" x="16" y="0" flags="0x400"/>
     </TTGlyph>
@@ -37444,31 +37554,24 @@
         <pt x="370" y="517" on="1"/>
         <pt x="317" y="527" on="0"/>
         <pt x="272" y="527" on="1"/>
-        <pt x="259" y="527" on="1"/>
-        <pt x="259" y="284" on="1"/>
+        <pt x="208" y="527" on="0"/>
+        <pt x="145" y="479" on="0"/>
+        <pt x="125" y="381" on="0"/>
+        <pt x="125" y="287" on="1"/>
+        <pt x="125" y="194" on="0"/>
+        <pt x="146" y="95" on="0"/>
+        <pt x="209" y="47" on="0"/>
+        <pt x="273" y="47" on="1"/>
+        <pt x="295" y="47" on="0"/>
+        <pt x="323" y="50" on="1"/>
+        <pt x="323" y="228" on="1"/>
+        <pt x="230" y="228" on="1"/>
+        <pt x="230" y="284" on="1"/>
         <pt x="386" y="284" on="1"/>
         <pt x="386" y="7" on="1"/>
         <pt x="359" y="-1" on="0"/>
         <pt x="293" y="-9" on="0"/>
         <pt x="267" y="-9" on="1"/>
-      </contour>
-      <contour>
-        <pt x="125" y="179" on="0"/>
-        <pt x="155" y="76" on="0"/>
-        <pt x="202" y="58" on="1"/>
-        <pt x="202" y="517" on="1"/>
-        <pt x="169" y="505" on="0"/>
-        <pt x="136" y="449" on="0"/>
-        <pt x="125" y="361" on="0"/>
-        <pt x="125" y="287" on="1"/>
-      </contour>
-      <contour>
-        <pt x="273" y="47" on="1"/>
-        <pt x="295" y="47" on="0"/>
-        <pt x="323" y="50" on="1"/>
-        <pt x="323" y="228" on="1"/>
-        <pt x="259" y="228" on="1"/>
-        <pt x="259" y="47" on="1"/>
       </contour>
       <instructions>
         <assembly>
@@ -37485,16 +37588,16 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
-          34 15 25 8
+          26 15 36 8
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          20 25 13
+          31 36 13
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
           PUSHB[ ]	/* 3 values pushed */
-          38 15 20
+          30 15 31
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[0]	/* InterpolateUntPts */
@@ -43949,16 +44052,16 @@
 
     <TTGlyph name="uni2504" xMin="-10" yMin="256" xMax="458" yMax="320">
       <contour>
-        <pt x="-10" y="320" on="1"/>
-        <pt x="96" y="320" on="1"/>
-        <pt x="96" y="256" on="1"/>
-        <pt x="-10" y="256" on="1"/>
-      </contour>
-      <contour>
         <pt x="160" y="320" on="1"/>
         <pt x="288" y="320" on="1"/>
         <pt x="288" y="256" on="1"/>
         <pt x="160" y="256" on="1"/>
+      </contour>
+      <contour>
+        <pt x="-10" y="320" on="1"/>
+        <pt x="96" y="320" on="1"/>
+        <pt x="96" y="256" on="1"/>
+        <pt x="-10" y="256" on="1"/>
       </contour>
       <contour>
         <pt x="352" y="320" on="1"/>
@@ -43966,16 +44069,35 @@
         <pt x="458" y="256" on="1"/>
         <pt x="352" y="256" on="1"/>
       </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          7
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          4 15
+          MIRP[01101]	/* MoveIndirectRelPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          11
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          0 4
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          8
+          MDRP[00001]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni2505" xMin="-10" yMin="224" xMax="458" yMax="352">
-      <contour>
-        <pt x="-10" y="352" on="1"/>
-        <pt x="96" y="352" on="1"/>
-        <pt x="96" y="224" on="1"/>
-        <pt x="-10" y="224" on="1"/>
-      </contour>
       <contour>
         <pt x="160" y="352" on="1"/>
         <pt x="288" y="352" on="1"/>
@@ -43983,15 +44105,52 @@
         <pt x="160" y="224" on="1"/>
       </contour>
       <contour>
+        <pt x="-10" y="352" on="1"/>
+        <pt x="96" y="352" on="1"/>
+        <pt x="96" y="224" on="1"/>
+        <pt x="-10" y="224" on="1"/>
+      </contour>
+      <contour>
         <pt x="352" y="352" on="1"/>
         <pt x="458" y="352" on="1"/>
         <pt x="458" y="224" on="1"/>
         <pt x="352" y="224" on="1"/>
       </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          7
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          MDRP[01101]	/* MoveDirectRelPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          11
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          0 4
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          8
+          MDRP[00001]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni2506" xMin="190" yMin="-202" xMax="258" yMax="842">
+      <contour>
+        <pt x="190" y="842" on="1"/>
+        <pt x="258" y="842" on="1"/>
+        <pt x="258" y="512" on="1"/>
+        <pt x="190" y="512" on="1"/>
+      </contour>
       <contour>
         <pt x="190" y="128" on="1"/>
         <pt x="258" y="128" on="1"/>
@@ -44004,16 +44163,51 @@
         <pt x="258" y="192" on="1"/>
         <pt x="190" y="192" on="1"/>
       </contour>
-      <contour>
-        <pt x="190" y="842" on="1"/>
-        <pt x="258" y="842" on="1"/>
-        <pt x="258" y="512" on="1"/>
-        <pt x="190" y="512" on="1"/>
-      </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 2 values pushed */
+          7 11
+          MIAP[1]	/* MoveIndirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          4 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          8 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          8
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          11 4
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          3 8
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni2507" xMin="154" yMin="-202" xMax="294" yMax="842">
+      <contour>
+        <pt x="154" y="842" on="1"/>
+        <pt x="294" y="842" on="1"/>
+        <pt x="294" y="512" on="1"/>
+        <pt x="154" y="512" on="1"/>
+      </contour>
       <contour>
         <pt x="154" y="128" on="1"/>
         <pt x="294" y="128" on="1"/>
@@ -44026,16 +44220,51 @@
         <pt x="294" y="192" on="1"/>
         <pt x="154" y="192" on="1"/>
       </contour>
-      <contour>
-        <pt x="154" y="842" on="1"/>
-        <pt x="294" y="842" on="1"/>
-        <pt x="294" y="512" on="1"/>
-        <pt x="154" y="512" on="1"/>
-      </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 2 values pushed */
+          7 11
+          MIAP[1]	/* MoveIndirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          4 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          8 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          8
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          11 4
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          3 8
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni2508" xMin="-10" yMin="256" xMax="458" yMax="320">
+      <contour>
+        <pt x="384" y="320" on="1"/>
+        <pt x="458" y="320" on="1"/>
+        <pt x="458" y="256" on="1"/>
+        <pt x="384" y="256" on="1"/>
+      </contour>
       <contour>
         <pt x="-10" y="320" on="1"/>
         <pt x="64" y="320" on="1"/>
@@ -44054,13 +44283,38 @@
         <pt x="320" y="256" on="1"/>
         <pt x="256" y="256" on="1"/>
       </contour>
-      <contour>
-        <pt x="384" y="320" on="1"/>
-        <pt x="458" y="320" on="1"/>
-        <pt x="458" y="256" on="1"/>
-        <pt x="384" y="256" on="1"/>
-      </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          7
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          4 15
+          MIRP[01101]	/* MoveIndirectRelPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 1 value pushed */
+          11
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          15
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          8 4
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          12
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDRP[00001]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni2509" xMin="-10" yMin="224" xMax="458" yMax="352">
@@ -44088,10 +44342,47 @@
         <pt x="458" y="224" on="1"/>
         <pt x="384" y="224" on="1"/>
       </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDRP[01101]	/* MoveDirectRelPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 1 value pushed */
+          7
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          11
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          15
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          4 0
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          8
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 1 value pushed */
+          12
+          MDRP[00001]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni250A" xMin="190" yMin="-202" xMax="258" yMax="842">
+      <contour>
+        <pt x="190" y="842" on="1"/>
+        <pt x="258" y="842" on="1"/>
+        <pt x="258" y="608" on="1"/>
+        <pt x="190" y="608" on="1"/>
+      </contour>
       <contour>
         <pt x="190" y="31" on="1"/>
         <pt x="258" y="31" on="1"/>
@@ -44110,16 +44401,16 @@
         <pt x="258" y="352" on="1"/>
         <pt x="190" y="352" on="1"/>
       </contour>
-      <contour>
-        <pt x="190" y="842" on="1"/>
-        <pt x="258" y="842" on="1"/>
-        <pt x="258" y="608" on="1"/>
-        <pt x="190" y="608" on="1"/>
-      </contour>
       <instructions/>
     </TTGlyph>
 
     <TTGlyph name="uni250B" xMin="154" yMin="-202" xMax="294" yMax="842">
+      <contour>
+        <pt x="154" y="842" on="1"/>
+        <pt x="294" y="842" on="1"/>
+        <pt x="294" y="608" on="1"/>
+        <pt x="154" y="608" on="1"/>
+      </contour>
       <contour>
         <pt x="154" y="31" on="1"/>
         <pt x="294" y="31" on="1"/>
@@ -44138,13 +44429,54 @@
         <pt x="294" y="352" on="1"/>
         <pt x="154" y="352" on="1"/>
       </contour>
-      <contour>
-        <pt x="154" y="842" on="1"/>
-        <pt x="294" y="842" on="1"/>
-        <pt x="294" y="608" on="1"/>
-        <pt x="154" y="608" on="1"/>
-      </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 2 values pushed */
+          7 11
+          MIAP[1]	/* MoveIndirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          4 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          8 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          8
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          12 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          12
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          11 4
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          15 8
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          3 12
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni250C" xMin="190" yMin="-202" xMax="458" yMax="320">
@@ -46422,18 +46754,37 @@
 
     <TTGlyph name="uni254C" xMin="-10" yMin="256" xMax="458" yMax="320">
       <contour>
-        <pt x="-10" y="320" on="1"/>
-        <pt x="192" y="320" on="1"/>
-        <pt x="192" y="256" on="1"/>
-        <pt x="-10" y="256" on="1"/>
-      </contour>
-      <contour>
         <pt x="256" y="320" on="1"/>
         <pt x="458" y="320" on="1"/>
         <pt x="458" y="256" on="1"/>
         <pt x="256" y="256" on="1"/>
       </contour>
-      <instructions/>
+      <contour>
+        <pt x="-10" y="320" on="1"/>
+        <pt x="192" y="320" on="1"/>
+        <pt x="192" y="256" on="1"/>
+        <pt x="-10" y="256" on="1"/>
+      </contour>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          6
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          5 15
+          MIRP[01101]	/* MoveIndirectRelPt */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          0 5
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni254D" xMin="-10" yMin="224" xMax="458" yMax="352">
@@ -46449,23 +46800,56 @@
         <pt x="458" y="224" on="1"/>
         <pt x="256" y="224" on="1"/>
       </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni254E" xMin="190" yMin="-202" xMax="258" yMax="842">
-      <contour>
-        <pt x="190" y="256" on="1"/>
-        <pt x="258" y="256" on="1"/>
-        <pt x="258" y="-202" on="1"/>
-        <pt x="190" y="-202" on="1"/>
-      </contour>
       <contour>
         <pt x="190" y="842" on="1"/>
         <pt x="258" y="842" on="1"/>
         <pt x="258" y="320" on="1"/>
         <pt x="190" y="320" on="1"/>
       </contour>
-      <instructions/>
+      <contour>
+        <pt x="190" y="256" on="1"/>
+        <pt x="258" y="256" on="1"/>
+        <pt x="258" y="-202" on="1"/>
+        <pt x="190" y="-202" on="1"/>
+      </contour>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 2 values pushed */
+          7 11
+          MIAP[1]	/* MoveIndirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          4 0 7
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni254F" xMin="154" yMin="-202" xMax="294" yMax="842">
@@ -46481,7 +46865,29 @@
         <pt x="294" y="320" on="1"/>
         <pt x="154" y="320" on="1"/>
       </contour>
-      <instructions/>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSHB[ ]	/* 2 values pushed */
+          3 11
+          MIAP[1]	/* MoveIndirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 3 values pushed */
+          0 4 3
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          MDAP[1]	/* MoveDirectAbsPt */
+          PUSHB[ ]	/* 1 value pushed */
+          7
+          MDRP[01101]	/* MoveDirectRelPt */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
     </TTGlyph>
 
     <TTGlyph name="uni2550" xMin="-10" yMin="192" xMax="458" yMax="384">
@@ -49256,6 +49662,234 @@
       <instructions/>
     </TTGlyph>
 
+    <TTGlyph name="uni25CC" xMin="23" yMin="-13" xMax="425" yMax="653">
+      <contour>
+        <pt x="293" y="537" on="0"/>
+        <pt x="272" y="558" on="0"/>
+        <pt x="272" y="573" on="1"/>
+        <pt x="272" y="588" on="0"/>
+        <pt x="293" y="609" on="0"/>
+        <pt x="308" y="609" on="1"/>
+        <pt x="323" y="609" on="0"/>
+        <pt x="344" y="588" on="0"/>
+        <pt x="344" y="573" on="1"/>
+        <pt x="344" y="558" on="0"/>
+        <pt x="323" y="537" on="0"/>
+        <pt x="308" y="537" on="1"/>
+      </contour>
+      <contour>
+        <pt x="23" y="335" on="0"/>
+        <pt x="44" y="356" on="0"/>
+        <pt x="59" y="356" on="1"/>
+        <pt x="74" y="356" on="0"/>
+        <pt x="95" y="335" on="0"/>
+        <pt x="95" y="320" on="1"/>
+        <pt x="95" y="305" on="0"/>
+        <pt x="74" y="284" on="0"/>
+        <pt x="59" y="284" on="1"/>
+        <pt x="44" y="284" on="0"/>
+        <pt x="23" y="305" on="0"/>
+        <pt x="23" y="320" on="1"/>
+      </contour>
+      <contour>
+        <pt x="31" y="246" on="0"/>
+        <pt x="52" y="267" on="0"/>
+        <pt x="67" y="267" on="1"/>
+        <pt x="82" y="267" on="0"/>
+        <pt x="103" y="246" on="0"/>
+        <pt x="103" y="231" on="1"/>
+        <pt x="103" y="216" on="0"/>
+        <pt x="82" y="195" on="0"/>
+        <pt x="67" y="195" on="1"/>
+        <pt x="52" y="195" on="0"/>
+        <pt x="31" y="216" on="0"/>
+        <pt x="31" y="231" on="1"/>
+      </contour>
+      <contour>
+        <pt x="31" y="424" on="0"/>
+        <pt x="52" y="445" on="0"/>
+        <pt x="67" y="445" on="1"/>
+        <pt x="82" y="445" on="0"/>
+        <pt x="103" y="424" on="0"/>
+        <pt x="103" y="409" on="1"/>
+        <pt x="103" y="394" on="0"/>
+        <pt x="82" y="373" on="0"/>
+        <pt x="67" y="373" on="1"/>
+        <pt x="52" y="373" on="0"/>
+        <pt x="31" y="394" on="0"/>
+        <pt x="31" y="409" on="1"/>
+      </contour>
+      <contour>
+        <pt x="56" y="160" on="0"/>
+        <pt x="77" y="181" on="0"/>
+        <pt x="92" y="181" on="1"/>
+        <pt x="107" y="181" on="0"/>
+        <pt x="128" y="160" on="0"/>
+        <pt x="128" y="145" on="1"/>
+        <pt x="128" y="130" on="0"/>
+        <pt x="107" y="109" on="0"/>
+        <pt x="92" y="109" on="1"/>
+        <pt x="77" y="109" on="0"/>
+        <pt x="56" y="130" on="0"/>
+        <pt x="56" y="145" on="1"/>
+      </contour>
+      <contour>
+        <pt x="56" y="510" on="0"/>
+        <pt x="77" y="531" on="0"/>
+        <pt x="92" y="531" on="1"/>
+        <pt x="107" y="531" on="0"/>
+        <pt x="128" y="510" on="0"/>
+        <pt x="128" y="495" on="1"/>
+        <pt x="128" y="480" on="0"/>
+        <pt x="107" y="459" on="0"/>
+        <pt x="92" y="459" on="1"/>
+        <pt x="77" y="459" on="0"/>
+        <pt x="56" y="480" on="0"/>
+        <pt x="56" y="495" on="1"/>
+      </contour>
+      <contour>
+        <pt x="104" y="82" on="0"/>
+        <pt x="125" y="103" on="0"/>
+        <pt x="140" y="103" on="1"/>
+        <pt x="155" y="103" on="0"/>
+        <pt x="176" y="82" on="0"/>
+        <pt x="176" y="67" on="1"/>
+        <pt x="176" y="52" on="0"/>
+        <pt x="155" y="31" on="0"/>
+        <pt x="140" y="31" on="1"/>
+        <pt x="125" y="31" on="0"/>
+        <pt x="104" y="52" on="0"/>
+        <pt x="104" y="67" on="1"/>
+      </contour>
+      <contour>
+        <pt x="104" y="588" on="0"/>
+        <pt x="125" y="609" on="0"/>
+        <pt x="140" y="609" on="1"/>
+        <pt x="155" y="609" on="0"/>
+        <pt x="176" y="588" on="0"/>
+        <pt x="176" y="573" on="1"/>
+        <pt x="176" y="558" on="0"/>
+        <pt x="155" y="537" on="0"/>
+        <pt x="140" y="537" on="1"/>
+        <pt x="125" y="537" on="0"/>
+        <pt x="104" y="558" on="0"/>
+        <pt x="104" y="573" on="1"/>
+      </contour>
+      <contour>
+        <pt x="188" y="38" on="0"/>
+        <pt x="209" y="59" on="0"/>
+        <pt x="224" y="59" on="1"/>
+        <pt x="239" y="59" on="0"/>
+        <pt x="260" y="38" on="0"/>
+        <pt x="260" y="23" on="1"/>
+        <pt x="260" y="8" on="0"/>
+        <pt x="239" y="-13" on="0"/>
+        <pt x="224" y="-13" on="1"/>
+        <pt x="209" y="-13" on="0"/>
+        <pt x="188" y="8" on="0"/>
+        <pt x="188" y="23" on="1"/>
+      </contour>
+      <contour>
+        <pt x="188" y="632" on="0"/>
+        <pt x="209" y="653" on="0"/>
+        <pt x="224" y="653" on="1"/>
+        <pt x="239" y="653" on="0"/>
+        <pt x="260" y="632" on="0"/>
+        <pt x="260" y="617" on="1"/>
+        <pt x="260" y="602" on="0"/>
+        <pt x="239" y="581" on="0"/>
+        <pt x="224" y="581" on="1"/>
+        <pt x="209" y="581" on="0"/>
+        <pt x="188" y="602" on="0"/>
+        <pt x="188" y="617" on="1"/>
+      </contour>
+      <contour>
+        <pt x="272" y="82" on="0"/>
+        <pt x="293" y="103" on="0"/>
+        <pt x="308" y="103" on="1"/>
+        <pt x="323" y="103" on="0"/>
+        <pt x="344" y="82" on="0"/>
+        <pt x="344" y="67" on="1"/>
+        <pt x="344" y="52" on="0"/>
+        <pt x="323" y="31" on="0"/>
+        <pt x="308" y="31" on="1"/>
+        <pt x="293" y="31" on="0"/>
+        <pt x="272" y="52" on="0"/>
+        <pt x="272" y="67" on="1"/>
+      </contour>
+      <contour>
+        <pt x="320" y="160" on="0"/>
+        <pt x="341" y="181" on="0"/>
+        <pt x="356" y="181" on="1"/>
+        <pt x="371" y="181" on="0"/>
+        <pt x="392" y="160" on="0"/>
+        <pt x="392" y="145" on="1"/>
+        <pt x="392" y="130" on="0"/>
+        <pt x="371" y="109" on="0"/>
+        <pt x="356" y="109" on="1"/>
+        <pt x="341" y="109" on="0"/>
+        <pt x="320" y="130" on="0"/>
+        <pt x="320" y="145" on="1"/>
+      </contour>
+      <contour>
+        <pt x="320" y="510" on="0"/>
+        <pt x="341" y="531" on="0"/>
+        <pt x="356" y="531" on="1"/>
+        <pt x="371" y="531" on="0"/>
+        <pt x="392" y="510" on="0"/>
+        <pt x="392" y="495" on="1"/>
+        <pt x="392" y="480" on="0"/>
+        <pt x="371" y="459" on="0"/>
+        <pt x="356" y="459" on="1"/>
+        <pt x="341" y="459" on="0"/>
+        <pt x="320" y="480" on="0"/>
+        <pt x="320" y="495" on="1"/>
+      </contour>
+      <contour>
+        <pt x="345" y="246" on="0"/>
+        <pt x="366" y="267" on="0"/>
+        <pt x="381" y="267" on="1"/>
+        <pt x="396" y="267" on="0"/>
+        <pt x="417" y="246" on="0"/>
+        <pt x="417" y="231" on="1"/>
+        <pt x="417" y="216" on="0"/>
+        <pt x="396" y="195" on="0"/>
+        <pt x="381" y="195" on="1"/>
+        <pt x="366" y="195" on="0"/>
+        <pt x="345" y="216" on="0"/>
+        <pt x="345" y="231" on="1"/>
+      </contour>
+      <contour>
+        <pt x="345" y="424" on="0"/>
+        <pt x="366" y="445" on="0"/>
+        <pt x="381" y="445" on="1"/>
+        <pt x="396" y="445" on="0"/>
+        <pt x="417" y="424" on="0"/>
+        <pt x="417" y="409" on="1"/>
+        <pt x="417" y="394" on="0"/>
+        <pt x="396" y="373" on="0"/>
+        <pt x="381" y="373" on="1"/>
+        <pt x="366" y="373" on="0"/>
+        <pt x="345" y="394" on="0"/>
+        <pt x="345" y="409" on="1"/>
+      </contour>
+      <contour>
+        <pt x="353" y="335" on="0"/>
+        <pt x="374" y="356" on="0"/>
+        <pt x="389" y="356" on="1"/>
+        <pt x="404" y="356" on="0"/>
+        <pt x="425" y="335" on="0"/>
+        <pt x="425" y="320" on="1"/>
+        <pt x="425" y="305" on="0"/>
+        <pt x="404" y="284" on="0"/>
+        <pt x="389" y="284" on="1"/>
+        <pt x="374" y="284" on="0"/>
+        <pt x="353" y="305" on="0"/>
+        <pt x="353" y="320" on="1"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
     <TTGlyph name="uni25CF" xMin="59" yMin="124" xMax="389" yMax="452">
       <contour>
         <pt x="178" y="124" on="0"/>
@@ -51882,6 +52516,10 @@
           IUP[1]	/* InterpolateUntPts */
         </assembly>
       </instructions>
+    </TTGlyph>
+
+    <TTGlyph name="uniA7AE" xMin="56" yMin="0" xMax="264" yMax="640">
+      <component glyphName="I" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uniE0A0" xMin="68" yMin="-128" xMax="494" yMax="768">
