@@ -213,6 +213,7 @@ Ecircumflextilde,
 Ecircumflexhookabove,
 Etilde,
 Emacron,
+Emacronacute,
 Ebreve,
 Edotaccent,
 Edieresis,
@@ -256,11 +257,13 @@ Imacron,
 Ibreve,
 Idotaccent,
 Idieresis,
+Idieresisacute,
 Ihookabove,
 Icaron,
 Idotbelow,
 Iogonek,
 Istroke,
+Icapitalsmall,
 IJ,
 J,
 Jacute,
@@ -441,6 +444,8 @@ Icaron.cv02,
 Idotbelow.cv02,
 Iogonek.cv02,
 Istroke.cv02,
+Icapitalsmall.cv02,
+Idieresisacute.cv02,
 J.cv03,
 Jacute.cv03,
 Jcircumflex.cv03,
@@ -2575,6 +2580,7 @@ sub Ecircumflexgrave by Ecircumflexgrave.ss20;
 sub Ecircumflexhookabove by Ecircumflexhookabove.ss20;
 sub Ecircumflextilde by Ecircumflextilde.ss20;
 sub Ehookabove by Ehookabove.ss20;
+sub Emacronacute by Emacronacute.ss20;
 sub Eopen by Eopen.ss20;
 sub Ereversed by Ereversed.ss20;
 sub F by F.ss20;
@@ -2585,6 +2591,8 @@ sub Hbar by Hbar.ss20;
 sub Hturned by Hturned.ss20;
 sub I by I.ss20;
 sub IJ by IJ.ss20;
+sub Icapitalsmall by Icapitalsmall.ss20;
+sub Idieresisacute by Idieresisacute.ss20;
 sub Ihookabove by Ihookabove.ss20;
 sub Istroke by Istroke.ss20;
 sub J by J.ss20;
@@ -2998,11 +3006,13 @@ sub Imacron from [Imacron.cv02];
 sub Ibreve from [Ibreve.cv02];
 sub Idotaccent from [Idotaccent.cv02];
 sub Idieresis from [Idieresis.cv02];
+sub Idieresisacute from [Idieresisacute.cv02];
 sub Ihookabove from [Ihookabove.cv02];
 sub Icaron from [Icaron.cv02];
 sub Idotbelow from [Idotbelow.cv02];
 sub Iogonek from [Iogonek.cv02];
 sub Istroke from [Istroke.cv02];
+sub Icapitalsmall from [Icapitalsmall.cv02];
 sub I.short from [I.short.cv02];
 sub i from [i.cv02];
 sub idotless from [idotless.cv02];
@@ -5199,7 +5209,13 @@ value = (
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "apostrophemod=apostrophemod.ss20",
-"commaturnedmod=commaturnedmod.ss20"
+"commaturnedmod=commaturnedmod.ss20",
+"Emacronacute=Emacronacute.ss20",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
+"Idotbelow.cv02=Idotbelow.ss20.cv02"
 );
 },
 {
