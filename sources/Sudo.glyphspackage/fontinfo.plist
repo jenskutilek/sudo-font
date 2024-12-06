@@ -1,5 +1,5 @@
 {
-.appVersion = "3326";
+.appVersion = "3328";
 .formatVersion = 3;
 axes = (
 {
@@ -225,7 +225,7 @@ Ecircumflexdotbelow,
 Ecedilla,
 Ecedillabreve,
 Eogonek,
-Ereversed,
+Eturned,
 Eopen,
 Schwa,
 F,
@@ -1653,10 +1653,10 @@ boysSymbol,
 girlsSymbol,
 shoppingTrolley,
 cloud,
-blackstar,
+blackStar,
 blackSmallStar,
 uni2BE8,
-whitestar,
+whiteStar,
 whiteSmallStar,
 heavyGreekCross,
 heavenTrigram,
@@ -4554,10 +4554,29 @@ name = winAscent;
 value = 896;
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
-"zero=zero.zero",
-"zero.osf=zero.zero.osf",
 "A=A.ss20",
 "Abreveacute=Abreveacute.ss20",
 "Abrevegrave=Abrevegrave.ss20",
@@ -4573,19 +4592,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -4597,9 +4618,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -4651,13 +4676,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -4682,6 +4707,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -4728,25 +4754,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -4816,13 +4845,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -4872,6 +4900,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -4989,12 +5019,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -5024,40 +5054,17 @@ value = (
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "apostrophemod=apostrophemod.ss20",
-"commaturnedmod=commaturnedmod.ss20",
-"Emacronacute=Emacronacute.ss20",
-"Idieresisacute=Idieresisacute.ss20",
-"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
-"Idotbelow.cv02=Idotbelow.ss20.cv02",
-"idotbelow.dotless=idotbelow.dotless.ss20",
-"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02"
+"commaturnedmod=commaturnedmod.ss20"
 );
 },
 {
-name = panose;
+name = "Rename Glyphs";
 value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
+"zero=zero.zero",
+"zero.osf=zero.zero.osf"
 );
 }
 );
-exports = 0;
 name = Regular;
 properties = (
 {
@@ -11867,6 +11874,12 @@ uniE09B
 );
 },
 {
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -11891,12 +11904,6 @@ value = (
 "wdotbelow.ss20=wdotbelow.ss20.italic",
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -12584,6 +12591,12 @@ uniE09B
 );
 },
 {
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -12608,12 +12621,6 @@ value = (
 "wdotbelow.ss20=wdotbelow.ss20.italic",
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -13303,6 +13310,12 @@ uniE09B
 );
 },
 {
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -13327,12 +13340,6 @@ value = (
 "wdotbelow.ss20=wdotbelow.ss20.italic",
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -14019,6 +14026,12 @@ uniE09B
 );
 },
 {
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -14043,12 +14056,6 @@ value = (
 "wdotbelow.ss20=wdotbelow.ss20.italic",
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -14737,6 +14744,12 @@ uniE09B
 );
 },
 {
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
@@ -14761,12 +14774,6 @@ value = (
 "wdotbelow.ss20=wdotbelow.ss20.italic",
 "wgrave.ss20=wgrave.ss20.italic",
 "wring.ss20=wring.ss20.italic"
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -15470,6 +15477,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -15487,19 +15515,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -15511,9 +15541,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -15565,13 +15599,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -15596,6 +15630,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -15642,25 +15677,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -15730,13 +15768,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -15786,6 +15823,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -15903,12 +15942,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -15946,27 +15985,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -16679,6 +16697,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -16696,19 +16735,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -16720,9 +16761,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -16774,13 +16819,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -16805,6 +16850,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -16851,25 +16897,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -16939,13 +16988,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -16995,6 +17043,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -17112,12 +17162,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -17155,27 +17205,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -17889,6 +17918,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -17906,19 +17956,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -17930,9 +17982,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -17984,13 +18040,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -18015,6 +18071,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -18061,25 +18118,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -18149,13 +18209,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -18205,6 +18264,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -18322,12 +18383,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -18365,27 +18426,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -19097,6 +19137,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -19114,19 +19175,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -19138,9 +19201,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -19192,13 +19259,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -19223,6 +19290,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -19269,25 +19337,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -19357,13 +19428,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -19413,6 +19483,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -19530,12 +19602,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -19573,27 +19645,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -20308,6 +20359,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -20325,19 +20397,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -20349,9 +20423,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -20403,13 +20481,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -20434,6 +20512,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -20480,25 +20559,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -20568,13 +20650,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -20624,6 +20705,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -20741,12 +20824,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -20784,27 +20867,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -21523,6 +21585,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -21540,19 +21623,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -21564,9 +21649,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -21618,13 +21707,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -21649,6 +21738,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -21695,25 +21785,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -21783,13 +21876,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -21839,6 +21931,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -21956,12 +22050,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -22026,27 +22120,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -22765,6 +22838,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -22782,19 +22876,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -22806,9 +22902,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -22860,13 +22960,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -22891,6 +22991,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -22937,25 +23038,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -23025,13 +23129,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -23081,6 +23184,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -23198,12 +23303,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -23268,27 +23373,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -24008,6 +24092,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -24025,19 +24130,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -24049,9 +24156,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -24103,13 +24214,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -24134,6 +24245,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -24180,25 +24292,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -24268,13 +24383,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -24324,6 +24438,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -24441,12 +24557,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -24511,27 +24627,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -25249,6 +25344,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -25266,19 +25382,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -25290,9 +25408,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -25344,13 +25466,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -25375,6 +25497,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -25421,25 +25544,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -25509,13 +25635,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -25565,6 +25690,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -25682,12 +25809,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -25752,27 +25879,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
@@ -26492,6 +26598,27 @@ uniE09B
 );
 },
 {
+name = panose;
+value = (
+2,
+13,
+0,
+4,
+6,
+5,
+2,
+2,
+11,
+4
+);
+},
+{
+name = "Export Glyphs";
+value = (
+softhyphen
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "A=A.ss20",
@@ -26509,19 +26636,21 @@ value = (
 "AE=AE.ss20",
 "Bhook=Bhook.ss20",
 "C=C.ss20",
+"C_ogonekcomb=C_ogonekcomb.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcroat=Dcroat.ss20",
 "Dhook=Dhook.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Ecircumflexacute=Ecircumflexacute.ss20",
 "Ecircumflexgrave=Ecircumflexgrave.ss20",
 "Ecircumflexhookabove=Ecircumflexhookabove.ss20",
 "Ecircumflextilde=Ecircumflextilde.ss20",
 "Ehookabove=Ehookabove.ss20",
+"Emacronacute=Emacronacute.ss20",
 "Eopen=Eopen.ss20",
-"Ereversed=Ereversed.ss20",
+"Eturned=Eturned.ss20",
 "F=F.ss20",
 "G=G.ss20",
 "Gstroke=Gstroke.ss20",
@@ -26533,9 +26662,13 @@ value = (
 "IJ=IJ.ss20",
 "Iacute.cv02=Iacute.ss20.cv02",
 "Ibreve.cv02=Ibreve.ss20.cv02",
+"Icapitalsmall=Icapitalsmall.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.ss20.cv02",
 "Icaron.cv02=Icaron.ss20.cv02",
 "Icircumflex.cv02=Icircumflex.ss20.cv02",
 "Idieresis.cv02=Idieresis.ss20.cv02",
+"Idieresisacute=Idieresisacute.ss20",
+"Idieresisacute.cv02=Idieresisacute.ss20.cv02",
 "Idotaccent.cv02=Idotaccent.ss20.cv02",
 "Idotbelow.cv02=Idotbelow.ss20.cv02",
 "Igrave.cv02=Igrave.ss20.cv02",
@@ -26587,13 +26720,13 @@ value = (
 "Uhorn=Uhorn.ss20",
 "Uhornhookabove=Uhornhookabove.ss20",
 "Uring=Uring.ss20",
+"Utildeacute=Utildeacute.ss20",
 "V=V.ss20",
 "W=W.ss20",
 "X=X.ss20",
 "Y=Y.ss20",
 "Yhookabove=Yhookabove.ss20",
 "Z=Z.ss20",
-"C_ogonekcomb=C_ogonekcomb.ss20",
 "a=a.ss20",
 "abreve=abreve.ss20",
 "abreveacute=abreveacute.ss20",
@@ -26618,6 +26751,7 @@ value = (
 "atilde=atilde.ss20",
 "ae=ae.ss20",
 "c=c.ss20",
+"c_ogonekcomb=c_ogonekcomb.ss20",
 "cacute=cacute.ss20",
 "ccaron=ccaron.ss20",
 "ccedillaacute=ccedillaacute.ss20",
@@ -26664,25 +26798,28 @@ value = (
 "idieresisacute.cv02=idieresisacute.ss20.cv02",
 "idotaccent=idotaccent.ss20",
 "idotaccent.cv02=idotaccent.ss20.cv02",
+"idotbelow.dotless=idotbelow.dotless.ss20",
+"idotbelow.dotless.cv02=idotbelow.dotless.ss20.cv02",
 "idotbelow=idotbelow.ss20",
 "idotbelow.cv02=idotbelow.ss20.cv02",
 "igrave=igrave.ss20",
 "igrave.cv02=igrave.ss20.cv02",
 "ihookabove=ihookabove.ss20",
 "ihookabove.cv02=ihookabove.ss20.cv02",
-"ij=ij.ss20",
 "imacron=imacron.ss20",
 "imacron.cv02=imacron.ss20.cv02",
 "iogonek.dotless=iogonek.dotless.ss20",
 "iogonek.dotless.cv02=iogonek.dotless.ss20.cv02",
 "iogonek=iogonek.ss20",
 "iogonek.cv02=iogonek.ss20.cv02",
+"iota-latin=iota-latin.ss20",
 "istroke.dotless=istroke.dotless.ss20",
 "istroke.dotless.cv02=istroke.dotless.ss20.cv02",
 "istroke=istroke.ss20",
 "istroke.cv02=istroke.ss20.cv02",
 "itilde=itilde.ss20",
 "itilde.cv02=itilde.ss20.cv02",
+"ij=ij.ss20",
 "j=j.ss20",
 "j.cv03=j.ss20.cv03",
 "jdotless=jdotless.ss20",
@@ -26752,13 +26889,12 @@ value = (
 "zcircumflex=zcircumflex.ss20",
 "zdotaccent=zdotaccent.ss20",
 "zstroke=zstroke.ss20",
-"c_ogonekcomb=c_ogonekcomb.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "A-cy=A-cy.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
@@ -26808,6 +26944,8 @@ value = (
 "lje-cy=lje-cy.ss20",
 "nje-cy=nje-cy.ss20",
 "dze-cy=dze-cy.ss20",
+"i-cy.dotless=i-cy.dotless.ss20",
+"i-cy.dotless.cv02=i-cy.dotless.ss20.cv02",
 "i-cy=i-cy.ss20",
 "i-cy.cv02=i-cy.ss20.cv02",
 "yi-cy=yi-cy.ss20",
@@ -26925,12 +27063,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -26995,27 +27133,6 @@ name = "Rename Glyphs";
 value = (
 "zero=zero.zero",
 "zero.osf=zero.zero.osf"
-);
-},
-{
-name = panose;
-value = (
-2,
-13,
-0,
-4,
-6,
-5,
-2,
-2,
-11,
-4
-);
-},
-{
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 }
 );
