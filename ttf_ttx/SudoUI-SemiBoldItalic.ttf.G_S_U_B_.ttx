@@ -1995,7 +1995,7 @@
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=51 -->
+      <!-- LookupCount=50 -->
       <Lookup index="0">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
@@ -2073,6 +2073,7 @@
           <Substitution in="minus" out="uni207B"/>
           <Substitution in="nine.numr" out="nine.dnom"/>
           <Substitution in="one.numr" out="one.dnom"/>
+          <Substitution in="periodcentered" out="periodcentered.loclCAT"/>
           <Substitution in="plus" out="uni207A"/>
           <Substitution in="quotedblbase" out="quotedbl"/>
           <Substitution in="quotedblleft" out="quotedbl"/>
@@ -2653,6 +2654,7 @@
             <Glyph value="uni1EE2"/>
             <Glyph value="uni01EA"/>
             <Glyph value="uni01EC"/>
+            <Glyph value="uni019F"/>
             <Glyph value="uni0186"/>
             <Glyph value="Oslash"/>
             <Glyph value="Oslashacute"/>
@@ -2760,12 +2762,12 @@
             <Glyph value="Ibreve.cv02"/>
             <Glyph value="Idotaccent.cv02"/>
             <Glyph value="Idieresis.cv02"/>
+            <Glyph value="uni1E2E.cv02"/>
             <Glyph value="uni1EC8.cv02"/>
             <Glyph value="uni01CF.cv02"/>
             <Glyph value="uni1ECA.cv02"/>
             <Glyph value="Iogonek.cv02"/>
             <Glyph value="uni0197.cv02"/>
-            <Glyph value="uni1E2E.cv02"/>
             <Glyph value="J.cv03"/>
             <Glyph value="uni004A0301.cv03"/>
             <Glyph value="Jcircumflex.cv03"/>
@@ -3338,16 +3340,15 @@
         <!-- SubTableCount=1 -->
         <ChainContextSubst index="0" Format="1">
           <Coverage>
-            <Glyph value="L"/>
-            <Glyph value="l"/>
+            <Glyph value="periodcentered"/>
           </Coverage>
-          <!-- ChainSubRuleSetCount=2 -->
+          <!-- ChainSubRuleSetCount=1 -->
           <ChainSubRuleSet index="0">
-            <!-- ChainSubRuleCount=1 -->
+            <!-- ChainSubRuleCount=2 -->
             <ChainSubRule index="0">
-              <!-- BacktrackGlyphCount=0 -->
-              <!-- InputGlyphCount=2 -->
-              <Input index="0" value="periodcentered"/>
+              <!-- BacktrackGlyphCount=1 -->
+              <Backtrack index="0" value="L"/>
+              <!-- InputGlyphCount=1 -->
               <!-- LookAheadGlyphCount=1 -->
               <LookAhead index="0" value="L"/>
               <!-- SubstCount=1 -->
@@ -3356,13 +3357,10 @@
                 <LookupListIndex value="45"/>
               </SubstLookupRecord>
             </ChainSubRule>
-          </ChainSubRuleSet>
-          <ChainSubRuleSet index="1">
-            <!-- ChainSubRuleCount=1 -->
-            <ChainSubRule index="0">
-              <!-- BacktrackGlyphCount=0 -->
-              <!-- InputGlyphCount=2 -->
-              <Input index="0" value="periodcentered"/>
+            <ChainSubRule index="1">
+              <!-- BacktrackGlyphCount=1 -->
+              <Backtrack index="0" value="l"/>
+              <!-- InputGlyphCount=1 -->
               <!-- LookAheadGlyphCount=1 -->
               <LookAhead index="0" value="l"/>
               <!-- SubstCount=1 -->
@@ -3394,7 +3392,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="46"/>
+                <LookupListIndex value="45"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3408,7 +3406,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="46"/>
+                <LookupListIndex value="45"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3587,7 +3585,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="46"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -3621,7 +3619,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="46"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
@@ -3716,7 +3714,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="48"/>
+                <LookupListIndex value="47"/>
               </SubstLookupRecord>
             </ChainSubRule>
             <ChainSubRule index="1">
@@ -3727,7 +3725,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="48"/>
+                <LookupListIndex value="47"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3766,7 +3764,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="49"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
@@ -3806,7 +3804,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="49"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
@@ -3829,7 +3827,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="50"/>
+                <LookupListIndex value="49"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3860,7 +3858,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -3920,7 +3918,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
@@ -4016,7 +4014,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="3" Format="3">
@@ -4148,7 +4146,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="4" Format="3">
@@ -4316,7 +4314,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="5" Format="3">
@@ -4520,7 +4518,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="6" Format="3">
@@ -4760,7 +4758,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="7" Format="3">
@@ -5036,7 +5034,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="50"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
@@ -5059,7 +5057,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="50"/>
+                <LookupListIndex value="49"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -5517,28 +5515,16 @@
         <MarkFilteringSet value="0"/>
       </Lookup>
       <Lookup index="45">
-        <LookupType value="4"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=1 -->
-        <LigatureSubst index="0">
-          <LigatureSet glyph="L">
-            <Ligature components="periodcentered" glyph="Ldot"/>
-          </LigatureSet>
-          <LigatureSet glyph="l">
-            <Ligature components="periodcentered" glyph="ldot"/>
-          </LigatureSet>
-        </LigatureSubst>
-      </Lookup>
-      <Lookup index="46">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
         <SingleSubst index="0">
           <Substitution in="J" out="uni004A0301"/>
           <Substitution in="j" out="uni006A0301"/>
+          <Substitution in="periodcentered" out="periodcentered.loclCAT"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="47">
+      <Lookup index="46">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -5555,7 +5541,7 @@
           <Substitution in="zero.numr" out="zero.dnom"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="48">
+      <Lookup index="47">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -5563,7 +5549,7 @@
           <Substitution in="hyphen" out="emdash"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="49">
+      <Lookup index="48">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -5571,7 +5557,7 @@
           <Substitution in="hyphen" out="minus"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="50">
+      <Lookup index="49">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
