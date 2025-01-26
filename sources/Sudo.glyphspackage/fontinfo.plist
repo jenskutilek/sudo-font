@@ -2128,7 +2128,7 @@ tag = ccmp;
 {
 code = "# Generated with Glyphs 3.3
 lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dialytikatonoscomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dialytikatonoscomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb overlinecomb]; # Manually added overlinecomb
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub iogonek' @CombiningTopAccents by iogonek.dotless;
@@ -2136,6 +2136,8 @@ lookup ccmp_DFLT_1 {
 	sub istroke' @CombiningTopAccents by istroke.dotless;
 	sub j' @CombiningTopAccents by jdotless;
 	sub i-cy' @CombiningTopAccents by i-cy.dotless;
+	# Added manually
+	sub je-cy' @CombiningTopAccents by jdotless;
 } ccmp_DFLT_1;
 
 lookup ccmp_DFLT_2 {
@@ -3370,6 +3372,7 @@ GSOffsetKeepCompatible = 1;
 GSOffsetPosition = 0.7;
 GSOffsetVertical = -10;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -27825,7 +27828,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://openfontlicense.org/";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
