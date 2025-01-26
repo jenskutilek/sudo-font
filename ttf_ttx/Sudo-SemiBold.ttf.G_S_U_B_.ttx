@@ -2058,7 +2058,7 @@
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=58 -->
+      <!-- LookupCount=56 -->
       <Lookup index="0">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
@@ -2189,6 +2189,8 @@
           <Substitution in="uni0456.dotless" out="uni0456.dotless.cv02"/>
           <Substitution in="uni0457" out="uni0457.cv02"/>
           <Substitution in="uni0458" out="uni0458.cv03"/>
+          <Substitution in="uni04C0" out="uni04C0.cv02"/>
+          <Substitution in="uni04CF" out="uni04CF.cv02"/>
           <Substitution in="uni1E21" out="uni1E21.cv01"/>
           <Substitution in="uni1E2E" out="uni1E2E.cv02"/>
           <Substitution in="uni1E2F" out="uni1E2F.cv02"/>
@@ -2479,15 +2481,34 @@
         </ChainContextSubst>
       </Lookup>
       <Lookup index="3">
+        <LookupType value="4"/>
+        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="S">
+            <Ligature components="uni031B" glyph="uni0053031B"/>
+          </LigatureSet>
+          <LigatureSet glyph="T">
+            <Ligature components="uni031B" glyph="uni0054031B"/>
+          </LigatureSet>
+          <LigatureSet glyph="s">
+            <Ligature components="uni031B" glyph="uni0073031B"/>
+          </LigatureSet>
+          <LigatureSet glyph="t">
+            <Ligature components="uni031B" glyph="uni0074031B"/>
+          </LigatureSet>
+        </LigatureSubst>
+        <MarkFilteringSet value="0"/>
+      </Lookup>
+      <Lookup index="4">
         <LookupType value="6"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=4 -->
+        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
+        <!-- SubTableCount=7 -->
         <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0">
             <Glyph value="i"/>
-            <Glyph value="j"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
           <LookAheadCoverage index="0">
@@ -2496,6 +2517,7 @@
             <Glyph value="uni0302"/>
             <Glyph value="tildecomb"/>
             <Glyph value="uni0304"/>
+            <Glyph value="uni0305"/>
             <Glyph value="uni0306"/>
             <Glyph value="uni0307"/>
             <Glyph value="uni0308"/>
@@ -2520,27 +2542,16 @@
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0">
-            <Glyph value="i"/>
-            <Glyph value="j"/>
+            <Glyph value="iogonek"/>
           </InputCoverage>
-          <!-- LookAheadGlyphCount=2 -->
+          <!-- LookAheadGlyphCount=1 -->
           <LookAheadCoverage index="0">
-            <Glyph value="uni031B"/>
-            <Glyph value="dotbelowcomb"/>
-            <Glyph value="uni0325"/>
-            <Glyph value="uni0327"/>
-            <Glyph value="uni0328"/>
-            <Glyph value="uni032E"/>
-            <Glyph value="uni0331"/>
-            <Glyph value="uni0335"/>
-            <Glyph value="uni035F"/>
-          </LookAheadCoverage>
-          <LookAheadCoverage index="1">
             <Glyph value="gravecomb"/>
             <Glyph value="acutecomb"/>
             <Glyph value="uni0302"/>
             <Glyph value="tildecomb"/>
             <Glyph value="uni0304"/>
+            <Glyph value="uni0305"/>
             <Glyph value="uni0306"/>
             <Glyph value="uni0307"/>
             <Glyph value="uni0308"/>
@@ -2562,6 +2573,204 @@
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="uni1ECB"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="gravecomb"/>
+            <Glyph value="acutecomb"/>
+            <Glyph value="uni0302"/>
+            <Glyph value="tildecomb"/>
+            <Glyph value="uni0304"/>
+            <Glyph value="uni0305"/>
+            <Glyph value="uni0306"/>
+            <Glyph value="uni0307"/>
+            <Glyph value="uni0308"/>
+            <Glyph value="hookabovecomb"/>
+            <Glyph value="uni030A"/>
+            <Glyph value="uni030B"/>
+            <Glyph value="uni030C"/>
+            <Glyph value="uni030D"/>
+            <Glyph value="uni0310"/>
+            <Glyph value="uni0311"/>
+            <Glyph value="uni0312"/>
+            <Glyph value="uni0315"/>
+            <Glyph value="uni0344"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="uni0268"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="gravecomb"/>
+            <Glyph value="acutecomb"/>
+            <Glyph value="uni0302"/>
+            <Glyph value="tildecomb"/>
+            <Glyph value="uni0304"/>
+            <Glyph value="uni0305"/>
+            <Glyph value="uni0306"/>
+            <Glyph value="uni0307"/>
+            <Glyph value="uni0308"/>
+            <Glyph value="hookabovecomb"/>
+            <Glyph value="uni030A"/>
+            <Glyph value="uni030B"/>
+            <Glyph value="uni030C"/>
+            <Glyph value="uni030D"/>
+            <Glyph value="uni0310"/>
+            <Glyph value="uni0311"/>
+            <Glyph value="uni0312"/>
+            <Glyph value="uni0315"/>
+            <Glyph value="uni0344"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="j"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="gravecomb"/>
+            <Glyph value="acutecomb"/>
+            <Glyph value="uni0302"/>
+            <Glyph value="tildecomb"/>
+            <Glyph value="uni0304"/>
+            <Glyph value="uni0305"/>
+            <Glyph value="uni0306"/>
+            <Glyph value="uni0307"/>
+            <Glyph value="uni0308"/>
+            <Glyph value="hookabovecomb"/>
+            <Glyph value="uni030A"/>
+            <Glyph value="uni030B"/>
+            <Glyph value="uni030C"/>
+            <Glyph value="uni030D"/>
+            <Glyph value="uni0310"/>
+            <Glyph value="uni0311"/>
+            <Glyph value="uni0312"/>
+            <Glyph value="uni0315"/>
+            <Glyph value="uni0344"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="5" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="uni0456"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="gravecomb"/>
+            <Glyph value="acutecomb"/>
+            <Glyph value="uni0302"/>
+            <Glyph value="tildecomb"/>
+            <Glyph value="uni0304"/>
+            <Glyph value="uni0305"/>
+            <Glyph value="uni0306"/>
+            <Glyph value="uni0307"/>
+            <Glyph value="uni0308"/>
+            <Glyph value="hookabovecomb"/>
+            <Glyph value="uni030A"/>
+            <Glyph value="uni030B"/>
+            <Glyph value="uni030C"/>
+            <Glyph value="uni030D"/>
+            <Glyph value="uni0310"/>
+            <Glyph value="uni0311"/>
+            <Glyph value="uni0312"/>
+            <Glyph value="uni0315"/>
+            <Glyph value="uni0344"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="6" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="uni0458"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="gravecomb"/>
+            <Glyph value="acutecomb"/>
+            <Glyph value="uni0302"/>
+            <Glyph value="tildecomb"/>
+            <Glyph value="uni0304"/>
+            <Glyph value="uni0305"/>
+            <Glyph value="uni0306"/>
+            <Glyph value="uni0307"/>
+            <Glyph value="uni0308"/>
+            <Glyph value="hookabovecomb"/>
+            <Glyph value="uni030A"/>
+            <Glyph value="uni030B"/>
+            <Glyph value="uni030C"/>
+            <Glyph value="uni030D"/>
+            <Glyph value="uni0310"/>
+            <Glyph value="uni0311"/>
+            <Glyph value="uni0312"/>
+            <Glyph value="uni0315"/>
+            <Glyph value="uni0344"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <MarkFilteringSet value="1"/>
+      </Lookup>
+      <Lookup index="5">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="uni0302">
+            <Ligature components="gravecomb" glyph="uni03020300"/>
+            <Ligature components="acutecomb" glyph="uni03020301"/>
+            <Ligature components="tildecomb" glyph="uni03020303"/>
+            <Ligature components="hookabovecomb" glyph="uni03020309"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0304">
+            <Ligature components="uni0306" glyph="uni03040306"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0306">
+            <Ligature components="gravecomb" glyph="uni03060300"/>
+            <Ligature components="acutecomb" glyph="uni03060301"/>
+            <Ligature components="tildecomb" glyph="uni03060303"/>
+            <Ligature components="hookabovecomb" glyph="uni03060309"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="6">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0">
             <Glyph value="gravecomb"/>
@@ -2626,10 +2835,10 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="46"/>
+            <LookupListIndex value="47"/>
           </SubstLookupRecord>
         </ChainContextSubst>
-        <ChainContextSubst index="3" Format="3">
+        <ChainContextSubst index="1" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0">
             <Glyph value="A"/>
@@ -2834,6 +3043,7 @@
             <Glyph value="Scircumflex"/>
             <Glyph value="uni1E60"/>
             <Glyph value="Scaron"/>
+            <Glyph value="uni0053031B"/>
             <Glyph value="uni1E62"/>
             <Glyph value="uni1E68"/>
             <Glyph value="uni0218"/>
@@ -2845,6 +3055,7 @@
             <Glyph value="T"/>
             <Glyph value="uni1E6A"/>
             <Glyph value="Tcaron"/>
+            <Glyph value="uni0054031B"/>
             <Glyph value="uni1E6C"/>
             <Glyph value="uni021A"/>
             <Glyph value="uni0162"/>
@@ -3081,11 +3292,11 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="46"/>
+            <LookupListIndex value="47"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
-      <Lookup index="4">
+      <Lookup index="7">
         <LookupType value="6"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=2 -->
@@ -3154,7 +3365,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="46"/>
+            <LookupListIndex value="47"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -3222,40 +3433,20 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="46"/>
+            <LookupListIndex value="47"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
-      <Lookup index="5">
-        <LookupType value="4"/>
+      <Lookup index="8">
+        <LookupType value="2"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <LigatureSubst index="0">
-          <LigatureSet glyph="uni0304">
-            <Ligature components="uni0306" glyph="uni03040306"/>
-          </LigatureSet>
-        </LigatureSubst>
+        <MultipleSubst index="0">
+          <Substitution in="ldot" out="l,periodcentered.loclCAT"/>
+          <Substitution in="napostrophe" out="uni02BC,n"/>
+        </MultipleSubst>
       </Lookup>
-      <Lookup index="6">
-        <LookupType value="4"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=1 -->
-        <LigatureSubst index="0">
-          <LigatureSet glyph="uni0302">
-            <Ligature components="gravecomb" glyph="uni03020300"/>
-            <Ligature components="acutecomb" glyph="uni03020301"/>
-            <Ligature components="tildecomb" glyph="uni03020303"/>
-            <Ligature components="hookabovecomb" glyph="uni03020309"/>
-          </LigatureSet>
-          <LigatureSet glyph="uni0306">
-            <Ligature components="gravecomb" glyph="uni03060300"/>
-            <Ligature components="acutecomb" glyph="uni03060301"/>
-            <Ligature components="tildecomb" glyph="uni03060303"/>
-            <Ligature components="hookabovecomb" glyph="uni03060309"/>
-          </LigatureSet>
-        </LigatureSubst>
-      </Lookup>
-      <Lookup index="7">
+      <Lookup index="9">
         <LookupType value="4"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -3265,7 +3456,7 @@
           </LigatureSet>
         </LigatureSubst>
       </Lookup>
-      <Lookup index="8">
+      <Lookup index="10">
         <LookupType value="6"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=6 -->
@@ -3282,7 +3473,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -3298,7 +3489,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
@@ -3314,7 +3505,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="3" Format="3">
@@ -3330,7 +3521,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="4" Format="3">
@@ -3346,7 +3537,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="5" Format="3">
@@ -3362,12 +3553,12 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="47"/>
+            <LookupListIndex value="48"/>
           </SubstLookupRecord>
         </ChainContextSubst>
-        <MarkFilteringSet value="0"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
-      <Lookup index="9">
+      <Lookup index="11">
         <LookupType value="2"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -3375,9 +3566,9 @@
           <Substitution in="IJ" out="I,J"/>
           <Substitution in="ij" out="i,j"/>
         </MultipleSubst>
-        <MarkFilteringSet value="0"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
-      <Lookup index="10">
+      <Lookup index="12">
         <LookupType value="6"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=2 -->
@@ -3399,7 +3590,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="48"/>
+            <LookupListIndex value="49"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -3420,160 +3611,14 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="49"/>
-          </SubstLookupRecord>
-        </ChainContextSubst>
-        <MarkFilteringSet value="1"/>
-      </Lookup>
-      <Lookup index="11">
-        <LookupType value="6"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=2 -->
-        <ChainContextSubst index="0" Format="3">
-          <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0">
-            <Glyph value="K"/>
-            <Glyph value="S"/>
-            <Glyph value="T"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0">
-            <Glyph value="uni031B"/>
-            <Glyph value="uni031B.case"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=0 -->
-          <!-- SubstCount=1 -->
-          <SubstLookupRecord index="0">
-            <SequenceIndex value="0"/>
             <LookupListIndex value="50"/>
           </SubstLookupRecord>
         </ChainContextSubst>
-        <ChainContextSubst index="1" Format="3">
-          <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0">
-            <Glyph value="k"/>
-            <Glyph value="s"/>
-            <Glyph value="t"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0">
-            <Glyph value="uni031B"/>
-            <Glyph value="uni031B.case"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=0 -->
-          <!-- SubstCount=1 -->
-          <SubstLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="51"/>
-          </SubstLookupRecord>
-        </ChainContextSubst>
-      </Lookup>
-      <Lookup index="12">
-        <LookupType value="6"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=2 -->
-        <ChainContextSubst index="0" Format="3">
-          <!-- BacktrackGlyphCount=2 -->
-          <BacktrackCoverage index="0">
-            <Glyph value="uni031B.spacing"/>
-            <Glyph value="uni031B.case.spacing"/>
-          </BacktrackCoverage>
-          <BacktrackCoverage index="1">
-            <Glyph value="k"/>
-            <Glyph value="s"/>
-            <Glyph value="t"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0">
-            <Glyph value="gravecomb.case"/>
-            <Glyph value="acutecomb.case"/>
-            <Glyph value="uni0302.case"/>
-            <Glyph value="uni03020300.case"/>
-            <Glyph value="uni03020301.case"/>
-            <Glyph value="uni03020303.case"/>
-            <Glyph value="uni03020309.case"/>
-            <Glyph value="tildecomb.case"/>
-            <Glyph value="uni0304.case"/>
-            <Glyph value="uni03040306.case"/>
-            <Glyph value="uni0305.case"/>
-            <Glyph value="uni0306.case"/>
-            <Glyph value="uni03060300.case"/>
-            <Glyph value="uni03060301.case"/>
-            <Glyph value="uni03060303.case"/>
-            <Glyph value="uni03060309.case"/>
-            <Glyph value="uni0307.case"/>
-            <Glyph value="uni0308.case"/>
-            <Glyph value="hookabovecomb.case"/>
-            <Glyph value="uni030A.case"/>
-            <Glyph value="uni030B.case"/>
-            <Glyph value="uni030C.case"/>
-            <Glyph value="uni030D.case"/>
-            <Glyph value="uni0310.case"/>
-            <Glyph value="uni0311.case"/>
-            <Glyph value="uni0315.case"/>
-            <Glyph value="uni031B.case"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=0 -->
-          <!-- SubstCount=1 -->
-          <SubstLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="52"/>
-          </SubstLookupRecord>
-        </ChainContextSubst>
-        <ChainContextSubst index="1" Format="3">
-          <!-- BacktrackGlyphCount=2 -->
-          <BacktrackCoverage index="0">
-            <Glyph value="uni0315.spacing"/>
-            <Glyph value="uni0315.case.spacing"/>
-          </BacktrackCoverage>
-          <BacktrackCoverage index="1">
-            <Glyph value="c"/>
-            <Glyph value="ccaron"/>
-            <Glyph value="k"/>
-            <Glyph value="p"/>
-            <Glyph value="t"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0">
-            <Glyph value="gravecomb.case"/>
-            <Glyph value="acutecomb.case"/>
-            <Glyph value="uni0302.case"/>
-            <Glyph value="uni03020300.case"/>
-            <Glyph value="uni03020301.case"/>
-            <Glyph value="uni03020303.case"/>
-            <Glyph value="uni03020309.case"/>
-            <Glyph value="tildecomb.case"/>
-            <Glyph value="uni0304.case"/>
-            <Glyph value="uni03040306.case"/>
-            <Glyph value="uni0305.case"/>
-            <Glyph value="uni0306.case"/>
-            <Glyph value="uni03060300.case"/>
-            <Glyph value="uni03060301.case"/>
-            <Glyph value="uni03060303.case"/>
-            <Glyph value="uni03060309.case"/>
-            <Glyph value="uni0307.case"/>
-            <Glyph value="uni0308.case"/>
-            <Glyph value="hookabovecomb.case"/>
-            <Glyph value="uni030A.case"/>
-            <Glyph value="uni030B.case"/>
-            <Glyph value="uni030C.case"/>
-            <Glyph value="uni030D.case"/>
-            <Glyph value="uni0310.case"/>
-            <Glyph value="uni0311.case"/>
-            <Glyph value="uni0315.case"/>
-            <Glyph value="uni031B.case"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=0 -->
-          <!-- SubstCount=1 -->
-          <SubstLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="52"/>
-          </SubstLookupRecord>
-        </ChainContextSubst>
+        <MarkFilteringSet value="3"/>
       </Lookup>
       <Lookup index="13">
         <LookupType value="6"/>
-        <LookupFlag value="0"/>
+        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
         <ChainContextSubst index="0" Format="1">
           <Coverage>
@@ -3592,7 +3637,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="52"/>
+                <LookupListIndex value="50"/>
               </SubstLookupRecord>
             </ChainSubRule>
             <ChainSubRule index="1">
@@ -3603,7 +3648,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="52"/>
+                <LookupListIndex value="50"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3618,7 +3663,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="52"/>
+                <LookupListIndex value="50"/>
               </SubstLookupRecord>
             </ChainSubRule>
             <ChainSubRule index="1">
@@ -3629,11 +3674,12 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="52"/>
+                <LookupListIndex value="50"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
         </ChainContextSubst>
+        <MarkFilteringSet value="3"/>
       </Lookup>
       <Lookup index="14">
         <LookupType value="1"/>
@@ -3674,7 +3720,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="53"/>
+                <LookupListIndex value="51"/>
               </SubstLookupRecord>
             </ChainSubRule>
             <ChainSubRule index="1">
@@ -3686,7 +3732,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="53"/>
+                <LookupListIndex value="51"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3712,7 +3758,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="53"/>
+                <LookupListIndex value="51"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3726,7 +3772,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="53"/>
+                <LookupListIndex value="51"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -3905,7 +3951,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="54"/>
+            <LookupListIndex value="52"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -3939,7 +3985,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="54"/>
+            <LookupListIndex value="52"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
@@ -4034,7 +4080,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="55"/>
+                <LookupListIndex value="53"/>
               </SubstLookupRecord>
             </ChainSubRule>
             <ChainSubRule index="1">
@@ -4045,7 +4091,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="55"/>
+                <LookupListIndex value="53"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -4084,7 +4130,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="56"/>
+            <LookupListIndex value="54"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
@@ -4124,7 +4170,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="56"/>
+            <LookupListIndex value="54"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
@@ -4147,7 +4193,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="57"/>
+                <LookupListIndex value="55"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -4178,7 +4224,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -4238,7 +4284,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
@@ -4334,7 +4380,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="3" Format="3">
@@ -4466,7 +4512,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="4" Format="3">
@@ -4634,7 +4680,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="5" Format="3">
@@ -4838,7 +4884,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="6" Format="3">
@@ -5078,7 +5124,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="7" Format="3">
@@ -5354,7 +5400,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="57"/>
+            <LookupListIndex value="55"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
@@ -5377,7 +5423,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="57"/>
+                <LookupListIndex value="55"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -5640,6 +5686,12 @@
           <AlternateSet glyph="uni0457">
             <Alternate glyph="uni0457.cv02"/>
           </AlternateSet>
+          <AlternateSet glyph="uni04C0">
+            <Alternate glyph="uni04C0.cv02"/>
+          </AlternateSet>
+          <AlternateSet glyph="uni04CF">
+            <Alternate glyph="uni04CF.cv02"/>
+          </AlternateSet>
           <AlternateSet glyph="uni1E2E">
             <Alternate glyph="uni1E2E.cv02"/>
           </AlternateSet>
@@ -5812,14 +5864,27 @@
       </Lookup>
       <Lookup index="46">
         <LookupType value="1"/>
+        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="i" out="dotlessi"/>
+          <Substitution in="iogonek" out="iogonek.dotless"/>
+          <Substitution in="j" out="uni0237"/>
+          <Substitution in="uni0268" out="uni0268.dotless"/>
+          <Substitution in="uni0456" out="uni0456.dotless"/>
+          <Substitution in="uni0458" out="uni0237"/>
+          <Substitution in="uni1ECB" out="uni1ECB.dotless"/>
+        </SingleSubst>
+        <MarkFilteringSet value="1"/>
+      </Lookup>
+      <Lookup index="47">
+        <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
         <SingleSubst index="0">
           <Substitution in="acutecomb" out="acutecomb.case"/>
           <Substitution in="gravecomb" out="gravecomb.case"/>
           <Substitution in="hookabovecomb" out="hookabovecomb.case"/>
-          <Substitution in="i" out="dotlessi"/>
-          <Substitution in="j" out="uni0237"/>
           <Substitution in="tildecomb" out="tildecomb.case"/>
           <Substitution in="uni0302" out="uni0302.case"/>
           <Substitution in="uni03020300" out="uni03020300.case"/>
@@ -5846,7 +5911,7 @@
           <Substitution in="uni031B" out="uni031B.case"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="47">
+      <Lookup index="48">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -5858,9 +5923,9 @@
           <Substitution in="uni0456" out="uni0456.dotless"/>
           <Substitution in="uni1ECB" out="uni1ECB.dotless"/>
         </SingleSubst>
-        <MarkFilteringSet value="0"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
-      <Lookup index="48">
+      <Lookup index="49">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -5868,73 +5933,21 @@
           <Substitution in="uni0315" out="uni0315.case.spacing"/>
           <Substitution in="uni0315.case" out="uni0315.case.spacing"/>
         </SingleSubst>
-        <MarkFilteringSet value="1"/>
+        <MarkFilteringSet value="3"/>
       </Lookup>
-      <Lookup index="49">
+      <Lookup index="50">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
         <SingleSubst index="0">
+          <Substitution in="acutecomb" out="acutecomb.case"/>
+          <Substitution in="uni0304" out="uni0304.case"/>
           <Substitution in="uni0315" out="uni0315.spacing"/>
           <Substitution in="uni0315.case" out="uni0315.spacing"/>
         </SingleSubst>
-        <MarkFilteringSet value="1"/>
-      </Lookup>
-      <Lookup index="50">
-        <LookupType value="1"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=1 -->
-        <SingleSubst index="0">
-          <Substitution in="uni031B" out="uni031B.case.spacing"/>
-          <Substitution in="uni031B.case" out="uni031B.case.spacing"/>
-        </SingleSubst>
+        <MarkFilteringSet value="3"/>
       </Lookup>
       <Lookup index="51">
-        <LookupType value="1"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=1 -->
-        <SingleSubst index="0">
-          <Substitution in="uni031B" out="uni031B.spacing"/>
-          <Substitution in="uni031B.case" out="uni031B.spacing"/>
-        </SingleSubst>
-      </Lookup>
-      <Lookup index="52">
-        <LookupType value="1"/>
-        <LookupFlag value="0"/>
-        <!-- SubTableCount=1 -->
-        <SingleSubst index="0">
-          <Substitution in="acutecomb" out="acutecomb.case"/>
-          <Substitution in="acutecomb.case" out="acutecomb"/>
-          <Substitution in="gravecomb.case" out="gravecomb"/>
-          <Substitution in="hookabovecomb.case" out="hookabovecomb"/>
-          <Substitution in="tildecomb.case" out="tildecomb"/>
-          <Substitution in="uni0302.case" out="uni0302"/>
-          <Substitution in="uni03020300.case" out="uni03020300"/>
-          <Substitution in="uni03020301.case" out="uni03020301"/>
-          <Substitution in="uni03020303.case" out="uni03020303"/>
-          <Substitution in="uni03020309.case" out="uni03020309"/>
-          <Substitution in="uni0304" out="uni0304.case"/>
-          <Substitution in="uni0304.case" out="uni0304"/>
-          <Substitution in="uni03040306.case" out="uni03040306"/>
-          <Substitution in="uni0305.case" out="uni0305"/>
-          <Substitution in="uni0306.case" out="uni0306"/>
-          <Substitution in="uni03060300.case" out="uni03060300"/>
-          <Substitution in="uni03060301.case" out="uni03060301"/>
-          <Substitution in="uni03060303.case" out="uni03060303"/>
-          <Substitution in="uni03060309.case" out="uni03060309"/>
-          <Substitution in="uni0307.case" out="uni0307"/>
-          <Substitution in="uni0308.case" out="uni0308"/>
-          <Substitution in="uni030A.case" out="uni030A"/>
-          <Substitution in="uni030B.case" out="uni030B"/>
-          <Substitution in="uni030C.case" out="uni030C"/>
-          <Substitution in="uni030D.case" out="uni030D"/>
-          <Substitution in="uni0310.case" out="uni0310"/>
-          <Substitution in="uni0311.case" out="uni0311"/>
-          <Substitution in="uni0315.case" out="uni0315"/>
-          <Substitution in="uni031B.case" out="uni031B"/>
-        </SingleSubst>
-      </Lookup>
-      <Lookup index="53">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -5944,7 +5957,7 @@
           <Substitution in="periodcentered" out="periodcentered.loclCAT"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="54">
+      <Lookup index="52">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -5961,7 +5974,7 @@
           <Substitution in="zero.numr" out="zero.dnom"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="55">
+      <Lookup index="53">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -5969,7 +5982,7 @@
           <Substitution in="hyphen" out="emdash"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="56">
+      <Lookup index="54">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -5977,7 +5990,7 @@
           <Substitution in="hyphen" out="minus"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="57">
+      <Lookup index="55">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
