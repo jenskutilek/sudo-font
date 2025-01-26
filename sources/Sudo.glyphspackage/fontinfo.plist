@@ -2126,8 +2126,8 @@ lookup din_horn {
 tag = ccmp;
 },
 {
-automatic = 1;
-code = "lookup ccmp_DFLT_1 {
+code = "# Generated with Glyphs 3.3
+lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dialytikatonoscomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
