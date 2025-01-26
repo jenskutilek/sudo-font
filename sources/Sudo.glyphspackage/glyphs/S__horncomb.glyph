@@ -1,6 +1,4 @@
 {
-color = 0;
-export = 0;
 glyphname = S_horncomb;
 kernLeft = S;
 kernRight = S;
@@ -50,9 +48,8 @@ target = (0,40);
 type = TTShift;
 },
 {
-options = 4;
 origin = (0,2);
-target = (0,12);
+target = (0,14);
 type = TTShift;
 },
 {
@@ -93,6 +90,12 @@ horizontal = 1;
 origin = (0,24);
 stem = -1;
 target = (0,18);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,14);
+target = (0,21);
 type = TTStem;
 }
 );
