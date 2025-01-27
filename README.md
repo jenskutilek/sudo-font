@@ -83,8 +83,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**2024-08-02. Version 1.4**
-- Add missing bottom anchor to p (DIN 91379 support)
+See [FONTLOG](sudo/FONTLOG.txt).
 
 
 ## License
