@@ -64,7 +64,6 @@ Download the [latest release](https://github.com/jenskutilek/sudo-font/releases/
 Sudo is also available as a [Homebrew](https://brew.sh/) package.
 
 ```sh
-brew tap homebrew/cask-fonts
 brew install --cask font-sudo
 ```
 
@@ -84,8 +83,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**2024-08-02. Version 1.4**
-- Add missing bottom anchor to p (DIN 91379 support)
+See [FONTLOG](sudo/FONTLOG.txt).
 
 
 ## License

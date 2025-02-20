@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont ttLibVersion="4.53">
+<ttFont ttLibVersion="4.54">
 
   <cmap>
     <tableVersion version="0"/>
@@ -339,6 +339,7 @@
       <map code="0x199" name="uni0199"/><!-- LATIN SMALL LETTER K WITH HOOK -->
       <map code="0x19a" name="uni019A"/><!-- LATIN SMALL LETTER L WITH BAR -->
       <map code="0x19d" name="uni019D"/><!-- LATIN CAPITAL LETTER N WITH LEFT HOOK -->
+      <map code="0x19f" name="uni019F"/><!-- LATIN CAPITAL LETTER O WITH MIDDLE TILDE -->
       <map code="0x1a0" name="Ohorn"/><!-- LATIN CAPITAL LETTER O WITH HORN -->
       <map code="0x1a1" name="ohorn"/><!-- LATIN SMALL LETTER O WITH HORN -->
       <map code="0x1af" name="Uhorn"/><!-- LATIN CAPITAL LETTER U WITH HORN -->
@@ -427,6 +428,7 @@
       <map code="0x268" name="uni0268"/><!-- LATIN SMALL LETTER I WITH STROKE -->
       <map code="0x26a" name="uni026A"/><!-- LATIN LETTER SMALL CAPITAL I -->
       <map code="0x272" name="uni0272"/><!-- LATIN SMALL LETTER N WITH LEFT HOOK -->
+      <map code="0x275" name="uni0275"/><!-- LATIN SMALL LETTER BARRED O -->
       <map code="0x28c" name="uni028C"/><!-- LATIN SMALL LETTER TURNED V -->
       <map code="0x292" name="uni0292"/><!-- LATIN SMALL LETTER EZH -->
       <map code="0x2b0" name="uni02B0"/><!-- MODIFIER LETTER SMALL H -->
@@ -441,6 +443,8 @@
       <map code="0x2c7" name="caron"/><!-- CARON -->
       <map code="0x2c8" name="uni02C8"/><!-- MODIFIER LETTER VERTICAL LINE -->
       <map code="0x2c9" name="uni02C9"/><!-- MODIFIER LETTER MACRON -->
+      <map code="0x2ca" name="uni02CA"/><!-- MODIFIER LETTER ACUTE ACCENT -->
+      <map code="0x2cb" name="uni02CB"/><!-- MODIFIER LETTER GRAVE ACCENT -->
       <map code="0x2cc" name="uni02CC"/><!-- MODIFIER LETTER LOW VERTICAL LINE -->
       <map code="0x2d8" name="breve"/><!-- BREVE -->
       <map code="0x2d9" name="dotaccent"/><!-- DOT ABOVE -->
@@ -651,6 +655,8 @@
       <map code="0x45f" name="uni045F"/><!-- CYRILLIC SMALL LETTER DZHE -->
       <map code="0x490" name="uni0490"/><!-- CYRILLIC CAPITAL LETTER GHE WITH UPTURN -->
       <map code="0x491" name="uni0491"/><!-- CYRILLIC SMALL LETTER GHE WITH UPTURN -->
+      <map code="0x4c0" name="uni04C0"/><!-- CYRILLIC LETTER PALOCHKA -->
+      <map code="0x4cf" name="uni04CF"/><!-- CYRILLIC SMALL LETTER PALOCHKA -->
       <map code="0xe3f" name="uni0E3F"/><!-- THAI CURRENCY SYMBOL BAHT -->
       <map code="0x1d43" name="uni1D43"/><!-- MODIFIER LETTER SMALL A -->
       <map code="0x1d48" name="uni1D48"/><!-- MODIFIER LETTER SMALL D -->
@@ -919,6 +925,7 @@
       <map code="0x20a4" name="lira"/><!-- LIRA SIGN -->
       <map code="0x20a6" name="uni20A6"/><!-- NAIRA SIGN -->
       <map code="0x20a7" name="peseta"/><!-- PESETA SIGN -->
+      <map code="0x20a8" name="uni20A8"/><!-- RUPEE SIGN -->
       <map code="0x20a9" name="uni20A9"/><!-- WON SIGN -->
       <map code="0x20ab" name="dong"/><!-- DONG SIGN -->
       <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
@@ -934,6 +941,7 @@
       <map code="0x20bc" name="uni20BC"/><!-- MANAT SIGN -->
       <map code="0x20bd" name="uni20BD"/><!-- RUBLE SIGN -->
       <map code="0x20be" name="uni20BE"/><!-- LARI SIGN -->
+      <map code="0x20bf" name="uni20BF"/><!-- BITCOIN SIGN -->
       <map code="0x2105" name="uni2105"/><!-- CARE OF -->
       <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
       <map code="0x2116" name="uni2116"/><!-- NUMERO SIGN -->
@@ -1391,7 +1399,7 @@
       <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
       <map code="0xfffd" name="uniFFFD"/><!-- REPLACEMENT CHARACTER -->
     </cmap_format_4>
-    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="14272" language="0" nGroups="1188">
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="14368" language="0" nGroups="1196">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -1727,6 +1735,7 @@
       <map code="0x199" name="uni0199"/><!-- LATIN SMALL LETTER K WITH HOOK -->
       <map code="0x19a" name="uni019A"/><!-- LATIN SMALL LETTER L WITH BAR -->
       <map code="0x19d" name="uni019D"/><!-- LATIN CAPITAL LETTER N WITH LEFT HOOK -->
+      <map code="0x19f" name="uni019F"/><!-- LATIN CAPITAL LETTER O WITH MIDDLE TILDE -->
       <map code="0x1a0" name="Ohorn"/><!-- LATIN CAPITAL LETTER O WITH HORN -->
       <map code="0x1a1" name="ohorn"/><!-- LATIN SMALL LETTER O WITH HORN -->
       <map code="0x1af" name="Uhorn"/><!-- LATIN CAPITAL LETTER U WITH HORN -->
@@ -1815,6 +1824,7 @@
       <map code="0x268" name="uni0268"/><!-- LATIN SMALL LETTER I WITH STROKE -->
       <map code="0x26a" name="uni026A"/><!-- LATIN LETTER SMALL CAPITAL I -->
       <map code="0x272" name="uni0272"/><!-- LATIN SMALL LETTER N WITH LEFT HOOK -->
+      <map code="0x275" name="uni0275"/><!-- LATIN SMALL LETTER BARRED O -->
       <map code="0x28c" name="uni028C"/><!-- LATIN SMALL LETTER TURNED V -->
       <map code="0x292" name="uni0292"/><!-- LATIN SMALL LETTER EZH -->
       <map code="0x2b0" name="uni02B0"/><!-- MODIFIER LETTER SMALL H -->
@@ -1829,6 +1839,8 @@
       <map code="0x2c7" name="caron"/><!-- CARON -->
       <map code="0x2c8" name="uni02C8"/><!-- MODIFIER LETTER VERTICAL LINE -->
       <map code="0x2c9" name="uni02C9"/><!-- MODIFIER LETTER MACRON -->
+      <map code="0x2ca" name="uni02CA"/><!-- MODIFIER LETTER ACUTE ACCENT -->
+      <map code="0x2cb" name="uni02CB"/><!-- MODIFIER LETTER GRAVE ACCENT -->
       <map code="0x2cc" name="uni02CC"/><!-- MODIFIER LETTER LOW VERTICAL LINE -->
       <map code="0x2d8" name="breve"/><!-- BREVE -->
       <map code="0x2d9" name="dotaccent"/><!-- DOT ABOVE -->
@@ -2039,6 +2051,8 @@
       <map code="0x45f" name="uni045F"/><!-- CYRILLIC SMALL LETTER DZHE -->
       <map code="0x490" name="uni0490"/><!-- CYRILLIC CAPITAL LETTER GHE WITH UPTURN -->
       <map code="0x491" name="uni0491"/><!-- CYRILLIC SMALL LETTER GHE WITH UPTURN -->
+      <map code="0x4c0" name="uni04C0"/><!-- CYRILLIC LETTER PALOCHKA -->
+      <map code="0x4cf" name="uni04CF"/><!-- CYRILLIC SMALL LETTER PALOCHKA -->
       <map code="0xe3f" name="uni0E3F"/><!-- THAI CURRENCY SYMBOL BAHT -->
       <map code="0x1d43" name="uni1D43"/><!-- MODIFIER LETTER SMALL A -->
       <map code="0x1d48" name="uni1D48"/><!-- MODIFIER LETTER SMALL D -->
@@ -2307,6 +2321,7 @@
       <map code="0x20a4" name="lira"/><!-- LIRA SIGN -->
       <map code="0x20a6" name="uni20A6"/><!-- NAIRA SIGN -->
       <map code="0x20a7" name="peseta"/><!-- PESETA SIGN -->
+      <map code="0x20a8" name="uni20A8"/><!-- RUPEE SIGN -->
       <map code="0x20a9" name="uni20A9"/><!-- WON SIGN -->
       <map code="0x20ab" name="dong"/><!-- DONG SIGN -->
       <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
@@ -2322,6 +2337,7 @@
       <map code="0x20bc" name="uni20BC"/><!-- MANAT SIGN -->
       <map code="0x20bd" name="uni20BD"/><!-- RUBLE SIGN -->
       <map code="0x20be" name="uni20BE"/><!-- LARI SIGN -->
+      <map code="0x20bf" name="uni20BF"/><!-- BITCOIN SIGN -->
       <map code="0x2105" name="uni2105"/><!-- CARE OF -->
       <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
       <map code="0x2116" name="uni2116"/><!-- NUMERO SIGN -->
@@ -3159,6 +3175,7 @@
       <map code="0x199" name="uni0199"/><!-- LATIN SMALL LETTER K WITH HOOK -->
       <map code="0x19a" name="uni019A"/><!-- LATIN SMALL LETTER L WITH BAR -->
       <map code="0x19d" name="uni019D"/><!-- LATIN CAPITAL LETTER N WITH LEFT HOOK -->
+      <map code="0x19f" name="uni019F"/><!-- LATIN CAPITAL LETTER O WITH MIDDLE TILDE -->
       <map code="0x1a0" name="Ohorn"/><!-- LATIN CAPITAL LETTER O WITH HORN -->
       <map code="0x1a1" name="ohorn"/><!-- LATIN SMALL LETTER O WITH HORN -->
       <map code="0x1af" name="Uhorn"/><!-- LATIN CAPITAL LETTER U WITH HORN -->
@@ -3247,6 +3264,7 @@
       <map code="0x268" name="uni0268"/><!-- LATIN SMALL LETTER I WITH STROKE -->
       <map code="0x26a" name="uni026A"/><!-- LATIN LETTER SMALL CAPITAL I -->
       <map code="0x272" name="uni0272"/><!-- LATIN SMALL LETTER N WITH LEFT HOOK -->
+      <map code="0x275" name="uni0275"/><!-- LATIN SMALL LETTER BARRED O -->
       <map code="0x28c" name="uni028C"/><!-- LATIN SMALL LETTER TURNED V -->
       <map code="0x292" name="uni0292"/><!-- LATIN SMALL LETTER EZH -->
       <map code="0x2b0" name="uni02B0"/><!-- MODIFIER LETTER SMALL H -->
@@ -3261,6 +3279,8 @@
       <map code="0x2c7" name="caron"/><!-- CARON -->
       <map code="0x2c8" name="uni02C8"/><!-- MODIFIER LETTER VERTICAL LINE -->
       <map code="0x2c9" name="uni02C9"/><!-- MODIFIER LETTER MACRON -->
+      <map code="0x2ca" name="uni02CA"/><!-- MODIFIER LETTER ACUTE ACCENT -->
+      <map code="0x2cb" name="uni02CB"/><!-- MODIFIER LETTER GRAVE ACCENT -->
       <map code="0x2cc" name="uni02CC"/><!-- MODIFIER LETTER LOW VERTICAL LINE -->
       <map code="0x2d8" name="breve"/><!-- BREVE -->
       <map code="0x2d9" name="dotaccent"/><!-- DOT ABOVE -->
@@ -3471,6 +3491,8 @@
       <map code="0x45f" name="uni045F"/><!-- CYRILLIC SMALL LETTER DZHE -->
       <map code="0x490" name="uni0490"/><!-- CYRILLIC CAPITAL LETTER GHE WITH UPTURN -->
       <map code="0x491" name="uni0491"/><!-- CYRILLIC SMALL LETTER GHE WITH UPTURN -->
+      <map code="0x4c0" name="uni04C0"/><!-- CYRILLIC LETTER PALOCHKA -->
+      <map code="0x4cf" name="uni04CF"/><!-- CYRILLIC SMALL LETTER PALOCHKA -->
       <map code="0xe3f" name="uni0E3F"/><!-- THAI CURRENCY SYMBOL BAHT -->
       <map code="0x1d43" name="uni1D43"/><!-- MODIFIER LETTER SMALL A -->
       <map code="0x1d48" name="uni1D48"/><!-- MODIFIER LETTER SMALL D -->
@@ -3739,6 +3761,7 @@
       <map code="0x20a4" name="lira"/><!-- LIRA SIGN -->
       <map code="0x20a6" name="uni20A6"/><!-- NAIRA SIGN -->
       <map code="0x20a7" name="peseta"/><!-- PESETA SIGN -->
+      <map code="0x20a8" name="uni20A8"/><!-- RUPEE SIGN -->
       <map code="0x20a9" name="uni20A9"/><!-- WON SIGN -->
       <map code="0x20ab" name="dong"/><!-- DONG SIGN -->
       <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
@@ -3754,6 +3777,7 @@
       <map code="0x20bc" name="uni20BC"/><!-- MANAT SIGN -->
       <map code="0x20bd" name="uni20BD"/><!-- RUBLE SIGN -->
       <map code="0x20be" name="uni20BE"/><!-- LARI SIGN -->
+      <map code="0x20bf" name="uni20BF"/><!-- BITCOIN SIGN -->
       <map code="0x2105" name="uni2105"/><!-- CARE OF -->
       <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
       <map code="0x2116" name="uni2116"/><!-- NUMERO SIGN -->
@@ -4211,7 +4235,7 @@
       <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
       <map code="0xfffd" name="uniFFFD"/><!-- REPLACEMENT CHARACTER -->
     </cmap_format_4>
-    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="14272" language="0" nGroups="1188">
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="14368" language="0" nGroups="1196">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -4547,6 +4571,7 @@
       <map code="0x199" name="uni0199"/><!-- LATIN SMALL LETTER K WITH HOOK -->
       <map code="0x19a" name="uni019A"/><!-- LATIN SMALL LETTER L WITH BAR -->
       <map code="0x19d" name="uni019D"/><!-- LATIN CAPITAL LETTER N WITH LEFT HOOK -->
+      <map code="0x19f" name="uni019F"/><!-- LATIN CAPITAL LETTER O WITH MIDDLE TILDE -->
       <map code="0x1a0" name="Ohorn"/><!-- LATIN CAPITAL LETTER O WITH HORN -->
       <map code="0x1a1" name="ohorn"/><!-- LATIN SMALL LETTER O WITH HORN -->
       <map code="0x1af" name="Uhorn"/><!-- LATIN CAPITAL LETTER U WITH HORN -->
@@ -4635,6 +4660,7 @@
       <map code="0x268" name="uni0268"/><!-- LATIN SMALL LETTER I WITH STROKE -->
       <map code="0x26a" name="uni026A"/><!-- LATIN LETTER SMALL CAPITAL I -->
       <map code="0x272" name="uni0272"/><!-- LATIN SMALL LETTER N WITH LEFT HOOK -->
+      <map code="0x275" name="uni0275"/><!-- LATIN SMALL LETTER BARRED O -->
       <map code="0x28c" name="uni028C"/><!-- LATIN SMALL LETTER TURNED V -->
       <map code="0x292" name="uni0292"/><!-- LATIN SMALL LETTER EZH -->
       <map code="0x2b0" name="uni02B0"/><!-- MODIFIER LETTER SMALL H -->
@@ -4649,6 +4675,8 @@
       <map code="0x2c7" name="caron"/><!-- CARON -->
       <map code="0x2c8" name="uni02C8"/><!-- MODIFIER LETTER VERTICAL LINE -->
       <map code="0x2c9" name="uni02C9"/><!-- MODIFIER LETTER MACRON -->
+      <map code="0x2ca" name="uni02CA"/><!-- MODIFIER LETTER ACUTE ACCENT -->
+      <map code="0x2cb" name="uni02CB"/><!-- MODIFIER LETTER GRAVE ACCENT -->
       <map code="0x2cc" name="uni02CC"/><!-- MODIFIER LETTER LOW VERTICAL LINE -->
       <map code="0x2d8" name="breve"/><!-- BREVE -->
       <map code="0x2d9" name="dotaccent"/><!-- DOT ABOVE -->
@@ -4859,6 +4887,8 @@
       <map code="0x45f" name="uni045F"/><!-- CYRILLIC SMALL LETTER DZHE -->
       <map code="0x490" name="uni0490"/><!-- CYRILLIC CAPITAL LETTER GHE WITH UPTURN -->
       <map code="0x491" name="uni0491"/><!-- CYRILLIC SMALL LETTER GHE WITH UPTURN -->
+      <map code="0x4c0" name="uni04C0"/><!-- CYRILLIC LETTER PALOCHKA -->
+      <map code="0x4cf" name="uni04CF"/><!-- CYRILLIC SMALL LETTER PALOCHKA -->
       <map code="0xe3f" name="uni0E3F"/><!-- THAI CURRENCY SYMBOL BAHT -->
       <map code="0x1d43" name="uni1D43"/><!-- MODIFIER LETTER SMALL A -->
       <map code="0x1d48" name="uni1D48"/><!-- MODIFIER LETTER SMALL D -->
@@ -5127,6 +5157,7 @@
       <map code="0x20a4" name="lira"/><!-- LIRA SIGN -->
       <map code="0x20a6" name="uni20A6"/><!-- NAIRA SIGN -->
       <map code="0x20a7" name="peseta"/><!-- PESETA SIGN -->
+      <map code="0x20a8" name="uni20A8"/><!-- RUPEE SIGN -->
       <map code="0x20a9" name="uni20A9"/><!-- WON SIGN -->
       <map code="0x20ab" name="dong"/><!-- DONG SIGN -->
       <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
@@ -5142,6 +5173,7 @@
       <map code="0x20bc" name="uni20BC"/><!-- MANAT SIGN -->
       <map code="0x20bd" name="uni20BD"/><!-- RUBLE SIGN -->
       <map code="0x20be" name="uni20BE"/><!-- LARI SIGN -->
+      <map code="0x20bf" name="uni20BF"/><!-- BITCOIN SIGN -->
       <map code="0x2105" name="uni2105"/><!-- CARE OF -->
       <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
       <map code="0x2116" name="uni2116"/><!-- NUMERO SIGN -->

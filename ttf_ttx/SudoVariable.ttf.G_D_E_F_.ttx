@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont ttLibVersion="4.53">
+<ttFont ttLibVersion="4.54">
 
   <GDEF>
     <Version value="0x00010003"/>
@@ -168,6 +168,7 @@
       <ClassDef glyph="Upsilontonos" class="1"/>
       <ClassDef glyph="Uring" class="1"/>
       <ClassDef glyph="Utilde" class="1"/>
+      <ClassDef glyph="V" class="1"/>
       <ClassDef glyph="W" class="1"/>
       <ClassDef glyph="W.short" class="1"/>
       <ClassDef glyph="Wacute" class="1"/>
@@ -356,7 +357,7 @@
       <ClassDef glyph="uni006A0301" class="1"/>
       <ClassDef glyph="uni006A0301.cv03" class="1"/>
       <ClassDef glyph="uni0073031B" class="1"/>
-      <ClassDef glyph="uni00740315" class="1"/>
+      <ClassDef glyph="uni0074031B" class="1"/>
       <ClassDef glyph="uni0122" class="1"/>
       <ClassDef glyph="uni0123" class="1"/>
       <ClassDef glyph="uni0123.cv01" class="1"/>
@@ -461,6 +462,7 @@
       <ClassDef glyph="uni0237.cv03" class="1"/>
       <ClassDef glyph="uni023D" class="1"/>
       <ClassDef glyph="uni0243" class="1"/>
+      <ClassDef glyph="uni0245" class="1"/>
       <ClassDef glyph="uni0254" class="1"/>
       <ClassDef glyph="uni0259" class="1"/>
       <ClassDef glyph="uni025B" class="1"/>
@@ -471,6 +473,7 @@
       <ClassDef glyph="uni0268.dotless.cv02" class="1"/>
       <ClassDef glyph="uni026A" class="1"/>
       <ClassDef glyph="uni0272" class="1"/>
+      <ClassDef glyph="uni0275" class="1"/>
       <ClassDef glyph="uni028C" class="1"/>
       <ClassDef glyph="uni0292" class="1"/>
       <ClassDef glyph="uni0302" class="3"/>
@@ -588,6 +591,7 @@
       <ClassDef glyph="uni0447" class="1"/>
       <ClassDef glyph="uni0448" class="1"/>
       <ClassDef glyph="uni0449" class="1"/>
+      <ClassDef glyph="uni044A" class="1"/>
       <ClassDef glyph="uni044B" class="1"/>
       <ClassDef glyph="uni044D" class="1"/>
       <ClassDef glyph="uni044E" class="1"/>
@@ -613,6 +617,10 @@
       <ClassDef glyph="uni045F" class="1"/>
       <ClassDef glyph="uni0490" class="1"/>
       <ClassDef glyph="uni0491" class="1"/>
+      <ClassDef glyph="uni04C0" class="1"/>
+      <ClassDef glyph="uni04C0.cv02" class="1"/>
+      <ClassDef glyph="uni04CF" class="1"/>
+      <ClassDef glyph="uni04CF.cv02" class="1"/>
       <ClassDef glyph="uni0E3F" class="1"/>
       <ClassDef glyph="uni1D7B" class="1"/>
       <ClassDef glyph="uni1D7C" class="1"/>
@@ -832,11 +840,13 @@
       <ClassDef glyph="uni1EF8" class="1"/>
       <ClassDef glyph="uni1EF9" class="1"/>
       <ClassDef glyph="uni20A6" class="1"/>
+      <ClassDef glyph="uni20A8" class="1"/>
       <ClassDef glyph="uni20A9" class="1"/>
       <ClassDef glyph="uni20AD" class="1"/>
       <ClassDef glyph="uni20B1" class="1"/>
       <ClassDef glyph="uni20B2" class="1"/>
       <ClassDef glyph="uni20B5" class="1"/>
+      <ClassDef glyph="uni20BF" class="1"/>
       <ClassDef glyph="uni2126" class="1"/>
       <ClassDef glyph="uni2204" class="1"/>
       <ClassDef glyph="uni25CC" class="1"/>
@@ -875,11 +885,39 @@
     </GlyphClassDef>
     <MarkGlyphSetsDef>
       <MarkSetTableFormat value="1"/>
-      <!-- MarkSetCount=3 -->
+      <!-- MarkSetCount=6 -->
       <Coverage index="0">
-        <Glyph value="uni0305"/>
+        <Glyph value="uni031B"/>
       </Coverage>
       <Coverage index="1">
+        <Glyph value="gravecomb"/>
+        <Glyph value="acutecomb"/>
+        <Glyph value="uni0302"/>
+        <Glyph value="tildecomb"/>
+        <Glyph value="uni0304"/>
+        <Glyph value="uni0305"/>
+        <Glyph value="uni0306"/>
+        <Glyph value="uni0307"/>
+        <Glyph value="uni0308"/>
+        <Glyph value="hookabovecomb"/>
+        <Glyph value="uni030A"/>
+        <Glyph value="uni030B"/>
+        <Glyph value="uni030C"/>
+        <Glyph value="uni030D"/>
+        <Glyph value="uni0310"/>
+        <Glyph value="uni0311"/>
+        <Glyph value="uni0312"/>
+        <Glyph value="uni0315"/>
+        <Glyph value="uni0344"/>
+      </Coverage>
+      <Coverage index="2">
+        <Glyph value="uni0305"/>
+      </Coverage>
+      <Coverage index="3">
+        <Glyph value="uni0315"/>
+        <Glyph value="uni0315.case"/>
+      </Coverage>
+      <Coverage index="4">
         <Glyph value="dotbelowcomb"/>
         <Glyph value="uni0325"/>
         <Glyph value="uni0326"/>
@@ -888,7 +926,7 @@
         <Glyph value="uni0331"/>
         <Glyph value="uni035F"/>
       </Coverage>
-      <Coverage index="2">
+      <Coverage index="5">
         <Glyph value="gravecomb"/>
         <Glyph value="gravecomb.alt"/>
         <Glyph value="acutecomb"/>
@@ -916,6 +954,7 @@
         <Glyph value="uni030D"/>
         <Glyph value="uni0310"/>
         <Glyph value="uni0311"/>
+        <Glyph value="uni0312"/>
         <Glyph value="uni0315"/>
         <Glyph value="uni0344"/>
         <Glyph value="gravecomb.case"/>
@@ -1039,7 +1078,7 @@
       </VarRegionList>
       <!-- VarDataCount=1 -->
       <VarData index="0">
-        <!-- ItemCount=170 -->
+        <!-- ItemCount=174 -->
         <NumShorts value="5"/>
         <!-- VarRegionCount=5 -->
         <VarRegionIndex index="0" value="0"/>
@@ -1053,8 +1092,8 @@
         <Item index="3" value="[10, -6, -45, 0, 0]"/>
         <Item index="4" value="[0, 0, 70, 0, 0]"/>
         <Item index="5" value="[-10, 8, 70, 0, 0]"/>
-        <Item index="6" value="[0, 0, -44, 0, 0]"/>
-        <Item index="7" value="[0, 0, 45, 0, 0]"/>
+        <Item index="6" value="[0, 0, 45, 0, 0]"/>
+        <Item index="7" value="[0, 0, -44, 0, 0]"/>
         <Item index="8" value="[1, 0, -45, 0, 0]"/>
         <Item index="9" value="[10, -10, -42, -3, -3]"/>
         <Item index="10" value="[0, 0, -45, 1, 0]"/>
@@ -1063,160 +1102,164 @@
         <Item index="13" value="[0, 0, 116, 3, -4]"/>
         <Item index="14" value="[14, -16, 0, 0, 0]"/>
         <Item index="15" value="[0, 0, 106, 0, 0]"/>
-        <Item index="16" value="[3, -2, -40, 1, -1]"/>
-        <Item index="17" value="[20, 20, 83, -20, -20]"/>
-        <Item index="18" value="[0, 0, -33, 0, 0]"/>
-        <Item index="19" value="[0, -8, 83, 0, 0]"/>
-        <Item index="20" value="[-10, 6, 83, 1, 0]"/>
-        <Item index="21" value="[6, -14, -45, 0, 0]"/>
-        <Item index="22" value="[-4, -4, 41, 4, 4]"/>
-        <Item index="23" value="[0, 0, -46, 0, 0]"/>
-        <Item index="24" value="[0, 0, 44, 0, 0]"/>
-        <Item index="25" value="[0, 0, 94, 1, 1]"/>
-        <Item index="26" value="[0, 0, -83, 0, 0]"/>
-        <Item index="27" value="[0, 10, -45, 0, 0]"/>
-        <Item index="28" value="[0, 0, 96, 0, 0]"/>
-        <Item index="29" value="[0, 0, 82, 3, -3]"/>
-        <Item index="30" value="[10, -16, 0, 0, 0]"/>
-        <Item index="31" value="[0, 0, 45, 0, 1]"/>
-        <Item index="32" value="[0, 0, 79, 0, 0]"/>
-        <Item index="33" value="[8, 0, 45, 0, 0]"/>
-        <Item index="34" value="[20, 0, 95, 1, 1]"/>
-        <Item index="35" value="[4, -2, -45, 0, 0]"/>
-        <Item index="36" value="[0, -18, 43, -2, 0]"/>
-        <Item index="37" value="[20, 0, -45, 0, 0]"/>
-        <Item index="38" value="[0, -24, -45, 0, 13]"/>
-        <Item index="39" value="[0, -12, 45, 0, 0]"/>
+        <Item index="16" value="[-40, 0, 83, -2, 0]"/>
+        <Item index="17" value="[3, -2, -40, 1, -1]"/>
+        <Item index="18" value="[20, 20, 83, -20, -20]"/>
+        <Item index="19" value="[0, 0, -33, 0, 0]"/>
+        <Item index="20" value="[0, -8, 83, 0, 0]"/>
+        <Item index="21" value="[-10, 6, 83, 1, 0]"/>
+        <Item index="22" value="[8, -12, -43, -2, -1]"/>
+        <Item index="23" value="[-4, -4, 41, 4, 4]"/>
+        <Item index="24" value="[0, 0, -46, 0, 0]"/>
+        <Item index="25" value="[0, 0, 44, 0, 0]"/>
+        <Item index="26" value="[0, 0, 94, 1, 1]"/>
+        <Item index="27" value="[0, 0, -83, 0, 0]"/>
+        <Item index="28" value="[0, 10, -45, 0, 0]"/>
+        <Item index="29" value="[0, 0, 96, 0, 0]"/>
+        <Item index="30" value="[0, 0, 82, 3, -3]"/>
+        <Item index="31" value="[10, -16, 0, 0, 0]"/>
+        <Item index="32" value="[0, 0, 45, 0, 1]"/>
+        <Item index="33" value="[0, 0, 79, 0, 0]"/>
+        <Item index="34" value="[-19, 0, 45, -2, 0]"/>
+        <Item index="35" value="[20, 0, 95, 1, 1]"/>
+        <Item index="36" value="[4, -2, -45, 0, 0]"/>
+        <Item index="37" value="[0, -18, 43, -2, 0]"/>
+        <Item index="38" value="[20, 0, -45, 0, 0]"/>
+        <Item index="39" value="[0, -24, -45, 0, 13]"/>
         <Item index="40" value="[6, -4, -45, 0, 0]"/>
         <Item index="41" value="[26, -16, -45, 0, 0]"/>
         <Item index="42" value="[6, -4, 83, 2, -4]"/>
         <Item index="43" value="[8, -15, 0, 0, 0]"/>
         <Item index="44" value="[6, -4, 45, 0, 0]"/>
         <Item index="45" value="[6, -4, 82, 3, -3]"/>
-        <Item index="46" value="[16, -10, 83, 2, -4]"/>
-        <Item index="47" value="[0, 0, 83, 2, -4]"/>
-        <Item index="48" value="[10, -6, -46, 0, 0]"/>
-        <Item index="49" value="[0, 0, 114, 4, -3]"/>
-        <Item index="50" value="[16, -16, 0, 0, 0]"/>
-        <Item index="51" value="[0, 0, 126, 3, -4]"/>
-        <Item index="52" value="[0, 0, 125, -10, -6]"/>
-        <Item index="53" value="[-4, 2, 10, -10, -4]"/>
-        <Item index="54" value="[0, 4, -86, 3, 3]"/>
-        <Item index="55" value="[0, 0, 76, 0, 0]"/>
-        <Item index="56" value="[0, 0, 115, 0, 0]"/>
-        <Item index="57" value="[0, 0, 99, 0, 0]"/>
-        <Item index="58" value="[0, 0, -67, -10, -2]"/>
-        <Item index="59" value="[-27, 12, 20, -21, -20]"/>
-        <Item index="60" value="[0, 0, 118, 0, 0]"/>
-        <Item index="61" value="[0, 0, 132, 0, 0]"/>
-        <Item index="62" value="[10, -2, -86, 3, 3]"/>
-        <Item index="63" value="[8, -5, -45, 0, 0]"/>
-        <Item index="64" value="[0, 0, -84, 0, 0]"/>
-        <Item index="65" value="[0, 0, 142, 3, -4]"/>
-        <Item index="66" value="[18, -2, -86, 3, 3]"/>
-        <Item index="67" value="[10, -6, 83, 0, 0]"/>
-        <Item index="68" value="[10, -6, 122, 0, 0]"/>
-        <Item index="69" value="[10, -6, 106, 0, 0]"/>
-        <Item index="70" value="[3, -2, -45, 0, 0]"/>
-        <Item index="71" value="[0, 0, 124, 4, -3]"/>
-        <Item index="72" value="[0, 20, 142, 0, -20]"/>
-        <Item index="73" value="[0, 0, 109, 0, 0]"/>
-        <Item index="74" value="[-7, 8, -81, 4, 2]"/>
-        <Item index="75" value="[20, 20, 122, -20, -20]"/>
-        <Item index="76" value="[20, 20, 114, -16, -23]"/>
-        <Item index="77" value="[0, 0, 67, 0, 0]"/>
-        <Item index="78" value="[0, 0, 98, 4, -3]"/>
-        <Item index="79" value="[0, 0, 108, 3, -2]"/>
-        <Item index="80" value="[16, -10, 0, 0, 0]"/>
-        <Item index="81" value="[0, 0, 90, 0, 0]"/>
-        <Item index="82" value="[0, 0, -71, 0, 0]"/>
-        <Item index="83" value="[3, -1, -45, 0, 0]"/>
-        <Item index="84" value="[0, 16, 138, 0, -16]"/>
-        <Item index="85" value="[0, 0, 131, -9, -9]"/>
-        <Item index="86" value="[-7, 9, -86, 3, 3]"/>
-        <Item index="87" value="[0, 0, 121, 2, -4]"/>
-        <Item index="88" value="[-10, 6, 122, 1, 0]"/>
-        <Item index="89" value="[-4, -4, 92, 4, 4]"/>
-        <Item index="90" value="[-4, -4, 91, 5, 5]"/>
-        <Item index="91" value="[-4, -4, 79, 4, 4]"/>
-        <Item index="92" value="[20, -20, 103, 2, -4]"/>
-        <Item index="93" value="[-4, -4, 117, 4, 4]"/>
-        <Item index="94" value="[-4, -4, 91, 4, 4]"/>
-        <Item index="95" value="[-4, -4, 75, 4, 4]"/>
-        <Item index="96" value="[-4, -4, 106, 9, 4]"/>
-        <Item index="97" value="[24, 0, 0, 0, 0]"/>
-        <Item index="98" value="[-4, -4, 107, 9, 4]"/>
-        <Item index="99" value="[-8, -4, 101, 4, 4]"/>
-        <Item index="100" value="[-4, -4, 79, 6, 0]"/>
-        <Item index="101" value="[-4, -4, 78, 7, 1]"/>
-        <Item index="102" value="[-4, -4, 101, 7, 1]"/>
-        <Item index="103" value="[-4, -4, 86, 4, 4]"/>
-        <Item index="104" value="[-4, -4, 124, 4, 4]"/>
-        <Item index="105" value="[-4, -4, -86, 3, 3]"/>
-        <Item index="106" value="[0, 0, 95, 1, 1]"/>
-        <Item index="107" value="[16, -16, 45, 0, -1]"/>
-        <Item index="108" value="[16, -16, 76, 4, -4]"/>
-        <Item index="109" value="[0, 0, 80, 0, 0]"/>
-        <Item index="110" value="[0, -18, -45, 0, 0]"/>
-        <Item index="111" value="[0, -18, 83, 0, 0]"/>
-        <Item index="112" value="[24, -16, 107, -2, -8]"/>
-        <Item index="113" value="[0, 0, 121, 0, 0]"/>
-        <Item index="114" value="[0, 0, 95, 0, 0]"/>
-        <Item index="115" value="[-10, 20, -86, 3, 3]"/>
-        <Item index="116" value="[20, -12, -45, 12, 0]"/>
-        <Item index="117" value="[18, -11, 80, -2, 1]"/>
-        <Item index="118" value="[18, -11, 118, 0, -3]"/>
-        <Item index="119" value="[6, -4, 96, 0, 0]"/>
-        <Item index="120" value="[6, -4, 95, 1, 1]"/>
-        <Item index="121" value="[6, -4, 83, 0, 0]"/>
-        <Item index="122" value="[6, -4, 79, 0, 0]"/>
-        <Item index="123" value="[6, -4, 121, 3, -3]"/>
-        <Item index="124" value="[6, -4, 95, 0, 0]"/>
-        <Item index="125" value="[6, -4, -83, 0, 0]"/>
-        <Item index="126" value="[16, -6, -86, 3, 3]"/>
-        <Item index="127" value="[0, 0, 44, 0, 1]"/>
-        <Item index="128" value="[16, -10, 45, 0, 0]"/>
-        <Item index="129" value="[16, -10, 95, 1, 1]"/>
-        <Item index="130" value="[16, -10, 83, 0, 0]"/>
-        <Item index="131" value="[4, -2, 81, -4, 2]"/>
-        <Item index="132" value="[4, -2, 120, -4, 2]"/>
-        <Item index="133" value="[4, -2, 104, -4, 2]"/>
-        <Item index="134" value="[0, 0, 106, 2, -4]"/>
-        <Item index="135" value="[0, 0, 105, 3, -3]"/>
-        <Item index="136" value="[0, 20, 115, 1, -19]"/>
-        <Item index="137" value="[0, 8, 83, 0, -8]"/>
-        <Item index="138" value="[-6, 8, -86, 3, 3]"/>
-        <Item index="139" value="[5, -4, -45, -5, 4]"/>
-        <Item index="140" value="[12, -4, -43, -2, -2]"/>
-        <Item index="141" value="[0, 0, 84, 0, 0]"/>
-        <Item index="142" value="[12, -4, -81, -2, -2]"/>
-        <Item index="143" value="[12, -4, -65, -12, -4]"/>
-        <Item index="144" value="[0, 0, -41, 0, 0]"/>
-        <Item index="145" value="[0, -28, 70, 0, 0]"/>
-        <Item index="146" value="[0, 0, 108, 2, -4]"/>
-        <Item index="147" value="[0, 0, 107, 3, -3]"/>
-        <Item index="148" value="[0, 0, -79, 0, 0]"/>
-        <Item index="149" value="[0, 0, -63, -10, -2]"/>
-        <Item index="150" value="[0, 0, 121, 3, -3]"/>
-        <Item index="151" value="[0, 16, 111, 1, -15]"/>
-        <Item index="152" value="[0, 24, 83, 0, -24]"/>
-        <Item index="153" value="[4, 0, -83, 0, 0]"/>
-        <Item index="154" value="[4, 0, 45, 0, 0]"/>
-        <Item index="155" value="[18, -6, 83, 0, 0]"/>
-        <Item index="156" value="[18, -13, -83, -18, 13]"/>
-        <Item index="157" value="[18, -6, 121, 2, -4]"/>
-        <Item index="158" value="[1, 0, -83, 0, 0]"/>
-        <Item index="159" value="[0, 0, -67, -9, -2]"/>
-        <Item index="160" value="[0, 0, -71, -5, 2]"/>
-        <Item index="161" value="[-27, 12, 0, 0, 0]"/>
-        <Item index="162" value="[0, 0, 107, 5, -6]"/>
-        <Item index="163" value="[24, -31, 0, 0, 0]"/>
-        <Item index="164" value="[0, 0, 134, 0, 0]"/>
-        <Item index="165" value="[0, 0, 146, 5, -6]"/>
-        <Item index="166" value="[0, 0, 124, 3, -2]"/>
-        <Item index="167" value="[0, 0, 110, 5, 0]"/>
-        <Item index="168" value="[0, 0, 111, 5, 0]"/>
-        <Item index="169" value="[-4, 0, 105, 0, 0]"/>
+        <Item index="46" value="[12, -8, -83, 0, 0]"/>
+        <Item index="47" value="[16, -10, 83, 2, -4]"/>
+        <Item index="48" value="[30, -52, 45, 0, -14]"/>
+        <Item index="49" value="[0, 0, 83, 2, -4]"/>
+        <Item index="50" value="[20, -38, 45, 0, -22]"/>
+        <Item index="51" value="[10, -6, -46, 0, 0]"/>
+        <Item index="52" value="[0, 0, 114, 4, -3]"/>
+        <Item index="53" value="[16, -16, 0, 0, 0]"/>
+        <Item index="54" value="[0, 0, 126, 3, -4]"/>
+        <Item index="55" value="[0, 0, 125, -10, -6]"/>
+        <Item index="56" value="[-4, 2, 10, -10, -4]"/>
+        <Item index="57" value="[0, 4, -86, 3, 3]"/>
+        <Item index="58" value="[0, 0, 76, 0, 0]"/>
+        <Item index="59" value="[0, 0, 115, 0, 0]"/>
+        <Item index="60" value="[0, 0, 99, 0, 0]"/>
+        <Item index="61" value="[0, 0, -71, -6, 2]"/>
+        <Item index="62" value="[-27, 12, 0, -1, 0]"/>
+        <Item index="63" value="[0, 0, 118, 0, 0]"/>
+        <Item index="64" value="[0, 0, 132, 0, 0]"/>
+        <Item index="65" value="[10, -2, -86, 3, 3]"/>
+        <Item index="66" value="[8, -5, -45, 0, 0]"/>
+        <Item index="67" value="[0, 0, -84, 0, 0]"/>
+        <Item index="68" value="[0, 0, 142, 3, -4]"/>
+        <Item index="69" value="[18, -2, -86, 3, 3]"/>
+        <Item index="70" value="[10, -6, 83, 0, 0]"/>
+        <Item index="71" value="[10, -6, 122, 0, 0]"/>
+        <Item index="72" value="[10, -6, 106, 0, 0]"/>
+        <Item index="73" value="[3, -2, -45, 0, 0]"/>
+        <Item index="74" value="[0, 0, 124, 4, -3]"/>
+        <Item index="75" value="[0, 20, 142, 0, -20]"/>
+        <Item index="76" value="[0, 0, 109, 0, 0]"/>
+        <Item index="77" value="[-7, 8, -81, 4, 2]"/>
+        <Item index="78" value="[20, 20, 122, -20, -20]"/>
+        <Item index="79" value="[20, 20, 114, -16, -23]"/>
+        <Item index="80" value="[0, 0, 67, 0, 0]"/>
+        <Item index="81" value="[0, 0, 98, 4, -3]"/>
+        <Item index="82" value="[0, 0, 108, 3, -2]"/>
+        <Item index="83" value="[16, -10, 0, 0, 0]"/>
+        <Item index="84" value="[0, 0, 90, 0, 0]"/>
+        <Item index="85" value="[0, 0, -71, 0, 0]"/>
+        <Item index="86" value="[3, -1, -45, 0, 0]"/>
+        <Item index="87" value="[0, 16, 138, 0, -16]"/>
+        <Item index="88" value="[0, 0, 131, -9, -9]"/>
+        <Item index="89" value="[-7, 9, -86, 3, 3]"/>
+        <Item index="90" value="[0, 0, 121, 2, -4]"/>
+        <Item index="91" value="[-10, 6, 122, 1, 0]"/>
+        <Item index="92" value="[-4, -4, 92, 4, 4]"/>
+        <Item index="93" value="[-4, -4, 91, 5, 5]"/>
+        <Item index="94" value="[-4, -4, 79, 4, 4]"/>
+        <Item index="95" value="[20, -20, 103, 2, -4]"/>
+        <Item index="96" value="[-4, -4, 117, 4, 4]"/>
+        <Item index="97" value="[-4, -4, 91, 4, 4]"/>
+        <Item index="98" value="[-4, -4, 75, 4, 4]"/>
+        <Item index="99" value="[-4, -4, 106, 9, 4]"/>
+        <Item index="100" value="[24, 0, 0, 0, 0]"/>
+        <Item index="101" value="[-4, -4, 107, 9, 4]"/>
+        <Item index="102" value="[-8, -4, 101, 4, 4]"/>
+        <Item index="103" value="[-4, -4, 79, 6, 0]"/>
+        <Item index="104" value="[-4, -4, 78, 7, 1]"/>
+        <Item index="105" value="[-4, -4, 101, 7, 1]"/>
+        <Item index="106" value="[-4, -4, 86, 4, 4]"/>
+        <Item index="107" value="[-4, -4, 124, 4, 4]"/>
+        <Item index="108" value="[-2, -2, -84, 1, 2]"/>
+        <Item index="109" value="[0, 0, 95, 1, 1]"/>
+        <Item index="110" value="[16, -16, 45, 0, -1]"/>
+        <Item index="111" value="[16, -16, 76, 4, -4]"/>
+        <Item index="112" value="[0, 0, 80, 0, 0]"/>
+        <Item index="113" value="[0, -18, -45, 0, 0]"/>
+        <Item index="114" value="[0, -18, 83, 0, 0]"/>
+        <Item index="115" value="[24, -16, 107, -2, -8]"/>
+        <Item index="116" value="[0, 0, 121, 0, 0]"/>
+        <Item index="117" value="[0, 0, 95, 0, 0]"/>
+        <Item index="118" value="[0, 0, 117, 0, 0]"/>
+        <Item index="119" value="[-10, 20, -86, 3, 3]"/>
+        <Item index="120" value="[20, -12, -45, 12, 0]"/>
+        <Item index="121" value="[18, -11, 80, -2, 1]"/>
+        <Item index="122" value="[18, -11, 118, 0, -3]"/>
+        <Item index="123" value="[6, -4, 96, 0, 0]"/>
+        <Item index="124" value="[6, -4, 95, 1, 1]"/>
+        <Item index="125" value="[6, -4, 83, 0, 0]"/>
+        <Item index="126" value="[6, -4, 79, 0, 0]"/>
+        <Item index="127" value="[6, -4, 120, 3, -3]"/>
+        <Item index="128" value="[6, -4, 95, 0, 0]"/>
+        <Item index="129" value="[6, -4, -83, 0, 0]"/>
+        <Item index="130" value="[16, -6, -86, 3, 3]"/>
+        <Item index="131" value="[0, 0, 44, 0, 1]"/>
+        <Item index="132" value="[16, -10, 45, 0, 0]"/>
+        <Item index="133" value="[16, -10, 95, 1, 1]"/>
+        <Item index="134" value="[16, -10, 83, 0, 0]"/>
+        <Item index="135" value="[4, -2, 81, -4, 2]"/>
+        <Item index="136" value="[4, -2, 120, -4, 2]"/>
+        <Item index="137" value="[4, -2, 104, -4, 2]"/>
+        <Item index="138" value="[0, 0, 106, 2, -4]"/>
+        <Item index="139" value="[0, 0, 105, 3, -3]"/>
+        <Item index="140" value="[0, 20, 115, 1, -19]"/>
+        <Item index="141" value="[0, 8, 83, 0, -8]"/>
+        <Item index="142" value="[-6, 8, -86, 3, 3]"/>
+        <Item index="143" value="[5, -4, -45, -5, 4]"/>
+        <Item index="144" value="[12, -4, -43, -2, -2]"/>
+        <Item index="145" value="[0, 0, 84, 0, 0]"/>
+        <Item index="146" value="[12, -4, -81, -2, -2]"/>
+        <Item index="147" value="[12, -4, -69, -8, 0]"/>
+        <Item index="148" value="[0, 0, -41, 0, 0]"/>
+        <Item index="149" value="[0, -28, 70, 0, 0]"/>
+        <Item index="150" value="[0, 0, 108, 2, -4]"/>
+        <Item index="151" value="[0, 0, 107, 3, -3]"/>
+        <Item index="152" value="[0, 0, -79, 0, 0]"/>
+        <Item index="153" value="[0, 0, -67, -6, 2]"/>
+        <Item index="154" value="[0, 0, 121, 3, -3]"/>
+        <Item index="155" value="[0, 0, 120, 3, -3]"/>
+        <Item index="156" value="[0, 16, 111, 1, -15]"/>
+        <Item index="157" value="[0, 24, 83, 0, -24]"/>
+        <Item index="158" value="[4, 0, -83, 0, 0]"/>
+        <Item index="159" value="[4, 0, 45, 0, 0]"/>
+        <Item index="160" value="[18, -6, 83, 0, 0]"/>
+        <Item index="161" value="[18, -13, -83, -18, 13]"/>
+        <Item index="162" value="[18, -6, 121, 2, -4]"/>
+        <Item index="163" value="[1, 0, -83, 0, 0]"/>
+        <Item index="164" value="[0, 0, -71, -5, 2]"/>
+        <Item index="165" value="[-27, 12, 0, 0, 0]"/>
+        <Item index="166" value="[0, 0, 107, 5, -6]"/>
+        <Item index="167" value="[24, -31, 0, 0, 0]"/>
+        <Item index="168" value="[0, 0, 134, 0, 0]"/>
+        <Item index="169" value="[0, 0, 146, 5, -6]"/>
+        <Item index="170" value="[0, 0, 124, 3, -2]"/>
+        <Item index="171" value="[0, 0, 110, 5, 0]"/>
+        <Item index="172" value="[0, 0, 111, 5, 0]"/>
+        <Item index="173" value="[-4, 0, 105, 0, 0]"/>
       </VarData>
     </VarStore>
   </GDEF>
