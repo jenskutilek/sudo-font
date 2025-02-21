@@ -2398,6 +2398,12 @@ tag = ordn;
 },
 {
 automatic = 1;
+code = "sub zero by zero.zero;
+";
+tag = zero;
+},
+{
+automatic = 1;
 code = "sub zero by zero.osf;
 sub one by one.osf;
 sub two by two.osf;
@@ -2455,12 +2461,6 @@ sub nine.osf by nine;
 sub zero.zero.osf by zero.zero;
 ";
 tag = case;
-},
-{
-automatic = 1;
-code = "sub zero by zero.zero;
-";
-tag = zero;
 },
 {
 code = "sub emdash hyphen' by emdash;
