@@ -2,47 +2,41 @@
 glyphname = blackFlag;
 layers = (
 {
+background = {
 hints = (
 {
 horizontal = 1;
-origin = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-origin = (0,3);
 type = TTSnap;
 },
 {
 horizontal = 1;
-origin = (0,0);
 other1 = (0,0,1,3);
 target = (0,3);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
-origin = (0,0);
 other1 = (0,0,1,7);
 target = (0,3);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
-origin = (0,0);
 other1 = (1,3);
 target = (0,3);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
-origin = (0,0);
 other1 = (1,4);
 target = (0,3);
 type = TTInterpolate;
 }
 );
-layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
 closed = 1;
@@ -67,10 +61,71 @@ nodes = (
 );
 }
 );
+};
+hints = (
+{
+horizontal = 1;
+origin = (0,8);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,11);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,8);
+other1 = (0,0);
+target = (0,11);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+origin = (0,8);
+other1 = (0,7);
+target = (0,11);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+origin = (0,8);
+other1 = (0,3);
+target = (0,11);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+origin = (0,8);
+other1 = (0,4);
+target = (0,11);
+type = TTInterpolate;
+}
+);
+layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+shapes = (
+{
+closed = 1;
+nodes = (
+(130,256,l),
+(273,275,o),
+(260,170,o),
+(408,184,c),
+(408,432,l),
+(273,430,o),
+(260,534,o),
+(130,511,c),
+(130,576,l),
+(62,576,l),
+(62,0,l),
+(130,0,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+background = {
 shapes = (
 {
 closed = 1;
@@ -95,10 +150,31 @@ nodes = (
 );
 }
 );
+};
+layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,258,l),
+(271,264,o),
+(266,170,o),
+(408,184,c),
+(408,432,l),
+(280,430,o),
+(263,524,o),
+(150,514,c),
+(150,576,l),
+(42,576,l),
+(42,0,l),
+(150,0,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+background = {
 shapes = (
 {
 closed = 1;
@@ -123,10 +199,31 @@ nodes = (
 );
 }
 );
+};
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(118,254,l),
+(272,280,o),
+(254,169,o),
+(408,184,c),
+(408,432,l),
+(269,430,o),
+(260,541,o),
+(118,509,c),
+(118,576,l),
+(74,576,l),
+(74,0,l),
+(118,0,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+background = {
 shapes = (
 {
 closed = 1;
@@ -151,10 +248,31 @@ nodes = (
 );
 }
 );
+};
+layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,256,l),
+(245,268,o),
+(344,176,o),
+(391,109,c),
+(441,357,l),
+(398,459,o),
+(307,524,o),
+(187,510,c),
+(200,576,l),
+(132,576,l),
+(17,0,l),
+(85,0,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+background = {
 shapes = (
 {
 closed = 1;
@@ -179,10 +297,31 @@ nodes = (
 );
 }
 );
+};
+layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(156,257,l),
+(258,256,o),
+(347,171,o),
+(391,109,c),
+(441,357,l),
+(401,452,o),
+(319,517,o),
+(207,512,c),
+(220,576,l),
+(112,576,l),
+(-3,0,l),
+(105,0,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+background = {
 shapes = (
 {
 closed = 1;
@@ -207,10 +346,58 @@ nodes = (
 );
 }
 );
+};
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,254,l),
+(236,274,o),
+(343,177,o),
+(391,109,c),
+(441,357,l),
+(397,462,o),
+(301,528,o),
+(174,508,c),
+(188,576,l),
+(144,576,l),
+(29,0,l),
+(73,0,l)
+);
+}
+);
 width = 448;
 },
 {
 associatedMasterId = "95FB0C11-C828-4064-8966-34220AA4D426";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,0,l),
+(64,242,l),
+(159,228,o),
+(174,128,o),
+(360,128,cs),
+(387,128,o),
+(419,131,o),
+(448,136,c),
+(448,453,l),
+(421,450,o),
+(393,448,o),
+(366,448,cs),
+(205,448,o),
+(174,558,o),
+(64,576,c),
+(64,640,l),
+(0,640,l),
+(0,0,l)
+);
+}
+);
+};
 layerId = "7C9D1724-CEF8-4260-AC27-9C483B25F8EC";
 name = "Jan 17 20, 10:12";
 shapes = (
