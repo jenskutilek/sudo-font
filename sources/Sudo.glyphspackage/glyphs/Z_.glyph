@@ -34,37 +34,44 @@ pos = (224,640);
 hints = (
 {
 options = 8;
+origin = (0,11);
 type = TTSnap;
 },
 {
 options = 8;
+origin = (0,0);
 type = TTSnap;
 },
 {
 options = 4;
+origin = (0,0);
 target = (0,5);
 type = TTShift;
 },
 {
 options = 4;
+origin = (0,11);
 target = (0,6);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+origin = (0,6);
 target = (0,7);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+origin = (0,0);
 target = (0,1);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+origin = (0,1);
 other1 = (0,10);
 target = (0,0);
 type = TTInterpolate;
@@ -72,6 +79,7 @@ type = TTInterpolate;
 {
 horizontal = 1;
 options = 4;
+origin = (0,6);
 other1 = (0,4);
 target = (0,7);
 type = TTInterpolate;
@@ -79,12 +87,14 @@ type = TTInterpolate;
 {
 horizontal = 1;
 options = 4;
+origin = (0,4);
 target = (0,9);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+origin = (0,10);
 target = (0,3);
 type = TTShift;
 }

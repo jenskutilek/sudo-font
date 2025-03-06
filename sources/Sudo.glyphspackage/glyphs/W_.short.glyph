@@ -18,6 +18,58 @@ pos = (224,576);
 }
 );
 background = {
+anchors = (
+{
+name = "#center";
+pos = (225,224);
+},
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = top;
+pos = (224,576);
+}
+);
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,7);
+other1 = (0,3,1,7);
+target = (0,4);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3,1,7);
+target = (2,7,3,3);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,4);
+target = (2,4);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,7);
+target = (3,7);
+type = TTShift;
+},
+{
+horizontal = 1;
+origin = (0,7);
+other1 = (1,4);
+target = (0,4);
+type = TTInterpolate;
+}
+);
 shapes = (
 {
 closed = 1;
@@ -166,6 +218,20 @@ pos = (224,576);
 }
 );
 background = {
+anchors = (
+{
+name = "#center";
+pos = (225,224);
+},
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = top;
+pos = (224,576);
+}
+);
 shapes = (
 {
 closed = 1;
@@ -276,6 +342,20 @@ pos = (224,576);
 }
 );
 background = {
+anchors = (
+{
+name = "#center";
+pos = (225,224);
+},
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = top;
+pos = (224,576);
+}
+);
 shapes = (
 {
 closed = 1;
@@ -386,6 +466,20 @@ pos = (294,576);
 }
 );
 background = {
+anchors = (
+{
+name = "#center";
+pos = (225,224);
+},
+{
+name = bottom;
+pos = (179,0);
+},
+{
+name = top;
+pos = (294,576);
+}
+);
 shapes = (
 {
 closed = 1;
@@ -496,6 +590,20 @@ pos = (294,576);
 }
 );
 background = {
+anchors = (
+{
+name = "#center";
+pos = (225,224);
+},
+{
+name = bottom;
+pos = (179,0);
+},
+{
+name = top;
+pos = (294,576);
+}
+);
 shapes = (
 {
 closed = 1;
@@ -606,6 +714,20 @@ pos = (294,576);
 }
 );
 background = {
+anchors = (
+{
+name = "#center";
+pos = (225,224);
+},
+{
+name = bottom;
+pos = (179,0);
+},
+{
+name = top;
+pos = (294,576);
+}
+);
 shapes = (
 {
 closed = 1;
