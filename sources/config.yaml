@@ -22,7 +22,7 @@ recipe:
   - args: -o $out $in fontsetter/Sudo-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "!ss04 !kern 'zero=>rclt' 'ss20=>rclt'"
+  - args: "!ss04 !kern 'ital=>rclt'"
     operation: remapLayout
   - args: --src stat.yaml
     needs:
@@ -40,7 +40,7 @@ recipe:
   - args: -o $out $in fontsetter/Sudo.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "!ss04 !kern 'zero=>rclt' 'ss20=>rclt'"
+  - args: "!ss04 !kern !ital"
     operation: remapLayout
 
   ../fonts/variable/SudoUI-Italic[YTDE,wght].ttf:
@@ -59,6 +59,8 @@ recipe:
   - args: -o $out $in fontsetter/SudoUI-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
+  - args: "'zero=>rclt' 'ss20=>rclt' 'ital=>rclt'"
+    operation: remapLayout
   - args: --src stat.yaml
     needs:
     - ../fonts/variable/SudoUI[YTDE,wght].ttf
@@ -78,3 +80,5 @@ recipe:
   - args: -o $out $in fontsetter/SudoUI.fontsetter
     exe: gftools-fontsetter
     operation: exec
+  - args: "'zero=>rclt' 'ss20=>rclt' !ital"
+    operation: remapLayout
