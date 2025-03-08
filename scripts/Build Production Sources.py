@@ -26,7 +26,7 @@ def collect_and_delete_glyphs(f, name):
 def collect_and_switch_glyphs(f, name):
     all_glyph_names = set(f.glyphs.keys())
     replace_names = {}
-    kill_names = {}
+    # kill_names = {}
     for g in f.glyphs:
         if name in g.name:
             target_name = g.name.replace(name, "")
@@ -34,17 +34,25 @@ def collect_and_switch_glyphs(f, name):
             if target_name in all_glyph_names:
                 dead_name = f"{target_name}.kill"
                 replace_names[target_name] = dead_name
-                kill_names[dead_name] = target_name
+                # kill_names[dead_name] = target_name
     for g in f.glyphs:
         if g.name in replace_names:
             g.name = replace_names[g.name]
+            g.updateGlyphInfo()
         for l in g.layers:
             for c in l.components:
                 if c.componentName in replace_names:
                     c.componentName = replace_names[c.componentName]
     # print(kill_names)
     # print(replace_names)
-    collect_and_delete_glyphs(f, ".kill")
+    # collect_and_delete_glyphs(f, ".kill")
+    disable_glyphs_by_name(f, ".kill")
+
+
+def disable_glyphs_by_name(f, name):
+    for g in f.glyphs:
+        if name in g.name:
+            g.export = False
 
 
 def add_and_save_font(source_font, f, suffix):
@@ -88,7 +96,7 @@ def build_prop_italic(design_source):
 
 
 f = Glyphs.font
-build_mono_roman(f)
-build_mono_italic(f)
+# build_mono_roman(f)
+# build_mono_italic(f)
 build_prop_roman(f)
-build_prop_italic(f)
+# build_prop_italic(f)
