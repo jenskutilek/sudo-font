@@ -15,11 +15,11 @@ recipe:
     operation: buildVariable
   - axes: ital=1
     operation: subspace
-  - args: --include-source-fixes
-    operation: fix
   - args: -o $out $in fontsetter/Sudo-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
+  - args: --include-source-fixes
+    operation: fix
   - args: -f ital
     operation: featureFreeze
   - args: --layout-features-=ss04 --layout-features-=kern
@@ -35,10 +35,10 @@ recipe:
     operation: buildVariable
   - axes: ital=0
     operation: subspace
-  - operation: fix
   - args: -o $out $in fontsetter/Sudo.fontsetter
     exe: gftools-fontsetter
     operation: exec
+  - operation: fix
   - args: --layout-features-=ss04 --layout-features-=kern --layout-features-=ital
     operation: hbsubset
 
@@ -48,13 +48,13 @@ recipe:
     operation: buildVariable
   - axes: ital=1
     operation: subspace
-  - args: --include-source-fixes
-    operation: fix
   - name: "Sudo UI"
     operation: rename
   - args: -o $out $in fontsetter/SudoUI-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
+  - args: --include-source-fixes
+    operation: fix
   - args: -f zero,ss20,ital
     operation: featureFreeze
   - operation: hbsubset
@@ -69,12 +69,12 @@ recipe:
     operation: buildVariable
   - axes: ital=0
     operation: subspace
-  - operation: fix
   - name: "Sudo UI"
     operation: rename
   - args: -o $out $in fontsetter/SudoUI.fontsetter
     exe: gftools-fontsetter
     operation: exec
+  - operation: fix
   - args: -f zero,ss20
     operation: featureFreeze
   - args: --layout-features-=ital
