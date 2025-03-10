@@ -17,8 +17,6 @@ recipe:
     operation: subspace
   - args: --include-source-fixes
     operation: fix
-  - args: ''
-    operation: fix
   - args: -o $out $in fontsetter/Sudo-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
@@ -37,8 +35,7 @@ recipe:
     operation: buildVariable
   - axes: ital=0
     operation: subspace
-  - args: ''
-    operation: fix
+  - operation: fix
   - args: -o $out $in fontsetter/Sudo.fontsetter
     exe: gftools-fontsetter
     operation: exec
@@ -53,10 +50,7 @@ recipe:
     operation: subspace
   - args: --include-source-fixes
     operation: fix
-  - args: ''
-    operation: fix
-  - args: ''
-    name: "Sudo UI"
+  - name: "Sudo UI"
     operation: rename
   - args: -o $out $in fontsetter/SudoUI-Italic.fontsetter
     exe: gftools-fontsetter
@@ -75,10 +69,8 @@ recipe:
     operation: buildVariable
   - axes: ital=0
     operation: subspace
-  - args: ''
-    operation: fix
-  - args: ''
-    name: "Sudo UI"
+  - operation: fix
+  - name: "Sudo UI"
     operation: rename
   - args: -o $out $in fontsetter/SudoUI.fontsetter
     exe: gftools-fontsetter
