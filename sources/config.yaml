@@ -15,15 +15,15 @@ recipe:
     operation: buildVariable
   - axes: ital=1
     operation: subspace
-  - args: --include-source-fixes
-    operation: fix
-  - args: ''
-    operation: fix
   - args: -o $out $in fontsetter/Sudo-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "!ss04 !kern 'ital=>rclt'"
-    operation: remapLayout
+  - args: --include-source-fixes
+    operation: fix
+  - args: -f ital
+    operation: featureFreeze
+  - args: --layout-features-=ss04 --layout-features-=kern
+    operation: hbsubset
   - args: --src stat.yaml
     needs:
     - ../fonts/variable/Sudo[YTDE,wght].ttf
@@ -35,13 +35,12 @@ recipe:
     operation: buildVariable
   - axes: ital=0
     operation: subspace
-  - args: ''
-    operation: fix
   - args: -o $out $in fontsetter/Sudo.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "!ss04 !kern !ital"
-    operation: remapLayout
+  - operation: fix
+  - args: --layout-features-=ss04 --layout-features-=kern --layout-features-=ital
+    operation: hbsubset
 
   ../fonts/variable/SudoUI-Italic[YTDE,wght].ttf:
   - source: Sudo.glyphspackage
@@ -49,18 +48,16 @@ recipe:
     operation: buildVariable
   - axes: ital=1
     operation: subspace
-  - args: --include-source-fixes
-    operation: fix
-  - args: ''
-    operation: fix
-  - args: ''
-    name: "Sudo UI"
+  - name: "Sudo UI"
     operation: rename
   - args: -o $out $in fontsetter/SudoUI-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "'zero=>rclt' 'ss20=>rclt' 'ital=>rclt'"
-    operation: remapLayout
+  - args: --include-source-fixes
+    operation: fix
+  - args: -f zero,ss20,ital
+    operation: featureFreeze
+  - operation: hbsubset
   - args: --src stat.yaml
     needs:
     - ../fonts/variable/SudoUI[YTDE,wght].ttf
@@ -72,13 +69,13 @@ recipe:
     operation: buildVariable
   - axes: ital=0
     operation: subspace
-  - args: ''
-    operation: fix
-  - args: ''
-    name: "Sudo UI"
+  - name: "Sudo UI"
     operation: rename
   - args: -o $out $in fontsetter/SudoUI.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "'zero=>rclt' 'ss20=>rclt' !ital"
-    operation: remapLayout
+  - operation: fix
+  - args: -f zero,ss20
+    operation: featureFreeze
+  - args: --layout-features-=ital
+    operation: hbsubset
