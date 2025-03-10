@@ -22,8 +22,10 @@ recipe:
   - args: -o $out $in fontsetter/Sudo-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "!ss04 !kern 'ital=>rclt'"
-    operation: remapLayout
+  - args: -f ital
+    operation: featureFreeze
+  - args: --layout-features-=ss04 --layout-features-=kern
+    operation: hbsubset
   - args: --src stat.yaml
     needs:
     - ../fonts/variable/Sudo[YTDE,wght].ttf
@@ -40,8 +42,8 @@ recipe:
   - args: -o $out $in fontsetter/Sudo.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "!ss04 !kern !ital"
-    operation: remapLayout
+  - args: --layout-features-=ss04 --layout-features-=kern --layout-features-=ital
+    operation: hbsubset
 
   ../fonts/variable/SudoUI-Italic[YTDE,wght].ttf:
   - source: Sudo.glyphspackage
@@ -59,8 +61,9 @@ recipe:
   - args: -o $out $in fontsetter/SudoUI-Italic.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "'zero=>rclt' 'ss20=>rclt' 'ital=>rclt'"
-    operation: remapLayout
+  - args: -f zero,ss20,ital
+    operation: featureFreeze
+  - operation: hbsubset
   - args: --src stat.yaml
     needs:
     - ../fonts/variable/SudoUI[YTDE,wght].ttf
@@ -80,5 +83,7 @@ recipe:
   - args: -o $out $in fontsetter/SudoUI.fontsetter
     exe: gftools-fontsetter
     operation: exec
-  - args: "'zero=>rclt' 'ss20=>rclt' !ital"
-    operation: remapLayout
+  - args: -f zero,ss20
+    operation: featureFreeze
+  - args: --layout-features-=ital
+    operation: hbsubset
