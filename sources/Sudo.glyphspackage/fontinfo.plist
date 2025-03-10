@@ -2020,16 +2020,17 @@ name = "Export DSIG Table";
 value = 0;
 },
 {
-disabled = 1;
 name = "meta Table";
-value = "{
-    data = \"Cyrl,Grek,Latn\";
-    tag = dlng;
-}
+value = (
 {
-    data = \"Cyrl,Grek,Latn\";
-    tag = slng;
-}";
+data = "Cyrl,Grek,Latn";
+tag = dlng;
+},
+{
+data = "Cyrl,Grek,Latn";
+tag = slng;
+}
+);
 },
 {
 disabled = 1;
