@@ -4383,19 +4383,18 @@ tag = ss19;
 {
 automatic = 1;
 code = "sub f by f.italic;
+sub longs by longs.italic;
 sub longsdotaccent by longsdotaccent.italic;
 sub germandbls by germandbls.italic;
-sub longs by longs.italic;
 sub w by w.italic;
+sub wgrave by wgrave.italic;
 sub wacute by wacute.italic;
 sub wcircumflex by wcircumflex.italic;
-sub wdieresis by wdieresis.italic;
 sub wdotaccent by wdotaccent.italic;
-sub wdotbelow by wdotbelow.italic;
-sub wgrave by wgrave.italic;
+sub wdieresis by wdieresis.italic;
 sub wring by wring.italic;
+sub wdotbelow by wdotbelow.italic;
 ";
-disabled = 1;
 tag = ital;
 },
 {
@@ -4642,30 +4641,17 @@ tag = cv06;
 },
 {
 automatic = 1;
-code = "sub Aacute by Aacute.ss20;
-sub Abreve by Abreve.ss20;
-sub Abreveacute by Abreveacute.ss20;
-sub Abrevedotbelow by Abrevedotbelow.ss20;
+code = "sub Abreveacute by Abreveacute.ss20;
 sub Abrevegrave by Abrevegrave.ss20;
 sub Abrevehookabove by Abrevehookabove.ss20;
 sub Abrevetilde by Abrevetilde.ss20;
-sub Acaron by Acaron.ss20;
-sub Acircumflex by Acircumflex.ss20;
 sub Acircumflexacute by Acircumflexacute.ss20;
-sub Acircumflexdotbelow by Acircumflexdotbelow.ss20;
 sub Acircumflexgrave by Acircumflexgrave.ss20;
 sub Acircumflexhookabove by Acircumflexhookabove.ss20;
 sub Acircumflextilde by Acircumflextilde.ss20;
-sub Adieresis by Adieresis.ss20;
 sub Adieresismacron by Adieresismacron.ss20;
-sub Adotaccent by Adotaccent.ss20;
-sub Adotbelow by Adotbelow.ss20;
-sub Agrave by Agrave.ss20;
 sub Ahookabove by Ahookabove.ss20;
-sub Amacron by Amacron.ss20;
-sub Aogonek by Aogonek.ss20;
 sub Aring by Aring.ss20;
-sub Atilde by Atilde.ss20;
 sub AE by AE.ss20;
 sub AEacute by AEacute.ss20;
 sub AEmacron by AEmacron.ss20;
@@ -4679,6 +4665,7 @@ sub Ccircumflex by Ccircumflex.ss20;
 sub Cdotaccent by Cdotaccent.ss20;
 sub Chook by Chook.ss20;
 sub D by D.ss20;
+sub Eth by Eth.ss20;
 sub Dcaron by Dcaron.ss20;
 sub Dcedilla by Dcedilla.ss20;
 sub Dcroat by Dcroat.ss20;
@@ -4686,7 +4673,6 @@ sub Ddotaccent by Ddotaccent.ss20;
 sub Ddotbelow by Ddotbelow.ss20;
 sub Dhook by Dhook.ss20;
 sub Dmacronbelow by Dmacronbelow.ss20;
-sub Eth by Eth.ss20;
 sub E by E.ss20;
 sub Eacute by Eacute.ss20;
 sub Ebreve by Ebreve.ss20;
@@ -4706,9 +4692,9 @@ sub Egrave by Egrave.ss20;
 sub Ehookabove by Ehookabove.ss20;
 sub Emacron by Emacron.ss20;
 sub Emacronacute by Emacronacute.ss20;
+sub Emacrongrave by Emacrongrave.ss20;
 sub Eogonek by Eogonek.ss20;
 sub Etilde by Etilde.ss20;
-sub Eturned by Eturned.ss20;
 sub F by F.ss20;
 sub Fdotaccent by Fdotaccent.ss20;
 sub G by G.ss20;
@@ -4737,8 +4723,6 @@ sub Iacute.cv02 by Iacute.cv02.ss20;
 sub Iacute by Iacute.ss20;
 sub Ibreve.cv02 by Ibreve.cv02.ss20;
 sub Ibreve by Ibreve.ss20;
-sub Icapitalsmall.cv02 by Icapitalsmall.cv02.ss20;
-sub Icapitalsmall by Icapitalsmall.ss20;
 sub Icaron.cv02 by Icaron.cv02.ss20;
 sub Icaron by Icaron.ss20;
 sub Icircumflex.cv02 by Icircumflex.cv02.ss20;
@@ -4797,7 +4781,6 @@ sub Eng.loclNSM by Eng.loclNSM.ss20;
 sub Eng by Eng.ss20;
 sub O by O.ss20;
 sub Oacute by Oacute.ss20;
-sub Obarred by Obarred.ss20;
 sub Obreve by Obreve.ss20;
 sub Ocaron by Ocaron.ss20;
 sub Ocircumflex by Ocircumflex.ss20;
@@ -4822,6 +4805,7 @@ sub Ohorntilde by Ohorntilde.ss20;
 sub Ohungarumlaut by Ohungarumlaut.ss20;
 sub Omacron by Omacron.ss20;
 sub Omacronacute by Omacronacute.ss20;
+sub Omacrongrave by Omacrongrave.ss20;
 sub Oogonek by Oogonek.ss20;
 sub Oogonekmacron by Oogonekmacron.ss20;
 sub Oopen by Oopen.ss20;
@@ -4933,6 +4917,7 @@ sub egrave by egrave.ss20;
 sub ehookabove by ehookabove.ss20;
 sub emacron by emacron.ss20;
 sub emacronacute by emacronacute.ss20;
+sub emacrongrave by emacrongrave.ss20;
 sub eogonek by eogonek.ss20;
 sub eopen by eopen.ss20;
 sub etilde by etilde.ss20;
@@ -4967,6 +4952,7 @@ sub igrave.cv02 by igrave.cv02.ss20;
 sub igrave by igrave.ss20;
 sub ihookabove.cv02 by ihookabove.cv02.ss20;
 sub ihookabove by ihookabove.ss20;
+sub ij by ij.ss20;
 sub imacron.cv02 by imacron.cv02.ss20;
 sub imacron by imacron.ss20;
 sub iogonek.cv02 by iogonek.cv02.ss20;
@@ -4980,7 +4966,6 @@ sub istroke.dotless by istroke.dotless.ss20;
 sub istroke by istroke.ss20;
 sub itilde.cv02 by itilde.cv02.ss20;
 sub itilde by itilde.ss20;
-sub ij by ij.ss20;
 sub j.cv03 by j.cv03.ss20;
 sub j by j.ss20;
 sub jdotless.cv03 by jdotless.cv03.ss20;
@@ -5074,12 +5059,12 @@ sub zdotaccent by zdotaccent.ss20;
 sub zdotbelow by zdotbelow.ss20;
 sub zmacronbelow by zmacronbelow.ss20;
 sub zstroke by zstroke.ss20;
-sub ordfeminine by ordfeminine.ss20;
-sub ordmasculine by ordmasculine.ss20;
 sub hmod by hmod.ss20;
 sub nmod by nmod.ss20;
 sub rmod by rmod.ss20;
 sub smod by smod.ss20;
+sub ordfeminine by ordfeminine.ss20;
+sub ordmasculine by ordmasculine.ss20;
 sub Ge-cy by Ge-cy.ss20;
 sub Gje-cy by Gje-cy.ss20;
 sub Geupturn-cy by Geupturn-cy.ss20;
@@ -5243,12 +5228,12 @@ sub sixsuperior by sixsuperior.ss20;
 sub sevensuperior by sevensuperior.ss20;
 sub eightsuperior by eightsuperior.ss20;
 sub ninesuperior by ninesuperior.ss20;
+sub zeroWidthNoBreakSpace by zeroWidthNoBreakSpace.ss20;
+sub zerowidthjoiner by zerowidthjoiner.ss20;
+sub zerowidthnonjoiner by zerowidthnonjoiner.ss20;
 sub space by space.ss20;
 sub nbspace by nbspace.ss20;
 sub zerowidthspace by zerowidthspace.ss20;
-sub zerowidthnonjoiner by zerowidthnonjoiner.ss20;
-sub zerowidthjoiner by zerowidthjoiner.ss20;
-sub zeroWidthNoBreakSpace by zeroWidthNoBreakSpace.ss20;
 sub questiongreek by questiongreek.ss20;
 sub period by period.ss20;
 sub comma by comma.ss20;
@@ -5269,14 +5254,20 @@ sub quotereversed by quotereversed.ss20;
 sub guilsinglleft by guilsinglleft.ss20;
 sub guilsinglright by guilsinglright.ss20;
 sub quotesingle by quotesingle.ss20;
+sub aktieselskab by aktieselskab.ss20;
+sub careof by careof.ss20;
 sub perthousand by perthousand.ss20;
 sub ratio by ratio.ss20;
 sub commaaboverightcomb.case.spacing by commaaboverightcomb.case.spacing.ss20;
 sub commaaboverightcomb.spacing by commaaboverightcomb.spacing.ss20;
+sub dotaccent by dotaccent.ss20;
 sub apostrophemod by apostrophemod.ss20;
 sub commaturnedmod by commaturnedmod.ss20;
+sub Eturned by Eturned.ss20;
+sub Icapitalsmall.cv02 by Icapitalsmall.cv02.ss20;
+sub Icapitalsmall by Icapitalsmall.ss20;
+sub Obarred by Obarred.ss20;
 ";
-disabled = 1;
 labels = (
 {
 language = dflt;
@@ -10077,6 +10068,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1;
 };
@@ -10945,6 +10937,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.41667;
 "95FB0C11-C828-4064-8966-34220AA4D426" = 0.58333;
@@ -11814,6 +11807,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "95FB0C11-C828-4064-8966-34220AA4D426" = 1;
 };
@@ -12681,6 +12675,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.5;
 "95FB0C11-C828-4064-8966-34220AA4D426" = 0.5;
@@ -13550,6 +13545,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "92967D72-867E-4A8B-929F-F44D834DD4C9" = 1;
 };
@@ -14442,6 +14438,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 1;
 };
@@ -15334,6 +15331,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.58333;
 "C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.41667;
@@ -16227,6 +16225,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 1;
 };
@@ -17118,6 +17117,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.5;
 "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.5;
@@ -18011,6 +18011,7 @@ sub [$[layer0.width==704]] lowlinecomb' by lowlinecomb.704;
 sub [$[layer0.width==736]] lowlinecomb' by lowlinecomb.736;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 1;
 };
