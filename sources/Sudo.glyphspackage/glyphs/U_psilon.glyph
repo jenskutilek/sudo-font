@@ -18,11 +18,13 @@ pos = (224,640);
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,640);
 target = (0,5);
 type = TTShift;
 },
@@ -30,6 +32,7 @@ type = TTShift;
 horizontal = 1;
 options = 4;
 other1 = (0,8,0,12);
+place = (0,640);
 target = (0,12);
 type = TTInterpolate;
 }

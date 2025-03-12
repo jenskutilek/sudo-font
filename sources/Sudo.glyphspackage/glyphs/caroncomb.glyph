@@ -26,6 +26,7 @@ pos = (224,640);
 hints = (
 {
 horizontal = 1;
+place = (0,646);
 stem = -1;
 target = (0,5);
 type = TTStem;
@@ -33,6 +34,7 @@ type = TTStem;
 {
 horizontal = 1;
 options = 4;
+place = (0,646);
 target = (0,2);
 type = TTShift;
 },
@@ -40,11 +42,13 @@ type = TTShift;
 horizontal = 1;
 options = 4;
 other1 = (0,3,0,5);
+place = (0,507);
 target = (0,7);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
+place = (0,0);
 stem = 4;
 type = TTSnap;
 }

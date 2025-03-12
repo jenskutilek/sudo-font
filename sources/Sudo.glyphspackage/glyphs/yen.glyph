@@ -6,40 +6,47 @@ background = {
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,576);
 target = (2,3);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,256);
 target = (1,4,3,3);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,192);
 target = (1,4,3,1);
 type = TTShift;
 },
 {
 horizontal = 1;
 other1 = (3,1);
+place = (0,576);
 target = (0,4);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,256);
 target = (3,2);
 type = TTStem;
 },
 {
 horizontal = 1;
+place = (0,128);
 stem = -1;
 target = (4,2);
 type = TTStem;
@@ -47,18 +54,21 @@ type = TTStem;
 {
 horizontal = 1;
 options = 4;
+place = (0,64);
 target = (4,1);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,128);
 target = (1,4,4,3);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,64);
 target = (1,4,4,1);
 type = TTShift;
 }
