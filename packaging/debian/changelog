@@ -1,12 +1,9 @@
-fonts-sudo (2.2-1) UNRELEASED; urgency=medium
+fonts-sudo (3.0-1) UNRELEASED; urgency=medium
 
-  * Add anchor in /hardsign-cy
-  * Add /palochka-cy and variants
-  * Hinting improvements in /G.short/P.short/Z/z
-  * Fix /horncomb and /commarightabovecomb shaping (DIN 91379)
-  * Tweak anchors on c
-  * Fix anchor name in /commaturnedabovecomb
-  * Keep Glyphs 3.3 ccmp feature
-  * Tweak anchors and soft-dotted glyphs
+  * Remove contour overlaps
+  * Set descender axis minimum from -188 to -192, the actual descender depth
+  * Tweak and improve many glyphs, especially the previously extrapolated layers
+  * Incompatible change: Improve spacing and kerning (Sudo UI)
+  * Add /lowlinecomb with matching widths (Sudo UI)
 
- -- Jens Kutilek <debian@kutilek.de>  Sun, 26 Jan 2025 16:29:00 +0100
+ -- Jens Kutilek <debian@kutilek.de>  Fri, 14 Mar 2025 19:03:00 +0100
