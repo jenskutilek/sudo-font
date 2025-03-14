@@ -113,7 +113,6 @@
       <map code="0xaa" name="ordfeminine"/><!-- FEMININE ORDINAL INDICATOR -->
       <map code="0xab" name="guillemotleft"/><!-- LEFT-POINTING DOUBLE ANGLE QUOTATION MARK -->
       <map code="0xac" name="logicalnot"/><!-- NOT SIGN -->
-      <map code="0xad" name="uni00AD"/><!-- SOFT HYPHEN -->
       <map code="0xae" name="registered"/><!-- REGISTERED SIGN -->
       <map code="0xaf" name="macron"/><!-- MACRON -->
       <map code="0xb0" name="degree"/><!-- DEGREE SIGN -->
@@ -470,6 +469,7 @@
       <map code="0x310" name="uni0310"/><!-- COMBINING CANDRABINDU -->
       <map code="0x311" name="uni0311"/><!-- COMBINING INVERTED BREVE -->
       <map code="0x312" name="uni0312"/><!-- COMBINING TURNED COMMA ABOVE -->
+      <map code="0x313" name="uni0313"/><!-- COMBINING COMMA ABOVE -->
       <map code="0x315" name="uni0315"/><!-- COMBINING COMMA ABOVE RIGHT -->
       <map code="0x31b" name="uni031B"/><!-- COMBINING HORN -->
       <map code="0x323" name="dotbelowcomb"/><!-- COMBINING DOT BELOW -->
@@ -479,6 +479,7 @@
       <map code="0x328" name="uni0328"/><!-- COMBINING OGONEK -->
       <map code="0x32e" name="uni032E"/><!-- COMBINING BREVE BELOW -->
       <map code="0x331" name="uni0331"/><!-- COMBINING MACRON BELOW -->
+      <map code="0x332" name="uni0332"/><!-- COMBINING LOW LINE -->
       <map code="0x335" name="uni0335"/><!-- COMBINING SHORT STROKE OVERLAY -->
       <map code="0x344" name="uni0344"/><!-- COMBINING GREEK DIALYTIKA TONOS -->
       <map code="0x35f" name="uni035F"/><!-- COMBINING DOUBLE MACRON BELOW -->
@@ -680,6 +681,8 @@
       <map code="0x1e0f" name="uni1E0F"/><!-- LATIN SMALL LETTER D WITH LINE BELOW -->
       <map code="0x1e10" name="uni1E10"/><!-- LATIN CAPITAL LETTER D WITH CEDILLA -->
       <map code="0x1e11" name="uni1E11"/><!-- LATIN SMALL LETTER D WITH CEDILLA -->
+      <map code="0x1e14" name="uni1E14"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND GRAVE -->
+      <map code="0x1e15" name="uni1E15"/><!-- LATIN SMALL LETTER E WITH MACRON AND GRAVE -->
       <map code="0x1e16" name="uni1E16"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e17" name="uni1E17"/><!-- LATIN SMALL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e1c" name="uni1E1C"/><!-- LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE -->
@@ -724,6 +727,8 @@
       <map code="0x1e47" name="uni1E47"/><!-- LATIN SMALL LETTER N WITH DOT BELOW -->
       <map code="0x1e48" name="uni1E48"/><!-- LATIN CAPITAL LETTER N WITH LINE BELOW -->
       <map code="0x1e49" name="uni1E49"/><!-- LATIN SMALL LETTER N WITH LINE BELOW -->
+      <map code="0x1e50" name="uni1E50"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND GRAVE -->
+      <map code="0x1e51" name="uni1E51"/><!-- LATIN SMALL LETTER O WITH MACRON AND GRAVE -->
       <map code="0x1e52" name="uni1E52"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e53" name="uni1E53"/><!-- LATIN SMALL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e54" name="uni1E54"/><!-- LATIN CAPITAL LETTER P WITH ACUTE -->
@@ -1236,14 +1241,24 @@
       <map code="0x25ac" name="filledrect"/><!-- BLACK RECTANGLE -->
       <map code="0x25b2" name="triagup"/><!-- BLACK UP-POINTING TRIANGLE -->
       <map code="0x25b3" name="uni25B3"/><!-- WHITE UP-POINTING TRIANGLE -->
+      <map code="0x25b4" name="uni25B4"/><!-- BLACK UP-POINTING SMALL TRIANGLE -->
+      <map code="0x25b5" name="uni25B5"/><!-- WHITE UP-POINTING SMALL TRIANGLE -->
       <map code="0x25b6" name="uni25B6"/><!-- BLACK RIGHT-POINTING TRIANGLE -->
       <map code="0x25b7" name="uni25B7"/><!-- WHITE RIGHT-POINTING TRIANGLE -->
+      <map code="0x25b8" name="uni25B8"/><!-- BLACK RIGHT-POINTING SMALL TRIANGLE -->
+      <map code="0x25b9" name="uni25B9"/><!-- WHITE RIGHT-POINTING SMALL TRIANGLE -->
       <map code="0x25ba" name="triagrt"/><!-- BLACK RIGHT-POINTING POINTER -->
+      <map code="0x25bb" name="uni25BB"/><!-- WHITE RIGHT-POINTING POINTER -->
       <map code="0x25bc" name="triagdn"/><!-- BLACK DOWN-POINTING TRIANGLE -->
       <map code="0x25bd" name="uni25BD"/><!-- WHITE DOWN-POINTING TRIANGLE -->
+      <map code="0x25be" name="uni25BE"/><!-- BLACK DOWN-POINTING SMALL TRIANGLE -->
+      <map code="0x25bf" name="uni25BF"/><!-- WHITE DOWN-POINTING SMALL TRIANGLE -->
       <map code="0x25c0" name="uni25C0"/><!-- BLACK LEFT-POINTING TRIANGLE -->
       <map code="0x25c1" name="uni25C1"/><!-- WHITE LEFT-POINTING TRIANGLE -->
+      <map code="0x25c2" name="uni25C2"/><!-- BLACK LEFT-POINTING SMALL TRIANGLE -->
+      <map code="0x25c3" name="uni25C3"/><!-- WHITE LEFT-POINTING SMALL TRIANGLE -->
       <map code="0x25c4" name="triaglf"/><!-- BLACK LEFT-POINTING POINTER -->
+      <map code="0x25c5" name="uni25C5"/><!-- WHITE LEFT-POINTING POINTER -->
       <map code="0x25c6" name="uni25C6"/><!-- BLACK DIAMOND -->
       <map code="0x25c7" name="uni25C7"/><!-- WHITE DIAMOND -->
       <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->
@@ -1399,7 +1414,7 @@
       <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
       <map code="0xfffd" name="uniFFFD"/><!-- REPLACEMENT CHARACTER -->
     </cmap_format_4>
-    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="14368" language="0" nGroups="1196">
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="14524" language="0" nGroups="1209">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -1509,7 +1524,6 @@
       <map code="0xaa" name="ordfeminine"/><!-- FEMININE ORDINAL INDICATOR -->
       <map code="0xab" name="guillemotleft"/><!-- LEFT-POINTING DOUBLE ANGLE QUOTATION MARK -->
       <map code="0xac" name="logicalnot"/><!-- NOT SIGN -->
-      <map code="0xad" name="uni00AD"/><!-- SOFT HYPHEN -->
       <map code="0xae" name="registered"/><!-- REGISTERED SIGN -->
       <map code="0xaf" name="macron"/><!-- MACRON -->
       <map code="0xb0" name="degree"/><!-- DEGREE SIGN -->
@@ -1866,6 +1880,7 @@
       <map code="0x310" name="uni0310"/><!-- COMBINING CANDRABINDU -->
       <map code="0x311" name="uni0311"/><!-- COMBINING INVERTED BREVE -->
       <map code="0x312" name="uni0312"/><!-- COMBINING TURNED COMMA ABOVE -->
+      <map code="0x313" name="uni0313"/><!-- COMBINING COMMA ABOVE -->
       <map code="0x315" name="uni0315"/><!-- COMBINING COMMA ABOVE RIGHT -->
       <map code="0x31b" name="uni031B"/><!-- COMBINING HORN -->
       <map code="0x323" name="dotbelowcomb"/><!-- COMBINING DOT BELOW -->
@@ -1875,6 +1890,7 @@
       <map code="0x328" name="uni0328"/><!-- COMBINING OGONEK -->
       <map code="0x32e" name="uni032E"/><!-- COMBINING BREVE BELOW -->
       <map code="0x331" name="uni0331"/><!-- COMBINING MACRON BELOW -->
+      <map code="0x332" name="uni0332"/><!-- COMBINING LOW LINE -->
       <map code="0x335" name="uni0335"/><!-- COMBINING SHORT STROKE OVERLAY -->
       <map code="0x344" name="uni0344"/><!-- COMBINING GREEK DIALYTIKA TONOS -->
       <map code="0x35f" name="uni035F"/><!-- COMBINING DOUBLE MACRON BELOW -->
@@ -2076,6 +2092,8 @@
       <map code="0x1e0f" name="uni1E0F"/><!-- LATIN SMALL LETTER D WITH LINE BELOW -->
       <map code="0x1e10" name="uni1E10"/><!-- LATIN CAPITAL LETTER D WITH CEDILLA -->
       <map code="0x1e11" name="uni1E11"/><!-- LATIN SMALL LETTER D WITH CEDILLA -->
+      <map code="0x1e14" name="uni1E14"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND GRAVE -->
+      <map code="0x1e15" name="uni1E15"/><!-- LATIN SMALL LETTER E WITH MACRON AND GRAVE -->
       <map code="0x1e16" name="uni1E16"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e17" name="uni1E17"/><!-- LATIN SMALL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e1c" name="uni1E1C"/><!-- LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE -->
@@ -2120,6 +2138,8 @@
       <map code="0x1e47" name="uni1E47"/><!-- LATIN SMALL LETTER N WITH DOT BELOW -->
       <map code="0x1e48" name="uni1E48"/><!-- LATIN CAPITAL LETTER N WITH LINE BELOW -->
       <map code="0x1e49" name="uni1E49"/><!-- LATIN SMALL LETTER N WITH LINE BELOW -->
+      <map code="0x1e50" name="uni1E50"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND GRAVE -->
+      <map code="0x1e51" name="uni1E51"/><!-- LATIN SMALL LETTER O WITH MACRON AND GRAVE -->
       <map code="0x1e52" name="uni1E52"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e53" name="uni1E53"/><!-- LATIN SMALL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e54" name="uni1E54"/><!-- LATIN CAPITAL LETTER P WITH ACUTE -->
@@ -2632,14 +2652,24 @@
       <map code="0x25ac" name="filledrect"/><!-- BLACK RECTANGLE -->
       <map code="0x25b2" name="triagup"/><!-- BLACK UP-POINTING TRIANGLE -->
       <map code="0x25b3" name="uni25B3"/><!-- WHITE UP-POINTING TRIANGLE -->
+      <map code="0x25b4" name="uni25B4"/><!-- BLACK UP-POINTING SMALL TRIANGLE -->
+      <map code="0x25b5" name="uni25B5"/><!-- WHITE UP-POINTING SMALL TRIANGLE -->
       <map code="0x25b6" name="uni25B6"/><!-- BLACK RIGHT-POINTING TRIANGLE -->
       <map code="0x25b7" name="uni25B7"/><!-- WHITE RIGHT-POINTING TRIANGLE -->
+      <map code="0x25b8" name="uni25B8"/><!-- BLACK RIGHT-POINTING SMALL TRIANGLE -->
+      <map code="0x25b9" name="uni25B9"/><!-- WHITE RIGHT-POINTING SMALL TRIANGLE -->
       <map code="0x25ba" name="triagrt"/><!-- BLACK RIGHT-POINTING POINTER -->
+      <map code="0x25bb" name="uni25BB"/><!-- WHITE RIGHT-POINTING POINTER -->
       <map code="0x25bc" name="triagdn"/><!-- BLACK DOWN-POINTING TRIANGLE -->
       <map code="0x25bd" name="uni25BD"/><!-- WHITE DOWN-POINTING TRIANGLE -->
+      <map code="0x25be" name="uni25BE"/><!-- BLACK DOWN-POINTING SMALL TRIANGLE -->
+      <map code="0x25bf" name="uni25BF"/><!-- WHITE DOWN-POINTING SMALL TRIANGLE -->
       <map code="0x25c0" name="uni25C0"/><!-- BLACK LEFT-POINTING TRIANGLE -->
       <map code="0x25c1" name="uni25C1"/><!-- WHITE LEFT-POINTING TRIANGLE -->
+      <map code="0x25c2" name="uni25C2"/><!-- BLACK LEFT-POINTING SMALL TRIANGLE -->
+      <map code="0x25c3" name="uni25C3"/><!-- WHITE LEFT-POINTING SMALL TRIANGLE -->
       <map code="0x25c4" name="triaglf"/><!-- BLACK LEFT-POINTING POINTER -->
+      <map code="0x25c5" name="uni25C5"/><!-- WHITE LEFT-POINTING POINTER -->
       <map code="0x25c6" name="uni25C6"/><!-- BLACK DIAMOND -->
       <map code="0x25c7" name="uni25C7"/><!-- WHITE DIAMOND -->
       <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->
@@ -2949,7 +2979,6 @@
       <map code="0xaa" name="ordfeminine"/><!-- FEMININE ORDINAL INDICATOR -->
       <map code="0xab" name="guillemotleft"/><!-- LEFT-POINTING DOUBLE ANGLE QUOTATION MARK -->
       <map code="0xac" name="logicalnot"/><!-- NOT SIGN -->
-      <map code="0xad" name="uni00AD"/><!-- SOFT HYPHEN -->
       <map code="0xae" name="registered"/><!-- REGISTERED SIGN -->
       <map code="0xaf" name="macron"/><!-- MACRON -->
       <map code="0xb0" name="degree"/><!-- DEGREE SIGN -->
@@ -3306,6 +3335,7 @@
       <map code="0x310" name="uni0310"/><!-- COMBINING CANDRABINDU -->
       <map code="0x311" name="uni0311"/><!-- COMBINING INVERTED BREVE -->
       <map code="0x312" name="uni0312"/><!-- COMBINING TURNED COMMA ABOVE -->
+      <map code="0x313" name="uni0313"/><!-- COMBINING COMMA ABOVE -->
       <map code="0x315" name="uni0315"/><!-- COMBINING COMMA ABOVE RIGHT -->
       <map code="0x31b" name="uni031B"/><!-- COMBINING HORN -->
       <map code="0x323" name="dotbelowcomb"/><!-- COMBINING DOT BELOW -->
@@ -3315,6 +3345,7 @@
       <map code="0x328" name="uni0328"/><!-- COMBINING OGONEK -->
       <map code="0x32e" name="uni032E"/><!-- COMBINING BREVE BELOW -->
       <map code="0x331" name="uni0331"/><!-- COMBINING MACRON BELOW -->
+      <map code="0x332" name="uni0332"/><!-- COMBINING LOW LINE -->
       <map code="0x335" name="uni0335"/><!-- COMBINING SHORT STROKE OVERLAY -->
       <map code="0x344" name="uni0344"/><!-- COMBINING GREEK DIALYTIKA TONOS -->
       <map code="0x35f" name="uni035F"/><!-- COMBINING DOUBLE MACRON BELOW -->
@@ -3516,6 +3547,8 @@
       <map code="0x1e0f" name="uni1E0F"/><!-- LATIN SMALL LETTER D WITH LINE BELOW -->
       <map code="0x1e10" name="uni1E10"/><!-- LATIN CAPITAL LETTER D WITH CEDILLA -->
       <map code="0x1e11" name="uni1E11"/><!-- LATIN SMALL LETTER D WITH CEDILLA -->
+      <map code="0x1e14" name="uni1E14"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND GRAVE -->
+      <map code="0x1e15" name="uni1E15"/><!-- LATIN SMALL LETTER E WITH MACRON AND GRAVE -->
       <map code="0x1e16" name="uni1E16"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e17" name="uni1E17"/><!-- LATIN SMALL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e1c" name="uni1E1C"/><!-- LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE -->
@@ -3560,6 +3593,8 @@
       <map code="0x1e47" name="uni1E47"/><!-- LATIN SMALL LETTER N WITH DOT BELOW -->
       <map code="0x1e48" name="uni1E48"/><!-- LATIN CAPITAL LETTER N WITH LINE BELOW -->
       <map code="0x1e49" name="uni1E49"/><!-- LATIN SMALL LETTER N WITH LINE BELOW -->
+      <map code="0x1e50" name="uni1E50"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND GRAVE -->
+      <map code="0x1e51" name="uni1E51"/><!-- LATIN SMALL LETTER O WITH MACRON AND GRAVE -->
       <map code="0x1e52" name="uni1E52"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e53" name="uni1E53"/><!-- LATIN SMALL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e54" name="uni1E54"/><!-- LATIN CAPITAL LETTER P WITH ACUTE -->
@@ -4072,14 +4107,24 @@
       <map code="0x25ac" name="filledrect"/><!-- BLACK RECTANGLE -->
       <map code="0x25b2" name="triagup"/><!-- BLACK UP-POINTING TRIANGLE -->
       <map code="0x25b3" name="uni25B3"/><!-- WHITE UP-POINTING TRIANGLE -->
+      <map code="0x25b4" name="uni25B4"/><!-- BLACK UP-POINTING SMALL TRIANGLE -->
+      <map code="0x25b5" name="uni25B5"/><!-- WHITE UP-POINTING SMALL TRIANGLE -->
       <map code="0x25b6" name="uni25B6"/><!-- BLACK RIGHT-POINTING TRIANGLE -->
       <map code="0x25b7" name="uni25B7"/><!-- WHITE RIGHT-POINTING TRIANGLE -->
+      <map code="0x25b8" name="uni25B8"/><!-- BLACK RIGHT-POINTING SMALL TRIANGLE -->
+      <map code="0x25b9" name="uni25B9"/><!-- WHITE RIGHT-POINTING SMALL TRIANGLE -->
       <map code="0x25ba" name="triagrt"/><!-- BLACK RIGHT-POINTING POINTER -->
+      <map code="0x25bb" name="uni25BB"/><!-- WHITE RIGHT-POINTING POINTER -->
       <map code="0x25bc" name="triagdn"/><!-- BLACK DOWN-POINTING TRIANGLE -->
       <map code="0x25bd" name="uni25BD"/><!-- WHITE DOWN-POINTING TRIANGLE -->
+      <map code="0x25be" name="uni25BE"/><!-- BLACK DOWN-POINTING SMALL TRIANGLE -->
+      <map code="0x25bf" name="uni25BF"/><!-- WHITE DOWN-POINTING SMALL TRIANGLE -->
       <map code="0x25c0" name="uni25C0"/><!-- BLACK LEFT-POINTING TRIANGLE -->
       <map code="0x25c1" name="uni25C1"/><!-- WHITE LEFT-POINTING TRIANGLE -->
+      <map code="0x25c2" name="uni25C2"/><!-- BLACK LEFT-POINTING SMALL TRIANGLE -->
+      <map code="0x25c3" name="uni25C3"/><!-- WHITE LEFT-POINTING SMALL TRIANGLE -->
       <map code="0x25c4" name="triaglf"/><!-- BLACK LEFT-POINTING POINTER -->
+      <map code="0x25c5" name="uni25C5"/><!-- WHITE LEFT-POINTING POINTER -->
       <map code="0x25c6" name="uni25C6"/><!-- BLACK DIAMOND -->
       <map code="0x25c7" name="uni25C7"/><!-- WHITE DIAMOND -->
       <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->
@@ -4235,7 +4280,7 @@
       <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
       <map code="0xfffd" name="uniFFFD"/><!-- REPLACEMENT CHARACTER -->
     </cmap_format_4>
-    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="14368" language="0" nGroups="1196">
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="14524" language="0" nGroups="1209">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -4345,7 +4390,6 @@
       <map code="0xaa" name="ordfeminine"/><!-- FEMININE ORDINAL INDICATOR -->
       <map code="0xab" name="guillemotleft"/><!-- LEFT-POINTING DOUBLE ANGLE QUOTATION MARK -->
       <map code="0xac" name="logicalnot"/><!-- NOT SIGN -->
-      <map code="0xad" name="uni00AD"/><!-- SOFT HYPHEN -->
       <map code="0xae" name="registered"/><!-- REGISTERED SIGN -->
       <map code="0xaf" name="macron"/><!-- MACRON -->
       <map code="0xb0" name="degree"/><!-- DEGREE SIGN -->
@@ -4702,6 +4746,7 @@
       <map code="0x310" name="uni0310"/><!-- COMBINING CANDRABINDU -->
       <map code="0x311" name="uni0311"/><!-- COMBINING INVERTED BREVE -->
       <map code="0x312" name="uni0312"/><!-- COMBINING TURNED COMMA ABOVE -->
+      <map code="0x313" name="uni0313"/><!-- COMBINING COMMA ABOVE -->
       <map code="0x315" name="uni0315"/><!-- COMBINING COMMA ABOVE RIGHT -->
       <map code="0x31b" name="uni031B"/><!-- COMBINING HORN -->
       <map code="0x323" name="dotbelowcomb"/><!-- COMBINING DOT BELOW -->
@@ -4711,6 +4756,7 @@
       <map code="0x328" name="uni0328"/><!-- COMBINING OGONEK -->
       <map code="0x32e" name="uni032E"/><!-- COMBINING BREVE BELOW -->
       <map code="0x331" name="uni0331"/><!-- COMBINING MACRON BELOW -->
+      <map code="0x332" name="uni0332"/><!-- COMBINING LOW LINE -->
       <map code="0x335" name="uni0335"/><!-- COMBINING SHORT STROKE OVERLAY -->
       <map code="0x344" name="uni0344"/><!-- COMBINING GREEK DIALYTIKA TONOS -->
       <map code="0x35f" name="uni035F"/><!-- COMBINING DOUBLE MACRON BELOW -->
@@ -4912,6 +4958,8 @@
       <map code="0x1e0f" name="uni1E0F"/><!-- LATIN SMALL LETTER D WITH LINE BELOW -->
       <map code="0x1e10" name="uni1E10"/><!-- LATIN CAPITAL LETTER D WITH CEDILLA -->
       <map code="0x1e11" name="uni1E11"/><!-- LATIN SMALL LETTER D WITH CEDILLA -->
+      <map code="0x1e14" name="uni1E14"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND GRAVE -->
+      <map code="0x1e15" name="uni1E15"/><!-- LATIN SMALL LETTER E WITH MACRON AND GRAVE -->
       <map code="0x1e16" name="uni1E16"/><!-- LATIN CAPITAL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e17" name="uni1E17"/><!-- LATIN SMALL LETTER E WITH MACRON AND ACUTE -->
       <map code="0x1e1c" name="uni1E1C"/><!-- LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE -->
@@ -4956,6 +5004,8 @@
       <map code="0x1e47" name="uni1E47"/><!-- LATIN SMALL LETTER N WITH DOT BELOW -->
       <map code="0x1e48" name="uni1E48"/><!-- LATIN CAPITAL LETTER N WITH LINE BELOW -->
       <map code="0x1e49" name="uni1E49"/><!-- LATIN SMALL LETTER N WITH LINE BELOW -->
+      <map code="0x1e50" name="uni1E50"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND GRAVE -->
+      <map code="0x1e51" name="uni1E51"/><!-- LATIN SMALL LETTER O WITH MACRON AND GRAVE -->
       <map code="0x1e52" name="uni1E52"/><!-- LATIN CAPITAL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e53" name="uni1E53"/><!-- LATIN SMALL LETTER O WITH MACRON AND ACUTE -->
       <map code="0x1e54" name="uni1E54"/><!-- LATIN CAPITAL LETTER P WITH ACUTE -->
@@ -5468,14 +5518,24 @@
       <map code="0x25ac" name="filledrect"/><!-- BLACK RECTANGLE -->
       <map code="0x25b2" name="triagup"/><!-- BLACK UP-POINTING TRIANGLE -->
       <map code="0x25b3" name="uni25B3"/><!-- WHITE UP-POINTING TRIANGLE -->
+      <map code="0x25b4" name="uni25B4"/><!-- BLACK UP-POINTING SMALL TRIANGLE -->
+      <map code="0x25b5" name="uni25B5"/><!-- WHITE UP-POINTING SMALL TRIANGLE -->
       <map code="0x25b6" name="uni25B6"/><!-- BLACK RIGHT-POINTING TRIANGLE -->
       <map code="0x25b7" name="uni25B7"/><!-- WHITE RIGHT-POINTING TRIANGLE -->
+      <map code="0x25b8" name="uni25B8"/><!-- BLACK RIGHT-POINTING SMALL TRIANGLE -->
+      <map code="0x25b9" name="uni25B9"/><!-- WHITE RIGHT-POINTING SMALL TRIANGLE -->
       <map code="0x25ba" name="triagrt"/><!-- BLACK RIGHT-POINTING POINTER -->
+      <map code="0x25bb" name="uni25BB"/><!-- WHITE RIGHT-POINTING POINTER -->
       <map code="0x25bc" name="triagdn"/><!-- BLACK DOWN-POINTING TRIANGLE -->
       <map code="0x25bd" name="uni25BD"/><!-- WHITE DOWN-POINTING TRIANGLE -->
+      <map code="0x25be" name="uni25BE"/><!-- BLACK DOWN-POINTING SMALL TRIANGLE -->
+      <map code="0x25bf" name="uni25BF"/><!-- WHITE DOWN-POINTING SMALL TRIANGLE -->
       <map code="0x25c0" name="uni25C0"/><!-- BLACK LEFT-POINTING TRIANGLE -->
       <map code="0x25c1" name="uni25C1"/><!-- WHITE LEFT-POINTING TRIANGLE -->
+      <map code="0x25c2" name="uni25C2"/><!-- BLACK LEFT-POINTING SMALL TRIANGLE -->
+      <map code="0x25c3" name="uni25C3"/><!-- WHITE LEFT-POINTING SMALL TRIANGLE -->
       <map code="0x25c4" name="triaglf"/><!-- BLACK LEFT-POINTING POINTER -->
+      <map code="0x25c5" name="uni25C5"/><!-- WHITE LEFT-POINTING POINTER -->
       <map code="0x25c6" name="uni25C6"/><!-- BLACK DIAMOND -->
       <map code="0x25c7" name="uni25C7"/><!-- WHITE DIAMOND -->
       <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->

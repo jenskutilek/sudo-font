@@ -1,70 +1,72 @@
 {
 glyphname = Z.sups;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
+background = {
 hints = (
 {
 horizontal = 1;
 options = 4;
-origin = (1,0);
+place = (0,374);
 target = (1,1);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (2,3);
+place = (0,586);
 target = (2,4);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (2,4);
+place = (0,592);
 target = (0,0);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (1,1);
+place = (0,368);
 target = (0,2);
 type = TTShift;
 },
 {
 options = 8;
-origin = (1,4);
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 8;
-origin = (2,2);
+place = (0,0);
 type = TTSnap;
 },
 {
-origin = (2,2);
+place = (0,317);
 target = (1,0);
 type = TTShift;
 },
 {
-origin = (1,4);
+place = (0,126);
 target = (2,3);
 type = TTShift;
 },
 {
 options = 4;
-origin = (1,4);
+place = (0,196);
 target = (0,0,1,2);
 type = TTStem;
 },
 {
 options = 4;
-origin = (2,2);
+place = (0,243);
 target = (0,2,2,0);
 type = TTStem;
 }
 );
-layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
 closed = 1;
@@ -96,10 +98,91 @@ nodes = (
 );
 }
 );
+};
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+target = (0,1);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,5);
+target = (0,6);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,6);
+target = (0,3);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,1);
+target = (0,8);
+type = TTShift;
+},
+{
+options = 8;
+origin = (0,9);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (0,4);
+type = TTSnap;
+},
+{
+origin = (0,4);
+target = (0,0);
+type = TTShift;
+},
+{
+origin = (0,9);
+target = (0,5);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,9);
+target = (0,2);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,4);
+target = (0,7);
+type = TTStem;
+}
+);
+layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+shapes = (
+{
+closed = 1;
+nodes = (
+(317,320,l),
+(317,374,l),
+(196,374,l),
+(317,592,l),
+(317,640,l),
+(126,640,l),
+(126,586,l),
+(243,586,l),
+(122,368,l),
+(122,320,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+background = {
 shapes = (
 {
 closed = 1;
@@ -131,10 +214,29 @@ nodes = (
 );
 }
 );
+};
+layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(337,320,l),
+(337,388,l),
+(217,388,l),
+(337,581,l),
+(337,640,l),
+(106,640,l),
+(106,572,l),
+(222,572,l),
+(102,379,l),
+(102,320,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+background = {
 shapes = (
 {
 closed = 1;
@@ -166,10 +268,29 @@ nodes = (
 );
 }
 );
+};
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(307,320,l),
+(307,360,l),
+(185,360,l),
+(307,605,l),
+(307,640,l),
+(136,640,l),
+(136,600,l),
+(255,600,l),
+(132,355,l),
+(132,320,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+background = {
 shapes = (
 {
 closed = 1;
@@ -201,10 +322,29 @@ nodes = (
 );
 }
 );
+};
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(326,320,l),
+(334,360,l),
+(214,360,l),
+(383,605,l),
+(390,640,l),
+(219,640,l),
+(211,600,l),
+(327,600,l),
+(158,355,l),
+(151,320,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+background = {
 shapes = (
 {
 closed = 1;
@@ -236,10 +376,29 @@ nodes = (
 );
 }
 );
+};
+layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+shapes = (
+{
+closed = 1;
+nodes = (
+(335,320,l),
+(346,374,l),
+(228,374,l),
+(389,592,l),
+(399,640,l),
+(208,640,l),
+(197,586,l),
+(312,586,l),
+(150,368,l),
+(140,320,l)
+);
+}
+);
 width = 448;
 },
 {
-layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+background = {
 shapes = (
 {
 closed = 1;
@@ -268,6 +427,25 @@ nodes = (
 (420,640,l),
 (189,640,l),
 (176,572,l)
+);
+}
+);
+};
+layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(356,320,l),
+(370,388,l),
+(251,388,l),
+(408,581,l),
+(420,640,l),
+(189,640,l),
+(176,572,l),
+(289,572,l),
+(133,379,l),
+(121,320,l)
 );
 }
 );

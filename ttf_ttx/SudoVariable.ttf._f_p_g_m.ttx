@@ -6,261 +6,142 @@
       PUSHB[ ]	/* 1 value pushed */
       0
       FDEF[ ]	/* FunctionDefinition */
-        NPUSHB[ ]	/* 14 values pushed */
-        5 6 7 13 6 9 20 14 19 11 18 8 17 16
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        1
-        SZP2[ ]	/* SetZonePointer2 */
-        GC[0]	/* GetCoordOnPVector */
-        PUSHB[ ]	/* 1 value pushed */
-        9
-        RS[ ]	/* ReadStore */
-        GC[0]	/* GetCoordOnPVector */
-        SUB[ ]	/* Subtract */
-        ABS[ ]	/* Absolute */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        GC[0]	/* GetCoordOnPVector */
-        PUSHB[ ]	/* 1 value pushed */
-        12
-        RS[ ]	/* ReadStore */
-        GC[0]	/* GetCoordOnPVector */
-        SUB[ ]	/* Subtract */
-        ABS[ ]	/* Absolute */
-        PUSHB[ ]	/* 1 value pushed */
-        18
-        RS[ ]	/* ReadStore */
-        SUB[ ]	/* Subtract */
-        ROUND[01]	/* Round */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        GC[0]	/* GetCoordOnPVector */
-        PUSHB[ ]	/* 1 value pushed */
-        16
-        RS[ ]	/* ReadStore */
-        GC[0]	/* GetCoordOnPVector */
-        SUB[ ]	/* Subtract */
-        ABS[ ]	/* Absolute */
-        PUSHB[ ]	/* 1 value pushed */
-        20
-        RS[ ]	/* ReadStore */
-        SUB[ ]	/* Subtract */
-        ROUND[01]	/* Round */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        LT[ ]	/* LessThan */
-        JROF[ ]	/* JumpRelativeOnFalse */
         PUSHB[ ]	/* 2 values pushed */
-        6 64
+        0 2
         WS[ ]	/* WriteStore */
-        PUSHB[ ]	/* 2 values pushed */
-        5 7
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        LT[ ]	/* LessThan */
-        JROF[ ]	/* JumpRelativeOnFalse */
-        PUSHB[ ]	/* 2 values pushed */
-        7 64
-        WS[ ]	/* WriteStore */
-        PUSHB[ ]	/* 4 values pushed */
-        16 5 5 18
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        19
-        RS[ ]	/* ReadStore */
-        ADD[ ]	/* Add */
-        PUSHB[ ]	/* 1 value pushed */
-        20
-        RS[ ]	/* ReadStore */
-        ADD[ ]	/* Add */
-        PUSHB[ ]	/* 1 value pushed */
-        6
-        RS[ ]	/* ReadStore */
-        ADD[ ]	/* Add */
-        PUSHB[ ]	/* 1 value pushed */
-        7
-        RS[ ]	/* ReadStore */
-        ADD[ ]	/* Add */
-        PUSHB[ ]	/* 1 value pushed */
-        32
-        SUB[ ]	/* Subtract */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        17
-        RS[ ]	/* ReadStore */
-        GT[ ]	/* GreaterThan */
-        PUSHB[ ]	/* 1 value pushed */
-        7
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        70
-        GT[ ]	/* GreaterThan */
-        AND[ ]	/* LogicalAnd */
-        JROF[ ]	/* JumpRelativeOnFalse */
-        PUSHB[ ]	/* 4 values pushed */
-        5 5 7 7
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        SUB[ ]	/* Subtract */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        SUB[ ]	/* Subtract */
-        WS[ ]	/* WriteStore */
-        PUSHB[ ]	/* 2 values pushed */
-        16 5
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        17
-        RS[ ]	/* ReadStore */
-        GT[ ]	/* GreaterThan */
-        PUSHB[ ]	/* 1 value pushed */
-        6
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        70
-        GT[ ]	/* GreaterThan */
-        AND[ ]	/* LogicalAnd */
-        JROF[ ]	/* JumpRelativeOnFalse */
-        PUSHB[ ]	/* 4 values pushed */
-        5 5 6 6
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        SUB[ ]	/* Subtract */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        SUB[ ]	/* Subtract */
-        WS[ ]	/* WriteStore */
-        PUSHB[ ]	/* 2 values pushed */
-        9 5
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        17
-        RS[ ]	/* ReadStore */
-        GT[ ]	/* GreaterThan */
-        PUSHB[ ]	/* 1 value pushed */
-        18
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        70
-        GT[ ]	/* GreaterThan */
-        AND[ ]	/* LogicalAnd */
-        JROF[ ]	/* JumpRelativeOnFalse */
-        PUSHB[ ]	/* 2 values pushed */
-        18 18
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        SUB[ ]	/* Subtract */
-        WS[ ]	/* WriteStore */
-        PUSHB[ ]	/* 2 values pushed */
-        8 5
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        17
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        64
-        SUB[ ]	/* Subtract */
-        LT[ ]	/* LessThan */
-        JROF[ ]	/* JumpRelativeOnFalse */
-        PUSHB[ ]	/* 3 values pushed */
-        6 64 6
-        RS[ ]	/* ReadStore */
-        ADD[ ]	/* Add */
-        WS[ ]	/* WriteStore */
-        PUSHB[ ]	/* 4 values pushed */
-        13 15 12 10
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        18
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 3 values pushed */
-        1 1 9
-        RS[ ]	/* ReadStore */
-        SRP0[ ]	/* SetRefPoint0 */
-        SZP1[ ]	/* SetZonePointer1 */
-        SZP0[ ]	/* SetZonePointer0 */
-        MSIRP[0]	/* MoveStackIndirRelPt */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        6
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        10
-        RS[ ]	/* ReadStore */
-        SRP0[ ]	/* SetRefPoint0 */
-        MSIRP[0]	/* MoveStackIndirRelPt */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        20
-        RS[ ]	/* ReadStore */
-        NEG[ ]	/* Negate */
-        PUSHB[ ]	/* 1 value pushed */
-        16
-        RS[ ]	/* ReadStore */
-        SRP0[ ]	/* SetRefPoint0 */
-        MSIRP[0]	/* MoveStackIndirRelPt */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        7
-        RS[ ]	/* ReadStore */
-        NEG[ ]	/* Negate */
-        PUSHB[ ]	/* 1 value pushed */
-        15
-        RS[ ]	/* ReadStore */
-        SRP0[ ]	/* SetRefPoint0 */
-        MSIRP[0]	/* MoveStackIndirRelPt */
-      ENDF[ ]	/* EndFunctionDefinition */
-      PUSHB[ ]	/* 1 value pushed */
-      1
-      FDEF[ ]	/* FunctionDefinition */
-        PUSHB[ ]	/* 7 values pushed */
-        3 0 4 1 0 0 2
-        RS[ ]	/* ReadStore */
-        WCVTF[ ]	/* WriteCVTInFUnits */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
         PUSHB[ ]	/* 1 value pushed */
         0
         RS[ ]	/* ReadStore */
         PUSHB[ ]	/* 1 value pushed */
-        1
+        3
         RS[ ]	/* ReadStore */
-        ADD[ ]	/* Add */
+        LT[ ]	/* LessThan */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 2 values pushed */
+          20 0
+          RS[ ]	/* ReadStore */
+          ADD[ ]	/* Add */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          RS[ ]	/* ReadStore */
+          RCVT[ ]	/* ReadCVT */
+          WS[ ]	/* WriteStore */
+          PUSHB[ ]	/* 3 values pushed */
+          0 1 0
+          RS[ ]	/* ReadStore */
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+          PUSHW[ ]	/* 1 value pushed */
+          -28
+          JMPR[ ]	/* Jump */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHB[ ]	/* 1 value pushed */
+      1
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 4 values pushed */
+        7 0 0 1
+        GETINFO[ ]	/* GetInfo */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        38
+        LT[ ]	/* LessThan */
+        PUSHB[ ]	/* 2 values pushed */
+        37 0
+        RS[ ]	/* ReadStore */
+        EQ[ ]	/* Equal */
+        PUSHB[ ]	/* 2 values pushed */
+        0 64
+        GETINFO[ ]	/* GetInfo */
+        EQ[ ]	/* Equal */
+        AND[ ]	/* LogicalAnd */
+        NOT[ ]	/* LogicalNot */
+        AND[ ]	/* LogicalAnd */
+        JROF[ ]	/* JumpRelativeOnFalse */
+        PUSHB[ ]	/* 3 values pushed */
+        7 1 64
+        WCVTP[ ]	/* WriteCVTInPixels */
+        JMPR[ ]	/* Jump */
         PUSHB[ ]	/* 1 value pushed */
         1
-        SZP2[ ]	/* SetZonePointer2 */
-        SCFS[ ]	/* SetCoordFromStackFP */
+        PUSHW[ ]	/* 1 value pushed */
+        256
+        WCVTP[ ]	/* WriteCVTInPixels */
       ENDF[ ]	/* EndFunctionDefinition */
       PUSHB[ ]	/* 1 value pushed */
       2
       FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 1 value pushed */
+        2
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 4 values pushed */
+        7 0 0 1
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SZP2[ ]	/* SetZonePointer2 */
+        GC[0]	/* GetCoordOnPVector */
+        PUSHB[ ]	/* 2 values pushed */
+        20 2
+        RS[ ]	/* ReadStore */
+        ADD[ ]	/* Add */
+        RS[ ]	/* ReadStore */
+        SUB[ ]	/* Subtract */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        48
+        LT[ ]	/* LessThan */
+        JROF[ ]	/* JumpRelativeOnFalse */
+        PUSHB[ ]	/* 3 values pushed */
+        7 0 48
+        WS[ ]	/* WriteStore */
+        JMPR[ ]	/* Jump */
+        PUSHB[ ]	/* 2 values pushed */
+        0 0
+        RS[ ]	/* ReadStore */
+        ROUND[00]	/* Round */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        2
+        RS[ ]	/* ReadStore */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        RS[ ]	/* ReadStore */
+        ADD[ ]	/* Add */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        RS[ ]	/* ReadStore */
+        MDAP[0]	/* MoveDirectAbsPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        5
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 1 value pushed */
+        11
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 1 value pushed */
+        10
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
         PUSHB[ ]	/* 5 values pushed */
-        10 8 8 4 5
+        10 9 9 4 5
         RS[ ]	/* ReadStore */
         RCVT[ ]	/* ReadCVT */
         WS[ ]	/* WriteStore */
@@ -275,12 +156,12 @@
         4 4
         RS[ ]	/* ReadStore */
         PUSHB[ ]	/* 1 value pushed */
-        9
+        10
         RS[ ]	/* ReadStore */
         ADD[ ]	/* Add */
         WS[ ]	/* WriteStore */
-        NPUSHB[ ]	/* 10 values pushed */
-        17 8 3 5 5 1 5 5 7 4
+        NPUSHB[ ]	/* 12 values pushed */
+        9 8 8 1 3 5 5 1 5 5 7 4
         RS[ ]	/* ReadStore */
         ROUND[01]	/* Round */
         WS[ ]	/* WriteStore */
@@ -295,9 +176,25 @@
         RS[ ]	/* ReadStore */
         RCVT[ ]	/* ReadCVT */
         WS[ ]	/* WriteStore */
+        RCVT[ ]	/* ReadCVT */
+        WS[ ]	/* WriteStore */
         RS[ ]	/* ReadStore */
         PUSHB[ ]	/* 1 value pushed */
-        10
+        64
+        GT[ ]	/* GreaterThan */
+        JROF[ ]	/* JumpRelativeOnFalse */
+        PUSHB[ ]	/* 2 values pushed */
+        11 11
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        11
+        SUB[ ]	/* Subtract */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 2 values pushed */
+        25 9
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        11
         RS[ ]	/* ReadStore */
         GT[ ]	/* GreaterThan */
         JROF[ ]	/* JumpRelativeOnFalse */
@@ -311,7 +208,15 @@
         4
         RS[ ]	/* ReadStore */
         SUB[ ]	/* Subtract */
-        ROUND[10]	/* Round */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        RS[ ]	/* ReadStore */
+        MUL[ ]	/* Multiply */
+        ROUND[01]	/* Round */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        RS[ ]	/* ReadStore */
+        DIV[ ]	/* Divide */
         ADD[ ]	/* Add */
         WS[ ]	/* WriteStore */
         JMPR[ ]	/* Jump */
@@ -328,78 +233,78 @@
         WCVTP[ ]	/* WriteCVTInPixels */
       ENDF[ ]	/* EndFunctionDefinition */
       PUSHB[ ]	/* 1 value pushed */
-      3
+      4
       FDEF[ ]	/* FunctionDefinition */
-        NPUSHB[ ]	/* 19 values pushed */
-        17 6 6 0 2 2 1 2 2 4 10 10 8 9 0 0 5 1 2
-        RS[ ]	/* ReadStore */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        WCVTF[ ]	/* WriteCVTInFUnits */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        1
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        9
-        RS[ ]	/* ReadStore */
-        SUB[ ]	/* Subtract */
-        ROUND[10]	/* Round */
-        ADD[ ]	/* Add */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        4
-        RS[ ]	/* ReadStore */
-        WCVTP[ ]	/* WriteCVTInPixels */
-        RS[ ]	/* ReadStore */
-        ADD[ ]	/* Add */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        RCVT[ ]	/* ReadCVT */
-        WS[ ]	/* WriteStore */
-        MPPEM[ ]	/* MeasurePixelPerEm */
-        WS[ ]	/* WriteStore */
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        7
-        RS[ ]	/* ReadStore */
-        GT[ ]	/* GreaterThan */
-        JROF[ ]	/* JumpRelativeOnFalse */
-        PUSHB[ ]	/* 3 values pushed */
-        6 3 4
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        0
-        RS[ ]	/* ReadStore */
-        PUSHB[ ]	/* 1 value pushed */
-        1
-        RS[ ]	/* ReadStore */
-        SUB[ ]	/* Subtract */
-        ROUND[10]	/* Round */
-        ADD[ ]	/* Add */
-        WS[ ]	/* WriteStore */
-        JMPR[ ]	/* Jump */
-        PUSHB[ ]	/* 2 values pushed */
-        3 4
-        RS[ ]	/* ReadStore */
-        WS[ ]	/* WriteStore */
         PUSHB[ ]	/* 1 value pushed */
         2
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 1 value pushed */
+        7
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 1 value pushed */
+        6
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        NPUSHB[ ]	/* 21 values pushed */
+        0 2 6 4 0 4 4 1 2 2 5 3 3 9 9 7 8 20 7 1 2
+        RS[ ]	/* ReadStore */
+        RCVT[ ]	/* ReadCVT */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        ADD[ ]	/* Add */
+        RS[ ]	/* ReadStore */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        RCVT[ ]	/* ReadCVT */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        RS[ ]	/* ReadStore */
+        SUB[ ]	/* Subtract */
+        ROUND[10]	/* Round */
+        ADD[ ]	/* Add */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        RS[ ]	/* ReadStore */
+        SUB[ ]	/* Subtract */
+        WS[ ]	/* WriteStore */
         RS[ ]	/* ReadStore */
         PUSHB[ ]	/* 1 value pushed */
         3
         RS[ ]	/* ReadStore */
         WCVTP[ ]	/* WriteCVTInPixels */
+        RS[ ]	/* ReadStore */
+        ADD[ ]	/* Add */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        5
+        RS[ ]	/* ReadStore */
+        ADD[ ]	/* Add */
+        WS[ ]	/* WriteStore */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        RS[ ]	/* ReadStore */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        CALL[ ]	/* CallFunction */
       ENDF[ ]	/* EndFunctionDefinition */
       PUSHB[ ]	/* 1 value pushed */
-      4
+      5
       FDEF[ ]	/* FunctionDefinition */
         PUSHB[ ]	/* 3 values pushed */
         8 64 1
@@ -418,7 +323,7 @@
         MDAP[0]	/* MoveDirectAbsPt */
       ENDF[ ]	/* EndFunctionDefinition */
       PUSHB[ ]	/* 1 value pushed */
-      5
+      6
       FDEF[ ]	/* FunctionDefinition */
         PUSHB[ ]	/* 1 value pushed */
         2
