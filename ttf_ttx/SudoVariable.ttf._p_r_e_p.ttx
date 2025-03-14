@@ -4,135 +4,30 @@
   <prep>
     <assembly>
       SVTCA[0]	/* SetFPVectorToAxis */
-      PUSHB[ ]	/* 7 values pushed */
-      2 9 3 10 50 5 2
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      CALL[ ]	/* CallFunction */
-      PUSHB[ ]	/* 7 values pushed */
-      2 9 3 10 50 5 4
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      CALL[ ]	/* CallFunction */
-      PUSHB[ ]	/* 7 values pushed */
-      2 9 6 10 50 5 6
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      CALL[ ]	/* CallFunction */
-      PUSHB[ ]	/* 7 values pushed */
-      2 9 0 10 50 5 8
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      CALL[ ]	/* CallFunction */
-      PUSHB[ ]	/* 7 values pushed */
-      2 9 0 10 50 5 10
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      CALL[ ]	/* CallFunction */
-      PUSHB[ ]	/* 4 values pushed */
-      3 7 50 5
-      PUSHW[ ]	/* 1 value pushed */
-      640
-      PUSHB[ ]	/* 4 values pushed */
-      8 2 2 12
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      WS[ ]	/* WriteStore */
-      CALL[ ]	/* CallFunction */
-      PUSHB[ ]	/* 6 values pushed */
-      70 7 7 1 6 64
-      WS[ ]	/* WriteStore */
-      GETINFO[ ]	/* GetInfo */
-      WS[ ]	/* WriteStore */
-      RS[ ]	/* ReadStore */
-      PUSHB[ ]	/* 1 value pushed */
-      35
-      GTEQ[ ]	/* GreaterThanOrEqual */
-      PUSHB[ ]	/* 1 value pushed */
-      7
-      RS[ ]	/* ReadStore */
-      PUSHB[ ]	/* 1 value pushed */
-      64
-      LTEQ[ ]	/* LessThenOrEqual */
-      AND[ ]	/* LogicalAnd */
-      JROF[ ]	/* JumpRelativeOnFalse */
-      PUSHB[ ]	/* 1 value pushed */
-      9
-      PUSHW[ ]	/* 1 value pushed */
-      4096
       PUSHB[ ]	/* 3 values pushed */
-      8 8 32
-      GETINFO[ ]	/* GetInfo */
+      0 3 15
       WS[ ]	/* WriteStore */
-      RS[ ]	/* ReadStore */
-      EQ[ ]	/* Equal */
-      JROF[ ]	/* JumpRelativeOnFalse */
-      PUSHB[ ]	/* 2 values pushed */
-      48 6
-      PUSHW[ ]	/* 1 value pushed */
-      256
-      WS[ ]	/* WriteStore */
-      JMPR[ ]	/* Jump */
+      CALL[ ]	/* CallFunction */
       PUSHB[ ]	/* 1 value pushed */
-      9
-      PUSHW[ ]	/* 2 values pushed */
-      1056 16384
-      PUSHB[ ]	/* 1 value pushed */
-      8
-      PUSHW[ ]	/* 1 value pushed */
-      6240
-      GETINFO[ ]	/* GetInfo */
-      WS[ ]	/* WriteStore */
-      MUL[ ]	/* Multiply */
-      PUSHB[ ]	/* 1 value pushed */
-      8
-      RS[ ]	/* ReadStore */
-      EQ[ ]	/* Equal */
-      JROF[ ]	/* JumpRelativeOnFalse */
-      PUSHB[ ]	/* 2 values pushed */
-      20 6
-      PUSHW[ ]	/* 1 value pushed */
-      320
-      WS[ ]	/* WriteStore */
-      JMPR[ ]	/* Jump */
-      PUSHB[ ]	/* 1 value pushed */
-      7
-      PUSHW[ ]	/* 2 values pushed */
-      3104 16384
-      MUL[ ]	/* Multiply */
-      PUSHB[ ]	/* 1 value pushed */
-      8
-      RS[ ]	/* ReadStore */
-      EQ[ ]	/* Equal */
-      JROF[ ]	/* JumpRelativeOnFalse */
-      PUSHB[ ]	/* 1 value pushed */
-      6
-      PUSHW[ ]	/* 1 value pushed */
-      256
-      WS[ ]	/* WriteStore */
+      1
+      CALL[ ]	/* CallFunction */
       PUSHB[ ]	/* 7 values pushed */
-      54 64 6 5 15 1 6
-      RS[ ]	/* ReadStore */
-      WCVTP[ ]	/* WriteCVTInPixels */
+      57 64 2 1 15 2 1
+      RCVT[ ]	/* ReadCVT */
+      WS[ ]	/* WriteStore */
       WS[ ]	/* WriteStore */
       RS[ ]	/* ReadStore */
       EQ[ ]	/* Equal */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 2 values pushed */
-      46 5
+      46 1
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
       19
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 4 values pushed */
-      7 9 9 5
+      7 3 3 1
       RS[ ]	/* ReadStore */
       RCVT[ ]	/* ReadCVT */
       WS[ ]	/* WriteStore */
@@ -142,11 +37,11 @@
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 3 values pushed */
-      10 9 64
+      10 3 64
       WS[ ]	/* WriteStore */
       JMPR[ ]	/* Jump */
       PUSHB[ ]	/* 2 values pushed */
-      9 9
+      3 3
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
       6
@@ -156,25 +51,21 @@
       PUSHW[ ]	/* 1 value pushed */
       -52
       PUSHB[ ]	/* 4 values pushed */
-      5 1 5 5
+      1 1 1 1
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      9
+      3
       RS[ ]	/* ReadStore */
       WCVTP[ ]	/* WriteCVTInPixels */
       RS[ ]	/* ReadStore */
       ADD[ ]	/* Add */
       WS[ ]	/* WriteStore */
       JMPR[ ]	/* Jump */
-      PUSHB[ ]	/* 2 values pushed */
-      44 6
-      RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      64
-      GT[ ]	/* GreaterThan */
-      JROF[ ]	/* JumpRelativeOnFalse */
+      44
+      JMPR[ ]	/* Jump */
       PUSHB[ ]	/* 2 values pushed */
-      36 5
+      36 1
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
       19
@@ -183,30 +74,48 @@
       PUSHW[ ]	/* 1 value pushed */
       -42
       PUSHB[ ]	/* 8 values pushed */
-      5 1 5 5 10 10 10 5
+      1 1 1 1 4 4 4 1
       RS[ ]	/* ReadStore */
       RCVT[ ]	/* ReadCVT */
       WS[ ]	/* WriteStore */
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      6
+      2
       RS[ ]	/* ReadStore */
       MUL[ ]	/* Multiply */
       ROUND[01]	/* Round */
       PUSHB[ ]	/* 1 value pushed */
-      6
+      2
       RS[ ]	/* ReadStore */
       DIV[ ]	/* Divide */
       WS[ ]	/* WriteStore */
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      10
+      4
       RS[ ]	/* ReadStore */
       WCVTP[ ]	/* WriteCVTInPixels */
       RS[ ]	/* ReadStore */
       ADD[ ]	/* Add */
       WS[ ]	/* WriteStore */
       JMPR[ ]	/* Jump */
+      PUSHB[ ]	/* 4 values pushed */
+      3 50 2 3
+      CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 4 values pushed */
+      3 50 4 3
+      CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 4 values pushed */
+      6 50 6 3
+      CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 4 values pushed */
+      0 50 8 3
+      CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 4 values pushed */
+      0 50 10 3
+      CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 4 values pushed */
+      50 2 12 4
+      CALL[ ]	/* CallFunction */
       MPPEM[ ]	/* MeasurePixelPerEm */
       PUSHW[ ]	/* 1 value pushed */
       4096
@@ -238,9 +147,6 @@
       PUSHB[ ]	/* 1 value pushed */
       13
       SMD[ ]	/* SetMinimumDistance */
-      PUSHB[ ]	/* 1 value pushed */
-      9
-      SDB[ ]	/* SetDeltaBaseInGState */
     </assembly>
   </prep>
 
