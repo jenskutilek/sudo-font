@@ -2,7 +2,7 @@
 color = 8;
 glyphname = "nje-cy.ss20";
 kernLeft = n;
-kernRight = softsign;
+kernRight = "softsign-cy";
 layers = (
 {
 background = {
@@ -10,40 +10,47 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,52);
 target = (2,18);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,252);
 target = (2,12);
 type = TTStem;
 },
 {
 horizontal = 1;
 other1 = (2,5);
+place = (0,448);
 target = (2,23);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,448);
 target = (0,1);
 type = TTShift;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 other1 = (0,1,1,0);
+place = (0,0);
 target = (0,0);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,263);
 target = (0,1,1,2);
 type = TTStem;
 }
@@ -740,4 +747,5 @@ width = 616;
 );
 metricLeft = "=pe-cy@250";
 metricRight = "softsign-cy.ss20";
+metricWidth = "=_pixel*9.625";
 }

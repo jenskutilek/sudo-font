@@ -1,5 +1,7 @@
 {
 glyphname = eightsuperior;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
@@ -7,12 +9,14 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,367);
 target = (0,30);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,593);
 target = (0,8);
 type = TTStem;
 },
@@ -20,6 +24,7 @@ type = TTStem;
 horizontal = 1;
 options = 4;
 other1 = (0,14);
+place = (0,646);
 target = (0,21);
 type = TTInterpolate;
 },
@@ -27,6 +32,7 @@ type = TTInterpolate;
 horizontal = 1;
 options = 4;
 other1 = (0,36);
+place = (0,593);
 target = (0,8);
 type = TTInterpolate;
 }

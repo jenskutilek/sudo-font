@@ -1,40 +1,47 @@
 {
 glyphname = "Dje-cy";
+kernLeft = T;
 layers = (
 {
 background = {
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,576);
 target = (0,5);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,576);
 target = (0,1);
 type = TTShift;
 },
 {
 horizontal = 1;
 other1 = (1,5);
+place = (0,576);
 target = (0,5);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,320);
 target = (1,12);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,47);
 stem = 0;
 target = (1,18);
 type = TTStem;

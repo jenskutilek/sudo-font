@@ -1,5 +1,7 @@
 {
 glyphname = hturned;
+kernLeft = u;
+kernRight = g;
 layers = (
 {
 anchors = (
@@ -26,40 +28,48 @@ pos = (224,448);
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,60);
 target = (1,11);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,132);
 target = (1,14);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,316);
 target = (0,0);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,316);
 target = (0,1,1,7);
 type = TTShift;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,448);
 target = (1,15);
 type = TTShift;
 }

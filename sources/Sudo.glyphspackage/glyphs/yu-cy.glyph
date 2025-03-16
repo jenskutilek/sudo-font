@@ -1,5 +1,7 @@
 {
 glyphname = "yu-cy";
+kernLeft = h;
+kernRight = o;
 layers = (
 {
 anchors = (
@@ -18,21 +20,25 @@ pos = (224,448);
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,397);
 target = (3,5);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,51);
 target = (3,11);
 type = TTStem;
 },
@@ -40,12 +46,14 @@ type = TTStem;
 horizontal = 1;
 options = 8;
 other1 = (1,0,2,1);
+place = (0,461);
 target = (0,5);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,263);
 target = (1,2,2,1);
 type = TTStem;
 }

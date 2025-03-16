@@ -1,6 +1,7 @@
 {
 color = 7;
 glyphname = "yu-cy.ss20";
+kernLeft = h;
 kernRight = o;
 layers = (
 {
@@ -20,21 +21,25 @@ pos = (304,448);
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,263);
 target = (0,1,1,2);
 type = TTStem;
 },
 {
 horizontal = 1;
 other1 = (0,1,1,0);
+place = (0,640);
 target = (0,2);
 type = TTInterpolate;
 }

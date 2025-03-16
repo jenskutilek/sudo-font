@@ -1,5 +1,7 @@
 {
 glyphname = Z.sups;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
@@ -7,50 +9,60 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,374);
 target = (1,1);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,586);
 target = (2,4);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,592);
 target = (0,0);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,368);
 target = (0,2);
 type = TTShift;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
+place = (0,317);
 target = (1,0);
 type = TTShift;
 },
 {
+place = (0,126);
 target = (2,3);
 type = TTShift;
 },
 {
 options = 4;
+place = (0,196);
 target = (0,0,1,2);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,243);
 target = (0,2,2,0);
 type = TTStem;
 }

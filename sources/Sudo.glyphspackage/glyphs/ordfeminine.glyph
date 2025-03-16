@@ -1,5 +1,7 @@
 {
 glyphname = ordfeminine;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
@@ -7,60 +9,72 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,591);
 target = (0,12);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,373);
 target = (1,6);
 type = TTStem;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 4;
+place = (0,129);
 target = (1,9);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,256);
 target = (0,15);
 type = TTStem;
 },
 {
+place = (0,88);
 target = (0,8);
 type = TTShift;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 4;
+place = (0,256);
 target = (0,16,1,12);
 type = TTShift;
 },
 {
 options = 4;
+place = (0,264);
 target = (0,17);
 type = TTShift;
 },
 {
 horizontal = 1;
 other1 = (0,16,1,16);
+place = (0,317);
 target = (1,19);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,463);
 target = (0,16,1,12);
 type = TTStem;
 }

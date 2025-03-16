@@ -1,5 +1,7 @@
 {
 glyphname = Omega;
+kernLeft = Omega;
+kernRight = Omega;
 layers = (
 {
 anchors = (
@@ -19,24 +21,28 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,64);
 target = (0,14);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,0);
 target = (0,31);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,64);
 target = (0,34);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,584);
 target = (0,24);
 type = TTStem;
 },
@@ -44,6 +50,7 @@ type = TTStem;
 horizontal = 1;
 options = 4;
 other1 = (0,12,0,14);
+place = (0,584);
 target = (0,24);
 type = TTInterpolate;
 },
@@ -51,18 +58,21 @@ type = TTInterpolate;
 horizontal = 1;
 options = 4;
 other1 = (0,18);
+place = (0,650);
 target = (0,6);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,152);
 target = (0,3,0,35);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,187);
 target = (0,30);
 type = TTShift;
 }

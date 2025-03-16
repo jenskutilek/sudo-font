@@ -1,6 +1,8 @@
 {
 color = 9;
 glyphname = f.italic;
+kernLeft = f;
+kernRight = f;
 layers = (
 {
 anchors = (
@@ -131,62 +133,74 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,584);
 target = (1,6);
 type = TTStem;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,384);
 target = (0,1,1,3);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,448);
 target = (0,3,1,17);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,383);
 target = (0,5,1,17);
 type = TTShift;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 4;
+place = (0,350);
 target = (0,2);
 type = TTShift;
 },
 {
 options = 4;
+place = (0,209);
 target = (0,1,1,3);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,207);
 target = (0,3,1,3);
 type = TTShift;
 },
 {
 options = 4;
+place = (0,135);
 target = (0,3,1,17);
 type = TTShift;
 },
 {
+place = (0,59);
 stem = -1;
 target = (0,4);
 type = TTStem;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 }
 );

@@ -1,5 +1,7 @@
 {
 glyphname = W.sups;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
@@ -7,12 +9,14 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,640);
 target = (2,4);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,320);
 target = (3,7);
 type = TTShift;
 }

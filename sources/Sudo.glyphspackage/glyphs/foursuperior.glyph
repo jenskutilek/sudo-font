@@ -1,44 +1,53 @@
 {
 glyphname = foursuperior;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 other1 = (0,0);
+place = (0,650);
 target = (0,15);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,464);
 target = (0,9);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,464);
 target = (0,6);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,410);
 target = (0,3);
 type = TTShift;
 },
 {
 horizontal = 1;
 other1 = (0,8);
+place = (0,650);
 target = (0,15);
 type = TTInterpolate;
 }

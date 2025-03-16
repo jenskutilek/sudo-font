@@ -1,5 +1,6 @@
 {
 glyphname = "Tshe-cy";
+kernLeft = T;
 layers = (
 {
 background = {
@@ -7,30 +8,35 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,576);
 target = (0,5);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,0);
 target = (1,15);
 type = TTShift;
 },
 {
 horizontal = 1;
 other1 = (1,4);
+place = (0,0);
 target = (0,0);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,324);
 target = (1,11);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,576);
 target = (0,1);
 type = TTShift;
 }

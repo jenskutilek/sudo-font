@@ -1,5 +1,7 @@
 {
 glyphname = chook;
+kernLeft = o;
+kernRight = c;
 layers = (
 {
 anchors = (
@@ -35,44 +37,53 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,391);
 target = (0,12);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,57);
 target = (0,6);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,126);
 target = (0,9);
 type = TTStem;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
+place = (0,364);
 target = (1,0);
 type = TTShift;
 },
 {
+place = (0,417);
 target = (1,10);
 type = TTShift;
 },
 {
 other1 = (1,16);
+place = (0,358);
 target = (0,2);
 type = TTInterpolate;
 },
 {
 options = 4;
+place = (0,313);
 target = (1,3);
 type = TTStem;
 },
 {
 horizontal = 1;
+place = (0,640);
 stem = -1;
 target = (1,13);
 type = TTStem;
@@ -80,11 +91,13 @@ type = TTStem;
 {
 horizontal = 1;
 options = 4;
+place = (0,580);
 target = (1,6);
 type = TTStem;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 }
 );

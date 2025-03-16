@@ -1,6 +1,7 @@
 {
 glyphname = UpsilonhookSymbol;
 kernLeft = Upsilon;
+kernRight = Upsilon;
 layers = (
 {
 anchors = (
@@ -19,15 +20,18 @@ pos = (204,640);
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,584);
 target = (0,4);
 type = TTStem;
 },
@@ -35,6 +39,7 @@ type = TTStem;
 horizontal = 1;
 options = 4;
 other1 = (0,14,0,18);
+place = (0,640);
 target = (0,18);
 type = TTInterpolate;
 }
@@ -194,11 +199,11 @@ nodes = (
 (453,646,o),
 (435,648,o),
 (420,648,cs),
-(303,648,o),
-(237,545,o),
-(206,407,c),
-(189,497,o),
-(161,573,o),
+(304,648,o),
+(239,545,o),
+(208,407,c),
+(191,497,o),
+(162,573,o),
 (124,640,c),
 (-10,640,l),
 (89,515,o),
@@ -510,11 +515,11 @@ nodes = (
 (534,645,o),
 (517,648,o),
 (498,648,cs),
-(383,648,o),
-(299,547,o),
-(241,407,c),
-(241,496,o),
-(228,573,o),
+(384,648,o),
+(301,547,o),
+(243,407,c),
+(243,496,o),
+(229,573,o),
 (204,640,c),
 (78,640,l),
 (150,516,o),

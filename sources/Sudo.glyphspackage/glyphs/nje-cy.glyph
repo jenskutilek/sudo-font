@@ -1,5 +1,7 @@
 {
 glyphname = "nje-cy";
+kernLeft = n;
+kernRight = "softsign-cy";
 layers = (
 {
 background = {
@@ -7,40 +9,47 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,448);
 target = (1,23);
 type = TTShift;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,54);
 target = (1,18);
 type = TTStem;
 },
 {
 horizontal = 1;
 other1 = (1,5);
+place = (0,-10);
 target = (1,27);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,252);
 target = (1,12);
 type = TTStem;
 },
 {
 horizontal = 1;
 other1 = (0,1,2,0);
+place = (0,0);
 target = (0,0);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,263);
 target = (0,1,2,2);
 type = TTStem;
 }

@@ -19,22 +19,26 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,0);
 target = (1,0);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,0);
 target = (2,7);
 type = TTShift;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,448);
 target = (2,4);
 type = TTShift;
 },
@@ -42,24 +46,28 @@ type = TTShift;
 horizontal = 1;
 options = 8;
 other1 = (0,7);
+place = (0,448);
 target = (1,3);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,268);
 target = (0,4);
 type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,204);
 target = (0,10);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,204);
 target = (0,1);
 type = TTShift;
 },
@@ -67,12 +75,14 @@ type = TTShift;
 horizontal = 1;
 options = 4;
 other1 = (1,5,1,7);
+place = (0,204);
 target = (0,10);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,236);
 target = (2,1,2,3);
 type = TTShift;
 }
@@ -300,7 +310,7 @@ nodes = (
 (395,238,l),
 (456,448,l),
 (337,448,l),
-(292,276,l),
+(294,276,l),
 (280,276,l),
 (280,640,l),
 (168,640,l),
@@ -668,7 +678,7 @@ nodes = (
 (398,238,l),
 (501,448,l),
 (382,448,l),
-(301,276,l),
+(303,276,l),
 (290,276,l),
 (363,640,l),
 (251,640,l),

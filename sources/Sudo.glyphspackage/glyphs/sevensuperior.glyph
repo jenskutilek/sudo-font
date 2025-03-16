@@ -1,5 +1,7 @@
 {
 glyphname = sevensuperior;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
@@ -7,11 +9,13 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,586);
 target = (0,0);
 type = TTStem;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 }
 );

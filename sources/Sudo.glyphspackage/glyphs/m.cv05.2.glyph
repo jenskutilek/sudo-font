@@ -1,5 +1,7 @@
 {
 glyphname = m.cv05.2;
+kernLeft = p;
+kernRight = u;
 layers = (
 {
 anchors = (
@@ -27,34 +29,40 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,-48);
 target = (1,1);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,384);
 target = (0,7);
 type = TTStem;
 },
 {
 horizontal = 1;
 other1 = (2,7);
+place = (0,448);
 target = (0,8);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,202);
 target = (2,8);
 type = TTStem;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,-48);
 target = (1,2,2,15);
 type = TTShift;
 },
@@ -62,6 +70,7 @@ type = TTShift;
 horizontal = 1;
 options = 4;
 other1 = (0,15,2,12);
+place = (0,202);
 target = (2,8);
 type = TTInterpolate;
 }

@@ -1,5 +1,7 @@
 {
 glyphname = "hardsign-cy";
+kernLeft = t;
+kernRight = "softsign-cy";
 layers = (
 {
 anchors = (
@@ -19,24 +21,28 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,383);
 target = (0,25);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,52);
 target = (0,18);
 type = TTStem;
 },
 {
 horizontal = 1;
 other1 = (0,5);
+place = (0,-12);
 target = (0,29);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,252);
 target = (0,12);
 type = TTStem;
 }

@@ -1,5 +1,7 @@
 {
 glyphname = "lje-cy";
+kernLeft = "el-cy";
+kernRight = "softsign-cy";
 layers = (
 {
 background = {
@@ -7,28 +9,33 @@ hints = (
 {
 horizontal = 1;
 options = 4;
+place = (0,384);
 target = (0,32);
 type = TTStem;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,54);
 target = (0,18);
 type = TTStem;
 },
 {
 horizontal = 1;
 other1 = (0,5);
+place = (0,-10);
 target = (0,37);
 type = TTInterpolate;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,252);
 target = (0,12);
 type = TTStem;
 }

@@ -1,46 +1,56 @@
 {
 glyphname = nmod;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,587);
 target = (0,11);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,128);
 target = (1,0);
 type = TTStem;
 },
 {
 options = 4;
+place = (0,256);
 target = (0,15);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,320);
 target = (0,15);
 type = TTShift;
 },
 {
 options = 4;
+place = (0,122);
 target = (1,3);
 type = TTShift;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 }
 );

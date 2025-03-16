@@ -1,38 +1,47 @@
 {
 glyphname = rmod;
+kernLeft = zerosuperior;
+kernRight = zerosuperior;
 layers = (
 {
 background = {
 hints = (
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
+place = (0,586);
 target = (1,2);
 type = TTStem;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 4;
+place = (0,161);
 target = (0,0);
 type = TTStem;
 },
 {
 options = 8;
+place = (0,0);
 type = TTSnap;
 },
 {
 options = 4;
+place = (0,160);
 target = (0,2,1,12);
 type = TTShift;
 },
@@ -40,6 +49,7 @@ type = TTShift;
 horizontal = 1;
 options = 4;
 other1 = (0,2,1,12);
+place = (0,643);
 target = (1,9);
 type = TTInterpolate;
 },
@@ -47,6 +57,7 @@ type = TTInterpolate;
 horizontal = 1;
 options = 4;
 other1 = (0,1,1,2);
+place = (0,643);
 target = (1,9);
 type = TTInterpolate;
 }
