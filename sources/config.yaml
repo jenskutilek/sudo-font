@@ -56,7 +56,7 @@ recipe:
     operation: exec
   - args: --include-source-fixes
     operation: fix
-  - args: -f zero,ss20,ital
+  - args: -f ss20,ital
     operation: featureFreeze
   - operation: hbsubset
   - args: --src stat.yaml
@@ -76,7 +76,7 @@ recipe:
     exe: gftools-fontsetter
     operation: exec
   - operation: fix
-  - args: -f zero,ss20
+  - args: -f ss20
     operation: featureFreeze
   - args: --layout-features-=ital
     operation: hbsubset
