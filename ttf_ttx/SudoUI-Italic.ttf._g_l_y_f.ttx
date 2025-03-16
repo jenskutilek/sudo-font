@@ -44266,11 +44266,11 @@
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 4 values pushed */
-          12 4 7 21
+          PUSHB[ ]	/* 5 values pushed */
+          12 18 4 7 21
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
-          MDRP[01101]	/* MoveDirectRelPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
           18 12
@@ -44441,11 +44441,11 @@
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 4 values pushed */
-          36 4 7 39
+          PUSHB[ ]	/* 5 values pushed */
+          36 18 4 7 39
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
-          MDRP[01101]	/* MoveDirectRelPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
           21 18 4 7 26
@@ -44799,9 +44799,9 @@
           26
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 1 value pushed */
-          17
-          MDRP[01101]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          17 18
+          MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
           20 17
           SRP0[ ]	/* SetRefPoint0 */
