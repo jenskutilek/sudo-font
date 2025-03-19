@@ -86,6 +86,7 @@ def disable_glyphs_by_name(f, name):
 
 
 def disable_cp(f, name):
+    # Disable export-level custom parameters by name
     for export in f.instances:
         for cp in export.customParameters:
             if cp.name == name:
@@ -93,8 +94,22 @@ def disable_cp(f, name):
 
 
 def disable_cps(f, names):
+    # Disable export-level custom parameters by name
     for name in names:
         disable_cp(f, name)
+
+
+def disable_font_cps(f, names):
+    # Disable font-level custom parameters by name
+    for name in names:
+        disable_font_cp(f, name)
+
+
+def disable_font_cp(f, name):
+    # Disable font-level custom parameters by name
+    for cp in f.customParameters:
+        if cp.name == name:
+            cp.active = False
 
 
 def add_and_save_font(source_font, f, file_name):
@@ -154,6 +169,7 @@ def build_mono_roman(design_source):
     collect_and_delete_glyphs(f, ".ss20")
     # disable_glyphs_by_name(f, "lowlinecomb.")
     remove_width_classes(f)
+    disable_font_cps(f, ("glyphOrder",))
     disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
     f.updateFeatures()
     f.kerning.clear()
@@ -163,6 +179,7 @@ def build_mono_roman(design_source):
 def build_prop_roman(design_source):
     f = design_source.copy()
     collect_and_switch_glyphs(f, ".ss20")
+    disable_font_cps(f, ("glyphOrder", "postscriptIsFixedPitch"))
     disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
     update_width_classes(f)
     f.updateFeatures()
