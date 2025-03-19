@@ -5,8 +5,9 @@ from GlyphsApp import Glyphs, GSClass
 
 __doc__ = (
     "Split the design source Glyphs file into separate production source "
-    "Glyphs files: Sudo Mono Roman, Sudo Mono Italic, Sudo UI Roman, "
-    "Sudo UI Italic, and save them next to the original Glyphs file."
+    "Glyphs files, Sudo.glyphspackage and SudoUI.glyphspackage, and save them"
+    "in the sources directory. The script must be run inside Glyphs while the design "
+    "source (/sources-design/Sudo.glyphspackage) is open."
 )
 
 
@@ -96,9 +97,10 @@ def disable_cps(f, names):
         disable_cp(f, name)
 
 
-def add_and_save_font(source_font, f, suffix):
+def add_and_save_font(source_font, f, file_name):
     Glyphs.fonts.append(f)
-    font_path = Path(source_font.filepath).with_suffix(suffix)
+    font_path = Path(source_font.filepath).parent.parent / "sources" / file_name
+    print(f"Saving file to {font_path}")
     f.save(str(font_path), formatVersion=3)
 
 
@@ -155,7 +157,7 @@ def build_mono_roman(design_source):
     disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
     f.updateFeatures()
     f.kerning.clear()
-    add_and_save_font(design_source, f, ".mono.glyphspackage")
+    add_and_save_font(design_source, f, "Sudo.glyphspackage")
 
 
 def build_prop_roman(design_source):
@@ -164,7 +166,7 @@ def build_prop_roman(design_source):
     disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
     update_width_classes(f)
     f.updateFeatures()
-    add_and_save_font(design_source, f, ".prop.glyphspackage")
+    add_and_save_font(design_source, f, "SudoUI.glyphspackage")
 
 
 f = Glyphs.font
