@@ -70,9 +70,15 @@ brew install --cask font-sudo
 
 ## Building
 
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+If you want to modify the fonts, be aware that unlike in most in other font projects, this is a two-part process.
 
-If you want to build fonts manually on your own computer:
+Any design changes should be made in the main design file `sources-design/Sudo.glyphspackage`, which contains both the monospaced (Sudo) and proportional (Sudo UI) subfamilies including Italics in one file.
+
+To prepare the production sources in the `sources` directory, run the script `scripts/Build Production Sources.py` **inside Glyphs** while the design source file is open. This will split the design source file into two files, one for the monospaced and one for the proportional family, and save them in the `sources` directory.
+
+The fonts are built from the sources in `sources` automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+
+If you want to build the fonts manually on your own computer:
 
 * `make build` will produce font files.
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
