@@ -6,12 +6,12 @@ buildVariable: true
 buildWebfont: false
 familyName: Sudo
 sources:
-- Sudo.mono.glyphspackage
-- Sudo.prop.glyphspackage
+- Sudo.glyphspackage
+- SudoUI.glyphspackage
 recipeProvider: googlefonts
 recipe:
   ../fonts/variable/Sudo-Italic[YTDE,wght].ttf:
-  - source: Sudo.mono.glyphspackage
+  - source: Sudo.glyphspackage
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     operation: buildVariable
   - axes: ital=1
@@ -31,7 +31,7 @@ recipe:
     postprocess: buildStat
 
   ../fonts/variable/Sudo[YTDE,wght].ttf:
-  - source: Sudo.mono.glyphspackage
+  - source: Sudo.glyphspackage
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     operation: buildVariable
   - axes: ital=0
@@ -44,7 +44,7 @@ recipe:
     operation: hbsubset
 
   ../fonts/variable/SudoUI-Italic[YTDE,wght].ttf:
-  - source: Sudo.prop.glyphspackage
+  - source: SudoUI.glyphspackage
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     operation: buildVariable
   - axes: ital=1
@@ -65,7 +65,7 @@ recipe:
     postprocess: buildStat
 
   ../fonts/variable/SudoUI[YTDE,wght].ttf:
-  - source: Sudo.prop.glyphspackage
+  - source: SudoUI.glyphspackage
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     operation: buildVariable
   - axes: ital=0
