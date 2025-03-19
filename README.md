@@ -21,14 +21,6 @@ Find out more about the fonts at https://www.kutilek.de/sudo-font/ or download t
 
 <img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo.png">
 
-<img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo-textmate-py.png">
-
-Sudo Regular and Bold in TextMate
-
-<img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo-light-powerline.png">
-
-Sudo Light in vim on macOS with [Powerline](https://github.com/powerline/powerline)
-
 
 ## About
 
