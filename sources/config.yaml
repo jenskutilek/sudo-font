@@ -1,112 +1,82 @@
-# The configuration for the builder is in YAML format. You can use
-# https://www.yamllint.com/ to make sure that your configuration
-# file is correctly formatted.
-
-# First we need to define the source files to build. Please list
-# all sources in the same family. These are expected to be in the
-# sources/ directory, so all paths should be relative to that
-# directory.
-sources:
-  - Sudo.glyphspackage
-# You don't have to supply the family name, but builds are slightly
-# faster if you do.
-familyName: "Sudo"
-
-# Next you can supply alternative paths for where you want the
-# binaries to live. But we'd recommend you stick to the defaults
-# especially if you are planning to upload your font to Google Fonts.
-
-# outputDir: ../fonts
-# vfDir: $outputDir/variable
-# ttDir: $outputDir/ttf
-# otDir: $outputDir/otf
-# woffDir: $outputDir/webfonts
-
-# The following entries, which are either "true" or "false"
-# determine which targets to build. We turn off OTFs for this demo.
-
-# buildVariable: true
-# buildStatic: true
-# buildTTF: true
 buildOTF: false
-# buildSmallCap: false
+buildSmallCap: false
+buildStatic: false
+buildTTF: false
+buildVariable: true
+buildWebfont: false
+familyName: Sudo
+sources:
+- Sudo.glyphspackage
+- SudoUI.glyphspackage
+recipeProvider: googlefonts
+recipe:
+  ../fonts/variable/Sudo-Italic[YTDE,wght].ttf:
+  - source: Sudo.glyphspackage
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+    operation: buildVariable
+  - axes: ital=1
+    operation: subspace
+  - args: -o $out $in fontsetter/Sudo-Italic.fontsetter
+    exe: gftools-fontsetter
+    operation: exec
+  - args: --include-source-fixes
+    operation: fix
+  - args: -f ital
+    operation: featureFreeze
+  - args: --layout-features-=ss04 --layout-features-=kern
+    operation: hbsubset
+  - args: --src stat.yaml
+    needs:
+    - ../fonts/variable/Sudo[YTDE,wght].ttf
+    postprocess: buildStat
 
-# The next flags control autohinting.
-# autohintTTF: true
-# autohintOTF: false
-# ttfaUseScript: false  # Set this to true if your font is not Latin
+  ../fonts/variable/Sudo[YTDE,wght].ttf:
+  - source: Sudo.glyphspackage
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+    operation: buildVariable
+  - axes: ital=0
+    operation: subspace
+  - args: -o $out $in fontsetter/Sudo.fontsetter
+    exe: gftools-fontsetter
+    operation: exec
+  - operation: fix
+  - args: --layout-features-=ss04 --layout-features-=kern --layout-features-=ital
+    operation: hbsubset
 
-# The "fix" operation can optionally fix some problems which
-# are better dealt with in the font sources. Set this to true if you
-# want gftools-fix to automatically fix source problems.
-# includeSourceFixes: false
+  ../fonts/variable/SudoUI-Italic[YTDE,wght].ttf:
+  - source: SudoUI.glyphspackage
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+    operation: buildVariable
+  - axes: ital=1
+    operation: subspace
+  - name: "Sudo UI"
+    operation: rename
+  - args: -o $out $in fontsetter/SudoUI-Italic.fontsetter
+    exe: gftools-fontsetter
+    operation: exec
+  - args: --include-source-fixes
+    operation: fix
+  - args: -f ss20,ital
+    operation: featureFreeze
+  - operation: hbsubset
+  - args: --src stat.yaml
+    needs:
+    - ../fonts/variable/SudoUI[YTDE,wght].ttf
+    postprocess: buildStat
 
-# These options give fine-grained control over how fontmake builds
-# the fonts.
-# flattenComponents: true
-# decomposeTransformedComponents: true
-# checkCompatibility: true
-# overlaps: booleanOperations
-# expandFeaturesToInstances: false
-# reverseOutlineDirection: true
-# removeOutlineOverlaps: true
-# extraFontmakeArgs: ""
-# extraVariableFontmakeArgs: ""
-# extraStaticFontmakeArgs: ""
-# glyphData: GlyphData.xml
-
-# This control how STAT tables are generated. The STAT table is
-# specified here as a list of axis names, tags and values. You
-# can either map a list to each output VF, or provide a single
-# list which is used for all VFs. Note that the build will fail
-# if you specify a dictionary which does not contain an entry
-# for each VF file built.
-stat:
-  Sudo[YTDE,wght].ttf:
-    - name: Weight
-      tag: wght
-      values:
-        - name: ExtraLight
-          value: 200
-        - name: Light
-          value: 300
-        - name: Regular
-          value: 400
-          linkedValue: 700
-          flags: 2
-        - name: SemiBold
-          value: 600
-        - name: Bold
-          value: 700
-    - name: Descender
-      tag: YTDE
-    - name: Italic
-      tag: ital
-      values:
-        - name: Roman
-          value: 0
-          linkedValue: 1
-          flags: 2
-  Sudo-Italic[YTDE,wght].ttf:
-    - name: Weight
-      tag: wght
-      values:
-        - name: ExtraLight
-          value: 200
-        - name: Light
-          value: 300
-        - name: Regular
-          value: 400
-          linkedValue: 700
-          flags: 2
-        - name: SemiBold
-          value: 600
-        - name: Bold
-          value: 700
-    - name: Descender
-      tag: YTDE
-    - name: Italic
-      tag: ital
-      values:
-        - name: Italic
-          value: 1
+  ../fonts/variable/SudoUI[YTDE,wght].ttf:
+  - source: SudoUI.glyphspackage
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+    operation: buildVariable
+  - axes: ital=0
+    operation: subspace
+  - name: "Sudo UI"
+    operation: rename
+  - args: -o $out $in fontsetter/SudoUI.fontsetter
+    exe: gftools-fontsetter
+    operation: exec
+  - operation: fix
+  - args: -f ss20
+    operation: featureFreeze
+  - args: --layout-features-=ital
+    operation: hbsubset
