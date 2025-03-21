@@ -1,8 +1,13 @@
 {
+<<<<<<<< HEAD:sources-design/Sudo.glyphspackage/glyphs/iotadieresis.ss20.glyph
 color = 8;
 glyphname = iotadieresis.ss20;
 kernLeft = iota;
 kernRight = iota;
+========
+color = 6;
+glyphname = iotadieresis;
+>>>>>>>> gf-release:sources-design/Sudo.glyphspackage/glyphs/iotadieresis.glyph
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -44,6 +49,18 @@ ref = dieresiscomb;
 width = 320;
 },
 {
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+shapes = (
+{
+ref = iota;
+},
+{
+ref = dieresiscomb;
+}
+);
+width = 448;
+},
+{
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 shapes = (
 {
@@ -67,6 +84,7 @@ pos = (-74,0);
 ref = dieresiscomb;
 }
 );
+<<<<<<<< HEAD:sources-design/Sudo.glyphspackage/glyphs/iotadieresis.ss20.glyph
 width = 320;
 },
 {
@@ -81,6 +99,10 @@ ref = dieresiscomb;
 }
 );
 width = 320;
+========
+width = 448;
+>>>>>>>> gf-release:sources-design/Sudo.glyphspackage/glyphs/iotadieresis.glyph
 }
 );
+unicode = 970;
 }

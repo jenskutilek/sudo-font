@@ -5,8 +5,9 @@ from GlyphsApp import Glyphs, GSClass
 
 __doc__ = (
     "Split the design source Glyphs file into separate production source "
-    "Glyphs files: Sudo Mono Roman, Sudo Mono Italic, Sudo UI Roman, "
-    "Sudo UI Italic, and save them next to the original Glyphs file."
+    "Glyphs files, Sudo.glyphspackage and SudoUI.glyphspackage, and save them"
+    "in the sources directory. The script must be run inside Glyphs while the design "
+    "source (/sources-design/Sudo.glyphspackage) is open."
 )
 
 
@@ -85,6 +86,7 @@ def disable_glyphs_by_name(f, name):
 
 
 def disable_cp(f, name):
+    # Disable export-level custom parameters by name
     for export in f.instances:
         for cp in export.customParameters:
             if cp.name == name:
@@ -92,13 +94,28 @@ def disable_cp(f, name):
 
 
 def disable_cps(f, names):
+    # Disable export-level custom parameters by name
     for name in names:
         disable_cp(f, name)
 
 
-def add_and_save_font(source_font, f, suffix):
+def disable_font_cps(f, names):
+    # Disable font-level custom parameters by name
+    for name in names:
+        disable_font_cp(f, name)
+
+
+def disable_font_cp(f, name):
+    # Disable font-level custom parameters by name
+    for cp in f.customParameters:
+        if cp.name == name:
+            cp.active = False
+
+
+def add_and_save_font(source_font, f, file_name):
     Glyphs.fonts.append(f)
-    font_path = Path(source_font.filepath).with_suffix(suffix)
+    font_path = Path(source_font.filepath).parent.parent / "sources" / file_name
+    print(f"Saving file to {font_path}")
     f.save(str(font_path), formatVersion=3)
 
 
@@ -152,19 +169,21 @@ def build_mono_roman(design_source):
     collect_and_delete_glyphs(f, ".ss20")
     # disable_glyphs_by_name(f, "lowlinecomb.")
     remove_width_classes(f)
+    disable_font_cps(f, ("glyphOrder",))
     disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
     f.updateFeatures()
     f.kerning.clear()
-    add_and_save_font(design_source, f, ".mono.glyphspackage")
+    add_and_save_font(design_source, f, "Sudo.glyphspackage")
 
 
 def build_prop_roman(design_source):
     f = design_source.copy()
     collect_and_switch_glyphs(f, ".ss20")
+    disable_font_cps(f, ("glyphOrder", "postscriptIsFixedPitch"))
     disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
     update_width_classes(f)
     f.updateFeatures()
-    add_and_save_font(design_source, f, ".prop.glyphspackage")
+    add_and_save_font(design_source, f, "SudoUI.glyphspackage")
 
 
 f = Glyphs.font
