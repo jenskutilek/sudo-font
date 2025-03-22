@@ -350,6 +350,7 @@ name = case_accents_context;
 );
 customParameters = (
 {
+disabled = 1;
 name = glyphOrder;
 value = (
 .notdef,
@@ -2290,7 +2291,6 @@ feature sups;
 feature numr;
 feature dnom;
 feature frac;
-feature frac;
 feature zero;
 feature onum;
 feature case;
@@ -2585,23 +2585,23 @@ sub nine by nine.dnom;
 tag = dnom;
 },
 {
-code = "sub slash by fraction.alt;
-sub fraction by fraction.alt;
-";
-tag = frac;
-},
-{
-automatic = 1;
-code = "lookup FRAC {
+code = "lookup slash_to_fraction {
 	sub slash by fraction;
-} FRAC;
-lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
-} UP;
-lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-} DOWN;
+} slash_to_fraction;
+
+@fig_default = [zero one two three four five six seven eight nine];
+@fig_numr = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+@fig_dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+
+sub @fig_default' fraction by @fig_numr;
+sub @fig_default' @fig_default fraction by @fig_numr;
+sub @fig_default' @fig_default @fig_default fraction by @fig_numr;
+sub @fig_default' @fig_default @fig_default @fig_default fraction by @fig_numr;
+
+sub @fig_numr fraction @fig_default' by @fig_dnom;
+sub @fig_numr fraction @fig_dnom @fig_default' by @fig_dnom;
+sub @fig_numr fraction @fig_dnom @fig_dnom @fig_default' by @fig_dnom;
+sub @fig_numr fraction @fig_dnom @fig_dnom @fig_dnom @fig_default' by @fig_dnom;
 ";
 tag = frac;
 },
@@ -5037,7 +5037,6 @@ sub @width_704 lowlinecomb' by lowlinecomb.704;
 sub @width_736 lowlinecomb' by lowlinecomb.736;";
 }
 );
-exports = 0;
 name = Regular;
 properties = (
 {
@@ -5147,7 +5146,6 @@ softhyphen
 );
 }
 );
-exports = 0;
 name = Regular;
 properties = (
 {
