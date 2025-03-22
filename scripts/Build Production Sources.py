@@ -1,7 +1,7 @@
 # MenuTitle: Build Production Sources
 from pathlib import Path
 
-from GlyphsApp import Glyphs, GSClass
+from GlyphsApp import VARIABLE, Glyphs, GSClass
 
 __doc__ = (
     "Split the design source Glyphs file into separate production source "
@@ -99,6 +99,17 @@ def disable_cps(f, names):
         disable_cp(f, name)
 
 
+def disable_feature(f, tag):
+    for feature in f.features:
+        if feature.name == tag:
+            feature.active = False
+
+
+def disable_features(f, tags):
+    for tag in tags:
+        disable_feature(f, tag)
+
+
 def disable_font_cps(f, names):
     # Disable font-level custom parameters by name
     for name in names:
@@ -110,6 +121,14 @@ def disable_font_cp(f, name):
     for cp in f.customParameters:
         if cp.name == name:
             cp.active = False
+
+
+def disable_export_settings(f):
+    for export in f.instances:
+        if export.type == VARIABLE:
+            export.active = False
+        elif export.familyName == "Sudo UI":
+            export.active = False
 
 
 def add_and_save_font(source_font, f, file_name):
@@ -170,7 +189,11 @@ def build_mono_roman(design_source):
     # disable_glyphs_by_name(f, "lowlinecomb.")
     remove_width_classes(f)
     disable_font_cps(f, ("glyphOrder",))
-    disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
+    disable_cps(
+        f, ("Remove Features", "Remove Glyphs", "Replace Feature", "Rename Glyphs")
+    )
+    disable_features(f, ("rlig",))
+    disable_export_settings(f)
     f.updateFeatures()
     f.kerning.clear()
     add_and_save_font(design_source, f, "Sudo.glyphspackage")
@@ -180,7 +203,11 @@ def build_prop_roman(design_source):
     f = design_source.copy()
     collect_and_switch_glyphs(f, ".ss20")
     disable_font_cps(f, ("glyphOrder", "postscriptIsFixedPitch"))
-    disable_cps(f, ("Remove Features", "Remove Glyphs", "Replace Feature"))
+    disable_cps(
+        f, ("Remove Features", "Remove Glyphs", "Replace Feature", "Rename Glyphs")
+    )
+    disable_features(f, ("rlig",))
+    disable_export_settings(f)
     update_width_classes(f)
     f.updateFeatures()
     add_and_save_font(design_source, f, "SudoUI.glyphspackage")
