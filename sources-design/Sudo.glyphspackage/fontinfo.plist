@@ -2873,19 +2873,18 @@ name = horn_macron_swap;
 features = (
 {
 automatic = 1;
-code = "feature rclt;
-feature locl;
+code = "feature locl;
 feature subs;
 feature sinf;
 feature sups;
 feature numr;
 feature dnom;
 feature frac;
-feature frac;
 feature zero;
 feature onum;
 feature case;
 feature calt;
+feature ital;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -2896,7 +2895,13 @@ feature cv03;
 feature cv04;
 feature cv05;
 feature cv06;
+feature rclt;
+feature ss20;
 ";
+tag = aalt;
+},
+{
+code = "sub @short_caps_src by @short_caps_tgt;";
 tag = aalt;
 },
 {
