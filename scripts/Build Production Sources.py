@@ -1,7 +1,7 @@
 # MenuTitle: Build Production Sources
 from pathlib import Path
 
-from GlyphsApp import VARIABLE, Glyphs, GSClass
+from GlyphsApp import INSTANCETYPEVARIABLE, Glyphs, GSClass
 
 __doc__ = (
     "Split the design source Glyphs file into separate production source "
@@ -125,7 +125,7 @@ def disable_font_cp(f, name):
 
 def disable_export_settings(f):
     for export in f.instances:
-        if export.type == VARIABLE:
+        if export.type == INSTANCETYPEVARIABLE:
             export.active = False
         elif export.familyName == "Sudo UI":
             export.active = False
