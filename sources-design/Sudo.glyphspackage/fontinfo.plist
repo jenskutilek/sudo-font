@@ -2903,17 +2903,17 @@ tag = aalt;
 code = "#ifdef VARIABLE
 condition 0.5 < ital < 1.0;
 sub f by f.italic;
+sub longs by longs.italic;
 sub longsdotaccent by longsdotaccent.italic;
 sub germandbls by germandbls.italic;
-sub longs by longs.italic;
 sub w by w.italic;
+sub wgrave by wgrave.italic;
 sub wacute by wacute.italic;
 sub wcircumflex by wcircumflex.italic;
-sub wdieresis by wdieresis.italic;
 sub wdotaccent by wdotaccent.italic;
-sub wdotbelow by wdotbelow.italic;
-sub wgrave by wgrave.italic;
+sub wdieresis by wdieresis.italic;
 sub wring by wring.italic;
+sub wdotbelow by wdotbelow.italic;
 #endif
 ";
 tag = rlig;
