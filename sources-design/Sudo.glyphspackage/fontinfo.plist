@@ -648,6 +648,8 @@ Zdotbelow
 Zeta
 Zmacronbelow
 Zstroke
+Ezh
+Ezhcaron
 a
 a-cy
 aacute
@@ -676,7 +678,8 @@ aring
 aringacute
 atilde
 jcaron.case
-jcaron.case.cv03";
+jcaron.case.cv03
+";
 name = width_416;
 },
 {
@@ -3780,6 +3783,8 @@ sub Emacrongrave by Emacrongrave.ss20;
 sub Eogonek by Eogonek.ss20;
 sub Etilde by Etilde.ss20;
 sub Eturned by Eturned.ss20;
+sub Ezh by Ezh.ss20;
+sub Ezhcaron by Ezhcaron.ss20;
 sub F by F.ss20;
 sub Fdotaccent by Fdotaccent.ss20;
 sub G by G.ss20;
@@ -4942,6 +4947,7 @@ GSOffsetPosition = 0.7;
 GSOffsetProportional = 1;
 GSOffsetVertical = -10;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -17110,7 +17116,6 @@ kerningLTR = {
 "@MMK_R_Dhook" = -32;
 "@MMK_R_Ef-cy" = -16;
 "@MMK_R_Epsilontonos" = -32;
-"@MMK_R_Ezh" = -16;
 "@MMK_R_S" = -8;
 "@MMK_R_T" = -56;
 "@MMK_R_U-cy" = -32;
@@ -17131,7 +17136,7 @@ guillemetleft = -8;
 guilsinglleft.ss20 = -8;
 };
 "@MMK_L_B" = {
-"@MMK_R_Ezh" = -24;
+"@MMK_R_Ezh" = -16;
 "@MMK_R_I" = -16;
 "@MMK_R_J.cv03" = -8;
 "@MMK_R_S" = -8;
@@ -17176,7 +17181,6 @@ guilsinglleft.ss20 = -16;
 "@MMK_L_E" = {
 "@MMK_R_Ef-cy" = -16;
 "@MMK_R_El-cy" = 16;
-"@MMK_R_Ezh" = -16;
 "@MMK_R_S" = -8;
 "@MMK_R_f" = -8;
 "@MMK_R_hyphen" = -32;
@@ -17208,13 +17212,17 @@ Sigma = -32;
 X = -16;
 };
 "@MMK_L_Ezh" = {
+"@MMK_R_S" = -16;
+"@MMK_R_T" = -16;
 "@MMK_R_Y" = -16;
+"@MMK_R_guillemetright" = -16;
+"@MMK_R_quotesingle" = -32;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -32;
 "@MMK_R_Ef-cy" = -32;
 "@MMK_R_El-cy" = -48;
-"@MMK_R_Ezh" = -32;
+"@MMK_R_Ezh" = -16;
 "@MMK_R_J" = -48;
 "@MMK_R_O" = -16;
 "@MMK_R_S" = -24;
@@ -17262,7 +17270,6 @@ slash.ss20 = -64;
 };
 "@MMK_L_I" = {
 "@MMK_R_Ef-cy" = -16;
-"@MMK_R_Ezh" = -32;
 "@MMK_R_J.cv03" = -16;
 "@MMK_R_O" = -8;
 "@MMK_R_S" = -8;
@@ -17308,7 +17315,7 @@ guilsinglleft.ss20 = -8;
 };
 "@MMK_L_L" = {
 "@MMK_R_Dhook" = -96;
-"@MMK_R_Ezh" = -32;
+"@MMK_R_Ezh" = -16;
 "@MMK_R_I" = -16;
 "@MMK_R_J" = -16;
 "@MMK_R_J.cv03" = -16;
@@ -17348,7 +17355,7 @@ periodcentered.loclCAT.ss20 = -144;
 "@MMK_R_El-cy" = -8;
 "@MMK_R_Eth" = 32;
 "@MMK_R_Eturned" = -8;
-"@MMK_R_Ezh" = -24;
+"@MMK_R_Ezh" = -16;
 "@MMK_R_I" = -8;
 "@MMK_R_J" = -8;
 "@MMK_R_J.cv03" = -16;
@@ -17376,7 +17383,7 @@ X = -16;
 "@MMK_L_P" = {
 "@MMK_R_A" = -32;
 "@MMK_R_El-cy" = -32;
-"@MMK_R_Ezh" = -48;
+"@MMK_R_Ezh" = -32;
 "@MMK_R_J" = -64;
 "@MMK_R_J.cv03" = -80;
 "@MMK_R_S" = -8;
@@ -17407,7 +17414,6 @@ lslash.ss20 = 16;
 "@MMK_R_quotesingle" = -8;
 };
 "@MMK_L_R" = {
-"@MMK_R_Ezh" = -16;
 "@MMK_R_J.cv03" = -8;
 "@MMK_R_S" = -8;
 "@MMK_R_T" = -32;
@@ -17417,7 +17423,7 @@ lslash.ss20 = 16;
 "@MMK_R_period" = 16;
 };
 "@MMK_L_S" = {
-"@MMK_R_Ezh" = -32;
+"@MMK_R_Ezh" = -16;
 "@MMK_R_J" = -16;
 "@MMK_R_J.cv03" = -16;
 "@MMK_R_S" = -16;
@@ -17470,7 +17476,7 @@ X = -24;
 "@MMK_R_Ef-cy" = -32;
 "@MMK_R_El-cy" = -32;
 "@MMK_R_Epsilontonos" = 32;
-"@MMK_R_Ezh" = -32;
+"@MMK_R_Ezh" = -16;
 "@MMK_R_I" = -16;
 "@MMK_R_J" = -64;
 "@MMK_R_J.cv03" = -64;
@@ -17871,7 +17877,7 @@ slash.ss20 = -16;
 "@MMK_R_Epsilontonos" = -64;
 "@MMK_R_Eth" = 32;
 "@MMK_R_Eturned" = -32;
-"@MMK_R_Ezh" = -64;
+"@MMK_R_Ezh" = -32;
 "@MMK_R_I" = -32;
 "@MMK_R_J" = -32;
 "@MMK_R_J.cv03" = -32;
