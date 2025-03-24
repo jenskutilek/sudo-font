@@ -1,0 +1,127 @@
+\def\sample{Das Zisterzienserkloster Rüde, auch \emph{Rus Regis} oder „Rudekloster“, befand sich von 1210 bis 1582 am Ort der jetzigen Stadt Glücksburg an der Flensburger Förde. Das Kloster ging aus einer Niederlassung von Benediktinern in der Nähe von Schleswig hervor, die vermutlich um 1170 gegründet wurde. Die erste urkundliche Erwähnung steht im Zusammenhang mit ihrer Auflösung 1191/92.}
+
+\subsection{Default Setting}
+\sample
+
+\subsection{Character Variants}
+
+\subsubsection{Character Variant 1: Alternate g}
+Replaces the default simple g by a double-storey g.
+\begin{quote}
+{\addfontfeature{RawFeature=+cv01} \sample}
+\end{quote}
+
+\subsubsection{Character Variant 2: Serifless i}
+Loses the serif on the i.
+\begin{quote}
+{\addfontfeature{RawFeature=+cv02} \sample}
+\end{quote}
+
+\subsubsection{Character Variant 3: Serifless j}
+Loses the serif on the j.
+\begin{quote}
+{\addfontfeature{RawFeature=+cv03} \sample}
+\end{quote}
+
+\subsubsection{Character Variant 4: Footless l}
+Loses the foot on the l.
+\begin{quote}
+{\addfontfeature{RawFeature=+cv04} \sample}
+\end{quote}
+
+\subsubsection{Character Variant 5: Vertical m}
+Introduces a novel solution to the issue of the lowercase m not getting enough space in a monospaced font.
+\begin{quote}
+{\addfontfeature{RawFeature=+cv05} \sample}
+\end{quote}
+
+\subsubsection{Character Variant 6: Dotted 0}
+Replaces the default 0 by a 0 with a dot. To switch between a plain zero and the one with a dot or slash, use the “zero” feature.
+\begin{quote}
+{\addfontfeature{RawFeature=+cv06} \sample}
+\end{quote}
+
+\subsection{Stylistic Sets}
+
+\subsubsection{Stylistic Set 1: Alternate g}
+Replaces the default simple g by a double-storey g.
+\begin{quote}
+{\addfontfeature{RawFeature=+ss01} \sample}
+\end{quote}
+
+\subsubsection{Stylistic Set 2: Typewriter Quotes}
+Everyone knows how some word processors turn straight quotes into “smart” quotes. Use Stylistic Set 2 to dumb down your quotation marks.
+\begin{quote}
+{\addfontfeature{RawFeature=+ss02} \sample}
+\end{quote}
+
+\subsubsection{Stylistic Set 3: Simple Narrow Letters}
+Replaces I, J, i, j, and l by simplified forms.
+\begin{quote}
+{\addfontfeature{RawFeature=+ss03} \sample}
+\end{quote}
+
+\subsubsection{Stylistic Set 4: Extra Spacing (Proportional Font Only)}
+
+Adds extra spacing to the proportional font so the overall color of the text is more like the monospaced font.
+
+\begin{quote}
+{\setmainfont{SudoUIVariable.ttf} \raggedright\sample (proportional, standard spacing)}
+\end{quote}
+\begin{quote}
+{\setmainfont{SudoUIVariable.ttf} \addfontfeature{RawFeature=+ss04} \raggedright\sample (proportional, extra spacing)}
+\end{quote}
+\begin{quote}
+{\addfontfeature{RawFeature=+ss04} \sample (monospaced)}
+\end{quote}
+
+\subsubsection{Stylistic Set 19: Modernize Long s}
+
+Sometimes, I have to deal with German texts scanned from blackletter books using the long and the round s (ſ/s). I have no problem reading them, but it’s easier to spot OCR mistakes when ſ and f are easier to differentiate.
+
+\begin{quote}
+Ins Gaſthaus ſauſen und Pilſner ſaufen → {\addfontfeature{RawFeature=+ss19} Ins Gaſthaus ſauſen und Pilſner ſaufen}
+\end{quote}
+
+\subsection{Figure Styles}
+
+\subsubsection{Default Figures: Low Tabular Lining}
+
+\begin{quote}
+0123456789 Figures
+\end{quote}
+
+\subsubsection{Oldstyle Figures}
+\begin{quote}
+{\addfontfeature{RawFeature=+onum} 0123456789 Figures}
+\end{quote}
+
+\subsubsection{Scientific Inferiors}
+\begin{quote}
+{\addfontfeature{RawFeature=+sinf} 0123456789 Figures}
+\end{quote}
+
+\subsubsection{Subscript}
+\begin{quote}
+{\addfontfeature{RawFeature=+subs} 0123456789 Figures}
+\end{quote}
+
+\subsubsection{Superscript}
+\begin{quote}
+{\addfontfeature{RawFeature=+sups} 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ} Figures
+\end{quote}
+
+\subsubsection{Denominators}
+\begin{quote}
+{\addfontfeature{RawFeature=+dnom} 0123456789 Figures}
+\end{quote}
+
+\subsubsection{Numerators}
+\begin{quote}
+{\addfontfeature{RawFeature=+numr} 0123456789 Figures}
+\end{quote}
+
+\subsubsection{Fractions}
+\begin{quote}
+{\addfontfeature{RawFeature=+frac} 1/2, 15/16, 8436/1987 Figures}
+\end{quote}

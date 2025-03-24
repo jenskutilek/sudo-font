@@ -1,0 +1,637 @@
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[paper=a4, 12pt]{scrbook}
+\usepackage{fontspec}
+\usepackage{multicol}
+%\newfontfamily\sudo{SudoVariable.ttf}[Renderer=HarfBuzz]
+%\newfontfamily\sudoui{SudoUIVariable.ttf}[Renderer=HarfBuzz]
+%\newfontfamily\sudoi{../fonts/variable/Sudo-Italic\[YTDE,wght\].ttf}[Renderer=HarfBuzz]
+%\newfontfamily\sudoui{'../fonts/variable/SudoUI[YTDE,wght].ttf'}[Renderer=HarfBuzz]
+%\newfontfamily\sudouii{../fonts/variable/SudoUI-Italic\[YTDE,wght\].ttf}[Renderer=HarfBuzz]
+
+\def\mainwt{300}
+\def\sudoui{ItalicFont=SudoUIVariable.ttf,
+    BoldFont=SudoUIVariable.ttf,
+    BoldItalicFont=SudoUIVariable.ttf,
+    ItalicFeatures={RawFeature={+axis={wght=\mainwt,ital=1}}},
+    BoldFeatures={RawFeature={+axis={wght=700}}},
+    BoldItalicFeatures={RawFeature={+axis={wght=700,ital=1}}}
+}
+
+\defaultfontfeatures{RawFeature={+axis={wght=\mainwt}}}
+\setmainfont[
+    ItalicFont=SudoUIVariable.ttf,
+    BoldFont=SudoUIVariable.ttf,
+    BoldItalicFont=SudoUIVariable.ttf,
+    ItalicFeatures={RawFeature={+axis={wght=\mainwt,ital=1}}},
+    BoldFeatures={RawFeature={+axis={wght=700}}},
+    BoldItalicFeatures={RawFeature={+axis={wght=700,ital=1}}}
+]{SudoUIVariable.ttf}[Renderer=HarfBuzz]
+\setsansfont[\sudoui]{SudoUIVariable.ttf}[Color=00B605,Renderer=HarfBuzz]
+
+%\setitalicfont{SudoUIVariable.ttf}
+%\setkomafont{disposition}{\setromanfont[\sudoui]{SudoUIVariable.ttf}[Renderer=HarfBuzz]\bfseries}
+%\setkomafont{chapter}{\setromanfont[\sudoui]{SudoUIVariable.ttf}[Renderer=HarfBuzz]\Large\color{highlight}}
+%\setkomafont{section}{\setromanfont[\sudoui]{SudoUIVariable.ttf}[Renderer=HarfBuzz]\large\color{highlight}}
+%\setkomafont{subsection}{\setromanfont[\sudoui]{SudoUIVariable.ttf}[Renderer=HarfBuzz]\color{highlight}}
+%\setkomafont{subsubsection}{\setromanfont[\sudoui]{SudoUIVariable.ttf}[Renderer=HarfBuzz]\color{highlight}}
+
+\title{The Sudo Coding and User Interface Fonts}
+\author{Jens Kutílek}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{The Story Of Sudo}
+
+In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo. Over the last years I used it as my main font in the Terminal, as well as my text editor font for coding on Mac and Windows. Whenever something bugged me, I refined the design and could instantly evaluate if a change was an improvement.
+
+\section{Sudo is mono­spaced}
+
+There are many reasons why most programmers still prefer monospaced fonts. All letters have the same width in all weights.
+
+\section{Sudo is not mono­spaced}
+Sudo is monospaced, but not only monospaced! It comes with its sibling family, Sudo UI. Sudo UI is also based on a 16 pixel grid and retains the great legibility of Sudo (mono).
+
+\section{Sudo is legible}
+Sudo is legible: Different character categories are differentiated by height and alignment. Letters are easily discernable from numbers by height alone. Coders still love their slashed or dotted zeroes.
+
+When some letter forms are ambiguous in prosa, we can easily read them because we know the context. But when coding, all characters have to be unmistakably recognizable. It is common to add serifs to an uppercase I or a hook to the lowercase l. I don’t care very much for dotted or slashed zeroes, so I decided to make all numbers one line width smaller than the uppercase letters. They still stand out enough because most code is in lowercase anyway.
+
+\section{Sudo doesn’t have ligatures}
+I’m not particularly fond of ligatures in coding fonts. In my opinion, in many cases they are hindering readability. Sudo does support Powerline status bars out of the box, though.
+
+Sudo makes use of the “Contextual Alternates” OpenType layout feature: It formats hexadecimal numbers (starting with 0x) with shorter uppercase letters, so they are at the same height as the numbers.
+
+You can control those alternates in your editor’s settings, e.g. in Visual Studio Code by adding "editor.fontLigatures": "'calt'" to your settings.json.
+
+\section{Sudo is space-efficient}
+
+The width of all letters is 44\% of the font size. This allows you to fit more code in the same space. For example, the character width in other fonts is between 55\% (Consolas) and 60\% (Courier). This is a topic for debate, for when the letter width becomes too narrow, you need to increase the font size to keep the text readable, there are limits to the usefulness of condensed letterforms.
+
+Sudo has been designed on a pixel grid for a font size of 16 pixels, but works well in other sizes as well.
+
+\section{Sudo is unique}
+Coder’s quotes: Some programming languages use acute and grave accents in lieu of proper opening and closing quotes. In Sudo, the standalone accents are enlarged. Similar signs like ‘greater than’ and ‘single french quote’ are differentiated by size and alignment.
+
+This is a first: As far as I know, Sudo is the first and only font to feature what I like to call ‘coder’s quotes’. Some programming languages use the acute and grave accents as a replacement for opening or closing quotes. The standalone accents in Sudo are much bigger than the ones on the accented letters and work well together with the straight and typographic quotes.
+
+\section{Sudo is standards-compliant}
+
+\subsection{DIN 91379}
+Sudo is one of the first fonts to support the European standard DIN 91379, “a normative subset of Unicode Latin characters, sequences of base characters and diacritic signs, and special characters for use in names of persons, legal entities, products, addresses etc.”
+
+\subsection{Koeberlin Latin S \& M}
+Sudo supports the Latin S and M character sets defined by Christoph Koeberlin. In total, Sudo supports 438 Latin, Cyrillic, and Greek languages. See chapter \ref{languages} (page \pageref{languages}) for a complete list.
+
+%----------------------------------------------------------------------------------------------
+
+\chapter{Sudo}
+\defaultfontfeatures{RawFeature={+axis={wght=\mainwt}}}
+\setmainfont[
+    ItalicFont=SudoVariable.ttf,
+    BoldFont=SudoVariable.ttf,
+    BoldItalicFont=SudoVariable.ttf,
+    ItalicFeatures={RawFeature={+axis={wght=\mainwt,ital=1}}},
+    BoldFeatures={RawFeature={+axis={wght=700}}},
+    BoldItalicFeatures={RawFeature={+axis={wght=700,ital=1}}}
+]{SudoVariable.ttf}[Renderer=HarfBuzz]
+
+%{\sudo p^^^^0304,}\par
+%{\sudoui p^^^^0304,}
+
+\section{OpenType Layout Features}
+\input{opentype-features.tex}
+
+
+\section{DIN 91379 Character Set}
+\input{din91379-blocks.tex}
+
+\section{Complete Character Set}
+\input{characters.tex}
+
+%----------------------------------------------------------------------------------------------
+
+\chapter{Sudo UI}
+\defaultfontfeatures{RawFeature={+axis={wght=\mainwt}}}
+\setmainfont[
+    ItalicFont=SudoUIVariable.ttf,
+    BoldFont=SudoUIVariable.ttf,
+    BoldItalicFont=SudoUIVariable.ttf,
+    ItalicFeatures={RawFeature={+axis={wght=\mainwt,ital=1}}},
+    BoldFeatures={RawFeature={+axis={wght=700}}},
+    BoldItalicFeatures={RawFeature={+axis={wght=700,ital=1}}}
+]{SudoUIVariable.ttf}[Renderer=HarfBuzz]
+
+
+\section{OpenType Layout Features}
+\input{opentype-features.tex}
+
+
+\section{DIN 91379 Character Set}
+\input{din91379-blocks.tex}
+
+\section{Complete Character Set}
+\input{characters.tex}
+
+%----------------------------------------------------------------------------------------------
+
+\chapter{Language Support}\label{languages}
+
+According to Hyperglot 0.7.2, Sudo v3.0 supports 438 Latin, Cyrillic, and Greek languages:
+
+\begin{multicols}{3}
+    \begin{itemize}
+        \item Abaza
+        \item Abron
+        \item Abua
+        \item Acheron
+        \item Achinese
+        \item Acholi
+        \item Achuar-Shiwiar
+        \item Adamawa Fulfulde
+        \item Adangme
+        \item Adyghe
+        \item Afar
+        \item Afrikaans
+        \item Aghul
+        \item Aguaruna
+        \item Ahtna
+        \item Akoose
+        \item Alekano
+        \item Aleut
+        \item Alonquin
+        \item Amahuaca
+        \item Amarakaeri
+        \item Amis
+        \item Anaang
+        \item Andaandi, Dongolawi
+        \item Angas
+        \item Anufo
+        \item Anuta
+        \item Arabela
+        \item Aragonese
+        \item Arbëreshë Albanian
+        \item Archi
+        \item Asháninka
+        \item Ashéninka Perené
+        \item Asturian
+        \item Atayal
+        \item Avaric
+        \item Awa-Cuaiquer
+        \item Awing
+        \item Baatonum
+        \item Bafia
+        \item Bagirmi Fulfulde
+        \item Balante-Ganja
+        \item Balinese
+        \item Balkan Romani
+        \item Bambara
+        \item Banjar
+        \item Baoulé
+        \item Bari
+        \item Basque
+        \item Bassari
+        \item Batak Dairi
+        \item Batak Karo
+        \item Batak Mandailing
+        \item Batak Simalungun
+        \item Batak Toba
+        \item Belarusian
+        \item Bemba (Zambia)
+        \item Bena (Tanzania)
+        \item Bezhta
+        \item Biali
+        \item Bikol
+        \item Bini
+        \item Bislama
+        \item Boko (Benin)
+        \item Bomu
+        \item Bora
+        \item Borana-Arsi-Guji Oromo
+        \item Borgu Fulfulde
+        \item Bosnian
+        \item Breton
+        \item Buginese
+        \item Bulgarian
+        \item Bushi
+        \item Candoshi-Shapra
+        \item Caquinte
+        \item Caribbean Hindustani
+        \item Cashibo-Cacataibo
+        \item Cashinahua
+        \item Catalan
+        \item Cebuano
+        \item Central Aymara
+        \item Central Kurdish
+        \item Central Nahuatl
+        \item Central-Eastern Niger Fulfulde
+        \item Cerma
+        \item Chachi
+        \item Chamalal
+        \item Chamorro
+        \item Chavacano
+        \item Chayahuita
+        \item Chechen
+        \item Chiga
+        \item Chiltepec Chinantec
+        \item Chokwe
+        \item Chuukese
+        \item Cimbrian
+        \item Cofán
+        \item Cook Islands Māori
+        \item Cornish
+        \item Corsican
+        \item Creek
+        \item Crimean Tatar
+        \item Croatian
+        \item Czech
+        \item Danish
+        \item Dargwa
+        \item Dehu
+        \item Dido
+        \item Dimli
+        \item Duala
+        \item Dutch
+        \item Dyan
+        \item Dyula
+        \item Eastern Arrernte
+        \item Eastern Maninkakan
+        \item Eastern Oromo
+        \item Efik
+        \item English
+        \item Erzya
+        \item Ewondo
+        \item Fanti
+        \item Faroese
+        \item Fijian
+        \item Filipino
+        \item Finnish
+        \item French
+        \item Friulian
+        \item Ga
+        \item Gagauz
+        \item Galician
+        \item Ganda
+        \item Garifuna
+        \item German
+        \item Gheg Albanian
+        \item Gilbertese
+        \item Gonja
+        \item Gooniyandi
+        \item Gourmanchéma
+        \item Guadeloupean Creole French
+        \item Gusii
+        \item Gwichʼin
+        \item Haitian
+        \item Hani
+        \item Hassaniyya
+        \item Hausa
+        \item Hawaiian
+        \item Hiligaynon
+        \item Hopi
+        \item Huastec
+        \item Hungarian
+        \item Hän
+        \item Ibibio
+        \item Icelandic
+        \item Idoma
+        \item Igbo
+        \item Iloko
+        \item Inari Sami
+        \item Indonesian
+        \item Ingush
+        \item Irish
+        \item Istro Romanian
+        \item Italian
+        \item Ixcatlán Mazatec
+        \item Jamaican Creole English
+        \item Japanese
+        \item Javanese
+        \item Jenaama Bozo
+        \item Jola-Fonyi
+        \item Judeo-Tat
+        \item K’iche’
+        \item Kabardian
+        \item Kabuverdianu
+        \item Kaingang
+        \item Kako
+        \item Kala Lagaw Ya
+        \item Kalaallisut
+        \item Kalenjin
+        \item Kamba (Kenya)
+        \item Kaonde
+        \item Kaqchikel
+        \item Kara-Kalpak
+        \item Karachay-Balkar
+        \item Karata
+        \item Karelian
+        \item Kashubian
+        \item Kekchí
+        \item Kenzi, Mattokki
+        \item Khasi
+        \item Kikuyu
+        \item Kimbundu
+        \item Kinyarwanda
+        \item Kirmanjki
+        \item Kituba (DRC)
+        \item Kom (Cameroon)
+        \item Kongo
+        \item Konzo
+        \item Koyraboro Senni Songhai
+        \item Krio
+        \item Kumyk
+        \item Kven Finnish
+        \item Kölsch
+        \item Ladin
+        \item Ladino
+        \item Lak
+        \item Lakota
+        \item Latgalian
+        \item Lezghian
+        \item Lingala
+        \item Lithuanian
+        \item Lombard
+        \item Low German
+        \item Lower Sorbian
+        \item Lozi
+        \item Luba-Lulua
+        \item Lule Sami
+        \item Luo (Kenya and Tanzania)
+        \item Luxembourgish
+        \item Maasina Fulfulde
+        \item Macedo-Romanian
+        \item Macedonian
+        \item Madurese
+        \item Makonde
+        \item Malagasy
+        \item Malaysian
+        \item Maltese
+        \item Mam
+        \item Mamara Senoufo
+        \item Mandinka
+        \item Mandjak
+        \item Mankanya
+        \item Manx
+        \item Maore Comorian
+        \item Maori
+        \item Mapudungun
+        \item Marshallese
+        \item Matsés
+        \item Mauritian Creole
+        \item Mende (Sierra Leone)
+        \item Meriam Mir
+        \item Meru
+        \item Metlatónoc Mixtec
+        \item Mezquital Otomi
+        \item Mi’kmaq
+        \item Minangkabau
+        \item Mirandese
+        \item Mizo
+        \item Modern Greek
+        \item Mohawk
+        \item Moksha
+        \item Montenegrin
+        \item Mundang
+        \item Munsee
+        \item Murrinh-Patha
+        \item Murui Huitoto
+        \item Muslim Tat
+        \item Mwani
+        \item Ménik
+        \item Mískito
+        \item Naga Pidgin
+        \item Navajo
+        \item Ndonga
+        \item Neapolitan
+        \item Ngazidja Comorian
+        \item Nigerian Fulfulde
+        \item Niuean
+        \item Nobiin
+        \item Nogai
+        \item Nomatsiguenga
+        \item Noon
+        \item North Azerbaijani
+        \item North Marquesan
+        \item North Ndebele
+        \item Northern Kissi
+        \item Northern Kurdish
+        \item Northern Qiandong Miao
+        \item Northern Sami
+        \item Northern Uzbek
+        \item Norwegian
+        \item Nyamwezi
+        \item Nyanja
+        \item Nyankole
+        \item Nyemba
+        \item Nzima
+        \item Occitan
+        \item Ojitlán Chinantec
+        \item Old Prussian
+        \item Omaha-Ponca
+        \item Orma
+        \item Oroqen
+        \item Otuho
+        \item Palauan
+        \item Pampanga
+        \item Papantla Totonac
+        \item Papiamento
+        \item Paraguayan Guaraní
+        \item Pedi
+        \item Picard
+        \item Pichis Ashéninka
+        \item Piemontese
+        \item Pijin
+        \item Pintupi-Luritja
+        \item Pipil
+        \item Pite Sami
+        \item Pohnpeian
+        \item Polish
+        \item Pontic Greek
+        \item Portuguese
+        \item Potawatomi
+        \item Pulaar
+        \item Purepecha
+        \item Páez
+        \item Quechua
+        \item Romanian
+        \item Romansh
+        \item Rotokas
+        \item Rundi
+        \item Russian
+        \item Rusyn
+        \item Rutul
+        \item Saafi-Saafi
+        \item Samoan
+        \item Sango
+        \item Sangu (Tanzania)
+        \item Saramaccan
+        \item Sardinian
+        \item Scots
+        \item Scottish Gaelic
+        \item Secoya
+        \item Sena
+        \item Serbian
+        \item Seri
+        \item Seselwa Creole French
+        \item Sharanahua
+        \item Shawnee
+        \item Shilluk
+        \item Shipibo-Conibo
+        \item Shona
+        \item Shuar
+        \item Sicilian
+        \item Silesian
+        \item Siona
+        \item Skolt Sami
+        \item Slovak
+        \item Slovenian
+        \item Soga
+        \item Somali
+        \item Soninke
+        \item South Azerbaijani
+        \item South Marquesan
+        \item South Ndebele
+        \item Southern Aymara
+        \item Southern Bobo Madaré
+        \item Southern Dagaare
+        \item Southern Qiandong Miao
+        \item Southern Sami
+        \item Southern Samo
+        \item Southern Sotho
+        \item Spanish
+        \item Sranan Tongo
+        \item Standard Estonian
+        \item Standard Latvian
+        \item Standard Malay
+        \item Sukuma
+        \item Sundanese
+        \item Susu
+        \item Swahili
+        \item Swedish
+        \item Swiss German
+        \item Syenara Senoufo
+        \item Tabassaran
+        \item Tagalog
+        \item Tahitian
+        \item Talysh
+        \item Tedim Chin
+        \item Tetum
+        \item Tetun Dili
+        \item Timne
+        \item Tiéyaxo Bozo
+        \item Tlingit
+        \item Toba
+        \item Tok Pisin
+        \item Tokelau
+        \item Tonga (Tonga Islands)
+        \item Tonga (Zambia)
+        \item Tosk Albanian
+        \item Tsakhur
+        \item Tumbuka
+        \item Turkish
+        \item Turkmen
+        \item Tuvalu
+        \item Twi
+        \item Tzeltal
+        \item Tzotzil
+        \item Uab Meto
+        \item Ukrainian
+        \item Umbundu
+        \item Ume Sami
+        \item Upper Guinea Crioulo
+        \item Upper Sorbian
+        \item Venetian
+        \item Veps
+        \item Vietnamese
+        \item Vlax Romani
+        \item Võro
+        \item Wallisian
+        \item Walloon
+        \item Walser
+        \item Wamey
+        \item Waray (Philippines)
+        \item Warlpiri
+        \item Wasa
+        \item Wayuu
+        \item Welsh
+        \item West Central Oromo
+        \item West-Central Limba
+        \item Western Abnaki
+        \item Western Frisian
+        \item Western Niger Fulfulde
+        \item Wiradjuri
+        \item Wolof
+        \item Xhosa
+        \item Yagua
+        \item Yanesha’
+        \item Yao
+        \item Yoruba
+        \item Yucateco
+        \item Zapotec
+        \item Zarma
+        \item Zulu
+        \item Zuni
+        \item Záparo
+    \end{itemize}
+\end{multicols}
+
+\chapter{License}
+
+Copyright 2009, 2025 The Sudo Font Project Authors (https://github.com/jenskutilek/sudo-font.git)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+This license is copied below, and is also available with a FAQ at: <https://openfontlicense.org>
+
+
+\section{SIL Open Font License Version 1.1 – 26 February 2007}
+
+\subsection{Preamble}
+
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+
+\subsection{Definitions}
+
+\begin{description}
+	\item[“Font Software”] refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+
+	\item[“Reserved Font Name”] refers to any names specified as such after the copyright statement(s).
+
+	\item[“Original Version”] refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+
+	\item[“Modified Version”] refers to any derivative made by adding to, deleting, or substituting – in part or in whole – any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+
+	\item[“Author”] refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+\end{description}
+
+\subsection{Permission \& Conditions}
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+
+\begin{enumerate}
+	\item Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+	\item Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+	\item No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+
+	\item The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+
+	\item The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+
+\end{enumerate}
+
+\subsection{Termination}
+
+This license becomes null and void if any of the above conditions are not met.
+
+\subsection{Disclaimer}
+
+\addfontfeature{RawFeature=+ss04} THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+
+\end{document}
