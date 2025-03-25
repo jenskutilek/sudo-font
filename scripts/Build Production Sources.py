@@ -145,6 +145,13 @@ def remove_width_classes(f):
         del f.classes[i]
 
 
+def set_vertical_metrics_ui(f):
+    for master in f.masters:
+        master.customParameters["typoAscender"] = 896
+        master.customParameters["hheaAscender"] = 896
+        master.customParameters["winAscent"] = 1024
+
+
 def update_width_classes(f):
     remove_width_classes(f)
     # Add new classes
@@ -208,6 +215,7 @@ def build_prop_roman(design_source):
     )
     disable_features(f, ("rlig",))
     disable_export_settings(f)
+    set_vertical_metrics_ui(f)
     update_width_classes(f)
     f.updateFeatures()
     add_and_save_font(design_source, f, "SudoUI.glyphspackage")
