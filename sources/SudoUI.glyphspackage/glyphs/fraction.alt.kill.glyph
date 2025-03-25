@@ -6,38 +6,38 @@ layers = (
 hints = (
 {
 options = 8;
-origin = (0,3);
+origin = (0,2);
 type = TTSnap;
 },
 {
 options = 8;
-origin = (0,1);
+origin = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-origin = (0,1);
+origin = (0,0);
 type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,1);
-target = (0,2);
-type = TTStem;
-},
-{
-horizontal = 1;
-origin = (0,1);
-stem = -1;
-target = (0,0);
-type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
 origin = (0,0);
+target = (0,1);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,0);
+stem = -1;
 target = (0,3);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3);
+target = (0,2);
 type = TTStem;
 }
 );
@@ -46,10 +46,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(49,171,l),
 (406,222,l),
 (398,277,l),
-(41,226,l)
+(41,226,l),
+(49,171,l)
 );
 }
 );
@@ -61,10 +61,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(30,160,l),
 (428,217,l),
 (418,288,l),
-(20,231,l)
+(20,231,l),
+(30,160,l)
 );
 }
 );
@@ -76,10 +76,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(48,179,l),
 (404,231,l),
 (399,269,l),
-(43,217,l)
+(43,217,l),
+(48,179,l)
 );
 }
 );
@@ -91,10 +91,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(41,179,l),
 (407,231,l),
 (407,269,l),
-(41,217,l)
+(41,217,l),
+(41,179,l)
 );
 }
 );
@@ -106,10 +106,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(41,171,l),
 (406,222,l),
 (406,277,l),
-(41,226,l)
+(41,226,l),
+(41,171,l)
 );
 }
 );
@@ -121,10 +121,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(20,160,l),
 (428,217,l),
 (428,288,l),
-(20,231,l)
+(20,231,l),
+(20,160,l)
 );
 }
 );
