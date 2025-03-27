@@ -4471,7 +4471,7 @@ Location = 400;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -4666,7 +4666,7 @@ Location = 700;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -4861,7 +4861,7 @@ Location = 200;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -5053,7 +5053,7 @@ Location = 400;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -5106,7 +5106,7 @@ width = 56;
 guides = (
 {
 angle = 78.69;
-pos = (307,640);
+pos = (648,96);
 },
 {
 angle = 78.69;
@@ -5251,7 +5251,7 @@ Location = 700;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -5444,7 +5444,7 @@ Location = 200;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -5632,6 +5632,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -5658,7 +5680,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -5666,6 +5687,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -5688,6 +5710,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -5716,6 +5741,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -5774,6 +5801,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -5945,7 +5973,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -5959,6 +5986,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -6052,12 +6080,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -6161,6 +6189,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -6222,12 +6254,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -6248,6 +6280,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -6257,35 +6291,11 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
-},
-{
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
 }
 );
 name = Regular;
@@ -6576,6 +6586,35 @@ name = "Export Glyphs";
 value = (
 softhyphen
 );
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
+);
 }
 );
 instanceInterpolations = {
@@ -6627,7 +6666,7 @@ Location = 300;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -6751,6 +6790,35 @@ disabled = 1;
 name = "Export Glyphs";
 value = (
 softhyphen
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -6804,7 +6872,7 @@ Location = 400;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -6928,6 +6996,35 @@ disabled = 1;
 name = "Export Glyphs";
 value = (
 softhyphen
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -6979,7 +7076,7 @@ Location = 600;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -7103,6 +7200,35 @@ disabled = 1;
 name = "Export Glyphs";
 value = (
 softhyphen
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -7156,7 +7282,7 @@ Location = 700;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -7281,6 +7407,35 @@ name = "Export Glyphs";
 value = (
 softhyphen
 );
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
+);
 }
 );
 instanceInterpolations = {
@@ -7333,7 +7488,7 @@ Location = 200;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -7463,27 +7618,56 @@ softhyphen
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
-"f.ss20=f.italic.ss20",
+"longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic",
 "germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
 "w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
 "wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
 "wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
 "wring.ss20=wring.italic.ss20"
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -7538,7 +7722,7 @@ Location = 300;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -7668,27 +7852,56 @@ softhyphen
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
-"f.ss20=f.italic.ss20",
+"longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic",
 "germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
 "w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
 "wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
 "wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
 "wring.ss20=wring.italic.ss20"
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -7744,7 +7957,7 @@ Location = 400;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -7874,27 +8087,56 @@ softhyphen
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
-"f.ss20=f.italic.ss20",
+"longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic",
 "germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
 "w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
 "wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
 "wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
 "wring.ss20=wring.italic.ss20"
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -7948,7 +8190,7 @@ Location = 600;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -8078,27 +8320,56 @@ softhyphen
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
-"f.ss20=f.italic.ss20",
+"longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic",
 "germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
 "w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
 "wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
 "wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
 "wring.ss20=wring.italic.ss20"
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -8154,7 +8425,7 @@ Location = 700;
 },
 {
 Axis = Descender;
-Location = -192;
+Location = -188;
 },
 {
 Axis = Italic;
@@ -8284,27 +8555,56 @@ softhyphen
 name = "Rename Glyphs";
 value = (
 "f=f.italic",
-"f.ss20=f.italic.ss20",
+"longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic",
 "germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
 "w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
 "wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
 "wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
 "wring.ss20=wring.italic.ss20"
+);
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
 );
 }
 );
@@ -8510,6 +8810,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -8536,7 +8858,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -8544,6 +8865,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -8566,6 +8888,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -8594,6 +8919,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -8652,6 +8979,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -8823,7 +9151,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -8837,6 +9164,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -8930,12 +9258,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -9039,6 +9367,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -9100,12 +9432,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -9126,6 +9458,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -9135,35 +9469,11 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
-},
-{
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
 }
 );
 exports = 0;
@@ -9378,6 +9688,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -9404,7 +9736,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -9412,6 +9743,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -9434,6 +9766,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -9462,6 +9797,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -9520,6 +9857,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -9691,7 +10029,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -9705,6 +10042,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -9798,12 +10136,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -9907,6 +10245,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -9968,12 +10310,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -9994,6 +10336,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -10003,35 +10347,11 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
-},
-{
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
 }
 );
 exports = 0;
@@ -10247,6 +10567,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -10273,7 +10615,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -10281,6 +10622,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -10303,6 +10645,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -10331,6 +10676,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -10389,6 +10736,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -10560,7 +10908,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -10574,6 +10921,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -10667,12 +11015,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -10776,6 +11124,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -10837,12 +11189,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -10863,6 +11215,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -10872,35 +11226,11 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
-},
-{
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
 }
 );
 exports = 0;
@@ -11114,6 +11444,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -11140,7 +11492,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -11148,6 +11499,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -11170,6 +11522,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -11198,6 +11553,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -11256,6 +11613,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -11427,7 +11785,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -11441,6 +11798,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -11534,12 +11892,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -11643,6 +12001,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -11704,12 +12066,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -11730,6 +12092,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -11739,35 +12103,11 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
-},
-{
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
 }
 );
 exports = 0;
@@ -11983,6 +12323,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -12009,7 +12371,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -12017,6 +12378,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -12039,6 +12401,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -12067,6 +12432,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -12125,6 +12492,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -12296,7 +12664,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -12310,6 +12677,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -12403,12 +12771,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -12512,6 +12880,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -12573,12 +12945,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -12599,6 +12971,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -12608,35 +12982,11 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
-},
-{
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
 }
 );
 exports = 0;
@@ -12853,6 +13203,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -12879,7 +13251,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -12887,6 +13258,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -12909,6 +13281,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -12937,6 +13312,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -12995,6 +13372,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -13166,7 +13544,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -13180,6 +13557,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -13273,12 +13651,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -13382,6 +13760,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -13443,12 +13825,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -13469,6 +13851,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -13478,57 +13862,38 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"f=f.italic",
-"f.ss20=f.italic.ss20",
-"longsdotaccent=longsdotaccent.italic",
-"germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
-"w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
-"wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
-"wring=wring.italic",
-"wring.ss20=wring.italic.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
 },
 {
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
+name = "Rename Glyphs";
+value = (
+"f=f.italic",
+"longs=longs.italic",
+"longsdotaccent=longsdotaccent.italic",
+"germandbls=germandbls.italic",
+"w=w.italic",
+"wgrave=wgrave.italic",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
+"wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
+"wring.ss20=wring.italic.ss20"
+);
 }
 );
 exports = 0;
@@ -13745,6 +14110,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -13771,7 +14158,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -13779,6 +14165,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -13801,6 +14188,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -13829,6 +14219,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -13887,6 +14279,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -14058,7 +14451,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -14072,6 +14464,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -14165,12 +14558,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -14274,6 +14667,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -14335,12 +14732,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -14361,6 +14758,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -14370,57 +14769,38 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"f=f.italic",
-"f.ss20=f.italic.ss20",
-"longsdotaccent=longsdotaccent.italic",
-"germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
-"w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
-"wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
-"wring=wring.italic",
-"wring.ss20=wring.italic.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
 },
 {
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
+name = "Rename Glyphs";
+value = (
+"f=f.italic",
+"longs=longs.italic",
+"longsdotaccent=longsdotaccent.italic",
+"germandbls=germandbls.italic",
+"w=w.italic",
+"wgrave=wgrave.italic",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
+"wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
+"wring.ss20=wring.italic.ss20"
+);
 }
 );
 exports = 0;
@@ -14638,6 +15018,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -14664,7 +15066,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -14672,6 +15073,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -14694,6 +15096,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -14722,6 +15127,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -14780,6 +15187,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -14951,7 +15359,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -14965,6 +15372,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -15058,12 +15466,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -15167,6 +15575,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -15228,12 +15640,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -15254,6 +15666,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -15263,57 +15677,38 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"f=f.italic",
-"f.ss20=f.italic.ss20",
-"longsdotaccent=longsdotaccent.italic",
-"germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
-"w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
-"wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
-"wring=wring.italic",
-"wring.ss20=wring.italic.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
 },
 {
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
+name = "Rename Glyphs";
+value = (
+"f=f.italic",
+"longs=longs.italic",
+"longsdotaccent=longsdotaccent.italic",
+"germandbls=germandbls.italic",
+"w=w.italic",
+"wgrave=wgrave.italic",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
+"wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
+"wring.ss20=wring.italic.ss20"
+);
 }
 );
 exports = 0;
@@ -15529,6 +15924,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -15555,7 +15972,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -15563,6 +15979,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -15585,6 +16002,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -15613,6 +16033,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -15671,6 +16093,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -15842,7 +16265,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -15856,6 +16278,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -15949,12 +16372,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -16058,6 +16481,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -16119,12 +16546,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -16145,6 +16572,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -16154,57 +16583,38 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"f=f.italic",
-"f.ss20=f.italic.ss20",
-"longsdotaccent=longsdotaccent.italic",
-"germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
-"w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
-"wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
-"wring=wring.italic",
-"wring.ss20=wring.italic.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
 },
 {
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
+name = "Rename Glyphs";
+value = (
+"f=f.italic",
+"longs=longs.italic",
+"longsdotaccent=longsdotaccent.italic",
+"germandbls=germandbls.italic",
+"w=w.italic",
+"wgrave=wgrave.italic",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
+"wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
+"wring.ss20=wring.italic.ss20"
+);
 }
 );
 exports = 0;
@@ -16422,6 +16832,28 @@ softhyphen
 );
 },
 {
+name = "Replace Feature";
+value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
+sub @width_276 lowlinecomb' by lowlinecomb.276;
+sub @width_288 lowlinecomb' by lowlinecomb.288;
+sub @width_320 lowlinecomb' by lowlinecomb.320;
+sub @width_340 lowlinecomb' by lowlinecomb.340;
+sub @width_352 lowlinecomb' by lowlinecomb.352;
+sub @width_384 lowlinecomb' by lowlinecomb.384;
+sub @width_400 lowlinecomb' by lowlinecomb.400;
+sub @width_416 lowlinecomb' by lowlinecomb.416;
+sub @width_432 lowlinecomb' by lowlinecomb.432;
+sub @width_456 lowlinecomb' by lowlinecomb.456;
+sub @width_480 lowlinecomb' by lowlinecomb.480;
+sub @width_512 lowlinecomb' by lowlinecomb.512;
+sub @width_544 lowlinecomb' by lowlinecomb.544;
+sub @width_576 lowlinecomb' by lowlinecomb.576;
+sub @width_592 lowlinecomb' by lowlinecomb.592;
+sub @width_608 lowlinecomb' by lowlinecomb.608;
+sub @width_704 lowlinecomb' by lowlinecomb.704;
+sub @width_736 lowlinecomb' by lowlinecomb.736;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "Abreveacute=Abreveacute.ss20",
@@ -16448,7 +16880,6 @@ value = (
 "Cdotaccent=Cdotaccent.ss20",
 "Chook=Chook.ss20",
 "D=D.ss20",
-"Eth=Eth.ss20",
 "Dcaron=Dcaron.ss20",
 "Dcedilla=Dcedilla.ss20",
 "Dcroat=Dcroat.ss20",
@@ -16456,6 +16887,7 @@ value = (
 "Ddotbelow=Ddotbelow.ss20",
 "Dhook=Dhook.ss20",
 "Dmacronbelow=Dmacronbelow.ss20",
+"Eth=Eth.ss20",
 "E=E.ss20",
 "Eacute=Eacute.ss20",
 "Ebreve=Ebreve.ss20",
@@ -16478,6 +16910,9 @@ value = (
 "Emacrongrave=Emacrongrave.ss20",
 "Eogonek=Eogonek.ss20",
 "Etilde=Etilde.ss20",
+"Eturned=Eturned.ss20",
+"Ezh=Ezh.ss20",
+"Ezhcaron=Ezhcaron.ss20",
 "F=F.ss20",
 "Fdotaccent=Fdotaccent.ss20",
 "G=G.ss20",
@@ -16506,6 +16941,8 @@ value = (
 "Iacute=Iacute.ss20",
 "Ibreve.cv02=Ibreve.cv02.ss20",
 "Ibreve=Ibreve.ss20",
+"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
+"Icapitalsmall=Icapitalsmall.ss20",
 "Icaron.cv02=Icaron.cv02.ss20",
 "Icaron=Icaron.ss20",
 "Icircumflex.cv02=Icircumflex.cv02.ss20",
@@ -16564,6 +17001,7 @@ value = (
 "Eng=Eng.ss20",
 "O=O.ss20",
 "Oacute=Oacute.ss20",
+"Obarred=Obarred.ss20",
 "Obreve=Obreve.ss20",
 "Ocaron=Ocaron.ss20",
 "Ocircumflex=Ocircumflex.ss20",
@@ -16735,7 +17173,6 @@ value = (
 "igrave=igrave.ss20",
 "ihookabove.cv02=ihookabove.cv02.ss20",
 "ihookabove=ihookabove.ss20",
-"ij=ij.ss20",
 "imacron.cv02=imacron.cv02.ss20",
 "imacron=imacron.ss20",
 "iogonek.cv02=iogonek.cv02.ss20",
@@ -16749,6 +17186,7 @@ value = (
 "istroke=istroke.ss20",
 "itilde.cv02=itilde.cv02.ss20",
 "itilde=itilde.ss20",
+"ij=ij.ss20",
 "j.cv03=j.cv03.ss20",
 "j=j.ss20",
 "jdotless.cv03=jdotless.cv03.ss20",
@@ -16842,12 +17280,12 @@ value = (
 "zdotbelow=zdotbelow.ss20",
 "zmacronbelow=zmacronbelow.ss20",
 "zstroke=zstroke.ss20",
+"ordfeminine=ordfeminine.ss20",
+"ordmasculine=ordmasculine.ss20",
 "hmod=hmod.ss20",
 "nmod=nmod.ss20",
 "rmod=rmod.ss20",
 "smod=smod.ss20",
-"ordfeminine=ordfeminine.ss20",
-"ordmasculine=ordmasculine.ss20",
 "Ge-cy=Ge-cy.ss20",
 "Gje-cy=Gje-cy.ss20",
 "Geupturn-cy=Geupturn-cy.ss20",
@@ -16951,6 +17389,10 @@ value = (
 "dmod=dmod.ss20",
 "omod=omod.ss20",
 "tmod=tmod.ss20",
+"zero=zero.ss20",
+"zero.osf=zero.osf.ss20",
+"zero.zero=zero.zero.ss20",
+"zero.zero.osf=zero.zero.osf.ss20",
 "zero.dnom=zero.dnom.ss20",
 "one.dnom=one.dnom.ss20",
 "two.dnom=two.dnom.ss20",
@@ -17012,12 +17454,12 @@ value = (
 "sevensuperior=sevensuperior.ss20",
 "eightsuperior=eightsuperior.ss20",
 "ninesuperior=ninesuperior.ss20",
-"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
-"zerowidthjoiner=zerowidthjoiner.ss20",
-"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
 "space=space.ss20",
 "nbspace=nbspace.ss20",
 "zerowidthspace=zerowidthspace.ss20",
+"zerowidthnonjoiner=zerowidthnonjoiner.ss20",
+"zerowidthjoiner=zerowidthjoiner.ss20",
+"zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "questiongreek=questiongreek.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
@@ -17038,6 +17480,8 @@ value = (
 "guilsinglleft=guilsinglleft.ss20",
 "guilsinglright=guilsinglright.ss20",
 "quotesingle=quotesingle.ss20",
+"blackStar=blackStar.ss20",
+"whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
 "perthousand=perthousand.ss20",
@@ -17047,57 +17491,38 @@ value = (
 "dotaccent=dotaccent.ss20",
 "apostrophemod=apostrophemod.ss20",
 "commaturnedmod=commaturnedmod.ss20",
-"Eturned=Eturned.ss20",
-"Icapitalsmall.cv02=Icapitalsmall.cv02.ss20",
-"Icapitalsmall=Icapitalsmall.ss20",
-"Obarred=Obarred.ss20",
-"f=f.italic",
-"f.ss20=f.italic.ss20",
-"longsdotaccent=longsdotaccent.italic",
-"germandbls=germandbls.italic",
-"longs=longs.italic",
-"longs.ss20=longs.italic.ss20",
-"w=w.italic",
-"w.ss20=w.italic.ss20",
-"wacute=wacute.italic",
-"wacute.ss20=wacute.italic.ss20",
-"wcircumflex=wcircumflex.italic",
-"wcircumflex.ss20=wcircumflex.italic.ss20",
-"wdieresis=wdieresis.italic",
-"wdieresis.ss20=wdieresis.italic.ss20",
-"wdotaccent=wdotaccent.italic",
-"wdotaccent.ss20=wdotaccent.italic.ss20",
-"wdotbelow=wdotbelow.italic",
-"wdotbelow.ss20=wdotbelow.italic.ss20",
-"wgrave=wgrave.italic",
-"wgrave.ss20=wgrave.italic.ss20",
-"wring=wring.italic",
-"wring.ss20=wring.italic.ss20",
-"zero=zero.zero",
-"zero.osf=zero.zero.osf"
+"uni2BE8=uni2BE8.ss20",
+"uni2BE9=uni2BE9.ss20",
+"uni2BEA=uni2BEA.ss20",
+"uni2BEB=uni2BEB.ss20"
 );
 },
 {
-name = "Replace Feature";
-value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
-sub @width_276 lowlinecomb' by lowlinecomb.276;
-sub @width_288 lowlinecomb' by lowlinecomb.288;
-sub @width_320 lowlinecomb' by lowlinecomb.320;
-sub @width_340 lowlinecomb' by lowlinecomb.340;
-sub @width_352 lowlinecomb' by lowlinecomb.352;
-sub @width_384 lowlinecomb' by lowlinecomb.384;
-sub @width_400 lowlinecomb' by lowlinecomb.400;
-sub @width_416 lowlinecomb' by lowlinecomb.416;
-sub @width_432 lowlinecomb' by lowlinecomb.432;
-sub @width_456 lowlinecomb' by lowlinecomb.456;
-sub @width_480 lowlinecomb' by lowlinecomb.480;
-sub @width_512 lowlinecomb' by lowlinecomb.512;
-sub @width_544 lowlinecomb' by lowlinecomb.544;
-sub @width_576 lowlinecomb' by lowlinecomb.576;
-sub @width_592 lowlinecomb' by lowlinecomb.592;
-sub @width_608 lowlinecomb' by lowlinecomb.608;
-sub @width_704 lowlinecomb' by lowlinecomb.704;
-sub @width_736 lowlinecomb' by lowlinecomb.736;";
+name = "Rename Glyphs";
+value = (
+"f=f.italic",
+"longs=longs.italic",
+"longsdotaccent=longsdotaccent.italic",
+"germandbls=germandbls.italic",
+"w=w.italic",
+"wgrave=wgrave.italic",
+"wacute=wacute.italic",
+"wcircumflex=wcircumflex.italic",
+"wdotaccent=wdotaccent.italic",
+"wdieresis=wdieresis.italic",
+"wring=wring.italic",
+"wdotbelow=wdotbelow.italic",
+"f.ss20=f.italic.ss20",
+"longs.ss20=longs.italic.ss20",
+"w.ss20=w.italic.ss20",
+"wacute.ss20=wacute.italic.ss20",
+"wcircumflex.ss20=wcircumflex.italic.ss20",
+"wdieresis.ss20=wdieresis.italic.ss20",
+"wdotaccent.ss20=wdotaccent.italic.ss20",
+"wdotbelow.ss20=wdotbelow.italic.ss20",
+"wgrave.ss20=wgrave.italic.ss20",
+"wring.ss20=wring.italic.ss20"
+);
 }
 );
 exports = 0;
