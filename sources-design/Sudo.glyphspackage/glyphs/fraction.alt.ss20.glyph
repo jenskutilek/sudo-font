@@ -20,33 +20,28 @@ nodes = (
 };
 hints = (
 {
-options = 8;
-type = TTSnap;
-},
-{
-options = 8;
-type = TTSnap;
-},
-{
 horizontal = 1;
+origin = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
-place = (222,55);
+origin = (0,0);
+target = (0,1);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (222,51);
-stem = -1;
-type = TTStem;
+origin = (0,0);
+target = (0,3);
+type = TTShift;
 },
 {
 horizontal = 1;
 options = 4;
-place = (171,55);
+origin = (0,3);
+target = (0,2);
 type = TTStem;
 }
 );
