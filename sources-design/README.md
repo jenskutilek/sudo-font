@@ -16,7 +16,11 @@ There are two Variable Font Settings in the Glyphs file that control the export.
 - Sets different vertical metrics for the Sudo UI font family (a bug in Glyphs prevented applying the different metrics, TBD: check if it is fixed now)
 - Sets the `gasp` table in a more granular way than Glyphs can
 
+When exporting the variable fonts, make sure that under _Exports,_ the last 10 instances starting with “Sudo UI” are not active.
+
 
 ### Static Fonts
 
-TODO or don't we need them anymore ...?
+The static TTF fonts in the releases are exported from Glyphs 3.1.2, also with some post-processing to fix some bugs, especially in the TrueType hinting (screen optimization).
+
+You must activate the last 10 instances under _Exports,_ starting with “Sudo UI”, before exporting, or the UI subfamily will not be exported.
