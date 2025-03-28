@@ -170,9 +170,16 @@ type = TTShift;
 {
 horizontal = 1;
 origin = (0,0);
-other1 = (0,5);
+other1 = (0,29);
 target = (0,28);
 type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,29);
+target = (0,5);
+type = TTStem;
 },
 {
 horizontal = 1;
@@ -184,9 +191,17 @@ type = TTShift;
 {
 horizontal = 1;
 options = 4;
-origin = (0,5);
-target = (0,29);
-type = TTStem;
+origin = (0,29);
+other1 = (0,37);
+target = (0,5);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,37);
+target = (0,18);
+type = TTShift;
 },
 {
 horizontal = 1;
@@ -196,17 +211,71 @@ target = (0,26);
 type = TTShift;
 },
 {
-horizontal = 1;
+origin = lsb;
+other1 = (0,6);
+target = rsb;
+type = TTInterpolate;
+},
+{
 options = 4;
-origin = (0,29);
-target = (0,37);
+origin = (0,6);
+target = (0,7);
+type = TTStem;
+},
+{
+origin = (0,6);
+target = (0,41);
 type = TTShift;
 },
 {
-horizontal = 1;
 options = 4;
-origin = (0,29);
-target = (0,18);
+origin = (0,41);
+target = (0,0);
+type = TTStem;
+},
+{
+origin = (0,6);
+target = (0,14);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,14);
+target = (0,13);
+type = TTStem;
+},
+{
+origin = (0,14);
+target = (0,21);
+type = TTShift;
+},
+{
+origin = (0,41);
+target = (0,34);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,34);
+target = (0,33);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,21);
+target = (0,22);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,6);
+target = (0,29);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,7);
+target = (0,26);
 type = TTShift;
 }
 );

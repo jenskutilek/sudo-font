@@ -63,6 +63,84 @@ nodes = (
 }
 );
 };
+hints = (
+{
+options = 8;
+origin = (0,8);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (0,3);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,8);
+target = (0,9);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,3);
+target = (0,4);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,4);
+target = (0,12);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,9);
+target = (0,6);
+type = TTShift;
+},
+{
+horizontal = 1;
+origin = (0,9);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,6);
+target = (0,4);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,16);
+target = (0,15);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,9);
+other1 = (0,10);
+target = (0,6);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,9);
+target = (0,11);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,9);
+other1 = (0,5);
+target = (0,6);
+type = TTInterpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {

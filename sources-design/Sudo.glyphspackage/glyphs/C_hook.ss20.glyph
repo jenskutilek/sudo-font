@@ -94,6 +94,47 @@ nodes = (
 }
 );
 };
+hints = (
+{
+options = 8;
+origin = (0,41);
+type = TTSnap;
+},
+{
+origin = (0,2);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,41);
+target = (0,9);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,2);
+target = (0,16);
+type = TTShift;
+},
+{
+options = 8;
+origin = (0,41);
+other1 = (0,32);
+target = (0,2);
+type = TTInterpolate;
+},
+{
+origin = (0,2);
+target = (0,26);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,32);
+target = (0,19);
+type = TTStem;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
