@@ -32,6 +32,40 @@ origin = (0,7);
 other1 = (0,8);
 target = (0,1);
 type = TTInterpolate;
+},
+{
+options = 8;
+origin = (0,6);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (0,11);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,6);
+target = (0,7);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,11);
+target = (0,10);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,7);
+target = (0,3);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,10);
+target = (0,2);
+type = TTShift;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

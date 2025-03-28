@@ -91,31 +91,53 @@ hints = (
 horizontal = 1;
 options = 4;
 origin = (0,4);
-target = (0,2);
+other1 = (0,6);
+target = (0,6);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,1);
+other1 = (0,2);
+target = (0,9);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,4);
+target = (0,1);
 type = TTShift;
 },
 {
 horizontal = 1;
+options = 4;
+origin = (0,6);
+target = (0,9);
+type = TTShift;
+},
+{
+options = 8;
+origin = (0,5);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (0,1);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,5);
+target = (0,4);
+type = TTStem;
+},
+{
 options = 4;
 origin = (0,9);
-target = (0,7);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,4);
-other1 = (0,3);
-target = (0,9);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-options = 4;
-origin = (0,4);
-other1 = (0,8);
-target = (0,9);
-type = TTInterpolate;
+target = (0,1);
+type = TTStem;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";

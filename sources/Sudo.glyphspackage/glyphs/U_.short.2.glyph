@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = U.short.2;
 layers = (
 {
@@ -14,6 +15,49 @@ pos = (283,0);
 {
 name = top;
 pos = (224,512);
+}
+);
+hints = (
+{
+options = 8;
+origin = (0,0);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (0,6);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (0,0);
+target = (0,15);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,6);
+target = (0,9);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3);
+target = (0,12);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,17);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,17);
+target = (0,8);
+type = TTShift;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
