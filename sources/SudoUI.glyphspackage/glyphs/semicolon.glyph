@@ -3,61 +3,190 @@ color = 8;
 glyphname = semicolon;
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(154,-94,o),
+(194,-38,o),
+(194,32,cs),
+(194,95,o),
+(163,118,o),
+(126,118,cs),
+(92,118,o),
+(64,94,o),
+(64,54,cs),
+(64,18,o),
+(86,-8,o),
+(125,-10,c),
+(119,-44,o),
+(94,-69,o),
+(70,-91,c),
+(108,-133,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(163,330,o),
+(192,352,o),
+(192,394,cs),
+(192,435,o),
+(163,458,o),
+(128,458,cs),
+(93,458,o),
+(64,435,o),
+(64,394,cs),
+(64,352,o),
+(93,330,o),
+(128,330,cs)
+);
+}
+);
+};
+hints = (
+{
+horizontal = 1;
+options = 4;
+place = (458,128);
+stem = -1;
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+place = (-10,128);
+stem = -1;
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+place = (-10,123);
+stem = -1;
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+place = (118,150);
+type = TTInterpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
-pos = (-64,0);
-ref = semicolon.kill;
+ref = comma;
+},
+{
+pos = (0,340);
+ref = period;
 }
 );
 width = 256;
 },
 {
+background = {
+shapes = (
+{
+pos = (-64,0);
+ref = semicolon;
+}
+);
+};
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
 shapes = (
 {
-pos = (-64,0);
-ref = semicolon.kill;
+ref = comma;
+},
+{
+pos = (0,300);
+ref = period;
 }
 );
 width = 256;
 },
 {
+background = {
+shapes = (
+{
+pos = (-64,0);
+ref = semicolon;
+}
+);
+};
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 shapes = (
 {
-pos = (-64,0);
-ref = semicolon.kill;
+ref = comma;
+},
+{
+pos = (0,364);
+ref = period;
 }
 );
 width = 256;
 },
 {
+background = {
+shapes = (
+{
+pos = (-64,0);
+ref = semicolon;
+}
+);
+};
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 shapes = (
 {
-pos = (-64,0);
-ref = semicolon.kill;
+ref = comma;
+},
+{
+pos = (68,340);
+ref = period;
 }
 );
 width = 256;
 },
 {
+background = {
+shapes = (
+{
+pos = (-64,0);
+ref = semicolon;
+}
+);
+};
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
 shapes = (
 {
-pos = (-64,0);
-ref = semicolon.kill;
+ref = comma;
+},
+{
+pos = (61,300);
+ref = period;
 }
 );
 width = 256;
 },
 {
-layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+background = {
 shapes = (
 {
 pos = (-64,0);
-ref = semicolon.kill;
+ref = semicolon;
+}
+);
+};
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+shapes = (
+{
+ref = comma;
+},
+{
+pos = (74,364);
+ref = period;
 }
 );
 width = 256;
