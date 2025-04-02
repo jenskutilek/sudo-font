@@ -3219,12 +3219,6 @@ tag = ordn;
 },
 {
 automatic = 1;
-code = "sub zero by zero.zero;
-";
-tag = zero;
-},
-{
-automatic = 1;
 code = "sub zero by zero.osf;
 sub zero.zero by zero.zero.osf;
 sub one by one.osf;
@@ -3283,6 +3277,11 @@ sub eight.osf by eight;
 sub nine.osf by nine;
 ";
 tag = case;
+},
+{
+code = "sub zero by zero.zero;
+sub zero.osf by zero.zero.osf;";
+tag = zero;
 },
 {
 code = "#sub emdash hyphen' by emdash;
