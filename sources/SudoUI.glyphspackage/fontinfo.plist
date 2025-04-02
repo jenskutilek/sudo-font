@@ -2884,9 +2884,9 @@ feature sups;
 feature numr;
 feature dnom;
 feature frac;
-feature zero;
 feature onum;
 feature case;
+feature zero;
 feature calt;
 feature ital;
 feature ss01;
@@ -3273,9 +3273,8 @@ sub zero.zero.osf by zero.zero;
 tag = case;
 },
 {
-automatic = 1;
 code = "sub zero by zero.zero;
-";
+sub zero.osf by zero.zero.osf;";
 tag = zero;
 },
 {
@@ -4946,7 +4945,8 @@ tmod.ss20
 disabled = 1;
 name = "Remove Features";
 value = (
-ss20
+ss20,
+ital
 );
 },
 {
@@ -5721,7 +5721,8 @@ name = "Remove Features";
 value = (
 ss04,
 ss20,
-kern
+kern,
+ital
 );
 },
 {
