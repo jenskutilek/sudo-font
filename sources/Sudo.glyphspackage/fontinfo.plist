@@ -1,5 +1,5 @@
 {
-.appVersion = "3402";
+.appVersion = "3406";
 .formatVersion = 3;
 axes = (
 {
@@ -4389,13 +4389,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -4780,6 +4773,7 @@ value = (
 "ldotbelowmacron=ldotbelowmacron.ss20",
 "lmacronbelow.cv04=lmacronbelow.cv04.ss20",
 "lmacronbelow=lmacronbelow.ss20",
+"longsdotaccent.italic=longsdotaccent.italic.ss20",
 "longsdotaccent=longsdotaccent.ss20",
 "lslash.cv04=lslash.cv04.ss20",
 "lslash=lslash.ss20",
@@ -4860,6 +4854,7 @@ value = (
 "Io-cy=Io-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
 "Ii-cy=Ii-cy.ss20",
+"Iishort-cy=Iishort-cy.ss20",
 "Iigrave-cy=Iigrave-cy.ss20",
 "El-cy=El-cy.ss20",
 "Em-cy=Em-cy.ss20",
@@ -5027,12 +5022,18 @@ value = (
 "zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "anoteleia=anoteleia.ss20",
 "questiongreek=questiongreek.ss20",
+"leftanglebracket-math=leftanglebracket-math.ss20",
+"rightanglebracket-math=rightanglebracket-math.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon.alt=colon.alt.ss20",
 "colon=colon.ss20",
 "semicolon=semicolon.ss20",
 "ellipsis=ellipsis.ss20",
+"exclam=exclam.ss20",
+"exclamdown=exclamdown.ss20",
+"question=question.ss20",
+"questiondown=questiondown.ss20",
 "periodcentered.loclCAT=periodcentered.loclCAT.ss20",
 "periodcentered=periodcentered.ss20",
 "slash=slash.ss20",
@@ -5040,6 +5041,12 @@ value = (
 "endash=endash.ss20",
 "emdash=emdash.ss20",
 "horizontalbar=horizontalbar.ss20",
+"parenleft=parenleft.ss20",
+"parenright=parenright.ss20",
+"braceleft=braceleft.ss20",
+"braceright=braceright.ss20",
+"bracketleft=bracketleft.ss20",
+"bracketright=bracketright.ss20",
 "quotesinglbase=quotesinglbase.ss20",
 "quoteleft=quoteleft.ss20",
 "quoteright=quoteright.ss20",
@@ -5051,6 +5058,8 @@ value = (
 "whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
+"rupee=rupee.ss20",
+"percent=percent.ss20",
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20",
@@ -5166,13 +5175,6 @@ value = 832;
 {
 name = winAscent;
 value = 832;
-},
-{
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
 }
 );
 exports = 0;
@@ -5352,13 +5354,6 @@ uniE096,
 uniE097,
 uniE098,
 uniE09B
-);
-},
-{
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 },
 {
@@ -5559,13 +5554,6 @@ uniE096,
 uniE097,
 uniE098,
 uniE09B
-);
-},
-{
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 },
 {
@@ -5770,13 +5758,6 @@ uniE09B
 );
 },
 {
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
 name = "Remove Classes";
 value = (
 width_224,
@@ -5973,13 +5954,6 @@ uniE096,
 uniE097,
 uniE098,
 uniE09B
-);
-},
-{
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
 );
 },
 {
@@ -6184,13 +6158,6 @@ uniE09B
 );
 },
 {
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
 name = "Remove Classes";
 value = (
 width_224,
@@ -6392,13 +6359,6 @@ uniE09B
 );
 },
 {
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
 name = "Remove Classes";
 value = (
 width_224,
@@ -6444,6 +6404,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -6629,13 +6590,6 @@ uniE09B
 );
 },
 {
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
 name = "Remove Classes";
 value = (
 width_224,
@@ -6681,6 +6635,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -6867,13 +6822,6 @@ uniE09B
 );
 },
 {
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
 name = "Remove Classes";
 value = (
 width_224,
@@ -6919,6 +6867,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -7103,13 +7052,6 @@ uniE09B
 );
 },
 {
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
 name = "Remove Classes";
 value = (
 width_224,
@@ -7155,6 +7097,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -7341,13 +7284,6 @@ uniE09B
 );
 },
 {
-disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
 name = "Remove Classes";
 value = (
 width_224,
@@ -7393,6 +7329,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -7602,13 +7539,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -7993,6 +7923,7 @@ value = (
 "ldotbelowmacron=ldotbelowmacron.ss20",
 "lmacronbelow.cv04=lmacronbelow.cv04.ss20",
 "lmacronbelow=lmacronbelow.ss20",
+"longsdotaccent.italic=longsdotaccent.italic.ss20",
 "longsdotaccent=longsdotaccent.ss20",
 "lslash.cv04=lslash.cv04.ss20",
 "lslash=lslash.ss20",
@@ -8073,6 +8004,7 @@ value = (
 "Io-cy=Io-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
 "Ii-cy=Ii-cy.ss20",
+"Iishort-cy=Iishort-cy.ss20",
 "Iigrave-cy=Iigrave-cy.ss20",
 "El-cy=El-cy.ss20",
 "Em-cy=Em-cy.ss20",
@@ -8240,12 +8172,18 @@ value = (
 "zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "anoteleia=anoteleia.ss20",
 "questiongreek=questiongreek.ss20",
+"leftanglebracket-math=leftanglebracket-math.ss20",
+"rightanglebracket-math=rightanglebracket-math.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon.alt=colon.alt.ss20",
 "colon=colon.ss20",
 "semicolon=semicolon.ss20",
 "ellipsis=ellipsis.ss20",
+"exclam=exclam.ss20",
+"exclamdown=exclamdown.ss20",
+"question=question.ss20",
+"questiondown=questiondown.ss20",
 "periodcentered.loclCAT=periodcentered.loclCAT.ss20",
 "periodcentered=periodcentered.ss20",
 "slash=slash.ss20",
@@ -8253,6 +8191,12 @@ value = (
 "endash=endash.ss20",
 "emdash=emdash.ss20",
 "horizontalbar=horizontalbar.ss20",
+"parenleft=parenleft.ss20",
+"parenright=parenright.ss20",
+"braceleft=braceleft.ss20",
+"braceright=braceright.ss20",
+"bracketleft=bracketleft.ss20",
+"bracketright=bracketright.ss20",
 "quotesinglbase=quotesinglbase.ss20",
 "quoteleft=quoteleft.ss20",
 "quoteright=quoteright.ss20",
@@ -8264,6 +8208,8 @@ value = (
 "whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
+"rupee=rupee.ss20",
+"percent=percent.ss20",
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20",
@@ -8485,13 +8431,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -8876,6 +8815,7 @@ value = (
 "ldotbelowmacron=ldotbelowmacron.ss20",
 "lmacronbelow.cv04=lmacronbelow.cv04.ss20",
 "lmacronbelow=lmacronbelow.ss20",
+"longsdotaccent.italic=longsdotaccent.italic.ss20",
 "longsdotaccent=longsdotaccent.ss20",
 "lslash.cv04=lslash.cv04.ss20",
 "lslash=lslash.ss20",
@@ -8956,6 +8896,7 @@ value = (
 "Io-cy=Io-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
 "Ii-cy=Ii-cy.ss20",
+"Iishort-cy=Iishort-cy.ss20",
 "Iigrave-cy=Iigrave-cy.ss20",
 "El-cy=El-cy.ss20",
 "Em-cy=Em-cy.ss20",
@@ -9123,12 +9064,18 @@ value = (
 "zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "anoteleia=anoteleia.ss20",
 "questiongreek=questiongreek.ss20",
+"leftanglebracket-math=leftanglebracket-math.ss20",
+"rightanglebracket-math=rightanglebracket-math.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon.alt=colon.alt.ss20",
 "colon=colon.ss20",
 "semicolon=semicolon.ss20",
 "ellipsis=ellipsis.ss20",
+"exclam=exclam.ss20",
+"exclamdown=exclamdown.ss20",
+"question=question.ss20",
+"questiondown=questiondown.ss20",
 "periodcentered.loclCAT=periodcentered.loclCAT.ss20",
 "periodcentered=periodcentered.ss20",
 "slash=slash.ss20",
@@ -9136,6 +9083,12 @@ value = (
 "endash=endash.ss20",
 "emdash=emdash.ss20",
 "horizontalbar=horizontalbar.ss20",
+"parenleft=parenleft.ss20",
+"parenright=parenright.ss20",
+"braceleft=braceleft.ss20",
+"braceright=braceright.ss20",
+"bracketleft=bracketleft.ss20",
+"bracketright=bracketright.ss20",
 "quotesinglbase=quotesinglbase.ss20",
 "quoteleft=quoteleft.ss20",
 "quoteright=quoteright.ss20",
@@ -9147,6 +9100,8 @@ value = (
 "whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
+"rupee=rupee.ss20",
+"percent=percent.ss20",
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20",
@@ -9369,13 +9324,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -9760,6 +9708,7 @@ value = (
 "ldotbelowmacron=ldotbelowmacron.ss20",
 "lmacronbelow.cv04=lmacronbelow.cv04.ss20",
 "lmacronbelow=lmacronbelow.ss20",
+"longsdotaccent.italic=longsdotaccent.italic.ss20",
 "longsdotaccent=longsdotaccent.ss20",
 "lslash.cv04=lslash.cv04.ss20",
 "lslash=lslash.ss20",
@@ -9840,6 +9789,7 @@ value = (
 "Io-cy=Io-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
 "Ii-cy=Ii-cy.ss20",
+"Iishort-cy=Iishort-cy.ss20",
 "Iigrave-cy=Iigrave-cy.ss20",
 "El-cy=El-cy.ss20",
 "Em-cy=Em-cy.ss20",
@@ -10007,12 +9957,18 @@ value = (
 "zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "anoteleia=anoteleia.ss20",
 "questiongreek=questiongreek.ss20",
+"leftanglebracket-math=leftanglebracket-math.ss20",
+"rightanglebracket-math=rightanglebracket-math.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon.alt=colon.alt.ss20",
 "colon=colon.ss20",
 "semicolon=semicolon.ss20",
 "ellipsis=ellipsis.ss20",
+"exclam=exclam.ss20",
+"exclamdown=exclamdown.ss20",
+"question=question.ss20",
+"questiondown=questiondown.ss20",
 "periodcentered.loclCAT=periodcentered.loclCAT.ss20",
 "periodcentered=periodcentered.ss20",
 "slash=slash.ss20",
@@ -10020,6 +9976,12 @@ value = (
 "endash=endash.ss20",
 "emdash=emdash.ss20",
 "horizontalbar=horizontalbar.ss20",
+"parenleft=parenleft.ss20",
+"parenright=parenright.ss20",
+"braceleft=braceleft.ss20",
+"braceright=braceright.ss20",
+"bracketleft=bracketleft.ss20",
+"bracketright=bracketright.ss20",
 "quotesinglbase=quotesinglbase.ss20",
 "quoteleft=quoteleft.ss20",
 "quoteright=quoteright.ss20",
@@ -10031,6 +9993,8 @@ value = (
 "whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
+"rupee=rupee.ss20",
+"percent=percent.ss20",
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20",
@@ -10251,13 +10215,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -10642,6 +10599,7 @@ value = (
 "ldotbelowmacron=ldotbelowmacron.ss20",
 "lmacronbelow.cv04=lmacronbelow.cv04.ss20",
 "lmacronbelow=lmacronbelow.ss20",
+"longsdotaccent.italic=longsdotaccent.italic.ss20",
 "longsdotaccent=longsdotaccent.ss20",
 "lslash.cv04=lslash.cv04.ss20",
 "lslash=lslash.ss20",
@@ -10722,6 +10680,7 @@ value = (
 "Io-cy=Io-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
 "Ii-cy=Ii-cy.ss20",
+"Iishort-cy=Iishort-cy.ss20",
 "Iigrave-cy=Iigrave-cy.ss20",
 "El-cy=El-cy.ss20",
 "Em-cy=Em-cy.ss20",
@@ -10889,12 +10848,18 @@ value = (
 "zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "anoteleia=anoteleia.ss20",
 "questiongreek=questiongreek.ss20",
+"leftanglebracket-math=leftanglebracket-math.ss20",
+"rightanglebracket-math=rightanglebracket-math.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon.alt=colon.alt.ss20",
 "colon=colon.ss20",
 "semicolon=semicolon.ss20",
 "ellipsis=ellipsis.ss20",
+"exclam=exclam.ss20",
+"exclamdown=exclamdown.ss20",
+"question=question.ss20",
+"questiondown=questiondown.ss20",
 "periodcentered.loclCAT=periodcentered.loclCAT.ss20",
 "periodcentered=periodcentered.ss20",
 "slash=slash.ss20",
@@ -10902,6 +10867,12 @@ value = (
 "endash=endash.ss20",
 "emdash=emdash.ss20",
 "horizontalbar=horizontalbar.ss20",
+"parenleft=parenleft.ss20",
+"parenright=parenright.ss20",
+"braceleft=braceleft.ss20",
+"braceright=braceright.ss20",
+"bracketleft=bracketleft.ss20",
+"bracketright=bracketright.ss20",
 "quotesinglbase=quotesinglbase.ss20",
 "quoteleft=quoteleft.ss20",
 "quoteright=quoteright.ss20",
@@ -10913,6 +10884,8 @@ value = (
 "whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
+"rupee=rupee.ss20",
+"percent=percent.ss20",
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20",
@@ -11135,13 +11108,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -11526,6 +11492,7 @@ value = (
 "ldotbelowmacron=ldotbelowmacron.ss20",
 "lmacronbelow.cv04=lmacronbelow.cv04.ss20",
 "lmacronbelow=lmacronbelow.ss20",
+"longsdotaccent.italic=longsdotaccent.italic.ss20",
 "longsdotaccent=longsdotaccent.ss20",
 "lslash.cv04=lslash.cv04.ss20",
 "lslash=lslash.ss20",
@@ -11606,6 +11573,7 @@ value = (
 "Io-cy=Io-cy.ss20",
 "Zhe-cy=Zhe-cy.ss20",
 "Ii-cy=Ii-cy.ss20",
+"Iishort-cy=Iishort-cy.ss20",
 "Iigrave-cy=Iigrave-cy.ss20",
 "El-cy=El-cy.ss20",
 "Em-cy=Em-cy.ss20",
@@ -11773,12 +11741,18 @@ value = (
 "zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20",
 "anoteleia=anoteleia.ss20",
 "questiongreek=questiongreek.ss20",
+"leftanglebracket-math=leftanglebracket-math.ss20",
+"rightanglebracket-math=rightanglebracket-math.ss20",
 "period=period.ss20",
 "comma=comma.ss20",
 "colon.alt=colon.alt.ss20",
 "colon=colon.ss20",
 "semicolon=semicolon.ss20",
 "ellipsis=ellipsis.ss20",
+"exclam=exclam.ss20",
+"exclamdown=exclamdown.ss20",
+"question=question.ss20",
+"questiondown=questiondown.ss20",
 "periodcentered.loclCAT=periodcentered.loclCAT.ss20",
 "periodcentered=periodcentered.ss20",
 "slash=slash.ss20",
@@ -11786,6 +11760,12 @@ value = (
 "endash=endash.ss20",
 "emdash=emdash.ss20",
 "horizontalbar=horizontalbar.ss20",
+"parenleft=parenleft.ss20",
+"parenright=parenright.ss20",
+"braceleft=braceleft.ss20",
+"braceright=braceright.ss20",
+"bracketleft=bracketleft.ss20",
+"bracketright=bracketright.ss20",
 "quotesinglbase=quotesinglbase.ss20",
 "quoteleft=quoteleft.ss20",
 "quoteright=quoteright.ss20",
@@ -11797,6 +11777,8 @@ value = (
 "whiteStar=whiteStar.ss20",
 "aktieselskab=aktieselskab.ss20",
 "careof=careof.ss20",
+"rupee=rupee.ss20",
+"percent=percent.ss20",
 "perthousand=perthousand.ss20",
 "ratio=ratio.ss20",
 "commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20",
@@ -12020,13 +12002,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -12411,6 +12386,7 @@ ldotbelowmacron.cv04=ldotbelowmacron.cv04.ss20
 ldotbelowmacron=ldotbelowmacron.ss20
 lmacronbelow.cv04=lmacronbelow.cv04.ss20
 lmacronbelow=lmacronbelow.ss20
+longsdotaccent.italic=longsdotaccent.italic.ss20
 longsdotaccent=longsdotaccent.ss20
 lslash.cv04=lslash.cv04.ss20
 lslash=lslash.ss20
@@ -12491,6 +12467,7 @@ Iegrave-cy=Iegrave-cy.ss20
 Io-cy=Io-cy.ss20
 Zhe-cy=Zhe-cy.ss20
 Ii-cy=Ii-cy.ss20
+Iishort-cy=Iishort-cy.ss20
 Iigrave-cy=Iigrave-cy.ss20
 El-cy=El-cy.ss20
 Em-cy=Em-cy.ss20
@@ -12658,12 +12635,18 @@ zerowidthjoiner=zerowidthjoiner.ss20
 zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20
 anoteleia=anoteleia.ss20
 questiongreek=questiongreek.ss20
+leftanglebracket-math=leftanglebracket-math.ss20
+rightanglebracket-math=rightanglebracket-math.ss20
 period=period.ss20
 comma=comma.ss20
 colon.alt=colon.alt.ss20
 colon=colon.ss20
 semicolon=semicolon.ss20
 ellipsis=ellipsis.ss20
+exclam=exclam.ss20
+exclamdown=exclamdown.ss20
+question=question.ss20
+questiondown=questiondown.ss20
 periodcentered.loclCAT=periodcentered.loclCAT.ss20
 periodcentered=periodcentered.ss20
 slash=slash.ss20
@@ -12671,6 +12654,12 @@ backslash=backslash.ss20
 endash=endash.ss20
 emdash=emdash.ss20
 horizontalbar=horizontalbar.ss20
+parenleft=parenleft.ss20
+parenright=parenright.ss20
+braceleft=braceleft.ss20
+braceright=braceright.ss20
+bracketleft=bracketleft.ss20
+bracketright=bracketright.ss20
 quotesinglbase=quotesinglbase.ss20
 quoteleft=quoteleft.ss20
 quoteright=quoteright.ss20
@@ -12682,6 +12671,8 @@ blackStar=blackStar.ss20
 whiteStar=whiteStar.ss20
 aktieselskab=aktieselskab.ss20
 careof=careof.ss20
+rupee=rupee.ss20
+percent=percent.ss20
 perthousand=perthousand.ss20
 ratio=ratio.ss20
 commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20
@@ -12712,6 +12703,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -12933,13 +12925,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -13324,6 +13309,7 @@ ldotbelowmacron.cv04=ldotbelowmacron.cv04.ss20
 ldotbelowmacron=ldotbelowmacron.ss20
 lmacronbelow.cv04=lmacronbelow.cv04.ss20
 lmacronbelow=lmacronbelow.ss20
+longsdotaccent.italic=longsdotaccent.italic.ss20
 longsdotaccent=longsdotaccent.ss20
 lslash.cv04=lslash.cv04.ss20
 lslash=lslash.ss20
@@ -13404,6 +13390,7 @@ Iegrave-cy=Iegrave-cy.ss20
 Io-cy=Io-cy.ss20
 Zhe-cy=Zhe-cy.ss20
 Ii-cy=Ii-cy.ss20
+Iishort-cy=Iishort-cy.ss20
 Iigrave-cy=Iigrave-cy.ss20
 El-cy=El-cy.ss20
 Em-cy=Em-cy.ss20
@@ -13571,12 +13558,18 @@ zerowidthjoiner=zerowidthjoiner.ss20
 zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20
 anoteleia=anoteleia.ss20
 questiongreek=questiongreek.ss20
+leftanglebracket-math=leftanglebracket-math.ss20
+rightanglebracket-math=rightanglebracket-math.ss20
 period=period.ss20
 comma=comma.ss20
 colon.alt=colon.alt.ss20
 colon=colon.ss20
 semicolon=semicolon.ss20
 ellipsis=ellipsis.ss20
+exclam=exclam.ss20
+exclamdown=exclamdown.ss20
+question=question.ss20
+questiondown=questiondown.ss20
 periodcentered.loclCAT=periodcentered.loclCAT.ss20
 periodcentered=periodcentered.ss20
 slash=slash.ss20
@@ -13584,6 +13577,12 @@ backslash=backslash.ss20
 endash=endash.ss20
 emdash=emdash.ss20
 horizontalbar=horizontalbar.ss20
+parenleft=parenleft.ss20
+parenright=parenright.ss20
+braceleft=braceleft.ss20
+braceright=braceright.ss20
+bracketleft=bracketleft.ss20
+bracketright=bracketright.ss20
 quotesinglbase=quotesinglbase.ss20
 quoteleft=quoteleft.ss20
 quoteright=quoteright.ss20
@@ -13595,6 +13594,8 @@ blackStar=blackStar.ss20
 whiteStar=whiteStar.ss20
 aktieselskab=aktieselskab.ss20
 careof=careof.ss20
+rupee=rupee.ss20
+percent=percent.ss20
 perthousand=perthousand.ss20
 ratio=ratio.ss20
 commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20
@@ -13625,6 +13626,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -13847,13 +13849,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -14238,6 +14233,7 @@ ldotbelowmacron.cv04=ldotbelowmacron.cv04.ss20
 ldotbelowmacron=ldotbelowmacron.ss20
 lmacronbelow.cv04=lmacronbelow.cv04.ss20
 lmacronbelow=lmacronbelow.ss20
+longsdotaccent.italic=longsdotaccent.italic.ss20
 longsdotaccent=longsdotaccent.ss20
 lslash.cv04=lslash.cv04.ss20
 lslash=lslash.ss20
@@ -14318,6 +14314,7 @@ Iegrave-cy=Iegrave-cy.ss20
 Io-cy=Io-cy.ss20
 Zhe-cy=Zhe-cy.ss20
 Ii-cy=Ii-cy.ss20
+Iishort-cy=Iishort-cy.ss20
 Iigrave-cy=Iigrave-cy.ss20
 El-cy=El-cy.ss20
 Em-cy=Em-cy.ss20
@@ -14485,12 +14482,18 @@ zerowidthjoiner=zerowidthjoiner.ss20
 zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20
 anoteleia=anoteleia.ss20
 questiongreek=questiongreek.ss20
+leftanglebracket-math=leftanglebracket-math.ss20
+rightanglebracket-math=rightanglebracket-math.ss20
 period=period.ss20
 comma=comma.ss20
 colon.alt=colon.alt.ss20
 colon=colon.ss20
 semicolon=semicolon.ss20
 ellipsis=ellipsis.ss20
+exclam=exclam.ss20
+exclamdown=exclamdown.ss20
+question=question.ss20
+questiondown=questiondown.ss20
 periodcentered.loclCAT=periodcentered.loclCAT.ss20
 periodcentered=periodcentered.ss20
 slash=slash.ss20
@@ -14498,6 +14501,12 @@ backslash=backslash.ss20
 endash=endash.ss20
 emdash=emdash.ss20
 horizontalbar=horizontalbar.ss20
+parenleft=parenleft.ss20
+parenright=parenright.ss20
+braceleft=braceleft.ss20
+braceright=braceright.ss20
+bracketleft=bracketleft.ss20
+bracketright=bracketright.ss20
 quotesinglbase=quotesinglbase.ss20
 quoteleft=quoteleft.ss20
 quoteright=quoteright.ss20
@@ -14509,6 +14518,8 @@ blackStar=blackStar.ss20
 whiteStar=whiteStar.ss20
 aktieselskab=aktieselskab.ss20
 careof=careof.ss20
+rupee=rupee.ss20
+percent=percent.ss20
 perthousand=perthousand.ss20
 ratio=ratio.ss20
 commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20
@@ -14539,6 +14550,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -14759,13 +14771,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -15150,6 +15155,7 @@ ldotbelowmacron.cv04=ldotbelowmacron.cv04.ss20
 ldotbelowmacron=ldotbelowmacron.ss20
 lmacronbelow.cv04=lmacronbelow.cv04.ss20
 lmacronbelow=lmacronbelow.ss20
+longsdotaccent.italic=longsdotaccent.italic.ss20
 longsdotaccent=longsdotaccent.ss20
 lslash.cv04=lslash.cv04.ss20
 lslash=lslash.ss20
@@ -15230,6 +15236,7 @@ Iegrave-cy=Iegrave-cy.ss20
 Io-cy=Io-cy.ss20
 Zhe-cy=Zhe-cy.ss20
 Ii-cy=Ii-cy.ss20
+Iishort-cy=Iishort-cy.ss20
 Iigrave-cy=Iigrave-cy.ss20
 El-cy=El-cy.ss20
 Em-cy=Em-cy.ss20
@@ -15397,12 +15404,18 @@ zerowidthjoiner=zerowidthjoiner.ss20
 zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20
 anoteleia=anoteleia.ss20
 questiongreek=questiongreek.ss20
+leftanglebracket-math=leftanglebracket-math.ss20
+rightanglebracket-math=rightanglebracket-math.ss20
 period=period.ss20
 comma=comma.ss20
 colon.alt=colon.alt.ss20
 colon=colon.ss20
 semicolon=semicolon.ss20
 ellipsis=ellipsis.ss20
+exclam=exclam.ss20
+exclamdown=exclamdown.ss20
+question=question.ss20
+questiondown=questiondown.ss20
 periodcentered.loclCAT=periodcentered.loclCAT.ss20
 periodcentered=periodcentered.ss20
 slash=slash.ss20
@@ -15410,6 +15423,12 @@ backslash=backslash.ss20
 endash=endash.ss20
 emdash=emdash.ss20
 horizontalbar=horizontalbar.ss20
+parenleft=parenleft.ss20
+parenright=parenright.ss20
+braceleft=braceleft.ss20
+braceright=braceright.ss20
+bracketleft=bracketleft.ss20
+bracketright=bracketright.ss20
 quotesinglbase=quotesinglbase.ss20
 quoteleft=quoteleft.ss20
 quoteright=quoteright.ss20
@@ -15421,6 +15440,8 @@ blackStar=blackStar.ss20
 whiteStar=whiteStar.ss20
 aktieselskab=aktieselskab.ss20
 careof=careof.ss20
+rupee=rupee.ss20
+percent=percent.ss20
 perthousand=perthousand.ss20
 ratio=ratio.ss20
 commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20
@@ -15451,6 +15472,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
@@ -15673,13 +15695,6 @@ value = (
 },
 {
 disabled = 1;
-name = "Export Glyphs";
-value = (
-softhyphen
-);
-},
-{
-disabled = 1;
 name = "Replace Feature";
 value = "rclt;sub @width_224 lowlinecomb' by lowlinecomb.224;
 sub @width_276 lowlinecomb' by lowlinecomb.276;
@@ -16064,6 +16079,7 @@ ldotbelowmacron.cv04=ldotbelowmacron.cv04.ss20
 ldotbelowmacron=ldotbelowmacron.ss20
 lmacronbelow.cv04=lmacronbelow.cv04.ss20
 lmacronbelow=lmacronbelow.ss20
+longsdotaccent.italic=longsdotaccent.italic.ss20
 longsdotaccent=longsdotaccent.ss20
 lslash.cv04=lslash.cv04.ss20
 lslash=lslash.ss20
@@ -16144,6 +16160,7 @@ Iegrave-cy=Iegrave-cy.ss20
 Io-cy=Io-cy.ss20
 Zhe-cy=Zhe-cy.ss20
 Ii-cy=Ii-cy.ss20
+Iishort-cy=Iishort-cy.ss20
 Iigrave-cy=Iigrave-cy.ss20
 El-cy=El-cy.ss20
 Em-cy=Em-cy.ss20
@@ -16311,12 +16328,18 @@ zerowidthjoiner=zerowidthjoiner.ss20
 zeroWidthNoBreakSpace=zeroWidthNoBreakSpace.ss20
 anoteleia=anoteleia.ss20
 questiongreek=questiongreek.ss20
+leftanglebracket-math=leftanglebracket-math.ss20
+rightanglebracket-math=rightanglebracket-math.ss20
 period=period.ss20
 comma=comma.ss20
 colon.alt=colon.alt.ss20
 colon=colon.ss20
 semicolon=semicolon.ss20
 ellipsis=ellipsis.ss20
+exclam=exclam.ss20
+exclamdown=exclamdown.ss20
+question=question.ss20
+questiondown=questiondown.ss20
 periodcentered.loclCAT=periodcentered.loclCAT.ss20
 periodcentered=periodcentered.ss20
 slash=slash.ss20
@@ -16324,6 +16347,12 @@ backslash=backslash.ss20
 endash=endash.ss20
 emdash=emdash.ss20
 horizontalbar=horizontalbar.ss20
+parenleft=parenleft.ss20
+parenright=parenright.ss20
+braceleft=braceleft.ss20
+braceright=braceright.ss20
+bracketleft=bracketleft.ss20
+bracketright=bracketright.ss20
 quotesinglbase=quotesinglbase.ss20
 quoteleft=quoteleft.ss20
 quoteright=quoteright.ss20
@@ -16335,6 +16364,8 @@ blackStar=blackStar.ss20
 whiteStar=whiteStar.ss20
 aktieselskab=aktieselskab.ss20
 careof=careof.ss20
+rupee=rupee.ss20
+percent=percent.ss20
 perthousand=perthousand.ss20
 ratio=ratio.ss20
 commaaboverightcomb.case.spacing=commaaboverightcomb.case.spacing.ss20
@@ -16365,6 +16396,7 @@ value = (
 "wring=wring.italic",
 "wdotbelow=wdotbelow.italic",
 "f.ss20=f.italic.ss20",
+"longsdotaccent.ss20=longsdotaccent.italic.ss20",
 "longs.ss20=longs.italic.ss20",
 "w.ss20=w.italic.ss20",
 "wacute.ss20=wacute.italic.ss20",
