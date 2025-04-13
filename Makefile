@@ -68,7 +68,3 @@ update: venv venv-test
 
 	git commit -m "Update requirements" requirements.txt requirements-test.txt
 	git push
-
-.PHONY: install-debian
-install-debian:
-	$(MAKE) -C sudo install-debian
