@@ -15,10 +15,8 @@ jobs:
     - name: Install WOFF Support
       run: sudo apt install -y woff2 woff-tools
     - name: Install Debian Packaging Support
-      run: sudo apt update && sudo apt -y install devscripts debhelper-compat build-essential
+      run: sudo apt update && sudo apt -y install devscripts debhelper-compat build-essential zip cmake
     - name: Build Debian Package
-      run: scripts/prepare-deb.sh
-    - name: Build
       run: make -f private-build/Makefile dist
     - name: Release
       uses: softprops/action-gh-release@v0.1.15
