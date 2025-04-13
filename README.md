@@ -11,7 +11,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font.git%2Fgh-pages%2Fbadges%2FUniversal.json
 
-<img src="https://raw.github.com/jenskutilek/sudo-font/master/images/sudo-monospaced-ui-font.png">
+<img src="documentation/image1.png">
 
 Sudo is a font designed for terminals, programming, and user interfaces. Use at 16 pixels size for optimal results. It has a monospaced variant, simply called _Sudo,_ and a proportional variant, called _Sudo UI._ A Variable Font version is available. It has an extra variation axis to modify the length of descenders.
 
@@ -70,7 +70,7 @@ To prepare the production sources in the `sources` directory, run the script `sc
 
 The fonts are built from the sources in `sources` automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-If you want to build the fonts manually on your own computer:
+If you want to build the fonts manually using the Google Fonts build process on your own computer:
 
 * `make build` will produce font files.
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
