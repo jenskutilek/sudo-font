@@ -15,7 +15,7 @@ jobs:
     - name: Install WOFF Support
       run: sudo apt install -y woff2 woff-tools
     - name: Install Debian Packaging Support
-      run: sudo apt update && sudo apt -y install devscripts debhelper-compat build-essential zip cmake
+      run: sudo apt update && sudo apt -y install devscripts debhelper-compat build-essential zip libcairo2-dev
     - name: Build Debian Package
       run: scripts/prepare-deb.sh
     - name: Build
