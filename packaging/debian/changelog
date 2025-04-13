@@ -1,9 +1,16 @@
 fonts-sudo (3.0-1) UNRELEASED; urgency=medium
 
   * Remove contour overlaps
-  * Set descender axis minimum from -188 to -192, the actual descender depth
   * Tweak and improve many glyphs, especially the previously extrapolated layers
   * Incompatible change: Improve spacing and kerning (Sudo UI)
+  * Incompatible change: Add proportional alternates for more glyphs (Sudo UI)
   * Add /lowlinecomb with matching widths (Sudo UI)
+  * Redesign stars and shade glyphs
+  * Keep round dots in Italic, don't slant them
+  * Fix `frac` feature (#33), redesign fractions
+  * Fix interaction of `zero` and `onum` features
+  * Fix Glyphs export errors by splitting the design source into two production sources
+  * Strictly match block graphics to vertical metrics
+  * Prepare for Google Fonts build process
 
- -- Jens Kutilek <debian@kutilek.de>  Fri, 14 Mar 2025 19:03:00 +0100
+ -- Jens Kutilek <debian@kutilek.de>  Sun, 13 Apr 2025 19:40:00 +0200
