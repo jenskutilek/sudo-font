@@ -571,16 +571,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, math, coptic, elbasan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, syriac, duployan, canadian-aboriginal, old-permic, hebrew, math, coptic, tifinagh, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
@@ -590,14 +590,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, caucasian-albanian, cherokee, gothic, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, hatran, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, old-hungarian, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -649,14 +649,14 @@ definitions.</p>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
 <li>U+215F FRACTION NUMERATOR ONE: try adding symbols</li>
 <li>U+2189 VULGAR FRACTION ZERO THIRDS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+21A5 UPWARDS ARROW FROM BAR: try adding math</li>
 <li>U+21A8 UP DOWN ARROW WITH BASE: try adding math</li>
 <li>U+21B3 DOWNWARDS ARROW WITH TIP RIGHTWARDS: try adding math</li>
@@ -670,7 +670,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, tai-tham, symbols, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -693,7 +693,7 @@ definitions.</p>
 <li>U+2283 SUPERSET OF: try adding math</li>
 <li>U+2284 NOT A SUBSET OF: try adding math</li>
 <li>U+2285 NOT A SUPERSET OF: try adding math</li>
-<li>U+22C5 DOT OPERATOR: try adding one of: symbols, math</li>
+<li>U+22C5 DOT OPERATOR: try adding one of: math, symbols</li>
 <li>U+2302 HOUSE: try adding symbols</li>
 <li>U+2310 REVERSED NOT SIGN: try adding math</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
@@ -753,30 +753,30 @@ definitions.</p>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25AC BLACK RECTANGLE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C5 WHITE LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tagbanwa, new-tai-lue, soyombo, batak, miao, gurmukhi, sharada, khojki, lao, khmer, grantha, adlam, manichaean, modi, oriya, thai, tai-viet, kannada, hanunoo, nko, chakma, math, takri, gunjala-gondi, syloti-nagri, lepcha, tifinagh, marchen, balinese, warang-citi, brahmi, mandaic, myanmar, canadian-aboriginal, buginese, elbasan, caucasian-albanian, bengali, tibetan, masaram-gondi, tirhuta, yi, tai-le, bassa-vah, malayalam, tamil, ahom, duployan, old-permic, rejang, coptic, newa, saurashtra, buhid, pahawh-hmong, bhaiksuki, osage, javanese, telugu, sogdian, phags-pa, kharoshthi, meetei-mayek, music, tagalog, thaana, armenian, wancho, hebrew, sundanese, kayah-li, symbols, zanabazar-square, syriac, siddham, limbu, tai-tham, devanagari, sinhala, dogra, gujarati, kaithi, mahajani, mende-kikakui, cham, hanifi-rohingya, mongolian, khudawadi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
@@ -1477,16 +1477,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, math, coptic, elbasan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, syriac, duployan, canadian-aboriginal, old-permic, hebrew, math, coptic, tifinagh, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
@@ -1496,14 +1496,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, caucasian-albanian, cherokee, gothic, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, hatran, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, old-hungarian, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -1555,14 +1555,14 @@ definitions.</p>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
 <li>U+215F FRACTION NUMERATOR ONE: try adding symbols</li>
 <li>U+2189 VULGAR FRACTION ZERO THIRDS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+21A5 UPWARDS ARROW FROM BAR: try adding math</li>
 <li>U+21A8 UP DOWN ARROW WITH BASE: try adding math</li>
 <li>U+21B3 DOWNWARDS ARROW WITH TIP RIGHTWARDS: try adding math</li>
@@ -1576,7 +1576,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, tai-tham, symbols, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -1599,7 +1599,7 @@ definitions.</p>
 <li>U+2283 SUPERSET OF: try adding math</li>
 <li>U+2284 NOT A SUBSET OF: try adding math</li>
 <li>U+2285 NOT A SUPERSET OF: try adding math</li>
-<li>U+22C5 DOT OPERATOR: try adding one of: symbols, math</li>
+<li>U+22C5 DOT OPERATOR: try adding one of: math, symbols</li>
 <li>U+2302 HOUSE: try adding symbols</li>
 <li>U+2310 REVERSED NOT SIGN: try adding math</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
@@ -1659,30 +1659,30 @@ definitions.</p>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25AC BLACK RECTANGLE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C5 WHITE LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tagbanwa, new-tai-lue, soyombo, batak, miao, gurmukhi, sharada, khojki, lao, khmer, grantha, adlam, manichaean, modi, oriya, thai, tai-viet, kannada, hanunoo, nko, chakma, math, takri, gunjala-gondi, syloti-nagri, lepcha, tifinagh, marchen, balinese, warang-citi, brahmi, mandaic, myanmar, canadian-aboriginal, buginese, elbasan, caucasian-albanian, bengali, tibetan, masaram-gondi, tirhuta, yi, tai-le, bassa-vah, malayalam, tamil, ahom, duployan, old-permic, rejang, coptic, newa, saurashtra, buhid, pahawh-hmong, bhaiksuki, osage, javanese, telugu, sogdian, phags-pa, kharoshthi, meetei-mayek, music, tagalog, thaana, armenian, wancho, hebrew, sundanese, kayah-li, symbols, zanabazar-square, syriac, siddham, limbu, tai-tham, devanagari, sinhala, dogra, gujarati, kaithi, mahajani, mende-kikakui, cham, hanifi-rohingya, mongolian, khudawadi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
@@ -2359,16 +2359,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, math, coptic, elbasan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, syriac, duployan, canadian-aboriginal, old-permic, hebrew, math, coptic, tifinagh, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
@@ -2378,14 +2378,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, caucasian-albanian, cherokee, gothic, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, hatran, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, old-hungarian, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -2437,14 +2437,14 @@ definitions.</p>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
 <li>U+215F FRACTION NUMERATOR ONE: try adding symbols</li>
 <li>U+2189 VULGAR FRACTION ZERO THIRDS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+21A5 UPWARDS ARROW FROM BAR: try adding math</li>
 <li>U+21A8 UP DOWN ARROW WITH BASE: try adding math</li>
 <li>U+21B3 DOWNWARDS ARROW WITH TIP RIGHTWARDS: try adding math</li>
@@ -2458,7 +2458,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, tai-tham, symbols, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -2481,7 +2481,7 @@ definitions.</p>
 <li>U+2283 SUPERSET OF: try adding math</li>
 <li>U+2284 NOT A SUBSET OF: try adding math</li>
 <li>U+2285 NOT A SUPERSET OF: try adding math</li>
-<li>U+22C5 DOT OPERATOR: try adding one of: symbols, math</li>
+<li>U+22C5 DOT OPERATOR: try adding one of: math, symbols</li>
 <li>U+2302 HOUSE: try adding symbols</li>
 <li>U+2310 REVERSED NOT SIGN: try adding math</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
@@ -2541,30 +2541,30 @@ definitions.</p>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25AC BLACK RECTANGLE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C5 WHITE LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tagbanwa, new-tai-lue, soyombo, batak, miao, gurmukhi, sharada, khojki, lao, khmer, grantha, adlam, manichaean, modi, oriya, thai, tai-viet, kannada, hanunoo, nko, chakma, math, takri, gunjala-gondi, syloti-nagri, lepcha, tifinagh, marchen, balinese, warang-citi, brahmi, mandaic, myanmar, canadian-aboriginal, buginese, elbasan, caucasian-albanian, bengali, tibetan, masaram-gondi, tirhuta, yi, tai-le, bassa-vah, malayalam, tamil, ahom, duployan, old-permic, rejang, coptic, newa, saurashtra, buhid, pahawh-hmong, bhaiksuki, osage, javanese, telugu, sogdian, phags-pa, kharoshthi, meetei-mayek, music, tagalog, thaana, armenian, wancho, hebrew, sundanese, kayah-li, symbols, zanabazar-square, syriac, siddham, limbu, tai-tham, devanagari, sinhala, dogra, gujarati, kaithi, mahajani, mende-kikakui, cham, hanifi-rohingya, mongolian, khudawadi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
@@ -3241,16 +3241,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, math, coptic, elbasan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, syriac, duployan, canadian-aboriginal, old-permic, hebrew, math, coptic, tifinagh, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
@@ -3260,14 +3260,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, caucasian-albanian, cherokee, gothic, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, hatran, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagbanwa, zanabazar-square, new-tai-lue, malayalam, syriac, tamil, batak, duployan, gunjala-gondi, gurmukhi, rejang, lepcha, siddham, syloti-nagri, sharada, avestan, khojki, lao, khmer, limbu, newa, tai-tham, grantha, devanagari, sinhala, saurashtra, buhid, pahawh-hmong, old-hungarian, tifinagh, bhaiksuki, dogra, gujarati, javanese, arabic, kaithi, telugu, manichaean, modi, oriya, sogdian, balinese, phags-pa, thai, tai-viet, mahajani, warang-citi, kannada, hanunoo, kharoshthi, brahmi, mandaic, myanmar, nko, chakma, meetei-mayek, cham, tagalog, buginese, hanifi-rohingya, thaana, mongolian, bengali, tibetan, masaram-gondi, takri, khudawadi, psalter-pahlavi, hebrew, tirhuta, sundanese, yi, kayah-li, tai-le</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -3319,14 +3319,14 @@ definitions.</p>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
 <li>U+215F FRACTION NUMERATOR ONE: try adding symbols</li>
 <li>U+2189 VULGAR FRACTION ZERO THIRDS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+21A5 UPWARDS ARROW FROM BAR: try adding math</li>
 <li>U+21A8 UP DOWN ARROW WITH BASE: try adding math</li>
 <li>U+21B3 DOWNWARDS ARROW WITH TIP RIGHTWARDS: try adding math</li>
@@ -3340,7 +3340,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, tai-tham, symbols, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -3363,7 +3363,7 @@ definitions.</p>
 <li>U+2283 SUPERSET OF: try adding math</li>
 <li>U+2284 NOT A SUBSET OF: try adding math</li>
 <li>U+2285 NOT A SUPERSET OF: try adding math</li>
-<li>U+22C5 DOT OPERATOR: try adding one of: symbols, math</li>
+<li>U+22C5 DOT OPERATOR: try adding one of: math, symbols</li>
 <li>U+2302 HOUSE: try adding symbols</li>
 <li>U+2310 REVERSED NOT SIGN: try adding math</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
@@ -3423,30 +3423,30 @@ definitions.</p>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25AC BLACK RECTANGLE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C5 WHITE LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tagbanwa, new-tai-lue, soyombo, batak, miao, gurmukhi, sharada, khojki, lao, khmer, grantha, adlam, manichaean, modi, oriya, thai, tai-viet, kannada, hanunoo, nko, chakma, math, takri, gunjala-gondi, syloti-nagri, lepcha, tifinagh, marchen, balinese, warang-citi, brahmi, mandaic, myanmar, canadian-aboriginal, buginese, elbasan, caucasian-albanian, bengali, tibetan, masaram-gondi, tirhuta, yi, tai-le, bassa-vah, malayalam, tamil, ahom, duployan, old-permic, rejang, coptic, newa, saurashtra, buhid, pahawh-hmong, bhaiksuki, osage, javanese, telugu, sogdian, phags-pa, kharoshthi, meetei-mayek, music, tagalog, thaana, armenian, wancho, hebrew, sundanese, kayah-li, symbols, zanabazar-square, syriac, siddham, limbu, tai-tham, devanagari, sinhala, dogra, gujarati, kaithi, mahajani, mende-kikakui, cham, hanifi-rohingya, mongolian, khudawadi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
