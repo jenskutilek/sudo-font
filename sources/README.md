@@ -9,14 +9,6 @@ You can either export the fonts directly from Glyphs, or using the Google Fonts 
 
 ## Exporting Directly From Glyphs
 
-### Variable Fonts
-
-There are two Variable Font Settings in the Glyphs file that control the export. To get identical results to the official fonts in this repository (in `../sudo/`), a post-processing script is run by Glyphs, which is not publicly available. The script
-
-- Merges the `STAT` and `cvar` tables from `../ttx-patch/SudoVariable.cvar.ttx` into the font.
-- Sets different vertical metrics for the Sudo UI font family (a bug in Glyphs prevented applying the different metrics, TBD: check if it is fixed now)
-- Sets the `gasp` table in a more granular way than Glyphs can
-
 The production sources are set up so that the fonts can be built out of the box with `gftools`. If you want to export the fonts manually from Glyphs, you must change the export settings:
 
 - If you want to match the glyph order, under _Font,_ activate the _Custom Parameter_ “glyphOrder”.
@@ -27,8 +19,30 @@ The production sources are set up so that the fonts can be built out of the box 
   - _Remove Glyphs_
 - Under _Features,_ activate the `rlig` feature.
 
+### Variable Fonts
+
+There are two Variable Font Settings in the Glyphs file that control the export. To get identical results to the official fonts in this repository (in `../sudo/`), a post-processing script is run by Glyphs, which is not publicly available. The script
+
+- Merges the `STAT` and `cvar` tables from `../ttx-patch/SudoVariable.cvar.ttx` into the font.
+- Sets different vertical metrics for the Sudo UI font family (a bug in Glyphs prevented applying the different metrics, TBD: check if it is fixed now)
+- Sets the `gasp` table in a more granular way than Glyphs can
+
 ### Static Fonts
 
 The static TTF fonts in the releases are exported from Glyphs 3.1.2, also with some post-processing to fix some bugs, especially in the TrueType hinting (screen optimization).
 
-You must activate the last 10 instances under _Exports,_ starting with “Sudo UI”, before exporting, or the UI subfamily will not be exported.
+#### Sudo
+
+- For each instance, activate those _Custom Parameters:_
+  - _Remove Features_
+  - _Remove Glyphs_
+  - _Remove Classes_
+- In each Italic instance, activate the _Rename Glyphs_ _Custom Parameter._
+
+#### Sudo UI
+
+You must activate the last 10 instances under _Exports,_ starting with “Sudo UI”, before exporting, and deactivate the other instances.
+
+- For each instance, activate those _Custom Parameters:_
+  - _Remove Features_
+- In each Italic instance, activate the _Rename Glyphs_ _Custom Parameter._
