@@ -1180,6 +1180,7 @@
           </AlternateSet>
           <AlternateSet glyph="zero.osf">
             <Alternate glyph="zero"/>
+            <Alternate glyph="zero.zero.osf"/>
             <Alternate glyph="zero.osf.cv06"/>
           </AlternateSet>
           <AlternateSet glyph="zero.zero">
@@ -5425,6 +5426,7 @@
         <!-- SubTableCount=1 -->
         <SingleSubst index="0">
           <Substitution in="zero" out="zero.zero"/>
+          <Substitution in="zero.osf" out="zero.zero.osf"/>
         </SingleSubst>
       </Lookup>
       <Lookup index="27">
