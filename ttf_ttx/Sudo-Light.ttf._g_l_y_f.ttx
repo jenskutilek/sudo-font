@@ -11496,8 +11496,8 @@
       <component glyphName="uni2078" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="eight.numr" xMin="178" yMin="314" xMax="398" yMax="646">
-      <component glyphName="uni2078" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="eight.numr" xMin="178" yMin="250" xMax="398" yMax="582">
+      <component glyphName="uni2078" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="eight.osf" xMin="36" yMin="-11" xMax="413" yMax="586">
@@ -11648,7 +11648,8 @@
         <pt x="60" y="448" on="1"/>
         <pt x="117" y="448" on="1"/>
         <pt x="122" y="387" on="1"/>
-        <pt x="189" y="452" on="0"/>
+        <pt x="152" y="416" on="0"/>
+        <pt x="223" y="452" on="0"/>
         <pt x="260" y="452" on="1"/>
         <pt x="316" y="452" on="0"/>
         <pt x="386" y="382" on="0"/>
@@ -11673,47 +11674,45 @@
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
-          ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 4 values pushed */
-          13 18 12 10
-          MIAP[1]	/* MoveIndirectAbsPt */
-          MIRP[01101]	/* MoveIndirectRelPt */
-          RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 2 values pushed */
           1 6
           MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          20 15 5 6
+          21 15 6 6
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          9 23 8
+          10 24 8
           MIAP[1]	/* MoveIndirectAbsPt */
           MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 4 values pushed */
+          14 18 13 10
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 3 values pushed */
-          4 7 9
+          4 7 10
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          16 16 9
+          17 16 10
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 3 values pushed */
-          4 7 24
+          4 7 25
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          23 16 24
+          24 16 25
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
-          2 23
+          2 24
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[1]	/* InterpolateUntPts */
@@ -12519,8 +12518,8 @@
       <component glyphName="uni2075" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="five.numr" xMin="178" yMin="314" xMax="390" yMax="640">
-      <component glyphName="uni2075" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="five.numr" xMin="178" yMin="250" xMax="390" yMax="576">
+      <component glyphName="uni2075" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="five.osf" xMin="56" yMin="-128" xMax="394" yMax="448">
@@ -12624,7 +12623,7 @@
     </TTGlyph>
 
     <TTGlyph name="fiveeighths" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="five.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="five.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="eight.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
@@ -12816,8 +12815,8 @@
       <component glyphName="uni2074" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="four.numr" xMin="188" yMin="320" xMax="412" yMax="650">
-      <component glyphName="uni2074" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="four.numr" xMin="188" yMin="256" xMax="412" yMax="586">
+      <component glyphName="uni2074" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="four.osf" xMin="43" yMin="-128" xMax="421" yMax="462">
@@ -17407,8 +17406,8 @@
       <component glyphName="uni2079" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="nine.numr" xMin="184" yMin="314" xMax="393" yMax="646">
-      <component glyphName="uni2079" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="nine.numr" xMin="184" yMin="250" xMax="393" yMax="582">
+      <component glyphName="uni2079" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="nine.osf" xMin="43" yMin="-138" xMax="385" yMax="457">
@@ -18181,8 +18180,8 @@
       <component glyphName="uni00B9" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="one.numr" xMin="173" yMin="320" xMax="392" yMax="640">
-      <component glyphName="uni00B9" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="one.numr" xMin="173" yMin="256" xMax="392" yMax="576">
+      <component glyphName="uni00B9" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="one.osf" xMin="66" yMin="0" xMax="402" yMax="448">
@@ -18244,19 +18243,19 @@
     </TTGlyph>
 
     <TTGlyph name="oneeighth" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="eight.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="onehalf" xMin="42" yMin="-192" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="two.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="onequarter" xMin="42" yMin="-192" xMax="412" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="four.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
@@ -20437,8 +20436,8 @@
       <component glyphName="uni2077" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="seven.numr" xMin="195" yMin="314" xMax="382" yMax="640">
-      <component glyphName="uni2077" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="seven.numr" xMin="195" yMin="250" xMax="382" yMax="576">
+      <component glyphName="uni2077" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="seven.osf" xMin="66" yMin="-143" xMax="384" yMax="448">
@@ -20503,7 +20502,7 @@
     </TTGlyph>
 
     <TTGlyph name="seveneighths" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="seven.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="seven.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="eight.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
@@ -21460,8 +21459,8 @@
       <component glyphName="uni2076" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="six.numr" xMin="184" yMin="314" xMax="393" yMax="647">
-      <component glyphName="uni2076" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="six.numr" xMin="184" yMin="250" xMax="393" yMax="583">
+      <component glyphName="uni2076" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="six.osf" xMin="52" yMin="-8" xMax="393" yMax="583">
@@ -22305,8 +22304,8 @@
       <component glyphName="uni00B3" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="three.numr" xMin="193" yMin="314" xMax="391" yMax="648">
-      <component glyphName="uni00B3" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="three.numr" xMin="193" yMin="250" xMax="391" yMax="584">
+      <component glyphName="uni00B3" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="three.osf" xMin="62" yMin="-137" xMax="386" yMax="454">
@@ -22413,13 +22412,13 @@
     </TTGlyph>
 
     <TTGlyph name="threeeighths" xMin="42" yMin="-198" xMax="405" yMax="648">
-      <component glyphName="three.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="three.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="eight.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="threequarters" xMin="42" yMin="-192" xMax="412" yMax="648">
-      <component glyphName="three.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="three.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="four.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
@@ -22810,8 +22809,8 @@
       <component glyphName="uni00B2" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="two.numr" xMin="188" yMin="320" xMax="385" yMax="640">
-      <component glyphName="uni00B2" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="two.numr" xMin="188" yMin="256" xMax="385" yMax="576">
+      <component glyphName="uni00B2" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="two.osf" xMin="62" yMin="0" xMax="387" yMax="456">
@@ -36543,7 +36542,7 @@
         <pt x="264" y="507" on="1"/>
         <pt x="125" y="507" on="1"/>
         <pt x="125" y="389" on="1"/>
-        <pt x="190" y="452" on="0"/>
+        <pt x="192" y="452" on="0"/>
         <pt x="260" y="452" on="1"/>
         <pt x="316" y="452" on="0"/>
         <pt x="386" y="382" on="0"/>
@@ -36568,12 +36567,6 @@
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
-          ROFF[ ]	/* RoundOff */
-          PUSHB[ ]	/* 4 values pushed */
-          20 18 19 10
-          MIAP[1]	/* MoveIndirectAbsPt */
-          MIRP[01101]	/* MoveIndirectRelPt */
-          RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 2 values pushed */
           5 2
           MIAP[1]	/* MoveIndirectAbsPt */
@@ -36594,6 +36587,18 @@
           PUSHB[ ]	/* 2 values pushed */
           2 15
           MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 4 values pushed */
+          20 18 19 10
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          6 2
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 2 values pushed */
+          9 1
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 3 values pushed */
@@ -40956,72 +40961,72 @@
     </TTGlyph>
 
     <TTGlyph name="uni2150" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="seven.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2151" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="nine.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2153" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="three.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2154" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="two.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="two.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="three.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2155" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="five.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2156" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="two.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="two.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="five.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2157" xMin="42" yMin="-198" xMax="405" yMax="648">
-      <component glyphName="three.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="three.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="five.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2158" xMin="42" yMin="-198" xMax="405" yMax="650">
-      <component glyphName="four.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="four.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="five.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni2159" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="six.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni215A" xMin="42" yMin="-198" xMax="405" yMax="640">
-      <component glyphName="five.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="five.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="six.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="uni215F" xMin="42" yMin="174" xMax="405" yMax="640">
-      <component glyphName="one.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="one.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
     </TTGlyph>
 
     <TTGlyph name="uni2189" xMin="42" yMin="-198" xMax="405" yMax="647">
-      <component glyphName="zero.numr" x="-128" y="0" flags="0x400"/>
+      <component glyphName="zero.numr" x="-128" y="64" flags="0x404"/>
       <component glyphName="fraction.alt" x="0" y="0" flags="0x400"/>
       <component glyphName="three.dnom" x="128" y="-192" flags="0x404"/>
     </TTGlyph>
@@ -57564,8 +57569,8 @@
       <component glyphName="uni2070" x="0" y="-320" flags="0x404"/>
     </TTGlyph>
 
-    <TTGlyph name="zero.numr" xMin="176" yMin="313" xMax="400" yMax="647">
-      <component glyphName="uni2070" x="128" y="0" flags="0x400"/>
+    <TTGlyph name="zero.numr" xMin="176" yMin="249" xMax="400" yMax="583">
+      <component glyphName="uni2070" x="128" y="-64" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="zero.osf" xMin="42" yMin="-10" xMax="406" yMax="458">
