@@ -81,7 +81,7 @@ a à á â ầ ấ ẫ ẩ ã ā ă ằ ắ ẵ ẳ ȧ ä ǟ ả å ǻ ǎ ạ �
 
 ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▀ ▔ ▏ ▎ ▍ ▌ ▋ ▊ ▉ ▐ ▕ ▖ ▗ ▘ ▙ ▚ ▛ ▜ ▝ ▞ ▟ ░ ▒ ▓ ■ □ ◆ ◇ ● ○ ◦ ◘ ◙ ◊ ▬ ▧ ▨ ▪ ▫ ▲ ▶ ▼ ◀ △ ▷ ▽ ◁ ▴ ▸ ▾ ◂ ▵ ▹ ▿ ◃ ► ◄ ▻ ◅ ◥ ◢ ◣ ◤ ◌
 
-\subsection{Combinations}
+\section{Combinations}
 
 Some icons and symbols are designed to be combined with other characters, e.g. the smileys:
 
@@ -92,3 +92,23 @@ Some icons and symbols are designed to be combined with other characters, e.g. t
 	Brackets:    \> \large [☺] [☻] [☹] [😀] [😁] [😊] [😠] [😡] \\
 	Miscellaneous: \= \large /☺\textbackslash{} \textbackslash ☻\textbackslash{} |☹| <😀> =😁=  >😊< )😠( \}😡\{ \\
 \end{tabbing}
+
+\section{Descender Variations}
+
+The fonts contain a variation axis (tag: YTDE) that controls the depth of the descenders between {\addfontfeature{RawFeature=+frac}-188/1000} (default) and {\addfontfeature{RawFeature=+frac}-64/1000} of the font size.
+
+
+\def\descenders{Qgǥ{\addfontfeature{RawFeature=+cv01}gǥ}ɥjȷĵŋpqʒþyỵfſßДЦЩЏфцщђβγζηξρρςφϕχψ0123456789¡¿‗₡∫∏∑µ}
+\begin{itemize}\addfontfeature{RawFeature=+onum}
+	\item {\addfontfeature{RawFeature={+axis={wght=200,YTDE=-64}}} ExtraLight: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=200,ital=1,YTDE=-64}}} ExtraLight Italic: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=300,YTDE=-64}}} Light: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=300,ital=1,YTDE=-64}}} Light Italic: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=400,YTDE=-64}}} Regular: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=400,ital=1,YTDE=-64}}} Regular Italic: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=600,YTDE=-64}}} SemiBold: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=600,ital=1,YTDE=-64}}} SemiBold Italic: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=700,YTDE=-64}}} Bold: \descenders}
+	\item {\addfontfeature{RawFeature={+axis={wght=700,ital=1,YTDE=-64}}} Bold Italic: \descenders}
+\end{itemize}
+
