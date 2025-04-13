@@ -71,4 +71,4 @@ update: venv venv-test
 
 .PHONY: install-debian
 install-debian:
-	$(MAKE) -C $(FONTDIR) install-debian
+	$(MAKE) -C sudo install-debian
