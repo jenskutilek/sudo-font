@@ -571,18 +571,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, coptic, glagolitic, math, gothic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, todhri, tifinagh, old-permic, math, malayalam, duployan, tai-le, hebrew, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
@@ -590,14 +590,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, tifinagh, thai, cherokee, gothic, caucasian-albanian, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, hatran, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, old-hungarian, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -670,7 +670,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, yi, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -776,7 +776,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, sharada, brahmi, pahawh-hmong, oriya, caucasian-albanian, khojki, tagbanwa, siddham, batak, mahajani, tamil, rejang, tifinagh, kannada, takri, phags-pa, myanmar, chakma, sinhala, bassa-vah, masaram-gondi, meetei-mayek, buhid, kayah-li, telugu, thaana, zanabazar-square, thai, nko, hebrew, modi, canadian-aboriginal, lao, mongolian, tirhuta, mende-kikakui, bhaiksuki, old-permic, malayalam, symbols, cham, soyombo, sundanese, elbasan, syloti-nagri, sogdian, gujarati, manichaean, tai-le, adlam, armenian, khmer, psalter-pahlavi, gunjala-gondi, wancho, syriac, balinese, saurashtra, yi, mandaic, tibetan, ahom, kaithi, tai-tham, devanagari, coptic, lepcha, kharoshthi, bengali, tagalog, hanifi-rohingya, dogra, math, marchen, miao, duployan, osage, tai-viet, khudawadi, grantha, gurmukhi, newa, limbu, javanese, music, warang-citi, hanunoo, buginese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
@@ -822,70 +822,70 @@ definitions.</p>
 <li>U+27C2 PERPENDICULAR: try adding math</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
 <li>U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET: try adding math</li>
-<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: braille, symbols</li>
-<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: braille, symbols</li>
-<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: braille, symbols</li>
-<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: braille, symbols</li>
-<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: braille, symbols</li>
-<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: braille, symbols</li>
-<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: braille, symbols</li>
-<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: braille, symbols</li>
-<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: braille, symbols</li>
-<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: braille, symbols</li>
-<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: braille, symbols</li>
-<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: braille, symbols</li>
-<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: braille, symbols</li>
-<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: braille, symbols</li>
-<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: braille, symbols</li>
-<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: braille, symbols</li>
-<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: braille, symbols</li>
-<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: braille, symbols</li>
-<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: braille, symbols</li>
-<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: braille, symbols</li>
-<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: braille, symbols</li>
-<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: braille, symbols</li>
-<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: braille, symbols</li>
-<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: braille, symbols</li>
-<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: braille, symbols</li>
-<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: braille, symbols</li>
-<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: braille, symbols</li>
-<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: braille, symbols</li>
-<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: braille, symbols</li>
-<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: braille, symbols</li>
-<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: braille, symbols</li>
-<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: braille, symbols</li>
-<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: braille, symbols</li>
-<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: braille, symbols</li>
-<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: braille, symbols</li>
-<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: braille, symbols</li>
-<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: braille, symbols</li>
-<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: braille, symbols</li>
-<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: braille, symbols</li>
-<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: braille, symbols</li>
-<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: braille, symbols</li>
-<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: braille, symbols</li>
-<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: braille, symbols</li>
-<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: braille, symbols</li>
-<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: braille, symbols</li>
-<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: braille, symbols</li>
-<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: braille, symbols</li>
-<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: braille, symbols</li>
-<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: braille, symbols</li>
-<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: braille, symbols</li>
-<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: braille, symbols</li>
-<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: braille, symbols</li>
-<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: braille, symbols</li>
-<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: braille, symbols</li>
-<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: braille, symbols</li>
-<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: braille, symbols</li>
-<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: braille, symbols</li>
-<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: braille, symbols</li>
-<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: braille, symbols</li>
-<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: braille, symbols</li>
-<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: braille, symbols</li>
-<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: braille, symbols</li>
-<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: braille, symbols</li>
-<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: braille, symbols</li>
+<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: symbols, braille</li>
+<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: symbols, braille</li>
+<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: symbols, braille</li>
+<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: symbols, braille</li>
+<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: symbols, braille</li>
+<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: symbols, braille</li>
+<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: symbols, braille</li>
+<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: symbols, braille</li>
+<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: symbols, braille</li>
+<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: symbols, braille</li>
+<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: symbols, braille</li>
+<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: symbols, braille</li>
+<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: symbols, braille</li>
+<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: symbols, braille</li>
+<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: symbols, braille</li>
+<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: symbols, braille</li>
+<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: symbols, braille</li>
+<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: symbols, braille</li>
+<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: symbols, braille</li>
+<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: symbols, braille</li>
+<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: symbols, braille</li>
+<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: symbols, braille</li>
+<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: symbols, braille</li>
+<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: symbols, braille</li>
+<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: symbols, braille</li>
+<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: symbols, braille</li>
+<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: symbols, braille</li>
+<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: symbols, braille</li>
+<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: symbols, braille</li>
+<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: symbols, braille</li>
+<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: symbols, braille</li>
+<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: symbols, braille</li>
+<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: symbols, braille</li>
+<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: symbols, braille</li>
+<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: symbols, braille</li>
+<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: symbols, braille</li>
+<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: symbols, braille</li>
+<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: symbols, braille</li>
+<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: symbols, braille</li>
+<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: symbols, braille</li>
+<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: symbols, braille</li>
+<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: symbols, braille</li>
+<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: symbols, braille</li>
+<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: symbols, braille</li>
+<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: symbols, braille</li>
+<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: symbols, braille</li>
+<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: symbols, braille</li>
+<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: symbols, braille</li>
+<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: symbols, braille</li>
+<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: symbols, braille</li>
+<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: symbols, braille</li>
+<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: symbols, braille</li>
+<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: symbols, braille</li>
+<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: symbols, braille</li>
+<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: symbols, braille</li>
+<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: symbols, braille</li>
+<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: symbols, braille</li>
+<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: symbols, braille</li>
+<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: symbols, braille</li>
+<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: symbols, braille</li>
+<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: symbols, braille</li>
+<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: symbols, braille</li>
+<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: symbols, braille</li>
+<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: symbols, braille</li>
 <li>U+2913 DOWNWARDS ARROW TO BAR: try adding math</li>
 <li>U+2940 ANTICLOCKWISE CLOSED CIRCLE ARROW: try adding math</li>
 <li>U+2B51 BLACK SMALL STAR: try adding symbols</li>
@@ -1477,18 +1477,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, coptic, glagolitic, math, gothic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, todhri, tifinagh, old-permic, math, malayalam, duployan, tai-le, hebrew, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
@@ -1496,14 +1496,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, tifinagh, thai, cherokee, gothic, caucasian-albanian, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, hatran, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, old-hungarian, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -1576,7 +1576,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, yi, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -1682,7 +1682,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, sharada, brahmi, pahawh-hmong, oriya, caucasian-albanian, khojki, tagbanwa, siddham, batak, mahajani, tamil, rejang, tifinagh, kannada, takri, phags-pa, myanmar, chakma, sinhala, bassa-vah, masaram-gondi, meetei-mayek, buhid, kayah-li, telugu, thaana, zanabazar-square, thai, nko, hebrew, modi, canadian-aboriginal, lao, mongolian, tirhuta, mende-kikakui, bhaiksuki, old-permic, malayalam, symbols, cham, soyombo, sundanese, elbasan, syloti-nagri, sogdian, gujarati, manichaean, tai-le, adlam, armenian, khmer, psalter-pahlavi, gunjala-gondi, wancho, syriac, balinese, saurashtra, yi, mandaic, tibetan, ahom, kaithi, tai-tham, devanagari, coptic, lepcha, kharoshthi, bengali, tagalog, hanifi-rohingya, dogra, math, marchen, miao, duployan, osage, tai-viet, khudawadi, grantha, gurmukhi, newa, limbu, javanese, music, warang-citi, hanunoo, buginese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
@@ -1728,70 +1728,70 @@ definitions.</p>
 <li>U+27C2 PERPENDICULAR: try adding math</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
 <li>U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET: try adding math</li>
-<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: braille, symbols</li>
-<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: braille, symbols</li>
-<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: braille, symbols</li>
-<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: braille, symbols</li>
-<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: braille, symbols</li>
-<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: braille, symbols</li>
-<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: braille, symbols</li>
-<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: braille, symbols</li>
-<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: braille, symbols</li>
-<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: braille, symbols</li>
-<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: braille, symbols</li>
-<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: braille, symbols</li>
-<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: braille, symbols</li>
-<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: braille, symbols</li>
-<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: braille, symbols</li>
-<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: braille, symbols</li>
-<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: braille, symbols</li>
-<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: braille, symbols</li>
-<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: braille, symbols</li>
-<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: braille, symbols</li>
-<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: braille, symbols</li>
-<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: braille, symbols</li>
-<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: braille, symbols</li>
-<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: braille, symbols</li>
-<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: braille, symbols</li>
-<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: braille, symbols</li>
-<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: braille, symbols</li>
-<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: braille, symbols</li>
-<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: braille, symbols</li>
-<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: braille, symbols</li>
-<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: braille, symbols</li>
-<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: braille, symbols</li>
-<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: braille, symbols</li>
-<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: braille, symbols</li>
-<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: braille, symbols</li>
-<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: braille, symbols</li>
-<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: braille, symbols</li>
-<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: braille, symbols</li>
-<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: braille, symbols</li>
-<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: braille, symbols</li>
-<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: braille, symbols</li>
-<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: braille, symbols</li>
-<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: braille, symbols</li>
-<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: braille, symbols</li>
-<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: braille, symbols</li>
-<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: braille, symbols</li>
-<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: braille, symbols</li>
-<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: braille, symbols</li>
-<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: braille, symbols</li>
-<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: braille, symbols</li>
-<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: braille, symbols</li>
-<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: braille, symbols</li>
-<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: braille, symbols</li>
-<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: braille, symbols</li>
-<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: braille, symbols</li>
-<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: braille, symbols</li>
-<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: braille, symbols</li>
-<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: braille, symbols</li>
-<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: braille, symbols</li>
-<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: braille, symbols</li>
-<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: braille, symbols</li>
-<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: braille, symbols</li>
-<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: braille, symbols</li>
-<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: braille, symbols</li>
+<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: symbols, braille</li>
+<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: symbols, braille</li>
+<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: symbols, braille</li>
+<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: symbols, braille</li>
+<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: symbols, braille</li>
+<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: symbols, braille</li>
+<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: symbols, braille</li>
+<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: symbols, braille</li>
+<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: symbols, braille</li>
+<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: symbols, braille</li>
+<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: symbols, braille</li>
+<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: symbols, braille</li>
+<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: symbols, braille</li>
+<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: symbols, braille</li>
+<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: symbols, braille</li>
+<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: symbols, braille</li>
+<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: symbols, braille</li>
+<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: symbols, braille</li>
+<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: symbols, braille</li>
+<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: symbols, braille</li>
+<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: symbols, braille</li>
+<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: symbols, braille</li>
+<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: symbols, braille</li>
+<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: symbols, braille</li>
+<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: symbols, braille</li>
+<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: symbols, braille</li>
+<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: symbols, braille</li>
+<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: symbols, braille</li>
+<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: symbols, braille</li>
+<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: symbols, braille</li>
+<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: symbols, braille</li>
+<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: symbols, braille</li>
+<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: symbols, braille</li>
+<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: symbols, braille</li>
+<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: symbols, braille</li>
+<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: symbols, braille</li>
+<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: symbols, braille</li>
+<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: symbols, braille</li>
+<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: symbols, braille</li>
+<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: symbols, braille</li>
+<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: symbols, braille</li>
+<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: symbols, braille</li>
+<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: symbols, braille</li>
+<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: symbols, braille</li>
+<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: symbols, braille</li>
+<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: symbols, braille</li>
+<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: symbols, braille</li>
+<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: symbols, braille</li>
+<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: symbols, braille</li>
+<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: symbols, braille</li>
+<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: symbols, braille</li>
+<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: symbols, braille</li>
+<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: symbols, braille</li>
+<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: symbols, braille</li>
+<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: symbols, braille</li>
+<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: symbols, braille</li>
+<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: symbols, braille</li>
+<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: symbols, braille</li>
+<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: symbols, braille</li>
+<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: symbols, braille</li>
+<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: symbols, braille</li>
+<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: symbols, braille</li>
+<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: symbols, braille</li>
+<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: symbols, braille</li>
 <li>U+2913 DOWNWARDS ARROW TO BAR: try adding math</li>
 <li>U+2940 ANTICLOCKWISE CLOSED CIRCLE ARROW: try adding math</li>
 <li>U+2B51 BLACK SMALL STAR: try adding symbols</li>
@@ -2359,18 +2359,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, coptic, glagolitic, math, gothic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, todhri, tifinagh, old-permic, math, malayalam, duployan, tai-le, hebrew, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
@@ -2378,14 +2378,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, tifinagh, thai, cherokee, gothic, caucasian-albanian, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, hatran, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, old-hungarian, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -2458,7 +2458,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, yi, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -2564,7 +2564,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, sharada, brahmi, pahawh-hmong, oriya, caucasian-albanian, khojki, tagbanwa, siddham, batak, mahajani, tamil, rejang, tifinagh, kannada, takri, phags-pa, myanmar, chakma, sinhala, bassa-vah, masaram-gondi, meetei-mayek, buhid, kayah-li, telugu, thaana, zanabazar-square, thai, nko, hebrew, modi, canadian-aboriginal, lao, mongolian, tirhuta, mende-kikakui, bhaiksuki, old-permic, malayalam, symbols, cham, soyombo, sundanese, elbasan, syloti-nagri, sogdian, gujarati, manichaean, tai-le, adlam, armenian, khmer, psalter-pahlavi, gunjala-gondi, wancho, syriac, balinese, saurashtra, yi, mandaic, tibetan, ahom, kaithi, tai-tham, devanagari, coptic, lepcha, kharoshthi, bengali, tagalog, hanifi-rohingya, dogra, math, marchen, miao, duployan, osage, tai-viet, khudawadi, grantha, gurmukhi, newa, limbu, javanese, music, warang-citi, hanunoo, buginese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
@@ -2610,70 +2610,70 @@ definitions.</p>
 <li>U+27C2 PERPENDICULAR: try adding math</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
 <li>U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET: try adding math</li>
-<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: braille, symbols</li>
-<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: braille, symbols</li>
-<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: braille, symbols</li>
-<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: braille, symbols</li>
-<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: braille, symbols</li>
-<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: braille, symbols</li>
-<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: braille, symbols</li>
-<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: braille, symbols</li>
-<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: braille, symbols</li>
-<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: braille, symbols</li>
-<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: braille, symbols</li>
-<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: braille, symbols</li>
-<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: braille, symbols</li>
-<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: braille, symbols</li>
-<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: braille, symbols</li>
-<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: braille, symbols</li>
-<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: braille, symbols</li>
-<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: braille, symbols</li>
-<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: braille, symbols</li>
-<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: braille, symbols</li>
-<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: braille, symbols</li>
-<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: braille, symbols</li>
-<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: braille, symbols</li>
-<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: braille, symbols</li>
-<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: braille, symbols</li>
-<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: braille, symbols</li>
-<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: braille, symbols</li>
-<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: braille, symbols</li>
-<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: braille, symbols</li>
-<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: braille, symbols</li>
-<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: braille, symbols</li>
-<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: braille, symbols</li>
-<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: braille, symbols</li>
-<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: braille, symbols</li>
-<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: braille, symbols</li>
-<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: braille, symbols</li>
-<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: braille, symbols</li>
-<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: braille, symbols</li>
-<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: braille, symbols</li>
-<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: braille, symbols</li>
-<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: braille, symbols</li>
-<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: braille, symbols</li>
-<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: braille, symbols</li>
-<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: braille, symbols</li>
-<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: braille, symbols</li>
-<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: braille, symbols</li>
-<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: braille, symbols</li>
-<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: braille, symbols</li>
-<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: braille, symbols</li>
-<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: braille, symbols</li>
-<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: braille, symbols</li>
-<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: braille, symbols</li>
-<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: braille, symbols</li>
-<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: braille, symbols</li>
-<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: braille, symbols</li>
-<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: braille, symbols</li>
-<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: braille, symbols</li>
-<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: braille, symbols</li>
-<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: braille, symbols</li>
-<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: braille, symbols</li>
-<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: braille, symbols</li>
-<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: braille, symbols</li>
-<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: braille, symbols</li>
-<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: braille, symbols</li>
+<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: symbols, braille</li>
+<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: symbols, braille</li>
+<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: symbols, braille</li>
+<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: symbols, braille</li>
+<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: symbols, braille</li>
+<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: symbols, braille</li>
+<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: symbols, braille</li>
+<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: symbols, braille</li>
+<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: symbols, braille</li>
+<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: symbols, braille</li>
+<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: symbols, braille</li>
+<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: symbols, braille</li>
+<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: symbols, braille</li>
+<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: symbols, braille</li>
+<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: symbols, braille</li>
+<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: symbols, braille</li>
+<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: symbols, braille</li>
+<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: symbols, braille</li>
+<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: symbols, braille</li>
+<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: symbols, braille</li>
+<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: symbols, braille</li>
+<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: symbols, braille</li>
+<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: symbols, braille</li>
+<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: symbols, braille</li>
+<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: symbols, braille</li>
+<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: symbols, braille</li>
+<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: symbols, braille</li>
+<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: symbols, braille</li>
+<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: symbols, braille</li>
+<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: symbols, braille</li>
+<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: symbols, braille</li>
+<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: symbols, braille</li>
+<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: symbols, braille</li>
+<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: symbols, braille</li>
+<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: symbols, braille</li>
+<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: symbols, braille</li>
+<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: symbols, braille</li>
+<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: symbols, braille</li>
+<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: symbols, braille</li>
+<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: symbols, braille</li>
+<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: symbols, braille</li>
+<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: symbols, braille</li>
+<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: symbols, braille</li>
+<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: symbols, braille</li>
+<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: symbols, braille</li>
+<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: symbols, braille</li>
+<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: symbols, braille</li>
+<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: symbols, braille</li>
+<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: symbols, braille</li>
+<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: symbols, braille</li>
+<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: symbols, braille</li>
+<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: symbols, braille</li>
+<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: symbols, braille</li>
+<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: symbols, braille</li>
+<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: symbols, braille</li>
+<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: symbols, braille</li>
+<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: symbols, braille</li>
+<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: symbols, braille</li>
+<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: symbols, braille</li>
+<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: symbols, braille</li>
+<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: symbols, braille</li>
+<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: symbols, braille</li>
+<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: symbols, braille</li>
+<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: symbols, braille</li>
 <li>U+2913 DOWNWARDS ARROW TO BAR: try adding math</li>
 <li>U+2940 ANTICLOCKWISE CLOSED CIRCLE ARROW: try adding math</li>
 <li>U+2B51 BLACK SMALL STAR: try adding symbols</li>
@@ -3241,18 +3241,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, coptic, math, elbasan, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, coptic, glagolitic, math, gothic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, coptic, malayalam, hebrew, old-permic, tai-le, math, canadian-aboriginal, todhri, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, todhri, tifinagh, old-permic, math, malayalam, duployan, tai-le, hebrew, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
@@ -3260,14 +3260,14 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, sunuwar, cherokee, caucasian-albanian, thai, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, tifinagh, thai, cherokee, gothic, caucasian-albanian, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0344 COMBINING GREEK DIALYTIKA TONOS: not included in any glyphset definition</li>
 <li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, tai-tham, yi, avestan, khudawadi, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, hatran, new-tai-lue, batak, tai-viet, sundanese, zanabazar-square, modi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: takri, duployan, balinese, buhid, dogra, gujarati, gurmukhi, hanifi-rohingya, kharoshthi, mahajani, tagalog, meetei-mayek, psalter-pahlavi, tirhuta, khmer, sinhala, syloti-nagri, manichaean, tibetan, syriac, bhaiksuki, tifinagh, lepcha, gunjala-gondi, arabic, kaithi, sogdian, oriya, siddham, telugu, sharada, mongolian, buginese, kannada, bengali, rejang, nko, kayah-li, myanmar, phags-pa, masaram-gondi, tamil, cham, chakma, devanagari, yi, avestan, khudawadi, old-hungarian, tai-le, mandaic, thai, javanese, khojki, thaana, warang-citi, limbu, saurashtra, pahawh-hmong, hanunoo, malayalam, grantha, hebrew, brahmi, newa, lao, tagbanwa, new-tai-lue, tai-tham, batak, tai-viet, sundanese, zanabazar-square, modi</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, hatran, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: hanifi-rohingya, new-tai-lue, khmer, brahmi, psalter-pahlavi, sharada, lao, pahawh-hmong, gunjala-gondi, mongolian, tirhuta, dogra, oriya, khojki, syriac, tagbanwa, siddham, balinese, bhaiksuki, batak, saurashtra, mahajani, yi, tamil, rejang, tifinagh, kannada, takri, mandaic, malayalam, duployan, phags-pa, cham, tibetan, old-hungarian, sundanese, tai-viet, khudawadi, myanmar, chakma, syloti-nagri, sogdian, grantha, gurmukhi, sinhala, kaithi, masaram-gondi, newa, tai-tham, limbu, javanese, gujarati, meetei-mayek, buhid, hanunoo, kayah-li, telugu, devanagari, lepcha, thaana, thai, zanabazar-square, kharoshthi, avestan, arabic, nko, warang-citi, manichaean, tai-le, bengali, hebrew, buginese, modi, tagalog</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
@@ -3340,7 +3340,7 @@ definitions.</p>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, yi, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+221F RIGHT ANGLE: try adding math</li>
@@ -3446,7 +3446,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, buhid, gurmukhi, math, tibetan, syriac, tifinagh, kaithi, sogdian, mongolian, buginese, kannada, rejang, chakma, marchen, thai, mende-kikakui, tai-tham, grantha, brahmi, batak, zanabazar-square, takri, gujarati, tagalog, meetei-mayek, khmer, sinhala, syloti-nagri, sharada, miao, myanmar, masaram-gondi, phags-pa, yi, javanese, saurashtra, pahawh-hmong, hanunoo, tagbanwa, canadian-aboriginal, dogra, mahajani, psalter-pahlavi, tirhuta, adlam, ahom, siddham, telugu, elbasan, wancho, bengali, nko, tamil, coptic, caucasian-albanian, thaana, limbu, hebrew, lao, new-tai-lue, sundanese, modi, duployan, kharoshthi, hanifi-rohingya, music, manichaean, armenian, bhaiksuki, lepcha, gunjala-gondi, osage, old-permic, oriya, soyombo, bassa-vah, kayah-li, cham, devanagari, khudawadi, tai-le, mandaic, khojki, warang-citi, malayalam, symbols, newa, tai-viet</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, sharada, brahmi, pahawh-hmong, oriya, caucasian-albanian, khojki, tagbanwa, siddham, batak, mahajani, tamil, rejang, tifinagh, kannada, takri, phags-pa, myanmar, chakma, sinhala, bassa-vah, masaram-gondi, meetei-mayek, buhid, kayah-li, telugu, thaana, zanabazar-square, thai, nko, hebrew, modi, canadian-aboriginal, lao, mongolian, tirhuta, mende-kikakui, bhaiksuki, old-permic, malayalam, symbols, cham, soyombo, sundanese, elbasan, syloti-nagri, sogdian, gujarati, manichaean, tai-le, adlam, armenian, khmer, psalter-pahlavi, gunjala-gondi, wancho, syriac, balinese, saurashtra, yi, mandaic, tibetan, ahom, kaithi, tai-tham, devanagari, coptic, lepcha, kharoshthi, bengali, tagalog, hanifi-rohingya, dogra, math, marchen, miao, duployan, osage, tai-viet, khudawadi, grantha, gurmukhi, newa, limbu, javanese, music, warang-citi, hanunoo, buginese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25D8 INVERSE BULLET: try adding symbols</li>
 <li>U+25D9 INVERSE WHITE CIRCLE: try adding symbols</li>
@@ -3492,70 +3492,70 @@ definitions.</p>
 <li>U+27C2 PERPENDICULAR: try adding math</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
 <li>U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET: try adding math</li>
-<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: braille, symbols</li>
-<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: braille, symbols</li>
-<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: braille, symbols</li>
-<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: braille, symbols</li>
-<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: braille, symbols</li>
-<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: braille, symbols</li>
-<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: braille, symbols</li>
-<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: braille, symbols</li>
-<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: braille, symbols</li>
-<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: braille, symbols</li>
-<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: braille, symbols</li>
-<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: braille, symbols</li>
-<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: braille, symbols</li>
-<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: braille, symbols</li>
-<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: braille, symbols</li>
-<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: braille, symbols</li>
-<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: braille, symbols</li>
-<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: braille, symbols</li>
-<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: braille, symbols</li>
-<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: braille, symbols</li>
-<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: braille, symbols</li>
-<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: braille, symbols</li>
-<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: braille, symbols</li>
-<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: braille, symbols</li>
-<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: braille, symbols</li>
-<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: braille, symbols</li>
-<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: braille, symbols</li>
-<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: braille, symbols</li>
-<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: braille, symbols</li>
-<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: braille, symbols</li>
-<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: braille, symbols</li>
-<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: braille, symbols</li>
-<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: braille, symbols</li>
-<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: braille, symbols</li>
-<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: braille, symbols</li>
-<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: braille, symbols</li>
-<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: braille, symbols</li>
-<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: braille, symbols</li>
-<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: braille, symbols</li>
-<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: braille, symbols</li>
-<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: braille, symbols</li>
-<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: braille, symbols</li>
-<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: braille, symbols</li>
-<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: braille, symbols</li>
-<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: braille, symbols</li>
-<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: braille, symbols</li>
-<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: braille, symbols</li>
-<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: braille, symbols</li>
-<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: braille, symbols</li>
-<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: braille, symbols</li>
-<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: braille, symbols</li>
-<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: braille, symbols</li>
-<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: braille, symbols</li>
-<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: braille, symbols</li>
-<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: braille, symbols</li>
-<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: braille, symbols</li>
-<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: braille, symbols</li>
-<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: braille, symbols</li>
-<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: braille, symbols</li>
-<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: braille, symbols</li>
-<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: braille, symbols</li>
-<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: braille, symbols</li>
-<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: braille, symbols</li>
-<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: braille, symbols</li>
+<li>U+2800 BRAILLE PATTERN BLANK: try adding one of: symbols, braille</li>
+<li>U+2801 BRAILLE PATTERN DOTS-1: try adding one of: symbols, braille</li>
+<li>U+2802 BRAILLE PATTERN DOTS-2: try adding one of: symbols, braille</li>
+<li>U+2803 BRAILLE PATTERN DOTS-12: try adding one of: symbols, braille</li>
+<li>U+2804 BRAILLE PATTERN DOTS-3: try adding one of: symbols, braille</li>
+<li>U+2805 BRAILLE PATTERN DOTS-13: try adding one of: symbols, braille</li>
+<li>U+2806 BRAILLE PATTERN DOTS-23: try adding one of: symbols, braille</li>
+<li>U+2807 BRAILLE PATTERN DOTS-123: try adding one of: symbols, braille</li>
+<li>U+2808 BRAILLE PATTERN DOTS-4: try adding one of: symbols, braille</li>
+<li>U+2809 BRAILLE PATTERN DOTS-14: try adding one of: symbols, braille</li>
+<li>U+280A BRAILLE PATTERN DOTS-24: try adding one of: symbols, braille</li>
+<li>U+280B BRAILLE PATTERN DOTS-124: try adding one of: symbols, braille</li>
+<li>U+280C BRAILLE PATTERN DOTS-34: try adding one of: symbols, braille</li>
+<li>U+280D BRAILLE PATTERN DOTS-134: try adding one of: symbols, braille</li>
+<li>U+280E BRAILLE PATTERN DOTS-234: try adding one of: symbols, braille</li>
+<li>U+280F BRAILLE PATTERN DOTS-1234: try adding one of: symbols, braille</li>
+<li>U+2810 BRAILLE PATTERN DOTS-5: try adding one of: symbols, braille</li>
+<li>U+2811 BRAILLE PATTERN DOTS-15: try adding one of: symbols, braille</li>
+<li>U+2812 BRAILLE PATTERN DOTS-25: try adding one of: symbols, braille</li>
+<li>U+2813 BRAILLE PATTERN DOTS-125: try adding one of: symbols, braille</li>
+<li>U+2814 BRAILLE PATTERN DOTS-35: try adding one of: symbols, braille</li>
+<li>U+2815 BRAILLE PATTERN DOTS-135: try adding one of: symbols, braille</li>
+<li>U+2816 BRAILLE PATTERN DOTS-235: try adding one of: symbols, braille</li>
+<li>U+2817 BRAILLE PATTERN DOTS-1235: try adding one of: symbols, braille</li>
+<li>U+2818 BRAILLE PATTERN DOTS-45: try adding one of: symbols, braille</li>
+<li>U+2819 BRAILLE PATTERN DOTS-145: try adding one of: symbols, braille</li>
+<li>U+281A BRAILLE PATTERN DOTS-245: try adding one of: symbols, braille</li>
+<li>U+281B BRAILLE PATTERN DOTS-1245: try adding one of: symbols, braille</li>
+<li>U+281C BRAILLE PATTERN DOTS-345: try adding one of: symbols, braille</li>
+<li>U+281D BRAILLE PATTERN DOTS-1345: try adding one of: symbols, braille</li>
+<li>U+281E BRAILLE PATTERN DOTS-2345: try adding one of: symbols, braille</li>
+<li>U+281F BRAILLE PATTERN DOTS-12345: try adding one of: symbols, braille</li>
+<li>U+2820 BRAILLE PATTERN DOTS-6: try adding one of: symbols, braille</li>
+<li>U+2821 BRAILLE PATTERN DOTS-16: try adding one of: symbols, braille</li>
+<li>U+2822 BRAILLE PATTERN DOTS-26: try adding one of: symbols, braille</li>
+<li>U+2823 BRAILLE PATTERN DOTS-126: try adding one of: symbols, braille</li>
+<li>U+2824 BRAILLE PATTERN DOTS-36: try adding one of: symbols, braille</li>
+<li>U+2825 BRAILLE PATTERN DOTS-136: try adding one of: symbols, braille</li>
+<li>U+2826 BRAILLE PATTERN DOTS-236: try adding one of: symbols, braille</li>
+<li>U+2827 BRAILLE PATTERN DOTS-1236: try adding one of: symbols, braille</li>
+<li>U+2828 BRAILLE PATTERN DOTS-46: try adding one of: symbols, braille</li>
+<li>U+2829 BRAILLE PATTERN DOTS-146: try adding one of: symbols, braille</li>
+<li>U+282A BRAILLE PATTERN DOTS-246: try adding one of: symbols, braille</li>
+<li>U+282B BRAILLE PATTERN DOTS-1246: try adding one of: symbols, braille</li>
+<li>U+282C BRAILLE PATTERN DOTS-346: try adding one of: symbols, braille</li>
+<li>U+282D BRAILLE PATTERN DOTS-1346: try adding one of: symbols, braille</li>
+<li>U+282E BRAILLE PATTERN DOTS-2346: try adding one of: symbols, braille</li>
+<li>U+282F BRAILLE PATTERN DOTS-12346: try adding one of: symbols, braille</li>
+<li>U+2830 BRAILLE PATTERN DOTS-56: try adding one of: symbols, braille</li>
+<li>U+2831 BRAILLE PATTERN DOTS-156: try adding one of: symbols, braille</li>
+<li>U+2832 BRAILLE PATTERN DOTS-256: try adding one of: symbols, braille</li>
+<li>U+2833 BRAILLE PATTERN DOTS-1256: try adding one of: symbols, braille</li>
+<li>U+2834 BRAILLE PATTERN DOTS-356: try adding one of: symbols, braille</li>
+<li>U+2835 BRAILLE PATTERN DOTS-1356: try adding one of: symbols, braille</li>
+<li>U+2836 BRAILLE PATTERN DOTS-2356: try adding one of: symbols, braille</li>
+<li>U+2837 BRAILLE PATTERN DOTS-12356: try adding one of: symbols, braille</li>
+<li>U+2838 BRAILLE PATTERN DOTS-456: try adding one of: symbols, braille</li>
+<li>U+2839 BRAILLE PATTERN DOTS-1456: try adding one of: symbols, braille</li>
+<li>U+283A BRAILLE PATTERN DOTS-2456: try adding one of: symbols, braille</li>
+<li>U+283B BRAILLE PATTERN DOTS-12456: try adding one of: symbols, braille</li>
+<li>U+283C BRAILLE PATTERN DOTS-3456: try adding one of: symbols, braille</li>
+<li>U+283D BRAILLE PATTERN DOTS-13456: try adding one of: symbols, braille</li>
+<li>U+283E BRAILLE PATTERN DOTS-23456: try adding one of: symbols, braille</li>
+<li>U+283F BRAILLE PATTERN DOTS-123456: try adding one of: symbols, braille</li>
 <li>U+2913 DOWNWARDS ARROW TO BAR: try adding math</li>
 <li>U+2940 ANTICLOCKWISE CLOSED CIRCLE ARROW: try adding math</li>
 <li>U+2B51 BLACK SMALL STAR: try adding symbols</li>
