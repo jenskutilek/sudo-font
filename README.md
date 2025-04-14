@@ -1,15 +1,15 @@
 # The Sudo font family
 
-[![][Fontbakery]](https://jenskutilek.github.io/sudo-font.git/fontbakery/fontbakery-report.html)
-[![][Universal]](https://jenskutilek.github.io/sudo-font.git/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://jenskutilek.github.io/sudo-font.git/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://jenskutilek.github.io/sudo-font.git/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://jenskutilek.github.io/sudo-font/fontbakery/fontbakery-report.html)
+[![][Universal]](https://jenskutilek.github.io/sudo-font/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://jenskutilek.github.io/sudo-font/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://jenskutilek.github.io/sudo-font/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font.git%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font.git%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font.git%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font.git%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjenskutilek%2Fsudo-font%2Fgh-pages%2Fbadges%2FUniversal.json
 
 <img src="documentation/image1.png">
 
