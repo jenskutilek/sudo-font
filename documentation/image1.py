@@ -36,10 +36,11 @@ FONT_PATH = "fonts/variable/Sudo[YTDE,wght].ttf"
 FONT2_PATH = "fonts/variable/SudoUI[YTDE,wght].ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "fonts/variable/SudoUI[YTDE,wght].ttf"
-AUXILIARY_FONT_SIZE = 54
+AUXILIARY_FONT_SIZE = 48
 
 BIG_TEXT = "AaBb"
-BIG_TEXT_FONT_SIZE = 190
+BIG_TEXT_FONT_SIZE = 150
+BIG_TEXT_LINE_HEIGHT = 190
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2
 
@@ -129,8 +130,8 @@ def draw_main_text():
         ):
             fontVariations(wght=weight)
             text(s, (MARGIN, 0))
-            translate(0, -BIG_TEXT_FONT_SIZE)
-        translate(WIDTH / 2, 5 * BIG_TEXT_FONT_SIZE)
+            translate(0, -BIG_TEXT_LINE_HEIGHT)
+        translate(WIDTH / 2, 5 * BIG_TEXT_LINE_HEIGHT)
         font(FONT2_PATH)
         fill(91 / 255, 91 / 255, 91 / 255)
         stripchar = "_"
