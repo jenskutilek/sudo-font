@@ -43,7 +43,7 @@ jobs:
     #     done
 
     - name: Build font
-      run: make build
+      run: make build-gf
     - name: Check with fontbakery
       run: make test
       continue-on-error: true

@@ -3,18 +3,23 @@ FAMILY=$(shell python3 scripts/read-config.py --family )
 DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
 DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
 
+ARCHIVE = sudo.zip
+DISTDIR = dist
+FONTDIR = sudo
+# prefix = /usr/local
+
 help:
 	@echo "###"
 	@echo "# Build targets for $(FAMILY)"
 	@echo "###"
 	@echo
-	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
-	@echo "  make test:   Tests the fonts with fontbakery"
-	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
-	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
+	@echo "  make build-gf:  Builds the fonts and places them in the fonts/ directory"
+	@echo "  make test:      Tests the fonts with fontbakery"
+	@echo "  make proof:     Creates HTML proof documents in the proof/ directory"
+	@echo "  make images:    Creates PNG specimen images in the documentation/ directory"
 	@echo
 
-build: build.stamp
+build-gf: build.stamp
 
 venv: venv/touchfile
 
@@ -51,6 +56,7 @@ images: venv $(DRAWBOT_OUTPUT)
 clean:
 	rm -rf venv
 	find . -name "*.pyc" -delete
+	$(MAKE) -C $(FONTDIR) clean
 
 update-project-template:
 	npx update-template https://github.com/googlefonts/googlefonts-project-template/
@@ -70,6 +76,43 @@ update: venv venv-test
 	git push
 
 
+
+# Called by the Debian package build process:
+
+FONTDIR = sudo
+
+
+.PHONY: all
+all: build
+
+
+.PHONY: build
+build: $(FONTDIR)
+
+
+.PHONY: dist
+dist: webfonts $(DISTDIR)/$(ARCHIVE)
+
+
+.PHONY: $(FONTDIR)
+$(FONTDIR):
+	$(MAKE) -C $@
+
+
+$(DISTDIR)/$(ARCHIVE): $(FONTDIR)
+	if test -e $(DISTDIR); then \
+		rm -f $(DISTDIR)/$(ARCHIVE); \
+	else \
+		mkdir $(DISTDIR); \
+	fi
+	zip -r $(DISTDIR)/$(ARCHIVE) $(FONTDIR)/ --exclude "*.DS_Store" "*Makefile"
+
+
 .PHONY: install-debian
 install-debian:
-	$(MAKE) -C sudo install-debian
+	$(MAKE) -C $(FONTDIR) install-debian
+
+
+.PHONY: webfonts
+webfonts:
+	$(MAKE) -C $(FONTDIR) webfonts
