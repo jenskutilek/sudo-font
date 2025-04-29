@@ -13,7 +13,7 @@
 
 <img src="documentation/image1.png">
 
-Sudo is a font designed for terminals, programming, and user interfaces. Use at 16 pixels size for optimal results. It has a monospaced variant, simply called _Sudo,_ and a proportional variant, called _Sudo UI._ A Variable Font version is available. It has an extra variation axis to modify the length of descenders.
+Sudo is a font designed for terminals, programming, and user interfaces. Use at 13 pixels size for optimal results. It has a monospaced variant, simply called _Sudo,_ and a proportional variant, called _Sudo UI._ A Variable Font version is available. It has an extra variation axis to modify the length of descenders.
 
 Sudo decidedly has no ligatures, but supports all common [Powerline](https://github.com/powerline/powerline) glyphs out of the box.
 
