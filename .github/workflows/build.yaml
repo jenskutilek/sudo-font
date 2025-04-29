@@ -7,79 +7,79 @@ jobs:
     name: Build and test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.12
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.12"
-    - name: Install sys tools/deps
-      run: |
-        sudo apt-get update
-        sudo apt-get install ttfautohint libcairo2-dev pkg-config python3-dev
-        sudo snap install yq
-    - uses: actions/cache@v4
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-venv-
-    - name: gen zip file name
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
-      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install sys tools/deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint libcairo2-dev pkg-config python3-dev
+          sudo snap install yq
+      - uses: actions/cache@v4
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-venv-
+      - name: gen zip file name
+        id: zip-name
+        shell: bash
+        # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
+        run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
 
-    # If a new release is cut, use the release tag to auto-bump the source files
-    # - name: Bump release
-    #   if: github.event_name == 'release'
-    #   run: |
-    #     . venv/bin/activate
-    #     SRCS=$(yq e ".sources[]" sources/config.yaml)
-    #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
-    #     echo "Bumping $SRCS to $TAG_NAME"
-    #     for src in $SRCS
-    #     do
-    #       bumpfontversion sources/$src --new-version $TAG_NAME;
-    #     done
+      # If a new release is cut, use the release tag to auto-bump the source files
+      # - name: Bump release
+      #   if: github.event_name == 'release'
+      #   run: |
+      #     . venv/bin/activate
+      #     SRCS=$(yq e ".sources[]" sources/config.yaml)
+      #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
+      #     echo "Bumping $SRCS to $TAG_NAME"
+      #     for src in $SRCS
+      #     do
+      #       bumpfontversion sources/$src --new-version $TAG_NAME;
+      #     done
 
-    - name: Build font
-      run: make build-gf
-    - name: Check with fontbakery
-      run: make test
-      continue-on-error: true
-    - name: proof
-      run: make proof
-    - name: setup site
-      run: cp scripts/index.html out/index.html
-    - name: Deploy
-      uses: actions/upload-pages-artifact@v3.0.1
-      if: ${{ github.ref == 'refs/heads/main' }}
-      with:
-        path: ./out
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.ZIP_NAME }}
-        path: |
-          fonts
-          out
+      - name: Build font
+        run: make build-gf
+      - name: Check with fontbakery
+        run: make test
+        continue-on-error: true
+      - name: proof
+        run: make proof
+      - name: setup site
+        run: cp scripts/index.html out/index.html
+      - name: Deploy
+        uses: actions/upload-pages-artifact@v3.0.1
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          path: ./out
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ZIP_NAME }}
+          path: |
+            fonts
+            out
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
   deploy:
-     name: Deploy website to GitHub Pages
-     needs: build
-     runs-on: ubuntu-latest
-     permissions:
-       pages: write
-       id-token: write
-     environment:
-       name: github-pages
-       url: ${{ steps.deployment.outputs.page_url }}
-     steps:
-       - name: Deploy to GitHub Pages
-         id: deployment
-         uses: actions/deploy-pages@v4
+    name: Deploy website to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
   # There are two ways a release can be created: either by pushing a tag, or by
   # creating a release from the GitHub UI. Pushing a tag does not automatically
