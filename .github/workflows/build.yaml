@@ -52,11 +52,10 @@ jobs:
     - name: setup site
       run: cp scripts/index.html out/index.html
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
+      uses: actions/upload-pages-artifact@v3.0.1
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
+        path: ./out
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -66,6 +65,21 @@ jobs:
           out
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
+
+  deploy:
+     name: Deploy website to GitHub Pages
+     needs: build
+     runs-on: ubuntu-latest
+     permissions:
+       pages: write
+       id-token: write
+     environment:
+       name: github-pages
+       url: ${{ steps.deployment.outputs.page_url }}
+     steps:
+       - name: Deploy to GitHub Pages
+         id: deployment
+         uses: actions/deploy-pages@v4
 
   # There are two ways a release can be created: either by pushing a tag, or by
   # creating a release from the GitHub UI. Pushing a tag does not automatically
