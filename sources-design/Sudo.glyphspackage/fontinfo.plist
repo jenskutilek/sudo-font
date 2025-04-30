@@ -3740,6 +3740,26 @@ notes = "cvParameters {
 tag = cv06;
 },
 {
+code = "sub ampersand from [ampersand.cv07];
+";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Alternate ampersand\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
+tag = cv07;
+},
+{
 code = "sub @short_caps_src' @double_accents by @short_caps_tgt;
 
 ";
@@ -5198,6 +5218,7 @@ GSOffsetHorizontal = 36;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 32;
 };
+visible = 1;
 },
 {
 axesValues = (
