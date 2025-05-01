@@ -1,16 +1,10 @@
-fonts-sudo (3.0-1) UNRELEASED; urgency=medium
+fonts-sudo (3.3-1) UNRELEASED; urgency=medium
 
-  * Remove contour overlaps
-  * Tweak and improve many glyphs, especially the previously extrapolated layers
-  * Incompatible change: Improve spacing and kerning (Sudo UI)
-  * Incompatible change: Add proportional alternates for more glyphs (Sudo UI)
-  * Add /lowlinecomb with matching widths (Sudo UI)
-  * Redesign stars and shade glyphs
-  * Keep round dots in Italic, don't slant them
-  * Fix `frac` feature (#33), redesign fractions
-  * Fix interaction of `zero` and `onum` features
-  * Fix Glyphs export errors by splitting the design source into two production sources
-  * Strictly match block graphics to vertical metrics
-  * Prepare for Google Fonts build process
+  * Incompatible change: Change apparent size to match other fonts better. Set your font size from 16 to 13 pixels to compensate.
+  * Add Character Variant 7: Alternate 7
+  * Add Character Variant 8: Alternate &
+  * Add Stylistic Set 5: Danish style g
+  * Export variable fonts with Glyphs 3402
+  * Export static fonts with Glyphs 3151
 
- -- Jens Kutilek <debian@kutilek.de>  Sun, 13 Apr 2025 19:40:00 +0200
+ -- Jens Kutilek <debian@kutilek.de>  Thu, 1 May 2025 16:58:00 +0200
