@@ -1600,6 +1600,15 @@ gdotaccent.cv01,
 gcaron.cv01,
 gcommaaccent.cv01,
 gstroke.cv01,
+g.ss05,
+gacute.ss05,
+gcircumflex.ss05,
+gmacron.ss05,
+gbreve.ss05,
+gdotaccent.ss05,
+gcaron.ss05,
+gcommaaccent.ss05,
+gstroke.ss05,
 i.cv02,
 idotless.cv02,
 igrave.cv02,
@@ -3512,15 +3521,15 @@ value = "Modernize long s";
 tag = ss19;
 },
 {
-code = "sub g from [g.cv01];
-sub gacute from [gacute.cv01];
-sub gcircumflex from [gcircumflex.cv01];
-sub gmacron from [gmacron.cv01];
-sub gbreve from [gbreve.cv01];
-sub gdotaccent from [gdotaccent.cv01];
-sub gcaron from [gcaron.cv01];
-sub gcommaaccent from [gcommaaccent.cv01];
-sub gstroke from [gstroke.cv01];
+code = "sub g from [g.cv01 g.ss05];
+sub gacute from [gacute.cv01 gacute.ss05];
+sub gcircumflex from [gcircumflex.cv01 gcircumflex.ss05];
+sub gmacron from [gmacron.cv01 gmacron.ss05];
+sub gbreve from [gbreve.cv01 gbreve.ss05];
+sub gdotaccent from [gdotaccent.cv01 gdotaccent.ss05];
+sub gcaron from [gcaron.cv01 gcaron.ss05];
+sub gcommaaccent from [gcommaaccent.cv01 gcommaaccent.ss05];
+sub gstroke from [gstroke.cv01 gstroke.ss05];
 ";
 notes = "cvParameters {
     FeatUILabelNameID {
