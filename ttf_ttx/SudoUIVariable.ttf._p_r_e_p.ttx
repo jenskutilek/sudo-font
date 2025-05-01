@@ -5,14 +5,14 @@
     <assembly>
       SVTCA[0]	/* SetFPVectorToAxis */
       PUSHB[ ]	/* 3 values pushed */
-      0 3 15
+      0 3 17
       WS[ ]	/* WriteStore */
       CALL[ ]	/* CallFunction */
       PUSHB[ ]	/* 1 value pushed */
       1
       CALL[ ]	/* CallFunction */
       PUSHB[ ]	/* 7 values pushed */
-      57 64 2 1 15 2 1
+      57 64 2 1 17 2 1
       RCVT[ ]	/* ReadCVT */
       WS[ ]	/* WriteStore */
       WS[ ]	/* WriteStore */
@@ -23,7 +23,7 @@
       46 1
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      19
+      21
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 4 values pushed */
@@ -68,7 +68,7 @@
       36 1
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      19
+      21
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHW[ ]	/* 1 value pushed */
@@ -114,7 +114,10 @@
       0 50 10 3
       CALL[ ]	/* CallFunction */
       PUSHB[ ]	/* 4 values pushed */
-      50 2 12 4
+      0 50 12 3
+      CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 4 values pushed */
+      50 2 14 4
       CALL[ ]	/* CallFunction */
       MPPEM[ ]	/* MeasurePixelPerEm */
       PUSHW[ ]	/* 1 value pushed */
