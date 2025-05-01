@@ -34,12 +34,18 @@
       WS[ ]	/* WriteStore */
       WS[ ]	/* WriteStore */
       CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 7 values pushed */
+      2 9 0 10 50 5 12
+      WS[ ]	/* WriteStore */
+      WS[ ]	/* WriteStore */
+      WS[ ]	/* WriteStore */
+      CALL[ ]	/* CallFunction */
       PUSHB[ ]	/* 4 values pushed */
       3 7 50 5
       PUSHW[ ]	/* 1 value pushed */
       640
       PUSHB[ ]	/* 4 values pushed */
-      8 2 2 12
+      8 2 2 14
       WS[ ]	/* WriteStore */
       WS[ ]	/* WriteStore */
       WS[ ]	/* WriteStore */
@@ -117,7 +123,7 @@
       256
       WS[ ]	/* WriteStore */
       PUSHB[ ]	/* 7 values pushed */
-      54 64 6 5 15 1 6
+      54 64 6 5 17 1 6
       RS[ ]	/* ReadStore */
       WCVTP[ ]	/* WriteCVTInPixels */
       WS[ ]	/* WriteStore */
@@ -128,7 +134,7 @@
       46 5
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      19
+      21
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHB[ ]	/* 4 values pushed */
@@ -177,7 +183,7 @@
       36 5
       RS[ ]	/* ReadStore */
       PUSHB[ ]	/* 1 value pushed */
-      19
+      21
       LT[ ]	/* LessThan */
       JROF[ ]	/* JumpRelativeOnFalse */
       PUSHW[ ]	/* 1 value pushed */
