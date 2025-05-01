@@ -2091,6 +2091,7 @@ four,
 five,
 six,
 seven,
+seven.cv07,
 eight,
 nine,
 zero.osf,
@@ -2103,6 +2104,7 @@ four.osf,
 five.osf,
 six.osf,
 seven.osf,
+seven.osf.cv07,
 eight.osf,
 nine.osf,
 zeroinferior,
@@ -2113,6 +2115,7 @@ fourinferior,
 fiveinferior,
 sixinferior,
 seveninferior,
+seveninferior.cv07,
 eightinferior,
 nineinferior,
 zero.dnom,
@@ -2123,6 +2126,7 @@ four.dnom,
 five.dnom,
 six.dnom,
 seven.dnom,
+seven.dnom.cv07,
 eight.dnom,
 nine.dnom,
 zero.numr,
@@ -2133,6 +2137,7 @@ four.numr,
 five.numr,
 six.numr,
 seven.numr,
+seven.numr.cv07,
 eight.numr,
 nine.numr,
 zerosuperior,
@@ -2143,6 +2148,7 @@ foursuperior,
 fivesuperior,
 sixsuperior,
 sevensuperior,
+sevensuperior.cv07,
 eightsuperior,
 ninesuperior,
 fraction,
@@ -2162,20 +2168,28 @@ fourfifths,
 onesixth,
 fivesixths,
 oneseventh,
+oneseventh.cv07,
 twosevenths,
+twosevenths.cv07,
 threesevenths,
+threesevenths.cv07,
 foursevenths,
+foursevenths.cv07,
 fivesevenths,
+fivesevenths.cv07,
 sixsevenths,
+sixsevenths.cv07,
 oneeighth,
 threeeighths,
 fiveeighths,
 seveneighths,
+seveneighths.cv07,
 oneninth,
 twoninths,
 fourninths,
 fiveninths,
 sevenninths,
+sevenninths.cv07,
 eightninths,
 "**Separators**",
 nbspace,
@@ -3740,7 +3754,28 @@ notes = "cvParameters {
 tag = cv06;
 },
 {
-code = "sub ampersand from [ampersand.cv07];
+code = "sub seven from [seven.cv07];
+sub seven.osf from [seven.osf.cv07];
+";
+notes = "cvParameters {
+    FeatUILabelNameID {
+        name \"Alternate 7\";
+    };
+    #FeatUITooltipTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #SampleTextNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #ParamUILabelNameID {
+    #    name <platform ID> <script ID> <language ID> <text string>;
+    #};
+    #Character <Unicode value string>;
+};";
+tag = cv07;
+},
+{
+code = "sub ampersand from [ampersand.cv08];
 ";
 notes = "cvParameters {
     FeatUILabelNameID {
@@ -3757,7 +3792,7 @@ notes = "cvParameters {
     #};
     #Character <Unicode value string>;
 };";
-tag = cv07;
+tag = cv08;
 },
 {
 code = "sub @short_caps_src' @double_accents by @short_caps_tgt;
@@ -4523,6 +4558,11 @@ alignToZone = capHeight;
 }";
 pos = 320;
 size = -14;
+},
+{
+name = "osf bottom";
+pos = -128;
+size = -14;
 }
 );
 },
@@ -4618,6 +4658,10 @@ pos = -192;
 {
 over = 16;
 pos = 576;
+},
+{
+over = -14;
+pos = -128;
 }
 );
 name = Regular;
@@ -4634,6 +4678,7 @@ GSOffsetPosition = 0.8;
 GSOffsetProportional = 1;
 GSOffsetVertical = 32;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -4716,6 +4761,11 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
+size = -14;
+},
+{
+name = "osf bottom";
+pos = -128;
 size = -14;
 }
 );
@@ -4813,6 +4863,10 @@ pos = -192;
 {
 over = 16;
 pos = 576;
+},
+{
+over = -14;
+pos = -128;
 }
 );
 name = Bold;
@@ -4911,6 +4965,11 @@ alignToZone = capHeight;
 }";
 pos = 320;
 size = -14;
+},
+{
+name = "osf bottom";
+pos = -128;
+size = -14;
 }
 );
 },
@@ -5004,6 +5063,10 @@ pos = -192;
 {
 over = 16;
 pos = 576;
+},
+{
+over = -14;
+pos = -128;
 }
 );
 name = Thin;
@@ -5102,6 +5165,11 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
+size = -14;
+},
+{
+name = "osf bottom";
+pos = -128;
 size = -14;
 }
 );
@@ -5204,6 +5272,10 @@ pos = 11.31;
 {
 over = 16;
 pos = 576;
+},
+{
+over = -14;
+pos = -128;
 }
 );
 name = "Regular Italic";
@@ -5218,7 +5290,6 @@ GSOffsetHorizontal = 36;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 32;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -5301,6 +5372,11 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
+size = -14;
+},
+{
+name = "osf bottom";
+pos = -128;
 size = -14;
 }
 );
@@ -5403,6 +5479,10 @@ pos = 11.31;
 {
 over = 16;
 pos = 576;
+},
+{
+over = -14;
+pos = -128;
 }
 );
 name = "Bold Italic";
@@ -5494,6 +5574,11 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
+size = -14;
+},
+{
+name = "osf bottom";
+pos = -128;
 size = -14;
 }
 );
@@ -5593,6 +5678,10 @@ pos = 11.31;
 {
 over = 16;
 pos = 576;
+},
+{
+over = -14;
+pos = -128;
 }
 );
 name = "Thin Italic";
@@ -11328,6 +11417,9 @@ type = "italic angle";
 },
 {
 name = Figures;
+},
+{
+name = "Oldstyle bottom";
 }
 );
 note = "Cursify: 11,31°";
