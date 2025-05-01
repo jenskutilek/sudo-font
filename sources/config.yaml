@@ -23,7 +23,7 @@ recipe:
     operation: fix
   - args: -f ital
     operation: featureFreeze
-  - args: --layout-features-=ss04 --layout-features-=kern --drop-tables-=meta
+  - args: --layout-features-=ss04 --layout-features-=kern --passthrough-tables
     operation: hbsubset
   - args: --src stat.yaml
     needs:
@@ -40,7 +40,7 @@ recipe:
     exe: gftools-fontsetter
     operation: exec
   - operation: fix
-  - args: --layout-features-=ss04 --layout-features-=kern --layout-features-=ital --drop-tables-=meta
+  - args: --layout-features-=ss04 --layout-features-=kern --layout-features-=ital --passthrough-tables
     operation: hbsubset
 
   ../fonts/variable/SudoUI-Italic[YTDE,wght].ttf:
@@ -58,7 +58,7 @@ recipe:
     operation: fix
   - args: -f ss20,ital
     operation: featureFreeze
-  - args:  --drop-tables-=meta
+  - args: --passthrough-tables
     operation: hbsubset
   - args: --src stat.yaml
     needs:
@@ -79,5 +79,5 @@ recipe:
   - operation: fix
   - args: -f ss20
     operation: featureFreeze
-  - args: --layout-features-=ital --drop-tables-=meta
+  - args: --layout-features-=ital --passthrough-tables
     operation: hbsubset
