@@ -14,7 +14,7 @@ help:
 	@echo "###"
 	@echo
 	@echo "  make build-gf:  Builds the fonts and places them in the fonts/ directory"
-	@echo "  make test:      Tests the fonts with fontbakery"
+	@echo "  make test-gf:   Tests the fonts with fontbakery"
 	@echo "  make proof:     Creates HTML proof documents in the proof/ directory"
 	@echo "  make images:    Creates PNG specimen images in the documentation/ directory"
 	@echo
@@ -42,7 +42,7 @@ venv-test/touchfile: requirements-test.txt
 	. venv-test/bin/activate; pip install -Ur requirements-test.txt
 	touch venv-test/touchfile
 
-test: venv-test build.stamp
+test-gf: venv-test build.stamp
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
@@ -88,6 +88,10 @@ all: build
 
 .PHONY: build
 build: $(FONTDIR)
+
+
+.PHONY: test
+test: build
 
 
 .PHONY: dist

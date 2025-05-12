@@ -45,7 +45,7 @@ jobs:
       - name: Build font
         run: make build-gf
       - name: Check with fontbakery
-        run: make test
+        run: make test-gf
         continue-on-error: true
       - name: proof
         run: make proof
