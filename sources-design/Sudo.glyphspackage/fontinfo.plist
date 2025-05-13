@@ -74,6 +74,16 @@ code = "@hex_src
 name = hex_num;
 },
 {
+code = "zero
+zero.cv06
+zero.osf
+zero.osf.cv06
+zero.zero
+zero.zero.osf
+";
+name = zero;
+},
+{
 code = "A
 B
 C
@@ -3332,14 +3342,24 @@ code = "#sub emdash hyphen' by emdash;
 #} EMDASH;
 
 lookup HEXNUM {
-	sub zero x @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+
+	# HTML
+	sub ampersand numbersign x @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
 } HEXNUM;
 
 sub colon' equal by colon.alt;
