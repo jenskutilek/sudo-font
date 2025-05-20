@@ -74,6 +74,16 @@ code = "@hex_src
 name = hex_num;
 },
 {
+code = "zero
+zero.cv06
+zero.osf
+zero.osf.cv06
+zero.zero
+zero.zero.osf
+";
+name = zero;
+},
+{
 code = "A
 B
 C
@@ -2294,7 +2304,7 @@ name = "Use Extension Kerning";
 value = 0;
 }
 );
-date = "2025-05-07 19:51:01 +0000";
+date = "2025-05-13 16:54:24 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -2738,14 +2748,24 @@ code = "#sub emdash hyphen' by emdash;
 #} EMDASH;
 
 lookup HEXNUM {
-	sub zero x @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
-	sub zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub @zero x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+
+	# HTML
+	sub ampersand numbersign x @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
+	sub ampersand numbersign x @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_num @hex_src' by @hex_tgt;
 } HEXNUM;
 
 sub colon' equal by colon.alt;
@@ -8795,5 +8815,5 @@ oV = "102";
 de.kutilek.KernStrings.ignore = .ss20;
 };
 versionMajor = 3;
-versionMinor = 3;
+versionMinor = 4;
 }
