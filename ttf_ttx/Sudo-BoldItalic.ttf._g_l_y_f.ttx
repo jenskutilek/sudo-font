@@ -8179,6 +8179,115 @@
       </instructions>
     </TTGlyph>
 
+    <TTGlyph name="ampersand.cv08.1" xMin="6" yMin="-12" xMax="493" yMax="586">
+      <contour>
+        <pt x="475" y="355" on="0"/>
+        <pt x="409" y="190" on="0"/>
+        <pt x="364" y="128" on="1"/>
+        <pt x="383" y="111" on="0"/>
+        <pt x="429" y="73" on="1"/>
+        <pt x="351" y="-12" on="1"/>
+        <pt x="287" y="48" on="1"/>
+        <pt x="216" y="-7" on="0"/>
+        <pt x="134" y="-7" on="1"/>
+        <pt x="77" y="-7" on="0"/>
+        <pt x="6" y="53" on="0"/>
+        <pt x="6" y="103" on="1"/>
+        <pt x="6" y="150" on="0"/>
+        <pt x="60" y="235" on="0"/>
+        <pt x="105" y="271" on="1"/>
+        <pt x="80" y="326" on="0"/>
+        <pt x="80" y="379" on="1"/>
+        <pt x="80" y="439" on="0"/>
+        <pt x="132" y="533" on="0"/>
+        <pt x="230" y="586" on="0"/>
+        <pt x="298" y="586" on="1"/>
+        <pt x="362" y="586" on="0"/>
+        <pt x="428" y="562" on="1"/>
+        <pt x="397" y="489" on="1"/>
+        <pt x="348" y="506" on="0"/>
+        <pt x="305" y="506" on="1"/>
+        <pt x="252" y="506" on="0"/>
+        <pt x="193" y="439" on="0"/>
+        <pt x="193" y="387" on="1"/>
+        <pt x="193" y="340" on="0"/>
+        <pt x="244" y="245" on="0"/>
+        <pt x="296" y="192" on="1"/>
+        <pt x="350" y="295" on="0"/>
+        <pt x="381" y="448" on="1"/>
+        <pt x="493" y="448" on="1"/>
+      </contour>
+      <contour>
+        <pt x="121" y="91" on="0"/>
+        <pt x="142" y="73" on="0"/>
+        <pt x="163" y="73" on="1"/>
+        <pt x="197" y="73" on="0"/>
+        <pt x="231" y="103" on="1"/>
+        <pt x="184" y="150" on="0"/>
+        <pt x="151" y="193" on="1"/>
+        <pt x="121" y="151" on="0"/>
+        <pt x="121" y="112" on="1"/>
+      </contour>
+      <instructions>
+        <assembly>
+          SVTCA[0]	/* SetFPVectorToAxis */
+          ROFF[ ]	/* RoundOff */
+          PUSHB[ ]	/* 4 values pushed */
+          37 17 8 8
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 4 values pushed */
+          25 17 20 5
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MIRP[01101]	/* MoveIndirectRelPt */
+          RTG[ ]	/* RoundToGrid */
+          PUSHB[ ]	/* 2 values pushed */
+          34 6
+          MIAP[1]	/* MoveIndirectAbsPt */
+          PUSHB[ ]	/* 2 values pushed */
+          5 8
+          SRP0[ ]	/* SetRefPoint0 */
+          MDRP[00101]	/* MoveDirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          41 25 8
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 3 values pushed */
+          14 20 37
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 3 values pushed */
+          30 20 37
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 3 values pushed */
+          6 34 8
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 3 values pushed */
+          31 34 37
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 3 values pushed */
+          2 34 8
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          PUSHB[ ]	/* 3 values pushed */
+          39 34 37
+          SRP1[ ]	/* SetRefPoint1 */
+          SRP2[ ]	/* SetRefPoint2 */
+          IP[ ]	/* InterpolatePts */
+          IUP[0]	/* InterpolateUntPts */
+        </assembly>
+      </instructions>
+    </TTGlyph>
+
     <TTGlyph name="angle" xMin="22" yMin="64" xMax="391" yMax="536">
       <contour>
         <pt x="22" y="64" on="1"/>
