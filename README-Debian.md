@@ -10,10 +10,21 @@ Add the GPG public key of the repo to be able to check the signatures:
 wget -O- https://raw.githubusercontent.com/jenskutilek/sudo-font/master/fonts-sudo-archive-keyring.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/fonts-sudo-archive-keyring.gpg > /dev/null
 ```
 
-Add the appropriate line to your apt sources by running this command:
+Add the Sudo fonts to your apt sources by adding a file `/etc/apt/sources.list.d/fonts-sudo.sources` with this contents:
+
+```
+Types: deb
+URIs: https://www.kutilek.de/apt/
+Suites: stable
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/fonts-sudo-archive-keyring.gpg
+Architectures: all
+```
+
+You can do this by executing the following command:
 
 ```sh
-echo "deb [arch=all] https://www.kutilek.de/apt stable main" | sudo tee /etc/apt/sources.list.d/fonts-sudo.list
+echo -e "Types: deb\nURIs: https://www.kutilek.de/apt/\nSuites: stable\nComponents: mainSigned-By: /etc/apt/trusted.gpg.d/fonts-sudo-archive-keyring.gpg\nArchitectures: all" | sudo tee /etc/apt/sources.list.d/fonts-sudo.sources
 ```
 
 Then you can install the package:
