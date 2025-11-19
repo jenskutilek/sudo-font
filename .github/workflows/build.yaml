@@ -66,21 +66,6 @@ jobs:
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
-  build-debian:
-    name: Run make and build the Debian package
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-      - name: Install WOFF Support
-        run: sudo apt install -y woff2 woff-tools
-      - name: Install Debian Packaging Support
-        run: sudo apt update && sudo apt -y install devscripts debhelper-compat build-essential zip
-      - name: Build Debian Package
-        run: scripts/prepare-deb.sh
-      - name: Build
-        run: make dist
-
   deploy:
     name: Deploy website to GitHub Pages
     needs: build
