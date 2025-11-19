@@ -7,9 +7,9 @@ jobs:
     name: Build and test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install sys tools/deps
@@ -52,12 +52,12 @@ jobs:
       - name: setup site
         run: cp scripts/index.html out/index.html
       - name: Deploy
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v4
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           path: ./out
       - name: Archive artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.ZIP_NAME }}
           path: |
@@ -96,9 +96,9 @@ jobs:
       ZIP_NAME: ${{ needs.build.outputs.zip_name }}
       GH_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Download font artefact files
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
