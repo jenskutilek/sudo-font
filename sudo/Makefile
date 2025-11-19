@@ -1,9 +1,8 @@
 WEBFONTDIR=Webfonts
-WEBFONTDIR2=Webfonts-Split-VF-Italic
 
 
 .PHONY: all
-all: $(WEBFONTDIR) $(WEBFONTDIR2)
+all: $(WEBFONTDIR)
 
 
 .PHONY: build
@@ -13,7 +12,7 @@ build:
 
 
 .PHONY: webfonts
-webfonts: $(WEBFONTDIR) $(WEBFONTDIR2)
+webfonts: $(WEBFONTDIR)
 
 
 .PHONY: $(WEBFONTDIR)
@@ -21,15 +20,9 @@ $(WEBFONTDIR):
 	$(MAKE) -C $@
 
 
-.PHONY: $(WEBFONTDIR2)
-$(WEBFONTDIR2):
-	$(MAKE) -C $@
-
-
 .PHONY: clean
 clean:
 	$(MAKE) -C $(WEBFONTDIR) clean
-	$(MAKE) -C $(WEBFONTDIR2) clean
 
 
 .PHONY: install-debian
