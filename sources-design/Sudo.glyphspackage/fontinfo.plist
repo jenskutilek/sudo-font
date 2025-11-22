@@ -1601,6 +1601,32 @@ zdotbelow,
 zmacronbelow,
 zstroke,
 "**Character Variants Lowercase**",
+a.cv,
+aacute.cv,
+abreve.cv,
+abreveacute.cv,
+abrevedotbelow.cv,
+abrevegrave.cv,
+abrevehookabove.cv,
+abrevetilde.cv,
+acaron.cv,
+acircumflex.cv,
+acircumflexacute.cv,
+acircumflexdotbelow.cv,
+acircumflexgrave.cv,
+acircumflexhookabove.cv,
+acircumflextilde.cv,
+adieresis.cv,
+adieresismacron.cv,
+adotaccent.cv,
+adotbelow.cv,
+agrave.cv,
+ahookabove.cv,
+amacron.cv,
+aogonek.cv,
+aring.cv,
+aringacute.cv,
+atilde.cv,
 g.cv01,
 gacute.cv01,
 gcircumflex.cv01,
@@ -3840,6 +3866,69 @@ notes = "cvParameters {
     #Character <Unicode value string>;
 };";
 tag = cv08;
+},
+{
+code = "#ifdef VARIABLE
+condition 0.0 < ital < 0.5;
+sub a from [a a.cv a.cv];
+sub aacute from [aacute aacute.cv aacute.cv];
+sub abreve from [abreve abreve.cv abreve.cv];
+sub abreveacute from [abreveacute abreveacute.cv abreveacute.cv];
+sub abrevedotbelow from [abrevedotbelow abrevedotbelow.cv abrevedotbelow.cv];
+sub abrevegrave from [abrevegrave abrevegrave.cv abrevegrave.cv];
+sub abrevehookabove from [abrevehookabove abrevehookabove.cv abrevehookabove.cv];
+sub abrevetilde from [abrevetilde abrevetilde.cv abrevetilde.cv];
+sub acaron from [acaron acaron.cv acaron.cv];
+sub acircumflex from [acircumflex acircumflex.cv acircumflex.cv];
+sub acircumflexacute from [acircumflexacute acircumflexacute.cv acircumflexacute.cv];
+sub acircumflexdotbelow from [acircumflexdotbelow acircumflexdotbelow.cv acircumflexdotbelow.cv];
+sub acircumflexgrave from [acircumflexgrave acircumflexgrave.cv acircumflexgrave.cv];
+sub acircumflexhookabove from [acircumflexhookabove acircumflexhookabove.cv acircumflexhookabove.cv];
+sub acircumflextilde from [acircumflextilde acircumflextilde.cv acircumflextilde.cv];
+sub adieresis from [adieresis adieresis.cv adieresis.cv];
+sub adieresismacron from [adieresismacron adieresismacron.cv adieresismacron.cv];
+sub adotaccent from [adotaccent adotaccent.cv adotaccent.cv];
+sub adotbelow from [adotbelow adotbelow.cv adotbelow.cv];
+sub agrave from [agrave agrave.cv agrave.cv];
+sub ahookabove from [ahookabove ahookabove.cv ahookabove.cv];
+sub amacron from [amacron amacron.cv amacron.cv];
+sub aogonek from [aogonek aogonek.cv aogonek.cv];
+sub aring from [aring aring.cv aring.cv];
+sub aringacute from [aringacute aringacute.cv aringacute.cv];
+sub atilde from [atilde atilde.cv atilde.cv];
+
+condition 0.5 < ital < 1.0;
+sub a from [a.cv a.cv a];
+sub aacute from [aacute.cv aacute.cv aacute];
+sub abreve from [abreve.cv abreve.cv abreve];
+sub abreveacute from [abreveacute.cv abreveacute.cv abreveacute];
+sub abrevedotbelow from [abrevedotbelow.cv abrevedotbelow.cv abrevedotbelow];
+sub abrevegrave from [abrevegrave.cv abrevegrave.cv abrevegrave];
+sub abrevehookabove from [abrevehookabove.cv abrevehookabove.cv abrevehookabove];
+sub abrevetilde from [abrevetilde.cv abrevetilde.cv abrevetilde];
+sub acaron from [acaron.cv acaron.cv acaron];
+sub acircumflex from [acircumflex.cv acircumflex.cv acircumflex];
+sub acircumflexacute from [acircumflexacute.cv acircumflexacute.cv acircumflexacute];
+sub acircumflexdotbelow from [acircumflexdotbelow.cv acircumflexdotbelow.cv acircumflexdotbelow];
+sub acircumflexgrave from [acircumflexgrave.cv acircumflexgrave.cv acircumflexgrave];
+sub acircumflexhookabove from [acircumflexhookabove.cv acircumflexhookabove.cv acircumflexhookabove];
+sub acircumflextilde from [acircumflextilde.cv acircumflextilde.cv acircumflextilde];
+sub adieresis from [adieresis.cv adieresis.cv adieresis];
+sub adieresismacron from [adieresismacron.cv adieresismacron.cv adieresismacron];
+sub adotaccent from [adotaccent.cv adotaccent.cv adotaccent];
+sub adotbelow from [adotbelow.cv adotbelow.cv adotbelow];
+sub agrave from [agrave.cv agrave.cv agrave];
+sub ahookabove from [ahookabove.cv ahookabove.cv ahookabove];
+sub amacron from [amacron.cv amacron.cv amacron];
+sub aogonek from [aogonek.cv aogonek.cv aogonek];
+sub aring from [aring.cv aring.cv aring];
+sub aringacute from [aringacute.cv aringacute.cv aringacute];
+sub atilde from [atilde.cv atilde.cv atilde];
+
+
+#endif
+";
+tag = cv09;
 },
 {
 code = "sub @short_caps_src' @double_accents by @short_caps_tgt;
