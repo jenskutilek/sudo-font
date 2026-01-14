@@ -1,5 +1,5 @@
 {
-.appVersion = "3506";
+.appVersion = "3509";
 .formatVersion = 3;
 axes = (
 {
@@ -3571,6 +3571,7 @@ code = "sub longs by s;
 	sub longs.italic by s;
 #endif
 ";
+disabled = 1;
 labels = (
 {
 language = dflt;
@@ -3923,6 +3924,7 @@ sub atilde from [atilde.cv atilde.cv atilde];
 
 #endif
 ";
+disabled = 1;
 tag = cv09;
 },
 {
@@ -9825,8 +9827,8 @@ etilde = -32;
 iota = -64;
 iotadieresistonos = 64;
 itilde = 16;
-jcaron.cv03 = 32;
 jcaron = 16;
+jcaron.cv03 = 32;
 ohorntilde = -16;
 otilde = -32;
 scaron = -32;
@@ -10051,8 +10053,8 @@ guilsinglleft = 0;
 Ismall = 16;
 Ismallstroke = 16;
 jcaron.cv03 = 32;
-jcircumflex.cv03 = 64;
 jcircumflex = 32;
+jcircumflex.cv03 = 64;
 lslash = -16;
 tbar = 16;
 };
@@ -10212,10 +10214,10 @@ ohorntilde = 32;
 "@MMK_R_l.cv04" = 16;
 "@MMK_R_quotesingle" = 32;
 atilde = 16;
-jcaron.cv03 = 64;
 jcaron = 32;
-jcircumflex.cv03 = 64;
+jcaron.cv03 = 64;
 jcircumflex = 32;
+jcircumflex.cv03 = 64;
 ntilde = 16;
 ohorntilde = 48;
 rcaron = 16;
@@ -10774,11 +10776,11 @@ guilsinglright = {
 i = {
 "@MMK_R_quotesingle" = -8;
 };
-j.cv03 = {
-"@MMK_R_idieresis.cv02" = 32;
-};
 j = {
 "@MMK_R_quotesingle" = -16;
+};
+j.cv03 = {
+"@MMK_R_idieresis.cv02" = 32;
 };
 jdotless = {
 "@MMK_R_quotesingle" = -16;
