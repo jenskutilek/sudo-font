@@ -54,7 +54,7 @@ images: venv $(DRAWBOT_OUTPUT)
 	. venv/bin/activate; python3 $< --output $@
 
 clean:
-	rm -rf venv
+	rm -rf venv venv-test
 	find . -name "*.pyc" -delete
 	$(MAKE) -C $(FONTDIR) clean
 
