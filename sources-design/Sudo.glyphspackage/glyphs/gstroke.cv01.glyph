@@ -471,7 +471,7 @@ coordinates = (
 400,
 -77,
 0,
-538,
+404,
 243
 );
 };
@@ -506,6 +506,68 @@ nodes = (
 }
 );
 width = 336;
+},
+{
+layerId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+shapes = (
+{
+ref = g.cv01;
+},
+{
+closed = 1;
+nodes = (
+(387,318,l),
+(208,318,l),
+(208,258,l),
+(387,258,l)
+);
+}
+);
+width = 448;
+},
+{
+associatedMasterId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+attr = {
+coordinates = (
+100,
+400,
+-77,
+0,
+538,
+243
+);
+};
+hints = (
+{
+horizontal = 1;
+origin = (0,2);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,2);
+target = (0,1);
+type = TTStem;
+}
+);
+layerId = "E14C2C97-F65E-4912-9AC4-F1DBBEFF0B9D";
+name = "{400, 0, -64}";
+shapes = (
+{
+ref = g.cv01;
+},
+{
+closed = 1;
+nodes = (
+(387,360,l),
+(208,360,l),
+(208,300,l),
+(387,300,l)
+);
+}
+);
+width = 448;
 }
 );
 metricWidth = g;

@@ -290,6 +290,47 @@ nodes = (
 }
 );
 width = 336;
+},
+{
+anchors = (
+{
+name = "#center";
+pos = (159,534);
+},
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = center;
+pos = (159,502);
+},
+{
+name = top;
+pos = (241,448);
+}
+);
+layerId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+shapes = (
+{
+pos = (56,0);
+ref = _part.asc.left;
+},
+{
+pos = (56,0);
+ref = _part.bowl;
+},
+{
+closed = 1;
+nodes = (
+(259,564,l),
+(58,564,l),
+(58,504,l),
+(259,504,l)
+);
+}
+);
+width = 448;
 }
 );
 metricWidth = mono;

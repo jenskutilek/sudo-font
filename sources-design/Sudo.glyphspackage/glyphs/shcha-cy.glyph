@@ -335,7 +335,7 @@ coordinates = (
 400,
 -77,
 0,
-538,
+404,
 243
 );
 };
@@ -356,6 +356,54 @@ nodes = (
 }
 );
 width = 336;
+},
+{
+layerId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+shapes = (
+{
+ref = "sha-cy";
+},
+{
+closed = 1;
+nodes = (
+(401,-128,l),
+(401,64,l),
+(333,64,l),
+(333,-128,l)
+);
+}
+);
+width = 448;
+},
+{
+associatedMasterId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+attr = {
+coordinates = (
+100,
+400,
+-77,
+0,
+538,
+243
+);
+};
+layerId = "66274589-C9C2-41AE-B05B-B7F35AAB0190";
+name = "{400, 0, -64}";
+shapes = (
+{
+ref = "sha-cy";
+},
+{
+closed = 1;
+nodes = (
+(401,-64,l),
+(401,64,l),
+(333,64,l),
+(333,-64,l)
+);
+}
+);
+width = 448;
 }
 );
 metricWidth = mono;

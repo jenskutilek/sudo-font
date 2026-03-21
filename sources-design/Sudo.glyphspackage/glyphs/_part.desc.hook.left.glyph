@@ -147,7 +147,7 @@ coordinates = (
 400,
 -77,
 0,
-538,
+404,
 243
 );
 };
@@ -282,6 +282,47 @@ coordinates = (
 );
 };
 layerId = "AE00AEFA-CBDD-4E08-9FF2-EC866CF5DBCA";
+shapes = (
+{
+ref = _part.desc.hook;
+}
+);
+width = 448;
+},
+{
+anchors = (
+{
+name = _origin.hook.left;
+pos = (228,0);
+}
+);
+layerId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+shapes = (
+{
+ref = _part.desc.hook;
+}
+);
+width = 448;
+},
+{
+anchors = (
+{
+name = _origin.hook.left;
+pos = (228,0);
+}
+);
+associatedMasterId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+attr = {
+coordinates = (
+100,
+400,
+-77,
+0,
+538,
+243
+);
+};
+layerId = "CDFD70B0-ADB8-4D0F-8CF5-BE89492EA004";
 shapes = (
 {
 ref = _part.desc.hook;
