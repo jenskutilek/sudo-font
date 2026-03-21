@@ -5592,7 +5592,6 @@ GSOffsetPosition = 0.7;
 GSOffsetProportional = 1;
 GSOffsetVertical = -10;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -7424,6 +7423,96 @@ instanceInterpolations = {
 "95FB0C11-C828-4064-8966-34220AA4D426" = 1;
 };
 name = Regular;
+},
+{
+axesValues = (
+100,
+400,
+-231,
+0,
+538,
+243
+);
+customParameters = (
+{
+name = "Decompose Glyphs";
+value = (
+asterisk,
+gearWithoutHub
+);
+},
+{
+name = "Remove Features";
+value = (
+ss04,
+ss20,
+kern,
+ital
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+"*.ss20",
+"*.italic",
+"lowlinecomb.*"
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
+},
+{
+name = "Export STAT Table";
+value = 1;
+},
+{
+name = "Save as TrueType";
+value = 1;
+},
+{
+name = "Remove Classes";
+value = (
+width_224,
+width_276,
+width_288,
+width_320,
+width_340,
+width_352,
+width_368,
+width_384,
+width_400,
+width_416,
+width_432,
+width_456,
+width_480,
+width_512,
+width_544,
+width_576,
+width_592,
+width_608,
+width_616,
+width_640,
+width_656,
+width_680,
+width_704,
+width_736
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Counter Width";
+Location = 366;
+}
+);
+}
+);
+instanceInterpolations = {
+"D605536D-8649-4D02-8479-8C058887A226" = 1;
+};
+name = "Cd Regular";
 },
 {
 axesValues = (
