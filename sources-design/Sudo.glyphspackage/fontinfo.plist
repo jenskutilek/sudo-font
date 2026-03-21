@@ -3,6 +3,10 @@
 .formatVersion = 3;
 axes = (
 {
+name = Width;
+tag = wdth;
+},
+{
 name = Weight;
 tag = wght;
 },
@@ -13,6 +17,14 @@ tag = YTDE;
 {
 name = Italic;
 tag = ital;
+},
+{
+name = "Tabular Width";
+tag = XTAB;
+},
+{
+name = "Counter Width";
+tag = XTRA;
 }
 );
 classes = (
@@ -2814,6 +2826,10 @@ value = "448";
 name = "Virtual Master";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -2824,6 +2840,101 @@ Location = -77;
 {
 Axis = Italic;
 Location = 0;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 243;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Width;
+Location = 75;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "Tabular Width";
+Location = 404;
+},
+{
+Axis = "Counter Width";
+Location = 366;
 }
 );
 },
@@ -4621,9 +4732,12 @@ tag = ss20;
 fontMaster = (
 {
 axesValues = (
+100,
 400,
 -231,
-0
+0,
+538,
+366
 );
 customParameters = (
 {
@@ -4710,23 +4824,6 @@ size = -14;
 );
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
 name = "Master Icon Glyph Name";
 value = n;
 },
@@ -4760,6 +4857,35 @@ width = 64;
 horizontal = 1;
 name = vsups;
 width = 54;
+}
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
 }
 );
 }
@@ -4825,9 +4951,12 @@ visible = 1;
 },
 {
 axesValues = (
+100,
 700,
 -231,
-0
+0,
+538,
+366
 );
 customParameters = (
 {
@@ -4914,23 +5043,6 @@ size = -14;
 );
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
 name = "Link Metrics With First Master";
 value = 1;
 },
@@ -4968,6 +5080,35 @@ width = 80;
 horizontal = 1;
 name = vsups;
 width = 70;
+}
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
 }
 );
 }
@@ -5020,9 +5161,12 @@ GSOffsetVertical = 14;
 },
 {
 axesValues = (
+100,
 200,
 -231,
-0
+0,
+538,
+366
 );
 customParameters = (
 {
@@ -5109,23 +5253,6 @@ size = -14;
 );
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
 name = "Link Metrics With First Master";
 value = 1;
 },
@@ -5163,6 +5290,35 @@ width = 44;
 horizontal = 1;
 name = vsups;
 width = 38;
+}
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
 }
 );
 }
@@ -5221,9 +5377,12 @@ GSOffsetVertical = -10;
 },
 {
 axesValues = (
+100,
 400,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -5310,23 +5469,6 @@ size = -14;
 );
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
-},
-{
 name = "Link Metrics With First Master";
 value = 1;
 },
@@ -5364,6 +5506,35 @@ width = 64;
 horizontal = 1;
 name = vsups;
 width = 54;
+}
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
 }
 );
 }
@@ -5415,9 +5586,12 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
+100,
 700,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -5504,23 +5678,6 @@ size = -14;
 );
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
-},
-{
 name = "Link Metrics With First Master";
 value = 1;
 },
@@ -5558,6 +5715,35 @@ width = 80;
 horizontal = 1;
 name = vsups;
 width = 70;
+}
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
 }
 );
 }
@@ -5617,9 +5803,12 @@ stemValues = (
 },
 {
 axesValues = (
+100,
 200,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -5706,23 +5895,6 @@ size = -14;
 );
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
-},
-{
 name = "Link Metrics With First Master";
 value = 1;
 },
@@ -5760,6 +5932,35 @@ width = 44;
 horizontal = 1;
 name = vsups;
 width = 38;
+}
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Descender;
+Location = -231;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "Tabular Width";
+Location = 538;
+},
+{
+Axis = "Counter Width";
+Location = 366;
 }
 );
 }
@@ -6580,6 +6781,7 @@ value = (
 );
 }
 );
+exports = 0;
 name = Regular;
 properties = (
 {
@@ -6721,8 +6923,11 @@ type = variable;
 },
 {
 axesValues = (
+100,
 200,
 -231,
+0,
+538,
 0
 );
 customParameters = (
@@ -6753,23 +6958,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -6806,6 +6994,15 @@ width_656,
 width_680,
 width_704,
 width_736
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Counter Width";
+Location = 366;
+}
 );
 }
 );
@@ -6817,8 +7014,11 @@ weightClass = 200;
 },
 {
 axesValues = (
+100,
 316.667,
 -231,
+0,
+538,
 0
 );
 customParameters = (
@@ -6849,23 +7049,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -6902,6 +7085,19 @@ width_656,
 width_680,
 width_704,
 width_736
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = "Counter Width";
+Location = 366;
+}
 );
 }
 );
@@ -6914,8 +7110,11 @@ weightClass = 300;
 },
 {
 axesValues = (
+100,
 400,
 -231,
+0,
+538,
 0
 );
 customParameters = (
@@ -6946,23 +7145,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -6999,6 +7181,15 @@ width_656,
 width_680,
 width_704,
 width_736
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Counter Width";
+Location = 366;
+}
 );
 }
 );
@@ -7009,8 +7200,11 @@ name = Regular;
 },
 {
 axesValues = (
+100,
 550,
 -231,
+0,
+538,
 0
 );
 customParameters = (
@@ -7041,23 +7235,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -7094,6 +7271,19 @@ width_656,
 width_680,
 width_704,
 width_736
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = "Counter Width";
+Location = 366;
+}
 );
 }
 );
@@ -7106,8 +7296,11 @@ weightClass = 600;
 },
 {
 axesValues = (
+100,
 700,
 -231,
+0,
+538,
 0
 );
 customParameters = (
@@ -7138,23 +7331,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -7192,6 +7368,15 @@ width_680,
 width_704,
 width_736
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Counter Width";
+Location = 366;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -7203,9 +7388,12 @@ weightClass = 700;
 },
 {
 axesValues = (
+100,
 200,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -7235,23 +7423,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -7329,9 +7500,12 @@ weightClass = 200;
 },
 {
 axesValues = (
+100,
 316.667,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -7361,23 +7535,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -7443,6 +7600,15 @@ width_680,
 width_704,
 width_736
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -7456,9 +7622,12 @@ weightClass = 300;
 },
 {
 axesValues = (
+100,
 400,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -7488,23 +7657,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -7581,9 +7733,12 @@ name = Italic;
 },
 {
 axesValues = (
+100,
 550,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -7613,23 +7768,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -7695,6 +7833,15 @@ width_680,
 width_704,
 width_736
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -7708,9 +7855,12 @@ weightClass = 600;
 },
 {
 axesValues = (
+100,
 700,
 -231,
-1
+1,
+538,
+366
 );
 customParameters = (
 {
@@ -7740,23 +7890,6 @@ value = (
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Descender;
-Location = -231;
-},
-{
-Axis = Italic;
-Location = 1;
-}
-);
 },
 {
 name = "Export STAT Table";
@@ -7835,8 +7968,11 @@ weightClass = 700;
 },
 {
 axesValues = (
+0,
 200,
 -231,
+0,
+0,
 0
 );
 customParameters = (
@@ -8034,8 +8170,11 @@ weightClass = 200;
 },
 {
 axesValues = (
+0,
 316.667,
 -231,
+0,
+0,
 0
 );
 customParameters = (
@@ -8234,8 +8373,11 @@ weightClass = 300;
 },
 {
 axesValues = (
+0,
 400,
 -231,
+0,
+0,
 0
 );
 customParameters = (
@@ -8432,8 +8574,11 @@ visible = 0;
 },
 {
 axesValues = (
+0,
 550,
 -231,
+0,
+0,
 0
 );
 customParameters = (
@@ -8632,8 +8777,11 @@ weightClass = 600;
 },
 {
 axesValues = (
+0,
 700,
 -231,
+0,
+0,
 0
 );
 customParameters = (
@@ -8833,9 +8981,12 @@ weightClass = 700;
 },
 {
 axesValues = (
+0,
 200,
 -231,
-1
+1,
+0,
+0
 );
 customParameters = (
 {
@@ -9062,9 +9213,12 @@ weightClass = 200;
 },
 {
 axesValues = (
+0,
 316.667,
 -231,
-1
+1,
+0,
+0
 );
 customParameters = (
 {
@@ -9292,9 +9446,12 @@ weightClass = 300;
 },
 {
 axesValues = (
+0,
 400,
 -231,
-1
+1,
+0,
+0
 );
 customParameters = (
 {
@@ -9520,9 +9677,12 @@ visible = 0;
 },
 {
 axesValues = (
+0,
 550,
 -231,
-1
+1,
+0,
+0
 );
 customParameters = (
 {
@@ -9750,9 +9910,12 @@ weightClass = 600;
 },
 {
 axesValues = (
+0,
 700,
 -231,
-1
+1,
+0,
+0
 );
 customParameters = (
 {
