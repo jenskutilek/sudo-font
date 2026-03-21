@@ -315,6 +315,56 @@ nodes = (
 );
 visible = 1;
 width = 0;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (-368,-128);
+}
+);
+layerId = "D605536D-8649-4D02-8479-8C058887A226";
+partSelection = {
+width = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(10,-128,l),
+(10,-64,l),
+(-746,-64,l),
+(-746,-128,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (-112,-128);
+}
+);
+associatedMasterId = "D605536D-8649-4D02-8479-8C058887A226";
+layerId = "839762A7-FFF9-453D-86A4-2F65A171A506";
+name = short;
+partSelection = {
+width = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(10,-128,l),
+(10,-64,l),
+(-234,-64,l),
+(-234,-128,l)
+);
+}
+);
+width = 0;
 }
 );
 partsSettings = (

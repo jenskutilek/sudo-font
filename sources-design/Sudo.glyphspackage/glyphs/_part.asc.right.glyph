@@ -432,8 +432,75 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+anchors = (
+{
+name = origin.r;
+pos = (320,0);
+},
+{
+name = origin1;
+pos = (320,640);
 }
 );
+layerId = "D605536D-8649-4D02-8479-8C058887A226";
+partSelection = {
+Height = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,0,l),
+(388,64,l),
+(388,640,l),
+(316,640,l),
+(316,383,l),
+(316,81,l),
+(320,65,l),
+(329,0,l)
+);
+}
+);
+width = 448;
+},
+{
+anchors = (
+{
+name = origin.r;
+pos = (316,0);
+},
+{
+name = origin1;
+pos = (316,448);
+}
+);
+associatedMasterId = "D605536D-8649-4D02-8479-8C058887A226";
+layerId = "D7696363-7ACB-451F-8E23-EF9D294E4CB5";
+name = short;
+partSelection = {
+Height = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,0,l),
+(388,64,l),
+(388,448,l),
+(316,448,l),
+(316,383,l),
+(316,81,l),
+(320,65,l),
+(329,0,l)
+);
+}
+);
+width = 448;
+}
+);
+metricWidth = mono;
 partsSettings = (
 {
 bottomValue = 0;

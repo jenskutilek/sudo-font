@@ -247,6 +247,44 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+anchors = (
+{
+name = "#center";
+pos = (224,224);
+},
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = bottomAttach;
+pos = (260,0);
+},
+{
+name = center;
+pos = (224,192);
+},
+{
+name = top;
+pos = (224,448);
 }
 );
+layerId = "D605536D-8649-4D02-8479-8C058887A226";
+shapes = (
+{
+closed = 1;
+nodes = (
+(260,0,l),
+(260,448,l),
+(188,448,l),
+(188,0,l)
+);
+}
+);
+width = 448;
+}
+);
+metricWidth = mono;
 }

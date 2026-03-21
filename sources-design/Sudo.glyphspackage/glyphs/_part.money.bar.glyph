@@ -422,8 +422,77 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+anchors = (
+{
+name = "_#money";
+pos = (252,576);
 }
 );
+layerId = "D605536D-8649-4D02-8479-8C058887A226";
+partSelection = {
+Split = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,7,l),
+(284,704,l),
+(220,704,l),
+(220,7,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(284,-128,l),
+(284,5,l),
+(220,5,l),
+(220,-128,l)
+);
+}
+);
+width = 448;
+},
+{
+anchors = (
+{
+name = "_#money";
+pos = (252,576);
+}
+);
+associatedMasterId = "D605536D-8649-4D02-8479-8C058887A226";
+layerId = "34E16F6E-FEC4-4AE7-B118-A0847EEF18D0";
+name = split;
+partSelection = {
+Split = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,571,l),
+(284,704,l),
+(220,704,l),
+(220,571,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(284,-128,l),
+(284,5,l),
+(220,5,l),
+(220,-128,l)
+);
+}
+);
+width = 448;
+}
+);
+metricWidth = mono;
 partsSettings = (
 {
 bottomValue = 0;
