@@ -1391,6 +1391,183 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (168,-192);
+},
+{
+name = top;
+pos = (168,640);
+}
+);
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,0,l),
+(76,330,l),
+(108,362,o),
+(148,388,o),
+(189,388,cs),
+(237,388,o),
+(260,358,o),
+(260,301,cs),
+(260,-13,ls),
+(260,-83,o),
+(243,-111,o),
+(183,-136,c),
+(212,-196,l),
+(302,-158,o),
+(332,-98,o),
+(332,-5,cs),
+(332,304,ls),
+(332,409,o),
+(276,452,o),
+(203,452,cs),
+(154,452,o),
+(112,428,o),
+(76,395,c),
+(76,504,l),
+(210,504,l),
+(210,564,l),
+(76,564,l),
+(76,640,l),
+(4,640,l),
+(4,564,l),
+(-46,564,l),
+(-46,504,l),
+(4,504,l),
+(4,0,l)
+);
+}
+);
+width = 336;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (168,-64);
+},
+{
+name = top;
+pos = (168,640);
+}
+);
+associatedMasterId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+attr = {
+coordinates = (
+100,
+400,
+-77,
+0,
+404,
+366
+);
+};
+hints = (
+{
+horizontal = 1;
+place = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+place = (452,64);
+type = TTStem;
+},
+{
+options = 4;
+place = (388,72);
+type = TTStem;
+},
+{
+options = 4;
+place = (60,72);
+type = TTStem;
+},
+{
+options = 4;
+place = (132,0);
+type = TTShift;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,13);
+type = TTShift;
+},
+{
+horizontal = 1;
+place = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+place = (504,60);
+type = TTStem;
+}
+);
+layerId = "A1282BFA-C53C-4F21-97D8-51CD7DB8DF2A";
+name = "{400, 0, -64}";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,0,l),
+(76,330,l),
+(108,362,o),
+(148,388,o),
+(189,388,cs),
+(237,388,o),
+(260,358,o),
+(260,301,cs),
+(260,115,ls),
+(260,45,o),
+(243,17,o),
+(183,-8,c),
+(212,-68,l),
+(302,-30,o),
+(332,30,o),
+(332,123,cs),
+(332,304,ls),
+(332,409,o),
+(276,452,o),
+(203,452,cs),
+(154,452,o),
+(112,428,o),
+(76,395,c),
+(76,504,l),
+(210,504,l),
+(210,564,l),
+(76,564,l),
+(76,640,l),
+(4,640,l),
+(4,564,l),
+(-46,564,l),
+(-46,504,l),
+(4,504,l),
+(4,0,l)
+);
+}
+);
+width = 336;
 }
 );
 metricWidth = mono;

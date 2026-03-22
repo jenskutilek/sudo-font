@@ -864,6 +864,177 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (168,0);
+},
+{
+name = top;
+pos = (168,640);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = top;
+pos = (224,640);
+}
+);
+hints = (
+{
+horizontal = 1;
+options = 4;
+place = (0,0);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+place = (640,0);
+type = TTShift;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+options = 4;
+place = (47,74);
+type = TTStem;
+},
+{
+options = 4;
+place = (400,74);
+type = TTStem;
+},
+{
+options = 4;
+place = (400,8);
+type = TTShift;
+},
+{
+options = 4;
+place = (47,9);
+type = TTShift;
+},
+{
+options = 4;
+place = (56,72);
+type = TTStem;
+},
+{
+options = 4;
+place = (392,72);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,150);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,150);
+type = TTInterpolate;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(217,264,l),
+(279,184,o),
+(302,122,o),
+(326,0,c),
+(400,0,l),
+(376,129,o),
+(345,209,o),
+(265,312,c),
+(230,335,l),
+(166,409,o),
+(142,484,o),
+(128,640,c),
+(56,640,l),
+(72,469,o),
+(104,377,o),
+(190,282,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(256,287,l),
+(348,383,o),
+(376,471,o),
+(392,640,c),
+(320,640,l),
+(306,483,o),
+(282,407,o),
+(219,335,c),
+(186,308,l),
+(101,203,o),
+(72,127,o),
+(47,0,c),
+(121,0,l),
+(144,123,o),
+(168,185,o),
+(228,266,c)
+);
+}
+);
+};
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,0,l),
+(87,118,o),
+(110,180,o),
+(166,258,c),
+(225,180,o),
+(247,118,o),
+(270,0,c),
+(344,0,l),
+(321,125,o),
+(291,204,o),
+(215,304,c),
+(295,394,o),
+(321,482,o),
+(336,640,c),
+(264,640,l),
+(250,487,o),
+(228,412,o),
+(169,341,c),
+(109,413,o),
+(86,488,o),
+(72,640,c),
+(0,640,l),
+(15,479,o),
+(45,387,o),
+(121,297,c),
+(43,198,o),
+(15,122,o),
+(-9,0,c)
+);
+}
+);
+width = 336;
 }
 );
 metricWidth = mono;

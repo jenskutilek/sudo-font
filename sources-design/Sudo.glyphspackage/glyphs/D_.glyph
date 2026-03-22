@@ -551,6 +551,62 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (152,0);
+},
+{
+name = center;
+pos = (168,320);
+},
+{
+name = origin.hook;
+pos = (4,640);
+},
+{
+name = stemUC;
+pos = (171,362);
+},
+{
+name = top;
+pos = (156,640);
+}
+);
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(4,640,l),
+(4,0,l),
+(125,0,ls),
+(279,0,o),
+(338,88,o),
+(338,317,cs),
+(338,547,o),
+(277,640,o),
+(124,640,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(76,64,l),
+(76,576,l),
+(118,576,ls),
+(227,576,o),
+(260,522,o),
+(260,317,cs),
+(260,110,o),
+(233,64,o),
+(118,64,cs)
+);
+}
+);
+width = 336;
 }
 );
 metricWidth = mono;

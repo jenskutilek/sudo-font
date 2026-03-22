@@ -409,6 +409,82 @@ ref = ballotBox;
 }
 );
 width = 448;
+},
+{
+background = {
+hints = (
+{
+horizontal = 1;
+place = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+place = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+place = (0,468);
+target = (0,1);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,110);
+target = (2,3);
+type = TTShift;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(364,432,l),
+(314,468,l),
+(84,146,l),
+(134,110,l)
+);
+},
+{
+ref = ballotBox;
+},
+{
+closed = 1;
+nodes = (
+(364,146,l),
+(134,468,l),
+(84,432,l),
+(314,110,l)
+);
+}
+);
+};
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,236,l),
+(258,110,l),
+(308,146,l),
+(206,289,l),
+(308,432,l),
+(258,468,l),
+(168,342,l),
+(78,468,l),
+(28,432,l),
+(130,289,l),
+(28,146,l),
+(78,110,l)
+);
+},
+{
+ref = ballotBox;
+}
+);
+width = 336;
 }
 );
 metricWidth = mono;

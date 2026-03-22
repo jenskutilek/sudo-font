@@ -880,6 +880,186 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+background = {
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,0);
+target = (1,7);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,23);
+target = (0,10);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,0);
+target = (0,8);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,0);
+other1 = (0,6,0,20);
+target = (0,8);
+type = TTInterpolate;
+},
+{
+options = 4;
+origin = (0,25);
+target = (1,8);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,3);
+target = (1,4);
+type = TTStem;
+},
+{
+options = 4;
+origin = (1,8);
+target = (0,8);
+type = TTShift;
+},
+{
+options = 8;
+origin = (0,25);
+type = TTSnap;
+},
+{
+options = 8;
+origin = (0,3);
+type = TTSnap;
+},
+{
+origin = (0,3);
+target = (0,20);
+type = TTShift;
+},
+{
+options = 4;
+origin = (0,20);
+target = (0,13);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,0);
+other1 = (1,0);
+target = (0,23);
+type = TTInterpolate;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,0,ls),
+(331,0,o),
+(411,53,o),
+(411,152,cs),
+(411,225,o),
+(363,267,o),
+(292,283,c),
+(251,304,l),
+(132,304,l),
+(132,512,l),
+(184,512,ls),
+(280,512,o),
+(312,483,o),
+(312,428,cs),
+(312,381,o),
+(286,327,o),
+(232,297,c),
+(264,250,l),
+(355,307,o),
+(390,366,o),
+(390,428,cs),
+(390,527,o),
+(315,576,o),
+(192,576,cs),
+(60,576,l),
+(60,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(132,240,l),
+(202,240,ls),
+(301,240,o),
+(335,206,o),
+(335,154,cs),
+(335,95,o),
+(302,64,o),
+(202,64,cs),
+(132,64,l)
+);
+}
+);
+};
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(156,0,ls),
+(275,0,o),
+(355,53,o),
+(355,152,cs),
+(355,220,o),
+(313,261,o),
+(250,279,c),
+(306,324,o),
+(334,373,o),
+(334,428,cs),
+(334,523,o),
+(264,576,o),
+(136,576,cs),
+(4,576,l),
+(4,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(76,240,l),
+(146,240,ls),
+(245,240,o),
+(279,206,o),
+(279,154,cs),
+(279,95,o),
+(246,64,o),
+(146,64,cs),
+(76,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(76,512,l),
+(128,512,ls),
+(218,512,o),
+(256,487,o),
+(256,428,cs),
+(256,379,o),
+(230,332,o),
+(187,304,c),
+(76,304,l)
+);
+}
+);
+width = 336;
 }
 );
 metricWidth = mono;

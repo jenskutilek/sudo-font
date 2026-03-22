@@ -738,6 +738,166 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+background = {
+hints = (
+{
+horizontal = 1;
+options = 4;
+place = (0,54);
+target = (0,29);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,261);
+target = (0,23);
+type = TTStem;
+},
+{
+options = 4;
+place = (0,320);
+target = (0,26);
+type = TTStem;
+},
+{
+options = 4;
+place = (0,374);
+target = (0,17);
+type = TTShift;
+},
+{
+options = 4;
+place = (0,142);
+target = (0,12,0,14);
+type = TTStem;
+},
+{
+options = 4;
+place = (0,53);
+target = (0,0);
+type = TTShift;
+},
+{
+place = (0,81);
+target = (0,18);
+type = TTShift;
+},
+{
+options = 4;
+place = (0,151);
+target = (0,14,0,16);
+type = TTStem;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,512);
+stem = 0;
+target = (0,16);
+type = TTStem;
+},
+{
+horizontal = 1;
+other1 = (0,9);
+place = (0,576);
+target = (0,17);
+type = TTInterpolate;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(53,12,l),
+(107,-2,o),
+(155,-10,o),
+(213,-10,cs),
+(320,-10,o),
+(396,34,o),
+(396,163,cs),
+(396,284,o),
+(320,325,o),
+(236,325,cs),
+(192,325,o),
+(161,320,o),
+(138,315,c),
+(140,262,l),
+(153,571,l),
+(140,512,l),
+(374,512,l),
+(374,576,l),
+(81,576,l),
+(68,271,l),
+(92,248,l),
+(140,256,o),
+(175,261,o),
+(216,261,cs),
+(297,261,o),
+(320,235,o),
+(320,159,cs),
+(320,86,o),
+(288,54,o),
+(209,54,cs),
+(164,54,o),
+(123,61,o),
+(68,74,c)
+);
+}
+);
+};
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-3,12,l),
+(51,-2,o),
+(99,-10,o),
+(157,-10,cs),
+(264,-10,o),
+(340,34,o),
+(340,163,cs),
+(340,284,o),
+(264,325,o),
+(180,325,cs),
+(139,325,o),
+(110,321,o),
+(86,316,c),
+(95,512,l),
+(318,512,l),
+(318,576,l),
+(25,576,l),
+(12,271,l),
+(36,248,l),
+(84,256,o),
+(119,261,o),
+(160,261,cs),
+(241,261,o),
+(264,235,o),
+(264,159,cs),
+(264,86,o),
+(232,54,o),
+(153,54,cs),
+(108,54,o),
+(67,61,o),
+(12,74,c)
+);
+}
+);
+width = 336;
 }
 );
 metricWidth = mono;

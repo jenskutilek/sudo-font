@@ -568,6 +568,68 @@ nodes = (
 }
 );
 width = 448;
+},
+{
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+ref = g.cv01;
+},
+{
+closed = 1;
+nodes = (
+(382,318,l),
+(146,318,l),
+(146,258,l),
+(382,258,l)
+);
+}
+);
+width = 336;
+},
+{
+associatedMasterId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+attr = {
+coordinates = (
+100,
+400,
+-77,
+0,
+404,
+366
+);
+};
+hints = (
+{
+horizontal = 1;
+origin = (0,2);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,2);
+target = (0,1);
+type = TTStem;
+}
+);
+layerId = "FED30EEA-1DF0-4F37-9EE9-FBCB62252134";
+name = "{400, 0, -64}";
+shapes = (
+{
+ref = g.cv01;
+},
+{
+closed = 1;
+nodes = (
+(382,360,l),
+(146,360,l),
+(146,300,l),
+(382,300,l)
+);
+}
+);
+width = 336;
 }
 );
 metricWidth = g;
