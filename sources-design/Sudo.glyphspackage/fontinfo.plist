@@ -3,6 +3,10 @@
 .formatVersion = 3;
 axes = (
 {
+name = Width;
+tag = wdth;
+},
+{
 name = Weight;
 tag = wght;
 },
@@ -2822,6 +2826,10 @@ value = "448";
 name = "Virtual Master";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -2847,6 +2855,10 @@ Location = 366;
 name = "Virtual Master";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -2871,6 +2883,10 @@ Location = 366;
 {
 name = "Virtual Master";
 value = (
+{
+Axis = Width;
+Location = 100;
+},
 {
 Axis = Weight;
 Location = 400;
@@ -2897,6 +2913,10 @@ Location = 243;
 name = "Virtual Master";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -2919,20 +2939,23 @@ Location = 243;
 );
 },
 {
-disabled = 1;
 name = "Virtual Master";
 value = (
+{
+Axis = Width;
+Location = 75;
+},
 {
 Axis = Weight;
 Location = 400;
 },
 {
 Axis = Descender;
-Location = -77;
+Location = -231;
 },
 {
 Axis = Italic;
-Location = 1;
+Location = 0;
 },
 {
 Axis = "Tabular Width";
@@ -2945,9 +2968,12 @@ Location = 366;
 );
 },
 {
-disabled = 1;
 name = "Virtual Master";
 value = (
+{
+Axis = Width;
+Location = 75;
+},
 {
 Axis = Weight;
 Location = 400;
@@ -2958,33 +2984,7 @@ Location = -77;
 },
 {
 Axis = Italic;
-Location = 1;
-},
-{
-Axis = "Tabular Width";
-Location = 404;
-},
-{
-Axis = "Counter Width";
-Location = 366;
-}
-);
-},
-{
-disabled = 1;
-name = "Virtual Master";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Descender;
-Location = -77;
-},
-{
-Axis = Italic;
-Location = 1;
+Location = 0;
 },
 {
 Axis = "Tabular Width";
@@ -2992,33 +2992,7 @@ Location = 538;
 },
 {
 Axis = "Counter Width";
-Location = 243;
-}
-);
-},
-{
-disabled = 1;
-name = "Virtual Master";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Descender;
-Location = -77;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "Tabular Width";
-Location = 404;
-},
-{
-Axis = "Counter Width";
-Location = 243;
+Location = 366;
 }
 );
 },
@@ -4816,6 +4790,7 @@ tag = ss20;
 fontMaster = (
 {
 axesValues = (
+100,
 400,
 -231,
 0,
@@ -4946,6 +4921,10 @@ width = 54;
 {
 name = "Axis Location";
 value = (
+{
+Axis = Width;
+Location = 100;
+},
 {
 Axis = Weight;
 Location = 400;
@@ -5030,6 +5009,7 @@ visible = 1;
 },
 {
 axesValues = (
+100,
 400,
 -231,
 0,
@@ -5160,6 +5140,10 @@ width = 54;
 {
 name = "Axis Location";
 value = (
+{
+Axis = Width;
+Location = 100;
+},
 {
 Axis = Weight;
 Location = 400;
@@ -5243,6 +5227,7 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
+100,
 400,
 -231,
 0,
@@ -5374,6 +5359,10 @@ width = 54;
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -5456,6 +5445,7 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
+100,
 400,
 -231,
 0,
@@ -5587,6 +5577,10 @@ width = 54;
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -5669,6 +5663,7 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
+100,
 700,
 -231,
 0,
@@ -5804,6 +5799,10 @@ width = 70;
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 700;
 },
@@ -5874,6 +5873,7 @@ GSOffsetVertical = 14;
 },
 {
 axesValues = (
+100,
 200,
 -231,
 0,
@@ -6009,6 +6009,10 @@ width = 38;
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 200;
 },
@@ -6085,6 +6089,7 @@ GSOffsetVertical = -10;
 },
 {
 axesValues = (
+100,
 400,
 -231,
 1,
@@ -6220,6 +6225,10 @@ width = 54;
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -6289,6 +6298,7 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
+100,
 700,
 -231,
 1,
@@ -6424,6 +6434,10 @@ width = 70;
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 700;
 },
@@ -6501,6 +6515,7 @@ stemValues = (
 },
 {
 axesValues = (
+100,
 200,
 -231,
 1,
@@ -6635,6 +6650,10 @@ width = 38;
 {
 name = "Axis Location";
 value = (
+{
+Axis = Width;
+Location = 100;
+},
 {
 Axis = Weight;
 Location = 200;
@@ -7624,6 +7643,7 @@ type = variable;
 },
 {
 axesValues = (
+100,
 200,
 -231,
 0,
@@ -7700,6 +7720,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 200;
 },
@@ -7730,6 +7754,7 @@ weightClass = 200;
 },
 {
 axesValues = (
+100,
 316.667,
 -231,
 0,
@@ -7806,6 +7831,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 300;
 },
@@ -7837,6 +7866,7 @@ weightClass = 300;
 },
 {
 axesValues = (
+100,
 400,
 -231,
 0,
@@ -7913,6 +7943,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -7942,6 +7976,7 @@ name = Regular;
 },
 {
 axesValues = (
+100,
 550,
 -231,
 0,
@@ -8018,6 +8053,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 600;
 },
@@ -8049,6 +8088,7 @@ weightClass = 600;
 },
 {
 axesValues = (
+100,
 700,
 -231,
 0,
@@ -8125,6 +8165,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 700;
 },
@@ -8156,6 +8200,7 @@ weightClass = 700;
 },
 {
 axesValues = (
+100,
 200,
 -231,
 1,
@@ -8260,6 +8305,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 200;
 },
@@ -8292,6 +8341,7 @@ weightClass = 200;
 },
 {
 axesValues = (
+100,
 316.667,
 -231,
 1,
@@ -8395,6 +8445,10 @@ width_736
 {
 name = "Axis Location";
 value = (
+{
+Axis = Width;
+Location = 100;
+},
 {
 Axis = Weight;
 Location = 300;
@@ -8429,6 +8483,7 @@ weightClass = 300;
 },
 {
 axesValues = (
+100,
 400,
 -231,
 1,
@@ -8533,6 +8588,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 400;
 },
@@ -8564,6 +8623,7 @@ name = Italic;
 },
 {
 axesValues = (
+100,
 550,
 -231,
 1,
@@ -8668,6 +8728,10 @@ width_736
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
 Axis = Weight;
 Location = 600;
 },
@@ -8701,6 +8765,7 @@ weightClass = 600;
 },
 {
 axesValues = (
+100,
 700,
 -231,
 1,
@@ -8804,6 +8869,10 @@ width_736
 {
 name = "Axis Location";
 value = (
+{
+Axis = Width;
+Location = 100;
+},
 {
 Axis = Weight;
 Location = 700;
@@ -8838,6 +8907,7 @@ weightClass = 700;
 },
 {
 axesValues = (
+0,
 200,
 -231,
 0,
@@ -9039,6 +9109,7 @@ weightClass = 200;
 },
 {
 axesValues = (
+0,
 316.667,
 -231,
 0,
@@ -9241,6 +9312,7 @@ weightClass = 300;
 },
 {
 axesValues = (
+0,
 400,
 -231,
 0,
@@ -9441,6 +9513,7 @@ visible = 0;
 },
 {
 axesValues = (
+0,
 550,
 -231,
 0,
@@ -9643,6 +9716,7 @@ weightClass = 600;
 },
 {
 axesValues = (
+0,
 700,
 -231,
 0,
@@ -9846,6 +9920,7 @@ weightClass = 700;
 },
 {
 axesValues = (
+0,
 200,
 -231,
 1,
@@ -10077,6 +10152,7 @@ weightClass = 200;
 },
 {
 axesValues = (
+0,
 316.667,
 -231,
 1,
@@ -10309,6 +10385,7 @@ weightClass = 300;
 },
 {
 axesValues = (
+0,
 400,
 -231,
 1,
@@ -10539,6 +10616,7 @@ visible = 0;
 },
 {
 axesValues = (
+0,
 550,
 -231,
 1,
@@ -10771,6 +10849,7 @@ weightClass = 600;
 },
 {
 axesValues = (
+0,
 700,
 -231,
 1,
