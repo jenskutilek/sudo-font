@@ -967,8 +967,350 @@ nodes = (
 }
 );
 width = 576;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (216,0);
+},
+{
+name = top;
+pos = (216,448);
 }
 );
-metricWidth = "=_pixel*9";
+layerId = "D605536D-8649-4D02-8479-8C058887A226";
+shapes = (
+{
+closed = 1;
+nodes = (
+(166,0,l),
+(189,83,o),
+(205,166,o),
+(217,261,c),
+(230,166,o),
+(247,83,o),
+(270,0,c),
+(329,0,l),
+(374,133,o),
+(400,271,o),
+(411,448,c),
+(342,448,l),
+(337,302,o),
+(321,185,o),
+(297,77,c),
+(272,184,o),
+(254,299,o),
+(248,444,c),
+(185,444,l),
+(179,299,o),
+(163,184,o),
+(139,77,c),
+(115,185,o),
+(96,302,o),
+(91,448,c),
+(22,448,l),
+(33,271,o),
+(62,133,o),
+(107,0,c)
+);
+}
+);
+width = 433;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (272,0);
+},
+{
+name = top;
+pos = (272,448);
+}
+);
+layerId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,0,l),
+(245,83,o),
+(261,166,o),
+(273,261,c),
+(286,166,o),
+(303,83,o),
+(326,0,c),
+(385,0,l),
+(430,133,o),
+(456,271,o),
+(467,448,c),
+(398,448,l),
+(393,302,o),
+(377,185,o),
+(353,77,c),
+(328,184,o),
+(310,299,o),
+(304,444,c),
+(241,444,l),
+(235,299,o),
+(219,184,o),
+(195,77,c),
+(171,185,o),
+(152,302,o),
+(147,448,c),
+(78,448,l),
+(89,271,o),
+(118,133,o),
+(163,0,c)
+);
+}
+);
+width = 545;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (288,448);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (288,448);
+}
+);
+hints = (
+{
+horizontal = 1;
+options = 4;
+place = (0,0);
+target = (3,8);
+type = TTShift;
+},
+{
+horizontal = 1;
+place = (0,444);
+target = (0,4);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+other1 = (0,7,1,4);
+place = (0,448);
+target = (1,4);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+other1 = (0,3,3,8);
+place = (0,448);
+target = (1,4);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,76);
+target = (2,7,3,4);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+place = (0,448);
+target = (2,4);
+type = TTShift;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+options = 8;
+place = (0,0);
+type = TTSnap;
+},
+{
+options = 4;
+place = (0,113);
+target = (1,4);
+type = TTStem;
+},
+{
+options = 4;
+place = (0,463);
+target = (2,4);
+type = TTStem;
+},
+{
+options = 4;
+other1 = (0,4);
+place = (0,463);
+target = (2,4);
+type = TTInterpolate;
+},
+{
+options = 4;
+place = (0,324);
+target = (3,4);
+type = TTStem;
+},
+{
+options = 4;
+other1 = (1,8);
+place = (0,463);
+target = (2,4);
+type = TTInterpolate;
+},
+{
+options = 4;
+other1 = (2,0);
+place = (0,536);
+target = (2,3);
+type = TTInterpolate;
+},
+{
+options = 4;
+other1 = (0,0);
+place = (0,536);
+target = (2,3);
+type = TTInterpolate;
+},
+{
+options = 4;
+other1 = (3,8);
+place = (0,463);
+target = (2,4);
+type = TTInterpolate;
+},
+{
+options = 4;
+other1 = (0,7,1,4);
+place = (0,217);
+target = (0,0);
+type = TTInterpolate;
+},
+{
+options = 4;
+other1 = (2,7,3,4);
+place = (0,363);
+target = (3,8);
+type = TTInterpolate;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(217,0,l),
+(270,133,o),
+(298,271,o),
+(309,444,c),
+(252,444,l),
+(242,276,o),
+(212,145,o),
+(167,22,c),
+(174,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(193,0,l),
+(204,22,l),
+(160,145,o),
+(124,276,o),
+(113,448,c),
+(40,448,l),
+(54,271,o),
+(92,133,o),
+(150,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(430,0,l),
+(488,133,o),
+(522,271,o),
+(536,448,c),
+(463,448,l),
+(452,276,o),
+(420,145,o),
+(376,22,c),
+(387,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(406,0,l),
+(413,22,l),
+(368,145,o),
+(334,276,o),
+(324,444,c),
+(267,444,l),
+(279,271,o),
+(310,133,o),
+(363,0,c)
+);
+}
+);
+};
+color = 1;
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(217,0,l),
+(250,83,o),
+(273,167,o),
+(289,262,c),
+(306,167,o),
+(330,83,o),
+(363,0,c),
+(430,0,l),
+(488,133,o),
+(522,271,o),
+(536,448,c),
+(463,448,l),
+(454,302,o),
+(429,184,o),
+(394,76,c),
+(359,183,o),
+(333,299,o),
+(324,444,c),
+(252,444,l),
+(243,299,o),
+(220,183,o),
+(186,76,c),
+(150,184,o),
+(122,302,o),
+(113,448,c),
+(40,448,l),
+(54,271,o),
+(92,133,o),
+(150,0,c)
+);
+}
+);
+width = 576;
+}
+);
 unicode = 119;
 }

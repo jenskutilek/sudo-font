@@ -15,13 +15,13 @@ hints = (
 {
 horizontal = 1;
 options = 4;
-origin = (1,1);
-target = (1,2);
+origin = (0,1);
+target = (0,2);
 type = TTStem;
 },
 {
 horizontal = 1;
-origin = (1,1);
+origin = (0,1);
 type = TTSnap;
 }
 );
@@ -166,7 +166,70 @@ nodes = (
 }
 );
 width = 384;
+},
+{
+layerId = "D605536D-8649-4D02-8479-8C058887A226";
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(65,192,l),
+(230,192,l),
+(230,256,l),
+(65,256,l)
+);
 }
 );
+width = 288;
+},
+{
+layerId = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(121,192,l),
+(286,192,l),
+(286,256,l),
+(121,256,l)
+);
+}
+);
+width = 400;
+},
+{
+background = {
+shapes = (
+{
+ref = "e-cy";
+}
+);
+};
+color = 1;
+layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(88,192,l),
+(300,192,l),
+(300,256,l),
+(88,256,l)
+);
+}
+);
+width = 384;
+}
+);
+metricWidth = c.ss20;
 unicode = 1108;
 }
