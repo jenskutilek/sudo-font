@@ -4,7 +4,7 @@ This directory contains the two source files (actually folder structures) from w
 
 Any design changes should be done in the design source in the `../sources-design` directory. Please refer to the [README](../sources-design/README.md) there for how to update the production sources.
 
-You can either export the fonts directly from Glyphs, or using the Google Fonts build chain with `gftools`.
+You can either export the fonts directly from Glyphs, or using the Google Fonts build chain with `gftools`. To use the Googl Fonts build chain, run `make build-gf` in the main directory.
 
 ## Exporting Directly From Glyphs
 
