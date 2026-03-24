@@ -1,4 +1,3 @@
-
 # Sudo Production Sources
 
 This directory contains the two source files (actually folder structures) from which both font families, Sudo and Sudo UI, will be built.
@@ -15,8 +14,8 @@ The production sources are set up so that the fonts can be built out of the box 
 - Make sure that under _Exports,_ the last 10 instances starting with “Sudo UI” are not active.
 - Activate the appropriate _Variable Font Setting_ in each respective source.
 - In each source’s _Variable Font Setting,_, activate those _Custom Parameters:_
-  - _Remove Features_
-  - _Remove Glyphs_
+    - _Remove Features_
+    - _Remove Glyphs_
 - Under _Features,_ activate the `rlig` feature.
 
 ### Variable Fonts
@@ -34,9 +33,9 @@ The static TTF fonts in the releases are exported from Glyphs 3.1.2, also with s
 #### Sudo
 
 - For each instance, activate those _Custom Parameters:_
-  - _Remove Features_
-  - _Remove Glyphs_
-  - _Remove Classes_
+    - _Remove Features_
+    - _Remove Glyphs_
+    - _Remove Classes_
 - In each Italic instance, activate the _Rename Glyphs_ _Custom Parameter._
 
 #### Sudo UI
@@ -44,5 +43,5 @@ The static TTF fonts in the releases are exported from Glyphs 3.1.2, also with s
 You must activate the last 10 instances under _Exports,_ starting with “Sudo UI”, before exporting, and deactivate the other instances.
 
 - For each instance, activate those _Custom Parameters:_
-  - _Remove Features_
+    - _Remove Features_
 - In each Italic instance, activate the _Rename Glyphs_ _Custom Parameter._
