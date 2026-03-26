@@ -33,16 +33,6 @@
       <AxisNameID>258</AxisNameID>
     </Axis>
 
-    <!-- Italic -->
-    <Axis>
-      <AxisTag>ital</AxisTag>
-      <Flags>0x0</Flags>
-      <MinValue>0.0</MinValue>
-      <DefaultValue>0.0</DefaultValue>
-      <MaxValue>1.0</MaxValue>
-      <AxisNameID>259</AxisNameID>
-    </Axis>
-
     <!-- Tabular Width -->
     <Axis>
       <AxisTag>XTAB</AxisTag>
@@ -50,7 +40,7 @@
       <MinValue>404.0</MinValue>
       <DefaultValue>538.0</DefaultValue>
       <MaxValue>538.0</MaxValue>
-      <AxisNameID>260</AxisNameID>
+      <AxisNameID>259</AxisNameID>
     </Axis>
 
     <!-- Counter Width -->
@@ -60,6 +50,16 @@
       <MinValue>243.0</MinValue>
       <DefaultValue>366.0</DefaultValue>
       <MaxValue>366.0</MaxValue>
+      <AxisNameID>260</AxisNameID>
+    </Axis>
+
+    <!-- Italic -->
+    <Axis>
+      <AxisTag>ital</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1.0</MaxValue>
       <AxisNameID>261</AxisNameID>
     </Axis>
 
@@ -69,9 +69,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="200.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Light -->
@@ -80,9 +80,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="300.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Regular -->
@@ -91,9 +91,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="400.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- SemiBold -->
@@ -102,9 +102,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="600.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Bold -->
@@ -113,9 +113,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="700.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="0.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- ExtraLight Italic -->
@@ -124,9 +124,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="200.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="1.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- Light Italic -->
@@ -135,20 +135,20 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="300.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="1.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- Italic -->
     <!-- PostScript: SudoVar-Italic -->
-    <NamedInstance flags="0x0" postscriptNameID="274" subfamilyNameID="259">
+    <NamedInstance flags="0x0" postscriptNameID="274" subfamilyNameID="261">
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="400.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="1.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- SemiBold Italic -->
@@ -157,9 +157,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="600.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="1.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- Bold Italic -->
@@ -168,9 +168,9 @@
       <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="700.0"/>
       <coord axis="YTDE" value="-231.0"/>
-      <coord axis="ital" value="1.0"/>
       <coord axis="XTAB" value="538.0"/>
       <coord axis="XTRA" value="366.0"/>
+      <coord axis="ital" value="1.0"/>
     </NamedInstance>
   </fvar>
 

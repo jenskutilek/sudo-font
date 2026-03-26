@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont ttLibVersion="4.58">
+<ttFont ttLibVersion="4.61">
 
   <fvar>
+
+    <!-- Width -->
+    <Axis>
+      <AxisTag>wdth</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>75.0</MinValue>
+      <DefaultValue>100.0</DefaultValue>
+      <MaxValue>100.0</MaxValue>
+      <AxisNameID>256</AxisNameID>
+    </Axis>
 
     <!-- Weight -->
     <Axis>
@@ -10,7 +20,7 @@
       <MinValue>200.0</MinValue>
       <DefaultValue>400.0</DefaultValue>
       <MaxValue>700.0</MaxValue>
-      <AxisNameID>256</AxisNameID>
+      <AxisNameID>257</AxisNameID>
     </Axis>
 
     <!-- Descender -->
@@ -20,7 +30,27 @@
       <MinValue>-231.0</MinValue>
       <DefaultValue>-231.0</DefaultValue>
       <MaxValue>-77.0</MaxValue>
-      <AxisNameID>257</AxisNameID>
+      <AxisNameID>258</AxisNameID>
+    </Axis>
+
+    <!-- Tabular Width -->
+    <Axis>
+      <AxisTag>XTAB</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>404.0</MinValue>
+      <DefaultValue>538.0</DefaultValue>
+      <MaxValue>538.0</MaxValue>
+      <AxisNameID>259</AxisNameID>
+    </Axis>
+
+    <!-- Counter Width -->
+    <Axis>
+      <AxisTag>XTRA</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>243.0</MinValue>
+      <DefaultValue>366.0</DefaultValue>
+      <MaxValue>366.0</MaxValue>
+      <AxisNameID>260</AxisNameID>
     </Axis>
 
     <!-- Italic -->
@@ -30,86 +60,116 @@
       <MinValue>0.0</MinValue>
       <DefaultValue>0.0</DefaultValue>
       <MaxValue>1.0</MaxValue>
-      <AxisNameID>258</AxisNameID>
+      <AxisNameID>261</AxisNameID>
     </Axis>
 
     <!-- ExtraLight -->
     <!-- PostScript: SudoUIVar-ExtraLight -->
-    <NamedInstance flags="0x0" postscriptNameID="260" subfamilyNameID="259">
+    <NamedInstance flags="0x0" postscriptNameID="263" subfamilyNameID="262">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="200.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Light -->
     <!-- PostScript: SudoUIVar-Light -->
-    <NamedInstance flags="0x0" postscriptNameID="262" subfamilyNameID="261">
+    <NamedInstance flags="0x0" postscriptNameID="265" subfamilyNameID="264">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="300.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Regular -->
     <!-- PostScript: SudoUIVar-Regular -->
     <NamedInstance flags="0x0" postscriptNameID="6" subfamilyNameID="2">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="400.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- SemiBold -->
     <!-- PostScript: SudoUIVar-SemiBold -->
-    <NamedInstance flags="0x0" postscriptNameID="264" subfamilyNameID="263">
+    <NamedInstance flags="0x0" postscriptNameID="267" subfamilyNameID="266">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="600.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- Bold -->
     <!-- PostScript: SudoUIVar-Bold -->
-    <NamedInstance flags="0x0" postscriptNameID="266" subfamilyNameID="265">
+    <NamedInstance flags="0x0" postscriptNameID="269" subfamilyNameID="268">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="700.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="0.0"/>
     </NamedInstance>
 
     <!-- ExtraLight Italic -->
     <!-- PostScript: SudoUIVar-ExtraLightItalic -->
-    <NamedInstance flags="0x0" postscriptNameID="268" subfamilyNameID="267">
+    <NamedInstance flags="0x0" postscriptNameID="271" subfamilyNameID="270">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="200.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- Light Italic -->
     <!-- PostScript: SudoUIVar-LightItalic -->
-    <NamedInstance flags="0x0" postscriptNameID="270" subfamilyNameID="269">
+    <NamedInstance flags="0x0" postscriptNameID="273" subfamilyNameID="272">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="300.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- Italic -->
     <!-- PostScript: SudoUIVar-Italic -->
-    <NamedInstance flags="0x0" postscriptNameID="271" subfamilyNameID="258">
+    <NamedInstance flags="0x0" postscriptNameID="274" subfamilyNameID="261">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="400.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- SemiBold Italic -->
     <!-- PostScript: SudoUIVar-SemiBoldItalic -->
-    <NamedInstance flags="0x0" postscriptNameID="273" subfamilyNameID="272">
+    <NamedInstance flags="0x0" postscriptNameID="276" subfamilyNameID="275">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="600.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="1.0"/>
     </NamedInstance>
 
     <!-- Bold Italic -->
     <!-- PostScript: SudoUIVar-BoldItalic -->
-    <NamedInstance flags="0x0" postscriptNameID="275" subfamilyNameID="274">
+    <NamedInstance flags="0x0" postscriptNameID="278" subfamilyNameID="277">
+      <coord axis="wdth" value="100.0"/>
       <coord axis="wght" value="700.0"/>
       <coord axis="YTDE" value="-231.0"/>
+      <coord axis="XTAB" value="538.0"/>
+      <coord axis="XTRA" value="366.0"/>
       <coord axis="ital" value="1.0"/>
     </NamedInstance>
   </fvar>
