@@ -5008,7 +5008,6 @@ GSOffsetPosition = 0.8;
 GSOffsetProportional = 1;
 GSOffsetVertical = 32;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -7750,6 +7749,7 @@ Location = 366;
 }
 );
 name = ExtraLight;
+visible = 0;
 weightClass = 200;
 },
 {
@@ -7858,6 +7858,7 @@ Location = 366;
 }
 );
 name = Light;
+visible = 0;
 weightClass = 300;
 },
 {
@@ -8073,6 +8074,7 @@ Location = 366;
 }
 );
 name = SemiBold;
+visible = 0;
 weightClass = 600;
 },
 {
@@ -8182,6 +8184,7 @@ Location = 366;
 );
 isBold = 1;
 name = Bold;
+visible = 0;
 weightClass = 700;
 },
 {
@@ -8320,6 +8323,7 @@ Location = 366;
 isItalic = 1;
 linkStyle = ExtraLight;
 name = "ExtraLight Italic";
+visible = 0;
 weightClass = 200;
 },
 {
@@ -8458,6 +8462,7 @@ Location = 366;
 isItalic = 1;
 linkStyle = Light;
 name = "Light Italic";
+visible = 0;
 weightClass = 300;
 },
 {
@@ -8596,6 +8601,7 @@ Location = 366;
 isItalic = 1;
 linkStyle = Regular;
 name = Italic;
+visible = 0;
 },
 {
 axesValues = (
@@ -8733,6 +8739,7 @@ Location = 366;
 isItalic = 1;
 linkStyle = SemiBold;
 name = "SemiBold Italic";
+visible = 0;
 weightClass = 600;
 },
 {
@@ -8872,6 +8879,7 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Regular;
 name = "Bold Italic";
+visible = 0;
 weightClass = 700;
 },
 {
@@ -8979,7 +8987,9 @@ Location = 0;
 );
 }
 );
+exports = 0;
 name = SemiCondensed;
+visible = 0;
 widthClass = 4;
 },
 {
@@ -9087,7 +9097,9 @@ Location = 0;
 );
 }
 );
+exports = 0;
 name = Condensed;
+visible = 0;
 widthClass = 3;
 },
 {
@@ -11230,6 +11242,42 @@ value = "Sudo UI";
 );
 visible = 0;
 weightClass = 700;
+},
+{
+axesValues = (
+100,
+400,
+-231,
+404,
+366,
+0
+);
+exports = 0;
+name = "Regular XTAB0 XTRA1";
+},
+{
+axesValues = (
+100,
+400,
+-231,
+538,
+243,
+0
+);
+exports = 0;
+name = "Regular XTAB1 XTRA0";
+},
+{
+axesValues = (
+100,
+400,
+-231,
+404,
+243,
+0
+);
+exports = 0;
+name = "Regular XTAB0 XTRA0";
 }
 );
 kerningLTR = {
@@ -17447,8 +17495,6 @@ value = JENS;
 );
 settings = {
 fontType = variable;
-gridLength = 64;
-gridSubDivision = 64;
 keepAlternatesTogether = 1;
 previewRemoveOverlap = 0;
 };
