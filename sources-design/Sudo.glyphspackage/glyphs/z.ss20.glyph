@@ -694,146 +694,36 @@ width = 400;
 anchors = (
 {
 name = "#center";
-pos = (194,224);
+pos = (146,224);
 },
 {
 name = bottom;
-pos = (194,0);
+pos = (146,0);
 },
 {
 name = top;
-pos = (194,448);
+pos = (146,448);
 }
 );
-background = {
-anchors = (
-{
-name = bottom;
-pos = (208,0);
-},
-{
-name = center;
-pos = (208,224);
-},
-{
-name = top;
-pos = (208,448);
-}
-);
-hints = (
-{
-horizontal = 1;
-options = 4;
-place = (0,64);
-target = (1,2);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-place = (0,384);
-target = (0,0);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-place = (0,392);
-target = (0,2);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-place = (0,56);
-target = (1,4);
-type = TTShift;
-},
-{
-options = 8;
-place = (0,0);
-type = TTSnap;
-},
-{
-options = 8;
-place = (0,0);
-type = TTSnap;
-},
-{
-place = (0,70);
-target = (0,4);
-type = TTShift;
-},
-{
-place = (0,356);
-target = (1,1);
-type = TTShift;
-},
-{
-options = 4;
-place = (0,144);
-target = (1,3,2,1);
-type = TTStem;
-},
-{
-options = 4;
-place = (0,263);
-target = (0,1,2,3);
-type = TTStem;
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(70,384,l),
-(316,384,l),
-(352,392,l),
-(352,448,l),
-(70,448,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(55,0,l),
-(356,0,l),
-(356,64,l),
-(91,64,l),
-(55,56,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(139,56,l),
-(352,392,l),
-(268,392,l),
-(55,56,l)
-);
-}
-);
-};
-color = 1;
 layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
 shapes = (
 {
 closed = 1;
 nodes = (
-(56,384,l),
-(249,384,l),
-(41,56,l),
-(41,0,l),
-(342,0,l),
-(342,64,l),
-(130,64,l),
-(338,392,l),
-(338,448,l),
-(56,448,l)
+(8,384,l),
+(201,384,l),
+(-7,56,l),
+(-7,0,l),
+(294,0,l),
+(294,64,l),
+(82,64,l),
+(290,392,l),
+(290,448,l),
+(8,448,l)
 );
 }
 );
-width = 384;
+width = 288;
 }
 );
 }

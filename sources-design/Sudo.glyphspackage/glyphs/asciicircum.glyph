@@ -332,55 +332,6 @@ nodes = (
 width = 448;
 },
 {
-background = {
-hints = (
-{
-horizontal = 1;
-place = (0,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-place = (0,192);
-target = (1,2);
-type = TTShift;
-},
-{
-horizontal = 1;
-place = (0,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,2,1,2);
-place = (0,566);
-target = (0,3);
-type = TTInterpolate;
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(48,192,l),
-(124,192,l),
-(250,566,l),
-(181,566,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(267,566,l),
-(198,566,l),
-(324,192,l),
-(400,192,l)
-);
-}
-);
-};
 layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
 shapes = (
 {
