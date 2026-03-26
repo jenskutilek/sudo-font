@@ -458,63 +458,6 @@ name = top;
 pos = (168,640);
 }
 );
-background = {
-anchors = (
-{
-name = _top;
-pos = (224,448);
-},
-{
-name = top;
-pos = (224,640);
-}
-);
-hints = (
-{
-horizontal = 1;
-options = 4;
-place = (0,511);
-target = (0,3);
-type = TTShift;
-},
-{
-horizontal = 1;
-place = (0,650);
-stem = -1;
-target = (0,6);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,1,0,3);
-place = (0,650);
-target = (0,6);
-type = TTInterpolate;
-},
-{
-horizontal = 1;
-place = (0,0);
-stem = 4;
-type = TTSnap;
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(157,511,l),
-(244,619,l),
-(204,619,l),
-(291,511,l),
-(363,511,l),
-(276,650,l),
-(172,650,l),
-(85,511,l)
-);
-}
-);
-};
 layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
 shapes = (
 {

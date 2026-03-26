@@ -523,61 +523,6 @@ name = top;
 pos = (168,640);
 }
 );
-background = {
-anchors = (
-{
-name = top;
-pos = (224,640);
-}
-);
-hints = (
-{
-horizontal = 1;
-place = (0,0);
-type = TTSnap;
-},
-{
-horizontal = 1;
-options = 4;
-place = (0,640);
-target = (0,5);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-other1 = (0,8,0,12);
-place = (0,640);
-target = (0,12);
-type = TTInterpolate;
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(260,0,l),
-(260,170,ls),
-(260,362,o),
-(324,515,o),
-(428,640,c),
-(334,640,l),
-(253,523,o),
-(208,376,o),
-(208,180,c),
-(240,180,l),
-(240,376,o),
-(195,523,o),
-(114,640,c),
-(20,640,l),
-(125,515,o),
-(188,362,o),
-(188,170,cs),
-(188,0,l)
-);
-}
-);
-};
 layerId = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
 shapes = (
 {
