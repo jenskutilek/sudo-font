@@ -706,6 +706,9 @@
           <Substitution in="quoteright" out="quotesingle"/>
           <Substitution in="quotesinglbase" out="quotesingle"/>
           <Substitution in="scedilla" out="uni0219"/>
+          <Substitution in="seven.dnom" out="seven.dnom.cv07"/>
+          <Substitution in="seven.numr" out="seven.numr.cv07"/>
+          <Substitution in="seveneighths" out="seveneighths.cv07"/>
           <Substitution in="six.osf" out="six"/>
           <Substitution in="slash" out="fraction"/>
           <Substitution in="three.osf" out="three"/>
@@ -768,6 +771,8 @@
           <Substitution in="uni1ECB" out="uni1ECB.cv02"/>
           <Substitution in="uni1ECB.dotless" out="uni1ECB.dotless.cv02"/>
           <Substitution in="uni201F" out="quotedbl"/>
+          <Substitution in="uni2077" out="uni2077.cv07"/>
+          <Substitution in="uni2087" out="uni2087.cv07"/>
           <Substitution in="uniA7AE" out="uniA7AE.cv02"/>
         </SingleSubst>
       </Lookup>
@@ -8739,8 +8744,23 @@
           <AlternateSet glyph="seven">
             <Alternate glyph="seven.cv07"/>
           </AlternateSet>
+          <AlternateSet glyph="seven.dnom">
+            <Alternate glyph="seven.dnom.cv07"/>
+          </AlternateSet>
+          <AlternateSet glyph="seven.numr">
+            <Alternate glyph="seven.numr.cv07"/>
+          </AlternateSet>
           <AlternateSet glyph="seven.osf">
             <Alternate glyph="seven.osf.cv07"/>
+          </AlternateSet>
+          <AlternateSet glyph="seveneighths">
+            <Alternate glyph="seveneighths.cv07"/>
+          </AlternateSet>
+          <AlternateSet glyph="uni2077">
+            <Alternate glyph="uni2077.cv07"/>
+          </AlternateSet>
+          <AlternateSet glyph="uni2087">
+            <Alternate glyph="uni2087.cv07"/>
           </AlternateSet>
         </AlternateSubst>
       </Lookup>
