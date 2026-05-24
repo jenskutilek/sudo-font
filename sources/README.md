@@ -13,9 +13,6 @@ The production sources are set up so that the fonts can be built out of the box 
 - If you want to match the glyph order, under _Font,_ activate the _Custom Parameter_ “glyphOrder”.
 - Make sure that under _Exports,_ the last 10 instances starting with “Sudo UI” are not active.
 - Activate the appropriate _Variable Font Setting_ in each respective source.
-- In each source’s _Variable Font Setting,_, activate those _Custom Parameters:_
-    - _Remove Features_
-    - _Remove Glyphs_
 - Under _Features,_ activate the `rlig`, `ss19`, and `cv09` features.
 
 ### Variable Fonts

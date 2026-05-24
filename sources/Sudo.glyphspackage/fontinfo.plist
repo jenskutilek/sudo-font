@@ -1,5 +1,5 @@
 {
-.appVersion = "3517";
+.appVersion = "3526";
 .formatVersion = 3;
 axes = (
 {
@@ -11,6 +11,7 @@ name = Weight;
 tag = wght;
 },
 {
+hidden = 1;
 name = Descender;
 tag = YTDE;
 },
@@ -1670,6 +1671,8 @@ nbspace,
 zerowidthspace,
 zerowidthnonjoiner,
 zerowidthjoiner,
+lineseparator,
+paragraphseparator,
 zeroWidthNoBreakSpace,
 lineseparator,
 paragraphseparator,
@@ -2506,7 +2509,7 @@ name = "Use Extension Kerning";
 value = 0;
 }
 );
-date = "2025-11-18 20:35:23 +0000";
+date = "2026-05-24 15:34:19 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -2551,7 +2554,6 @@ feature ss01;
 feature ss02;
 feature ss03;
 feature ss05;
-feature ss19;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -2560,7 +2562,6 @@ feature cv05;
 feature cv06;
 feature cv07;
 feature cv08;
-feature cv09;
 feature rclt;
 ";
 tag = aalt;
@@ -3155,6 +3156,7 @@ code = "sub longs by s;
 	sub longs.italic by s;
 #endif
 ";
+disabled = 1;
 labels = (
 {
 language = dflt;
@@ -3408,6 +3410,11 @@ tag = cv06;
 {
 code = "sub seven from [seven.cv07];
 sub seven.osf from [seven.osf.cv07];
+sub seveninferior from [seveninferior.cv07];
+sub seven.dnom from [seven.dnom.cv07];
+sub seven.numr from [seven.numr.cv07];
+sub sevensuperior from [sevensuperior.cv07];
+sub seveneighths from [seveneighths.cv07];
 ";
 notes = "cvParameters {
     FeatUILabelNameID {
@@ -3507,6 +3514,7 @@ sub atilde from [atilde.cv atilde.cv atilde];
 
 #endif
 ";
+disabled = 1;
 tag = cv09;
 },
 {
@@ -3693,13 +3701,15 @@ locked = 1;
 pos = (0,-64);
 },
 {
-pos = (126,640);
+angle = 180;
+pos = (0,656);
 }
 );
 id = "95FB0C11-C828-4064-8966-34220AA4D426";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -3911,13 +3921,15 @@ locked = 1;
 pos = (0,-64);
 },
 {
-pos = (126,640);
+angle = 180;
+pos = (0,656);
 }
 );
 id = "ECEE91EB-156E-43DC-9D95-E573AE34CC6B";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -4129,13 +4141,15 @@ locked = 1;
 pos = (0,-64);
 },
 {
-pos = (126,640);
+angle = 180;
+pos = (0,656);
 }
 );
 id = "7B9744CE-6B2E-462F-80CC-09527B0EFBF3";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -4347,13 +4361,15 @@ locked = 1;
 pos = (0,-64);
 },
 {
-pos = (126,640);
+angle = 180;
+pos = (0,656);
 }
 );
 id = "D605536D-8649-4D02-8479-8C058887A226";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -4560,11 +4576,18 @@ Location = 366;
 );
 }
 );
+guides = (
+{
+angle = 180;
+pos = (0,656);
+}
+);
 iconName = Bold;
 id = "92967D72-867E-4A8B-929F-F44D834DD4C9";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -4773,13 +4796,18 @@ Location = 366;
 guides = (
 {
 pos = (224,1024);
+},
+{
+angle = 180;
+pos = (0,656);
 }
 );
 iconName = Light;
 id = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -4986,10 +5014,17 @@ Location = 366;
 );
 }
 );
+guides = (
+{
+angle = 180;
+pos = (0,656);
+}
+);
 id = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -5205,13 +5240,18 @@ pos = (224,1024);
 },
 {
 pos = (0,738);
+},
+{
+angle = 180;
+pos = (0,656);
 }
 );
 iconName = Bold;
 id = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -5419,13 +5459,18 @@ pos = (79,288);
 },
 {
 pos = (224,1024);
+},
+{
+angle = 180;
+pos = (0,656);
 }
 );
 iconName = Light;
 id = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
 metricValues = (
 {
-pos = 832;
+over = 14;
+pos = 640;
 },
 {
 over = 14;
@@ -5495,7 +5540,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -5503,7 +5547,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20"
@@ -6265,7 +6308,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -6283,14 +6325,12 @@ kern
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20"
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 lowlinecomb.224,
@@ -6402,7 +6442,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -6412,7 +6451,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -6513,7 +6551,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -6523,7 +6560,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -6624,7 +6660,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -6634,7 +6669,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -6733,7 +6767,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -6743,7 +6776,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -6844,7 +6876,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -6854,7 +6885,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -6934,6 +6964,7 @@ Location = 366;
 }
 );
 isBold = 1;
+linkStyle = Regular;
 name = Bold;
 visible = 0;
 weightClass = 700;
@@ -6956,7 +6987,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -6966,7 +6996,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -7098,7 +7127,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -7108,7 +7136,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -7240,7 +7267,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -7250,7 +7276,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -7381,7 +7406,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -7391,7 +7415,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -7523,7 +7546,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -7533,7 +7555,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -7666,7 +7687,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -7676,7 +7696,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -7778,7 +7797,6 @@ gearWithoutHub
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss04,
@@ -7788,7 +7806,6 @@ ital
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 "*.ss20",
@@ -7906,7 +7923,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -8106,7 +8122,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -8306,7 +8321,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -8505,7 +8519,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -8705,7 +8718,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -8907,7 +8919,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -9138,7 +9149,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -9369,7 +9379,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -9599,7 +9608,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -9830,7 +9838,6 @@ tmod.ss20
 );
 },
 {
-disabled = 1;
 name = "Remove Features";
 value = (
 ss20,
@@ -10202,5 +10209,5 @@ oV = "102";
 de.kutilek.KernStrings.ignore = .ss20;
 };
 versionMajor = 3;
-versionMinor = 4;
+versionMinor = 6;
 }
