@@ -1,3 +1,4 @@
+# MenuTitle: Export Fonts from Glyphs
 from pathlib import Path
 
 from GlyphsApp import INSTANCETYPEVARIABLE, TTF, VARIABLE, Glyphs, GSCustomParameter
@@ -32,6 +33,8 @@ def export_vf(sources_path, file_name, instance_index):
     activate_cp(inst, "Remove Features")
     activate_cp(inst, "Remove Glyphs")
     font.features["rlig"].active = True
+    font.features["ss19"].active = True
+    font.features["cv09"].active = True
     font.enableUpdateInterface()
     result = inst.generate(VARIABLE, str(out_path), autoHint=False, removeOverlap=False)
     if not result:

@@ -16,7 +16,7 @@ The production sources are set up so that the fonts can be built out of the box 
 - In each source’s _Variable Font Setting,_, activate those _Custom Parameters:_
     - _Remove Features_
     - _Remove Glyphs_
-- Under _Features,_ activate the `rlig` feature.
+- Under _Features,_ activate the `rlig`, `ss19`, and `cv09` features.
 
 ### Variable Fonts
 

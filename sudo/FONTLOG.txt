@@ -1,8 +1,20 @@
-Sudo is Copyright (c) 2009-2025, Jens Kutilek (http://www.kutilek.de/).
+Sudo is Copyright (c) 2009-2026, Jens Kutilek (http://www.kutilek.de/).
 
-v3.5-dev
+v3.6
 - Revisit bowls
 - Add single-storey a (layout feature CV09)
+- Add /verticallinebelowcomb
+- Add /lineseparator and /paragraphseparator
+- Set YTDE axis to hidden
+- Try to set style linking
+- Fix unreachable cv07 glyphs
+- Export variable fonts with Glyphs 3526
+- Remove artifacts from repo
+- Fix settings in production sources
+- Use Release_Notes.txt as before
+- Update Glyphs scripts
+
+The attached file `sudo-font-v3.6-googlefonts.zip` contains the Google Fonts build with split variable fonts for upright and italic styles. The attached file `sudo.zip` contains the Glyphs build, which contains some features that are not supported by the Google Fonts build tools, and has the upright and italic styles combined in one file. It also contains WOFF2 fonts.
 
 v3.4
 - Drop static fonts. Variable fonts seem to be universally supported now.
