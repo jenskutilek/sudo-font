@@ -145,28 +145,31 @@ def efficient():
     # Move up
     translate(0, height())
     scale(s)
-    fontSize(1024)
+    # fontSize(1024)
     translate(0, -line_height * 1.05)
 
     # Orange boxes
     save()
     highlight_color()
-    rect(text_x, -192, text_x + 2 * 448, 1024)
+    rect(text_x, -192, 832, 832)
     restore()
 
     # The text lines
     legible_metrics()
-    font("Sudo Var")
+    # font("Sudo Var")
     text_path(["Scaron", "p", "a", "c", "e"], (text_x, 0), "../sudo/SudoVariable.ttf")
-    scale(0.5)
+    # scale(0.5)
 
+    save()
+    cs = 832/2048
+    scale(cs)
     save()
     highlight_color()
-    rect(text_x + 12 * 448, -192 * 2, 2048, 2048)
+    rect((text_x + 15 * 448), -192 * 2, 2048, 2048)
     restore()
 
-    save()
-    text_path(["Scaron", "p", "a"], (text_x + 12 * 448, 0), "../resources/consola.ttf")
+    # scale(832/2048)
+    text_path(["Scaron", "p", "a"], ((text_x + 15 * 448), 0), "../resources/consola.ttf")
     restore()
 
 
