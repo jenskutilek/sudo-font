@@ -1,5 +1,5 @@
 {
-.appVersion = "3528";
+.appVersion = "3532";
 .formatVersion = 3;
 axes = (
 {
@@ -1696,6 +1696,13 @@ lslash.cv04,
 lbar.cv04,
 m.cv05.1,
 m.cv05.2,
+k.cv10,
+kacute.cv10,
+kcaron.cv10,
+kcommaaccent.cv10,
+kdotbelow.cv10,
+khook.cv10,
+kmacronbelow.cv10,
 "**Italic Forms**",
 f.italic,
 longs.italic,
@@ -2144,6 +2151,7 @@ verticalTabulationControl,
 "**Numbers**",
 zero,
 zero.cv06,
+zero.cv06.2,
 zero.zero,
 one,
 two,
@@ -2157,6 +2165,7 @@ eight,
 nine,
 zero.osf,
 zero.osf.cv06,
+zero.osf.cv06.2,
 zero.zero.osf,
 one.osf,
 two.osf,
@@ -3981,10 +3990,10 @@ notes = "cvParameters {
 tag = cv05;
 },
 {
-code = "sub zero from [zero.cv06];
-sub zero.zero from [zero.cv06];
-sub zero.osf from [zero.osf.cv06];
-sub zero.zero.osf from [zero.osf.cv06];
+code = "sub zero from [zero.cv06 zero.cv06.2];
+sub zero.zero from [zero.cv06 zero.cv06.2];
+sub zero.osf from [zero.osf.cv06 zero.osf.cv06.2];
+sub zero.zero.osf from [zero.osf.cv06 zero.osf.cv06.2];
 ";
 notes = "cvParameters {
     FeatUILabelNameID {
@@ -17544,6 +17553,8 @@ value = JENS;
 );
 settings = {
 fontType = variable;
+gridLength = 64;
+gridSubDivision = 64;
 keepAlternatesTogether = 1;
 previewRemoveOverlap = 0;
 };
