@@ -1684,6 +1684,13 @@ jdotless.cv03,
 jacute.cv03,
 jcircumflex.cv03,
 jcaron.cv03,
+k.cv10,
+kacute.cv10,
+kcaron.cv10,
+kdotbelow.cv10,
+kcommaaccent.cv10,
+kmacronbelow.cv10,
+khook.cv10,
 l.cv04,
 lacute.cv04,
 lcaron.cv04,
@@ -1696,13 +1703,6 @@ lslash.cv04,
 lbar.cv04,
 m.cv05.1,
 m.cv05.2,
-k.cv10,
-kacute.cv10,
-kcaron.cv10,
-kcommaaccent.cv10,
-kdotbelow.cv10,
-khook.cv10,
-kmacronbelow.cv10,
 "**Italic Forms**",
 f.italic,
 longs.italic,
@@ -4120,6 +4120,26 @@ sub atilde from [atilde.cv atilde.cv atilde];
 #endif
 ";
 tag = cv09;
+},
+{
+code = "#ifdef VARIABLE
+condition 0.0 < ital < 0.5;
+sub k from [k k.cv10 k.cv10];
+sub kacute from [kacute kacute.cv10 kacute.cv10];
+sub kcaron from [kcaron kcaron.cv10 kcaron.cv10];
+sub kdotbelow from [kdotbelow kdotbelow.cv10 kdotbelow.cv10];
+sub kmacronbelow from [kmacronbelow kmacronbelow.cv10 kmacronbelow.cv10];
+sub khook from [khook khook.cv10 khook.cv10];
+
+condition 0.5 < ital < 1.0;
+sub k from [k.cv10 k.cv10 k];
+sub kacute from [kacute.cv10 kacute.cv10 kacute];
+sub kcaron from [kcaron.cv10 kcaron.cv10 kcaron];
+sub kdotbelow from [kdotbelow.cv10 kdotbelow.cv10 kdotbelow];
+sub kmacronbelow from [kmacronbelow.cv10 kmacronbelow.cv10 kmacronbelow];
+sub khook from [khook.cv10 khook.cv10 khook];
+#endif";
+tag = cv10;
 },
 {
 code = "sub @short_caps_src' @double_accents by @short_caps_tgt;
