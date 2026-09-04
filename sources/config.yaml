@@ -10,7 +10,7 @@ sources:
   - SudoUI.glyphspackage
 recipeProvider: googlefonts
 recipe:
-  ../fonts/variable/Sudo-Italic[YTDE,wght].ttf:
+  ../fonts/variable/Sudo-Italic[XTAB,XTRA,YTDE,wdth,wght].ttf:
     - source: Sudo.glyphspackage
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
@@ -27,10 +27,10 @@ recipe:
       operation: hbsubset
     - args: --src stat.yaml
       needs:
-        - ../fonts/variable/Sudo[YTDE,wght].ttf
+        - ../fonts/variable/Sudo[XTAB,XTRA,YTDE,wdth,wght].ttf
       postprocess: buildStat
 
-  ../fonts/variable/Sudo[YTDE,wght].ttf:
+  ../fonts/variable/Sudo[XTAB,XTRA,YTDE,wdth,wght].ttf:
     - source: Sudo.glyphspackage
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
@@ -43,7 +43,7 @@ recipe:
     - args: --layout-features-=ss04 --layout-features-=kern --layout-features-=ital --passthrough-tables
       operation: hbsubset
 
-  ../fonts/variable/SudoUI-Italic[YTDE,wght].ttf:
+  ../fonts/variable/SudoUI-Italic[XTAB,XTRA,YTDE,wdth,wght].ttf:
     - source: SudoUI.glyphspackage
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
@@ -62,10 +62,10 @@ recipe:
       operation: hbsubset
     - args: --src stat.yaml
       needs:
-        - ../fonts/variable/SudoUI[YTDE,wght].ttf
+        - ../fonts/variable/SudoUI[XTAB,XTRA,YTDE,wdth,wght].ttf
       postprocess: buildStat
 
-  ../fonts/variable/SudoUI[YTDE,wght].ttf:
+  ../fonts/variable/SudoUI[XTAB,XTRA,YTDE,wdth,wght].ttf:
     - source: SudoUI.glyphspackage
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildVariable
