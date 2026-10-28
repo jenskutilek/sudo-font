@@ -4,7 +4,7 @@ This directory contains the two source files (actually folder structures) from w
 
 Any design changes should be done in the design source in the `../sources-design` directory. Please refer to the [README](../sources-design/README.md) there for how to update the production sources.
 
-You can either export the fonts directly from Glyphs, or using the Google Fonts build chain with `gftools`.
+You can either export the fonts directly from Glyphs, or using the Google Fonts build chain with `gftools`. To use the Googl Fonts build chain, run `make build-gf` in the main directory.
 
 ## Exporting Directly From Glyphs
 
@@ -13,9 +13,6 @@ The production sources are set up so that the fonts can be built out of the box 
 - If you want to match the glyph order, under _Font,_ activate the _Custom Parameter_ “glyphOrder”.
 - Make sure that under _Exports,_ the last 10 instances starting with “Sudo UI” are not active.
 - Activate the appropriate _Variable Font Setting_ in each respective source.
-- In each source’s _Variable Font Setting,_, activate those _Custom Parameters:_
-    - _Remove Features_
-    - _Remove Glyphs_
 - Under _Features,_ activate the `rlig`, `ss19`, and `cv09` features.
 
 ### Variable Fonts

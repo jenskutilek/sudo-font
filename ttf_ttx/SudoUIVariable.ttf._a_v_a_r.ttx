@@ -2,7 +2,12 @@
 <ttFont ttLibVersion="4.62">
 
   <avar>
-    <version major="1" minor="0"/>
+    <version major="2" minor="0"/>
+    <segment axis="wdth">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="1.0" to="1.0"/>
+    </segment>
     <segment axis="wght">
       <mapping from="-1.0" to="-1.0"/>
       <mapping from="-0.5" to="-0.4167"/>
@@ -15,11 +20,82 @@
       <mapping from="0.0" to="0.0"/>
       <mapping from="1.0" to="1.0"/>
     </segment>
+    <segment axis="XTAB">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="1.0" to="1.0"/>
+    </segment>
+    <segment axis="XTRA">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="1.0" to="1.0"/>
+    </segment>
     <segment axis="ital">
       <mapping from="-1.0" to="-1.0"/>
       <mapping from="0.0" to="0.0"/>
       <mapping from="1.0" to="1.0"/>
     </segment>
+    <VarIdxMap Format="0">
+      <!-- Omitted values default to 0xFFFF/0xFFFF (no variations) -->
+      <Map index="0" outer="0" inner="0"/>
+      <Map index="1" outer="0" inner="1"/>
+      <Map index="2" outer="0" inner="2"/>
+      <Map index="3" outer="0" inner="3"/>
+      <Map index="4" outer="0" inner="4"/>
+      <Map index="5" outer="0" inner="5"/>
+    </VarIdxMap>
+    <VarStore Format="1">
+      <Format value="1"/>
+      <VarRegionList>
+        <!-- RegionAxisCount=6 -->
+        <!-- RegionCount=1 -->
+        <Region index="0">
+          <VarRegionAxis index="0">
+            <StartCoord value="-1.0"/>
+            <PeakCoord value="-1.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="1">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="2">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="3">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="4">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+          <VarRegionAxis index="5">
+            <StartCoord value="0.0"/>
+            <PeakCoord value="0.0"/>
+            <EndCoord value="0.0"/>
+          </VarRegionAxis>
+        </Region>
+      </VarRegionList>
+      <!-- VarDataCount=1 -->
+      <VarData index="0">
+        <!-- ItemCount=6 -->
+        <NumShorts value="1"/>
+        <!-- VarRegionCount=1 -->
+        <VarRegionIndex index="0" value="0"/>
+        <Item index="0" value="[16384]"/>
+        <Item index="1" value="[0]"/>
+        <Item index="2" value="[0]"/>
+        <Item index="3" value="[-16384]"/>
+        <Item index="4" value="[-16384]"/>
+        <Item index="5" value="[0]"/>
+      </VarData>
+    </VarStore>
   </avar>
 
 </ttFont>

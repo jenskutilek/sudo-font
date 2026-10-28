@@ -11,7 +11,7 @@ __doc__ = (
 def drawGlyph(glyph):
     pen = CocoaPen(glyph.glyphSet)
     glyph.draw(pen)
-    path = pen.paths
+    path = pen.path
     _drawBotDrawingTool.drawPath(path)
 
 
@@ -22,11 +22,11 @@ s = 0.27
 text_x = 130
 
 
-def text_path(t, pos, font_path):
+def text_path(t, pos, font_path, location=None):
     # Like text, but draws paths of the glyphs
     x, y = pos
     f = TTFont(font_path)
-    gs = f.getGlyphSet()
+    gs = f.getGlyphSet(location=location)
     save()
     translate(x, y)
     for l in t:
@@ -92,18 +92,18 @@ def monospaced():
     # The text lines
     translate(0, -line_height * 0.85)
     mono_metrics(text_x, s)
-    font("Sudo Thin")
-    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Thin.ttf")
+    # font("Sudo Var ExtraLight")
+    text_path("monospaced", (text_x, 0), "../sudo/SudoVariable.ttf", {"wght": 200})
 
     translate(0, -line_height)
     mono_metrics(text_x, s)
-    font("Sudo Regular")
-    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Regular.ttf")
+    # font("Sudo Var")
+    text_path("monospaced", (text_x, 0), "../sudo/SudoVariable.ttf", {"wght": 400})
 
     translate(0, -line_height)
     mono_metrics(text_x, s)
-    font("Sudo Bold")
-    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Bold.ttf")
+    # font("Sudo Var Bold")
+    text_path("monospaced", (text_x, 0), "../sudo/SudoVariable.ttf", {"wght": 700})
 
 
 def legible():
@@ -130,11 +130,11 @@ def legible():
 
     # The text lines
     legible_metrics()
-    font("Sudo Regular")
+    font("Sudo Var")
     text_path(
         ["I", "l", "one", "zero", "seven", "O", "o", "n", "plus", "equal"],
         (text_x, 0),
-        "../sudo/Sudo-Regular.ttf",
+        "../sudo/SudoVariable.ttf",
     )
 
 
@@ -145,27 +145,32 @@ def efficient():
     # Move up
     translate(0, height())
     scale(s)
-    fontSize(1024)
+    # fontSize(1024)
     translate(0, -line_height * 1.05)
 
     # Orange boxes
     save()
     highlight_color()
-    rect(text_x, -192, text_x + 2 * 448, 1024)
+    rect(text_x, -192, 832, 832)
     restore()
 
     # The text lines
     legible_metrics()
-    font("Sudo Regular")
-    text_path(["Scaron", "p", "a", "c", "e"], (text_x, 0), "../sudo/Sudo-Regular.ttf")
-    scale(0.5)
+    # font("Sudo Var")
+    text_path(["Scaron", "p", "a", "c", "e"], (text_x, 0), "../sudo/SudoVariable.ttf")
+    # scale(0.5)
 
     save()
+    cs = 832/2048
+    scale(cs)
+    save()
     highlight_color()
-    rect(text_x + 12 * 448, -192 * 2, 2048, 2048)
+    rect((text_x + 15 * 448), -192 * 2, 2048, 2048)
     restore()
 
-    text_path(["Scaron", "p", "a"], (text_x + 12 * 448, 0), "../resources/consola.ttf")
+    # scale(832/2048)
+    text_path(["Scaron", "p", "a"], ((text_x + 15 * 448), 0), "../resources/consola.ttf")
+    restore()
 
 
 def unique():
@@ -180,7 +185,7 @@ def unique():
 
     # The text lines
     legible_metrics()
-    font("Sudo Regular")
+    font("Sudo Var")
     text_path(
         [
             "grave",
@@ -193,7 +198,7 @@ def unique():
             "guilsinglright",
         ],
         (text_x, 0),
-        "../sudo/Sudo-Regular.ttf",
+        "../sudo/SudoVariable.ttf",
     )
 
 
@@ -217,32 +222,32 @@ def github():
     # The text lines
     translate(0, -line_height * 0.85)
     mono_metrics(text_x, s)
-    font("Sudo Thin")
+    # font("Sudo Var ExtraLight")
     # translate(-448, 0)
-    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Thin.ttf")
+    text_path("monospaced", (text_x, 0), "../sudo/SudoVariable.ttf", {"wght": 200})
 
     translate(0, -line_height)
     mono_metrics(text_x, s)
-    font("Sudo Regular")
-    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Regular.ttf")
+    # font("Sudo Var")
+    text_path("monospaced", (text_x, 0), "../sudo/SudoVariable.ttf", {"wght": 400})
 
     translate(0, -line_height)
     mono_metrics(text_x, s)
-    font("Sudo Bold")
-    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Bold.ttf")
+    # font("Sudo Var Bold")
+    text_path("monospaced", (text_x, 0), "../sudo/SudoVariable.ttf", {"wght": 700})
 
 
 monospaced()
-saveImage("~/Sites/kuti/sources/sudo-font/sudo-monospaced.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-monospaced.svg")
 
 legible()
-saveImage("~/Sites/kuti/sources/sudo-font/sudo-legible.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-legible.svg")
 
 efficient()
-saveImage("~/Sites/kuti/sources/sudo-font/sudo-space-saving.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-space-saving.svg")
 
 unique()
-saveImage("~/Sites/kuti/sources/sudo-font/sudo-quotes.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-quotes.svg")
 
 github()
 saveImage("../images/sudo.png")
