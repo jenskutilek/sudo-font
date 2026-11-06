@@ -1695,6 +1695,104 @@ lslash.cv04,
 lbar.cv04,
 m.cv05.1,
 m.cv05.2,
+"**Phonetic**",
+aturned,
+"alpha-latin",
+"alphaturned-latin",
+Bsmall,
+ccurl,
+dtail,
+dezh,
+ereversed,
+schwahook,
+eopenreversed,
+eopenreversedhook,
+eopenreversedclosed,
+gsingle,
+Gsmall,
+Gsmallhook,
+hhook,
+henghook,
+Hsmall,
+jdotlessstroke,
+jdotlessstrokehook,
+jcrossedtail,
+lhookretroflex,
+lhookretroflex.cv04,
+lbelt,
+lbelt.cv04,
+lezh,
+lezh.cv04,
+Lsmall,
+mhook,
+mturned,
+mlonglegturned,
+nhookretroflex,
+Nsmall,
+OEsmall,
+"phi-latin",
+rturned,
+rlonglegturned,
+rfishhook,
+rhookturned,
+rtail,
+Rsmall,
+Rsmallinverted,
+shook,
+esh,
+tretroflexhook,
+tesh,
+ubar,
+"upsilon-latin",
+vhook,
+vrighthook,
+"gamma-latin",
+ramshorn,
+wturned,
+yturned,
+Ysmall,
+zcurl,
+zretroflexhook,
+bilabialclick,
+glottalstop,
+glottalstopstroke,
+glottalstopreversed,
+glottalstopstrokereversed,
+clickdental,
+clicklateral,
+clickalveolar,
+clickretroflex,
+colontriangularmod,
+colontriangularhalfmod,
+rturnedmod,
+hhookmod,
+jmod,
+wmod,
+"gammamod-latin",
+glottalstopreversedsuperior,
+rhotichookmod,
+dieresisbelowcomb,
+bridgebelowcomb,
+caronbelowcomb,
+bridgeinvertedbelowcomb,
+seagullbelowcomb,
+squarebelowcomb,
+leftangleabovecomb,
+ringhalfrightbelowcomb,
+ringhalfleftbelowcomb,
+plusbelowcomb,
+minusbelowcomb,
+tildeoverlaycomb,
+lmiddletilde,
+xabovecomb,
+uptackbelowcomb,
+downtackbelowcomb,
+breveinvertedbelowcomb,
+lefttackbelowcomb,
+righttackbelowcomb,
+dblgravecomb,
+doublebrevebelowcomb,
+breveinverteddoublecomb,
 "**Italic Forms**",
 f.italic,
 longs.italic,
@@ -3098,6 +3196,7 @@ languagesystem latn MOL;
 languagesystem latn NSM;
 languagesystem latn CAT;
 languagesystem latn NLD;
+languagesystem latn IPPH;
 ";
 name = Languagesystems;
 },
@@ -3115,6 +3214,7 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature locl;
 feature subs;
 feature sinf;
 feature sups;
@@ -3139,6 +3239,8 @@ feature cv05;
 feature cv06;
 feature cv07;
 feature cv08;
+feature cv09;
+feature cv10;
 feature rclt;
 feature ss20;
 ";
@@ -3315,6 +3417,23 @@ lookup locl_latn_3 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
+";
+tag = locl;
+},
+{
+code = "script latn;
+	language IPPH;
+	lookup SS01 {
+		sub g by g.cv01;
+		sub gacute by gacute.cv01;
+		sub gcircumflex by gcircumflex.cv01;
+		sub gmacron by gmacron.cv01;
+		sub gbreve by gbreve.cv01;
+		sub gdotaccent by gdotaccent.cv01;
+		sub gcaron by gcaron.cv01;
+		sub gcommaaccent by gcommaaccent.cv01;
+		sub gstroke by gstroke.cv01;
+	} SS01;
 ";
 tag = locl;
 },
@@ -3572,15 +3691,8 @@ sub wdotbelow by wdotbelow.italic;
 tag = ital;
 },
 {
-code = "sub g by g.cv01;
-sub gacute by gacute.cv01;
-sub gcircumflex by gcircumflex.cv01;
-sub gmacron by gmacron.cv01;
-sub gbreve by gbreve.cv01;
-sub gdotaccent by gdotaccent.cv01;
-sub gcaron by gcaron.cv01;
-sub gcommaaccent by gcommaaccent.cv01;
-sub gstroke by gstroke.cv01;";
+code = "lookup SS01;
+";
 labels = (
 {
 language = dflt;
@@ -4378,6 +4490,7 @@ sub aogonek by aogonek.ss20;
 sub aring by aring.ss20;
 sub aringacute by aringacute.ss20;
 sub atilde by atilde.ss20;
+sub aturned by aturned.ss20;
 sub ae by ae.ss20;
 sub aeacute by aeacute.ss20;
 sub aemacron by aemacron.ss20;
@@ -4494,6 +4607,7 @@ sub m by m.ss20;
 sub macute by macute.ss20;
 sub mdotaccent by mdotaccent.ss20;
 sub mdotbelow by mdotbelow.ss20;
+sub mturned by mturned.ss20;
 sub oopen by oopen.ss20;
 sub oe by oe.ss20;
 sub r by r.ss20;
@@ -4738,6 +4852,8 @@ sub zerowidthspace by zerowidthspace.ss20;
 sub zerowidthnonjoiner by zerowidthnonjoiner.ss20;
 sub zerowidthjoiner by zerowidthjoiner.ss20;
 sub zeroWidthNoBreakSpace by zeroWidthNoBreakSpace.ss20;
+sub lineseparator by lineseparator.ss20;
+sub paragraphseparator by paragraphseparator.ss20;
 sub anoteleia by anoteleia.ss20;
 sub questiongreek by questiongreek.ss20;
 sub leftanglebracket-math by leftanglebracket-math.ss20;
@@ -5020,6 +5136,7 @@ GSOffsetPosition = 0.8;
 GSOffsetProportional = 1;
 GSOffsetVertical = 32;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -5680,7 +5797,6 @@ GSOffsetPosition = 0.8;
 GSOffsetProportional = 1;
 GSOffsetVertical = 32;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -7797,7 +7913,6 @@ Location = 366;
 }
 );
 name = ExtraLight;
-visible = 0;
 weightClass = 200;
 },
 {
@@ -7906,7 +8021,6 @@ Location = 366;
 }
 );
 name = Light;
-visible = 0;
 weightClass = 300;
 },
 {
@@ -8122,7 +8236,6 @@ Location = 366;
 }
 );
 name = SemiBold;
-visible = 0;
 weightClass = 600;
 },
 {
@@ -8233,7 +8346,6 @@ Location = 366;
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
-visible = 0;
 weightClass = 700;
 },
 {
