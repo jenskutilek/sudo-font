@@ -196,10 +196,9 @@ def build_mono_roman(design_source):
     # disable_glyphs_by_name(f, "lowlinecomb.")
     remove_width_classes(f)
     disable_font_cps(f, ("glyphOrder",))
-    # If the VF setting is disabled, we don't need to disable the params separately
-    # disable_cps(
-    #     f, ("Remove Features", "Remove Glyphs", "Replace Feature", "Rename Glyphs")
-    # )
+    # If the VF setting is disabled, we don't need to disable the params separately:
+    # "Remove Features", "Remove Glyphs"
+    disable_cps(f, ("Replace Feature", "Rename Glyphs"))
     disable_features(f, ("rlig", "ss19", "cv09"))
     disable_export_settings(f)
     f.updateFeatures()
@@ -211,10 +210,9 @@ def build_prop_roman(design_source):
     f = design_source.copy()
     collect_and_switch_glyphs(f, ".ss20")
     disable_font_cps(f, ("glyphOrder", "postscriptIsFixedPitch"))
-    # If the VF setting is disabled, we don't need to disable the params separately
-    # disable_cps(
-    #     f, ("Remove Features", "Remove Glyphs", "Replace Feature", "Rename Glyphs")
-    # )
+    # If the VF setting is disabled, we don't need to disable the params separately:
+    # "Remove Features", "Remove Glyphs"
+    disable_cps(f, ("Replace Feature", "Rename Glyphs"))
     disable_features(f, ("rlig", "ss19", "cv09"))
     disable_export_settings(f)
     set_vertical_metrics_ui(f)
