@@ -2,6 +2,53 @@
 glyphname = downTipRightArrow;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = (0,9);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,10);
+target = (0,7);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,10);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,10);
+target = (0,1);
+type = TTShift;
+},
+{
+horizontal = 1;
+origin = (0,10);
+target = (0,4);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,7);
+other1 = (0,2);
+target = (0,10);
+type = TTInterpolate;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,7);
+other1 = (0,3);
+target = (0,10);
+type = TTInterpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {

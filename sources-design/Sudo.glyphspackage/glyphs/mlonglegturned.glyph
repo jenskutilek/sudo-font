@@ -15,73 +15,42 @@ pos = (224,448);
 hints = (
 {
 horizontal = 1;
+origin = (0,37);
 type = TTSnap;
 },
 {
-options = 8;
-type = TTSnap;
+horizontal = 1;
+options = 4;
+origin = (0,22);
+target = (0,11);
+type = TTShift;
 },
 {
+horizontal = 1;
 options = 4;
-place = (408,64);
+origin = (0,22);
+target = (0,2);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,33);
+target = (0,27);
+type = TTShift;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,27);
+target = (0,18);
 type = TTStem;
 },
 {
-options = 4;
-place = (344,8);
-type = TTShift;
-},
-{
 horizontal = 1;
 options = 4;
-place = (-3,1);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-place = (-2,64);
-type = TTStem;
-},
-{
-horizontal = 1;
-options = 4;
-place = (62,1);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-place = (448,0);
-type = TTShift;
-},
-{
-horizontal = 1;
-options = 4;
-place = (448,0);
-type = TTShift;
-},
-{
-options = 8;
-type = TTSnap;
-},
-{
-options = 8;
-type = TTSnap;
-},
-{
-options = 4;
-place = (256,64);
-type = TTStem;
-},
-{
-options = 4;
-place = (104,64);
-type = TTStem;
-},
-{
-options = 4;
-place = (192,25);
+origin = (0,18);
+target = (0,6);
 type = TTShift;
 }
 );

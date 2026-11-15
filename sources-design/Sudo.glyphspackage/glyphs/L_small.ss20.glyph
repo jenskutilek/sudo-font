@@ -1,9 +1,24 @@
 {
+color = 8;
 glyphname = Lsmall.ss20;
 kernLeft = n;
 kernRight = L;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+options = 4;
+origin = (0,5);
+target = (0,2);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,4);
+type = TTSnap;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
